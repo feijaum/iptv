@@ -735,3 +735,9 @@ https://iptv.jvleite7.workers.dev/live/654b1b6ff0745db5.m3u8
 https://iptv.jvleite7.workers.dev/live/6a80a38303e649cd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AdultIPTV.net Asian" tvg-language="English" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Adultos",AdultIPTV.net Asian
 https://iptv.jvleite7.workers.dev/live/d68ce6bb399ccef3.m3u8
+#EXTINF:-1 group-title="Teste Switch",Band - teste direto
+https://media.cdntvms.com.br/band_sat/index.m3u8
+#EXTINF:-1 group-title="Teste Switch",Globo - teste direto
+https://media2.cdntvms.com.br/tv_morena_dorados/index.m3u8
+#EXTINF:-1 group-title="Teste Switch",SBT - teste direto
+https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
