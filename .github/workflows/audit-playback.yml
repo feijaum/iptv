@@ -32,15 +32,24 @@ jobs:
           fi
           ffprobe -version | head -1
 
-      - name: Wait for Worker and raw GitHub propagation
-        run: sleep 20
+      - name: Wait for Worker and playlist propagation
+        run: sleep 45
+
+      - name: Sync latest generated playlist
+        run: git pull --rebase origin main
 
       - name: Test every published channel with ffprobe
         run: python scripts/audit_published.py
 
+      - name: Repair failed publication paths
+        run: python scripts/apply_playback_audit.py
+
+      - name: Re-test repaired playlist end to end
+        run: python scripts/audit_published.py
+
       - name: Commit playback audit
         run: |
-          git add playback-audit.csv
+          git add playback-audit.csv br.m3u linksoff.m3u
           if git diff --cached --quiet; then
             echo "No audit changes."
             exit 0
