@@ -31,9 +31,6 @@ SOURCES = [
     ("Plex FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u", None, False, False),
     ("Roku FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u", None, False, False),
     ("Tubi FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u", None, False, False),
-
-    # Adult source is also filtered to Portuguese/Brazil signals.
-    ("IPTVJS Adult", "https://raw.githubusercontent.com/iptvjs/iptv/main/adultiptv_all.m3u", "Adultos", False, True),
 ]
 
 CHANNELS_DB = "https://raw.githubusercontent.com/iptv-org/database/master/data/channels.csv"
