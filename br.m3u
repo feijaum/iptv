@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"
 #EXTINF:-1 tvg-id="Band.br@SD" group-title="Canais Abertos" tvg-logo="https://i.imgur.com/1r5T6Pw.png",Band (576p)
 https://iptv.jvleite7.workers.dev/live/57b9e9857f989fc1.m3u8
 #EXTINF:-1 tvg-id="Record.br@SD" group-title="Canais Abertos" tvg-logo="https://i.imgur.com/sz9gTTr.png",Record (576p)
