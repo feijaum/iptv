@@ -1,3 +1,4 @@
+// deploy-trigger: 2026-09-20 categories-cache-refresh
 export default {
   async fetch() {
     const url = "https://raw.githubusercontent.com/feijaum/iptv/main/br.m3u";
