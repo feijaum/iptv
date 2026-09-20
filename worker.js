@@ -1,6 +1,8 @@
 let plutoBootCache = null;
+let relayMapCache = null;
 
 const PLAYLIST_URL = "https://raw.githubusercontent.com/feijaum/iptv/main/br.m3u";
+const RELAY_MAP_URL = "https://raw.githubusercontent.com/feijaum/iptv/main/relay-map.json";
 const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
 
 function corsHeaders(extra = {}) {
@@ -34,6 +36,181 @@ function isPlutoHost(hostname) {
     h.endsWith(".cloudfront.net") ||
     h.endsWith(".fastly.net")
   );
+}
+
+
+function relaySiteKey(hostname) {
+  const h = (hostname || "").toLowerCase().replace(/\.$/, "");
+  const parts = h.split(".").filter(Boolean);
+  if (parts.length <= 2) return h;
+  const last2 = parts.slice(-2).join(".");
+  const brSecond = new Set(["com.br", "net.br", "org.br", "tv.br", "edu.br", "gov.br"]);
+  return brSecond.has(last2) && parts.length >= 3 ? parts.slice(-3).join(".") : last2;
+}
+
+function relayCdnHost(hostname) {
+  const h = (hostname || "").toLowerCase();
+  const suffixes = [
+    ".akamaized.net", ".akamaihd.net", ".cloudfront.net", ".amazonaws.com",
+    ".googlevideo.com", ".googleusercontent.com", ".gvt1.com", ".edgekey.net",
+    ".edgesuite.net", ".fastly.net", ".cdn77.org", ".ottera.tv", ".jwplayer.com"
+  ];
+  return suffixes.some(s => h.endsWith(s));
+}
+
+function relayChildAllowed(rootUrl, childUrl) {
+  try {
+    const root = new URL(rootUrl);
+    const child = new URL(childUrl);
+    if (!["http:", "https:"].includes(child.protocol)) return false;
+    if (isPrivateHost(child.hostname)) return false;
+    if (child.hostname.toLowerCase() === root.hostname.toLowerCase()) return true;
+    if (relaySiteKey(child.hostname) === relaySiteKey(root.hostname)) return true;
+    return relayCdnHost(child.hostname);
+  } catch (_) {
+    return false;
+  }
+}
+
+async function getRelayMap() {
+  const now = Date.now();
+  if (relayMapCache && relayMapCache.expiresAt > now) return relayMapCache.data;
+  const r = await fetch(RELAY_MAP_URL, { cf: { cacheTtl: 20, cacheEverything: true } });
+  if (!r.ok) throw new Error("relay map " + r.status);
+  const data = await r.json();
+  relayMapCache = { data, expiresAt: now + 20000 };
+  return data;
+}
+
+function relayProxyUrl(abs, requestUrl, relayId) {
+  const pathname = new URL(abs).pathname.toLowerCase();
+  let ext = ".ts";
+  if (pathname.endsWith(".m3u8")) ext = ".m3u8";
+  else if (pathname.endsWith(".m4s")) ext = ".m4s";
+  else if (pathname.endsWith(".mp4")) ext = ".mp4";
+  else if (pathname.endsWith(".aac")) ext = ".aac";
+  else if (pathname.endsWith(".vtt")) ext = ".vtt";
+  else if (pathname.endsWith(".key")) ext = ".key";
+  const p = new URL("/relay/" + relayId + ext, new URL(requestUrl).origin);
+  p.searchParams.set("u", abs);
+  return p.toString();
+}
+
+function rewriteRelayManifest(text, finalUrl, requestUrl, relayId) {
+  const base = new URL(finalUrl);
+  const makeProxy = raw => relayProxyUrl(new URL(raw, base).toString(), requestUrl, relayId);
+  return text.split(/\r?\n/).map(line => {
+    const trimmed = line.trim();
+    if (!trimmed) return line;
+    if (!trimmed.startsWith("#")) return makeProxy(trimmed);
+    return line.replace(/URI="([^"]+)"/g, (_, uri) => 'URI="' + makeProxy(uri) + '"');
+  }).join("\n");
+}
+
+async function proxyRelay(upstream, request, relayId, rootEntry, initial = false) {
+  if (!initial && !relayChildAllowed(rootEntry.url, upstream)) {
+    return new Response("Blocked relay upstream", {
+      status: 403,
+      headers: corsHeaders({ "Cache-Control": "no-store" })
+    });
+  }
+
+  const headers = {
+    "User-Agent": (rootEntry.headers && rootEntry.headers["User-Agent"]) || UA,
+    "Accept": "*/*"
+  };
+  if (rootEntry.headers && rootEntry.headers["Referer"]) {
+    headers["Referer"] = rootEntry.headers["Referer"];
+  }
+  const range = request.headers.get("Range");
+  if (range) headers["Range"] = range;
+
+  let r;
+  try {
+    r = await fetch(upstream, { headers, redirect: "follow" });
+  } catch (_) {
+    return new Response("Relay upstream fetch failed", {
+      status: 502,
+      headers: corsHeaders({ "Cache-Control": "no-store" })
+    });
+  }
+
+  if (!r.ok) {
+    return new Response("Relay upstream error " + r.status, {
+      status: 502,
+      headers: corsHeaders({ "Cache-Control": "no-store" })
+    });
+  }
+
+  const ct = (r.headers.get("Content-Type") || "").toLowerCase();
+  const finalUrl = r.url || upstream;
+  const looksManifest =
+    ct.includes("mpegurl") ||
+    new URL(finalUrl).pathname.toLowerCase().endsWith(".m3u8");
+
+  if (looksManifest) {
+    const text = await r.text();
+    const rewritten = rewriteRelayManifest(text, finalUrl, request.url, relayId);
+    return new Response(rewritten, {
+      status: 200,
+      headers: corsHeaders({
+        "Content-Type": "application/vnd.apple.mpegurl; charset=utf-8",
+        "Cache-Control": "no-store"
+      })
+    });
+  }
+
+  const outHeaders = corsHeaders({
+    "Content-Type": r.headers.get("Content-Type") || "application/octet-stream",
+    "Cache-Control": "no-store"
+  });
+  for (const h of ["Content-Range", "Accept-Ranges", "Content-Length", "ETag", "Last-Modified"]) {
+    const v = r.headers.get(h);
+    if (v) outHeaders[h] = v;
+  }
+  return new Response(r.body, { status: r.status, headers: outHeaders });
+}
+
+async function handleLive(relayId, request) {
+  relayId = String(relayId || "").replace(/\.[a-z0-9]+$/i, "");
+  if (!/^[0-9a-f]{16}$/i.test(relayId)) {
+    return new Response("Invalid relay id", { status: 400, headers: corsHeaders() });
+  }
+  try {
+    const map = await getRelayMap();
+    const entry = map && map.streams && map.streams[relayId];
+    if (!entry || !entry.url) {
+      return new Response("Unknown relay id", { status: 404, headers: corsHeaders() });
+    }
+    return await proxyRelay(entry.url, request, relayId, entry, true);
+  } catch (_) {
+    return new Response("Relay unavailable", {
+      status: 502,
+      headers: corsHeaders({ "Cache-Control": "no-store" })
+    });
+  }
+}
+
+async function handleRelay(relayId, request, url) {
+  relayId = String(relayId || "").replace(/\.[a-z0-9]+$/i, "");
+  if (!/^[0-9a-f]{16}$/i.test(relayId)) {
+    return new Response("Invalid relay id", { status: 400, headers: corsHeaders() });
+  }
+  const upstream = url.searchParams.get("u");
+  if (!upstream) return new Response("Missing upstream", { status: 400, headers: corsHeaders() });
+  try {
+    const map = await getRelayMap();
+    const entry = map && map.streams && map.streams[relayId];
+    if (!entry || !entry.url) {
+      return new Response("Unknown relay id", { status: 404, headers: corsHeaders() });
+    }
+    return await proxyRelay(upstream, request, relayId, entry, false);
+  } catch (_) {
+    return new Response("Relay unavailable", {
+      status: 502,
+      headers: corsHeaders({ "Cache-Control": "no-store" })
+    });
+  }
 }
 
 async function getPlutoBoot(channelId = "") {
@@ -338,6 +515,14 @@ export default {
 
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: corsHeaders() });
+    }
+
+    if (url.pathname.startsWith("/live/")) {
+      return handleLive(url.pathname.split("/").pop(), request);
+    }
+
+    if (url.pathname.startsWith("/relay/")) {
+      return handleRelay(url.pathname.split("/").pop(), request, url);
     }
 
     if (url.pathname.startsWith("/health/player/")) {
