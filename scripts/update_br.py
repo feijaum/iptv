@@ -7,7 +7,7 @@ from urllib.request import Request, urlopen
 # Public playlists are rebuilt daily, enriched with metadata and keep the best
 # available stream for each channel.
 SOURCES = [
- "https://iptv-org.github.io/iptv/countries/br.m3u",
+ "https://iptv-org.github.io/iptv/index.country.m3u",
 ]
 CHANNELS_DB="https://raw.githubusercontent.com/iptv-org/database/master/data/channels.csv"
 LOGOS_DB="https://raw.githubusercontent.com/iptv-org/database/master/data/logos.csv"
