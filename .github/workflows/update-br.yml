@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - "scripts/update_br.py"
+      - "scripts/update_epg.py"
       - ".github/workflows/update-br.yml"
 
 permissions:
@@ -74,9 +75,12 @@ jobs:
       - name: Final playback verification
         run: python scripts/audit_published.py
 
+      - name: Generate XMLTV EPG
+        run: python scripts/update_epg.py
+
       - name: Commit playback-verified playlist
         run: |
-          git add br.m3u linksoff.m3u playback-audit.csv
+          git add br.m3u linksoff.m3u playback-audit.csv guide.xml.gz epg-status.csv
           if git diff --cached --quiet; then
             echo "No playback-audit changes."
             exit 0
