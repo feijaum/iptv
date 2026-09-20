@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 import csv
+import hashlib
 import io
+import json
 import re
 import time
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
@@ -127,11 +129,11 @@ def category_for(name, metadata, existing="", override=None):
     if override:
         return override
     n = normalize(name)
-    if re.search(OPEN_TV_RULE, n, re.I):
-        return "Canais Abertos"
     for group, pattern in NAME_RULES:
         if re.search(pattern, n, re.I):
             return group
+    if re.search(OPEN_TV_RULE, n, re.I):
+        return "Canais Abertos"
     cats = [x.strip() for x in (metadata or {}).get("categories", "").split(";") if x.strip()]
     if cats:
         return CATEGORY_MAP.get(cats[0], "Documentarios e Outros")
@@ -244,9 +246,9 @@ def provider_route(entry, source_name):
             cid = attr(line, "channel-id") or attr(line, "tvg-id")
             m2 = re.search(r"([0-9a-f]{24})", cid, re.I)
             if m2:
-                return entry[:-1] + [f"{WORKER_BASE}/pluto/{m2.group(1)}"]
+                return entry[:-1] + [f"{WORKER_BASE}/pluto/{m2.group(1)}.m3u8"]
         else:
-            return entry[:-1] + [f"{WORKER_BASE}/pluto/{m.group(1)}"]
+            return entry[:-1] + [f"{WORKER_BASE}/pluto/{m.group(1)}.m3u8"]
 
     # Samsung's jmp2 endpoint already handles Samsung's session logic, but route
     # it through our HLS proxy so redirects, headers and child manifests remain
@@ -256,6 +258,26 @@ def provider_route(entry, source_name):
         return entry[:-1] + [f"{WORKER_BASE}/fast?u={quote(url, safe='')}"]
 
     return entry
+
+
+def publish_entry(entry, relay_streams):
+    """Expose ordinary HLS through the Worker so players only need HTTPS/CORS-safe URLs."""
+    url = entry[-1]
+    if url.startswith(WORKER_BASE + "/"):
+        return list(entry)
+
+    path = urlparse(url).path.lower()
+    if not path.endswith(".m3u8"):
+        return list(entry)
+
+    h = headers_for(entry)
+    fingerprint = url + "\n" + "\n".join(f"{k}:{h[k]}" for k in sorted(h))
+    sid = hashlib.sha256(fingerprint.encode("utf-8")).hexdigest()[:16]
+    relay_streams[sid] = {
+        "url": url,
+        "headers": {k: v for k, v in h.items() if k.lower() in ("user-agent", "referer")}
+    }
+    return list(entry[:-1]) + [f"{WORKER_BASE}/live/{sid}.m3u8"]
 
 def key_for(entry):
     cid = base_id(entry[0])
@@ -334,49 +356,107 @@ def main():
             source_errors.append((source_name, url, type(exc).__name__))
             print(f"WARN source failed: {source_name}: {type(exc).__name__}")
 
-    # Probe the preferred candidate for every channel in parallel.
+    # Probe every unique candidate, not just the preferred one. This gives a
+    # complete audit and lets us select the healthiest HTTPS/Worker fallback.
     keys = list(pool)
-    initial = {}
-    with ThreadPoolExecutor(max_workers=24) as ex:
-        futures = {ex.submit(validate, pool[k][0][0]): k for k in keys}
-        for fut in as_completed(futures):
-            k = futures[fut]
+    candidate_results = {}
+    candidate_rows = []
+    jobs = {}
+    with ThreadPoolExecutor(max_workers=32) as ex:
+        for k in keys:
+            for i, (e, source_name) in enumerate(pool[k]):
+                jobs[ex.submit(validate, e)] = (k, i)
+        for fut in as_completed(jobs):
+            k, i = jobs[fut]
             try:
-                initial[k] = fut.result()
+                candidate_results[(k, i)] = fut.result()
             except Exception as exc:
-                initial[k] = ("OFF", type(exc).__name__)
+                candidate_results[(k, i)] = ("OFF", type(exc).__name__)
 
-    active, off, report = [], [], []
+    for k in keys:
+        for i, (e, source_name) in enumerate(pool[k]):
+            st, detail = candidate_results.get((k, i), ("OFF", "missing result"))
+            candidate_rows.append([
+                channel_name(e[0]), base_id(e[0]), attr(e[0], "group-title"),
+                source_name, e[-1], st, detail
+            ])
+
+    active_raw, off, report = [], [], []
     seen_urls = set()
     replaced = 0
 
     for k in keys:
         candidates = pool[k]
-        chosen_e, chosen_source = candidates[0]
-        status, detail = initial[k]
-        original_url = chosen_e[-1]
-        original_source = chosen_source
+        ok_indexes = [
+            i for i in range(len(candidates))
+            if candidate_results.get((k, i), ("OFF", ""))[0] == "OK"
+        ]
 
-        if status != "OK":
-            for alt_e, alt_source in candidates[1:]:
-                astatus, adetail = validate(alt_e)
-                if astatus == "OK":
-                    chosen_e, chosen_source = alt_e, alt_source
-                    status, detail = astatus, f"fallback {alt_source}: {adetail}"
-                    replaced += 1
-                    break
-
-        if status != "OK":
-            off.append(chosen_e)
+        if ok_indexes:
+            # Prefer our Worker/session routes, then HTTPS, then original source order.
+            def quality(i):
+                e, _ = candidates[i]
+                url = e[-1]
+                return (
+                    1 if url.startswith(WORKER_BASE + "/") else 0,
+                    1 if url.startswith("https://") else 0,
+                    -i
+                )
+            chosen_i = max(ok_indexes, key=quality)
         else:
+            inconclusive = [
+                i for i in range(len(candidates))
+                if candidate_results.get((k, i), ("OFF", ""))[0] == "INCONCLUSIVO"
+            ]
+            chosen_i = inconclusive[0] if inconclusive else 0
+
+        chosen_e, chosen_source = candidates[chosen_i]
+        status, detail = candidate_results.get((k, chosen_i), ("OFF", "missing result"))
+        original_e, original_source = candidates[0]
+        original_url = original_e[-1]
+
+        if chosen_i != 0 and status == "OK":
+            detail = f"fallback {chosen_source}: {detail}"
+            replaced += 1
+
+        if status == "OK":
             if chosen_e[-1] not in seen_urls:
                 seen_urls.add(chosen_e[-1])
-                active.append(chosen_e)
+                active_raw.append(chosen_e)
+        else:
+            off.append(chosen_e)
 
         report.append([
             channel_name(chosen_e[0]), base_id(chosen_e[0]), attr(chosen_e[0], "group-title"),
             original_source, original_url, status, detail, chosen_source, chosen_e[-1]
         ])
+
+    # Publish ordinary HLS through a short Worker URL. This removes HTTP/CORS,
+    # redirect and header differences between IPTV players. Pluto/Samsung
+    # Worker routes remain untouched.
+    relay_streams = {}
+    active = []
+    published_by_upstream = {}
+    for e in active_raw:
+        p = publish_entry(e, relay_streams)
+        active.append(p)
+        published_by_upstream[e[-1]] = p[-1]
+
+    for row in report:
+        if row[5] == "OK":
+            row.append(published_by_upstream.get(row[8], row[8]))
+        else:
+            row.append("")
+
+    Path("relay-map.json").write_text(
+        json.dumps({"version": 1, "streams": relay_streams}, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8"
+    )
+
+    with Path("candidate-status.csv").open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["canal","tvg_id","categoria","fonte","url","status","resultado"])
+        w.writerows(candidate_rows)
 
     Path("br.m3u").write_text(
         "#EXTM3U\n" + "\n".join("\n".join(e) for e in active) + "\n",
@@ -388,7 +468,7 @@ def main():
     )
     with Path("stream-status.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["canal","tvg_id","categoria","fonte_original","url_original","status","resultado","fonte_final","url_final"])
+        w.writerow(["canal","tvg_id","categoria","fonte_original","url_original","status","resultado","fonte_final","url_final","url_publicada"])
         w.writerows(report)
 
     with Path("source-status.csv").open("w", encoding="utf-8", newline="") as f:
