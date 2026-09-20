@@ -2,13 +2,6 @@ name: Audit published IPTV playback
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "br.m3u"
-      - "relay-map.json"
-      - "worker.js"
-      - "scripts/audit_published.py"
-      - ".github/workflows/audit-playback.yml"
 
 permissions:
   contents: write
