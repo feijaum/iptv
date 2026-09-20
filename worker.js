@@ -151,6 +151,12 @@ async function proxyHls(upstream, request, provider) {
   if (contentRange) outHeaders["Content-Range"] = contentRange;
   const acceptRanges = r.headers.get("Accept-Ranges");
   if (acceptRanges) outHeaders["Accept-Ranges"] = acceptRanges;
+  const contentLength = r.headers.get("Content-Length");
+  if (contentLength) outHeaders["Content-Length"] = contentLength;
+  const etag = r.headers.get("ETag");
+  if (etag) outHeaders["ETag"] = etag;
+  const lastModified = r.headers.get("Last-Modified");
+  if (lastModified) outHeaders["Last-Modified"] = lastModified;
 
   return new Response(r.body, { status: r.status, headers: outHeaders });
 }
@@ -185,6 +191,85 @@ async function handlePluto(channelId, request) {
   }
 }
 
+
+
+async function plutoProxyHealth(channelId, request) {
+  const result = {
+    channelId,
+    routeMaster: false,
+    rewrittenVariant: false,
+    proxiedVariant: false,
+    rewrittenSegment: false,
+    proxiedSegment: false
+  };
+  try {
+    const origin = new URL(request.url).origin;
+    const masterReq = new Request(origin + "/pluto/" + channelId, {
+      headers: { "User-Agent": UA, "Accept": "*/*" }
+    });
+    const masterResp = await handlePluto(channelId, masterReq);
+    result.routeMasterStatus = masterResp.status;
+    if (!masterResp.ok) return result;
+    result.routeMaster = true;
+    const masterText = await masterResp.text();
+
+    const variantLine = masterText.split(/\r?\n/).find(x => x.trim() && !x.startsWith("#"));
+    if (!variantLine) {
+      result.error = "no variant URL in rewritten master";
+      return result;
+    }
+    result.rewrittenVariant = variantLine.includes("/pluto-proxy?");
+    const variantURL = new URL(variantLine.trim());
+    result.variantProxyHost = variantURL.hostname;
+    const variantUpstream = variantURL.searchParams.get("u");
+    if (!variantUpstream) {
+      result.error = "rewritten variant missing upstream";
+      return result;
+    }
+
+    const variantReq = new Request(variantURL.toString(), {
+      headers: { "User-Agent": UA, "Accept": "*/*" }
+    });
+    const variantResp = await proxyHls(variantUpstream, variantReq, "pluto");
+    result.proxiedVariantStatus = variantResp.status;
+    if (!variantResp.ok) return result;
+    result.proxiedVariant = true;
+    const variantText = await variantResp.text();
+
+    const segmentLine = variantText.split(/\r?\n/).find(x => x.trim() && !x.startsWith("#"));
+    if (!segmentLine) {
+      result.error = "no media URL in rewritten variant";
+      return result;
+    }
+    result.rewrittenSegment = segmentLine.includes("/pluto-proxy?");
+    const segmentURL = new URL(segmentLine.trim());
+    result.segmentProxyHost = segmentURL.hostname;
+    const segmentUpstream = segmentURL.searchParams.get("u");
+    if (!segmentUpstream) {
+      result.error = "rewritten segment missing upstream";
+      return result;
+    }
+    result.segmentUpstreamHost = new URL(segmentUpstream).hostname;
+    result.segmentAllowed = isPlutoHost(new URL(segmentUpstream).hostname);
+
+    const segmentReq = new Request(segmentURL.toString(), {
+      headers: { "User-Agent": UA, "Accept": "*/*", "Range": "bytes=0-1023" }
+    });
+    const segmentResp = await proxyHls(segmentUpstream, segmentReq, "pluto");
+    result.proxiedSegmentStatus = segmentResp.status;
+    result.proxiedSegmentContentType = segmentResp.headers.get("Content-Type") || "";
+    result.proxiedSegmentContentRange = segmentResp.headers.get("Content-Range") || "";
+    result.proxiedSegmentContentLength = segmentResp.headers.get("Content-Length") || "";
+    if (!segmentResp.ok) return result;
+    const bytes = new Uint8Array(await segmentResp.arrayBuffer());
+    result.proxiedSegmentBytes = bytes.byteLength;
+    result.proxiedSegment = bytes.byteLength > 0;
+    return result;
+  } catch (e) {
+    result.error = String(e && e.message ? e.message : e);
+    return result;
+  }
+}
 
 async function plutoHealth(channelId) {
   const result = { channelId, boot: false, master: false, variant: false, segment: false, hosts: [] };
@@ -241,6 +326,12 @@ export default {
 
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: corsHeaders() });
+    }
+
+    if (url.pathname.startsWith("/health/player/")) {
+      const channelId = url.pathname.split("/").pop();
+      const data = await plutoProxyHealth(channelId, request);
+      return Response.json(data, { headers: corsHeaders({ "Cache-Control": "no-store" }) });
     }
 
     if (url.pathname.startsWith("/health/pluto/")) {
