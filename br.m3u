@@ -264,8 +264,6 @@ https://iptv.jvleite7.workers.dev/pluto/5f171f988ab9780007fa95ea.m3u8
 https://iptv.jvleite7.workers.dev/pluto/655e5c4d2c46f3000877a54b.m3u8
 #EXTINF:-1 tvg-id="PlutoTVEsportes.us@BR" tvg-logo="https://images.pluto.tv/channels/5f32d2db0af67400077f29c4/colorLogoSVG_1780355759776.svg" group-title="Esportes",Pluto TV Esportes
 https://iptv.jvleite7.workers.dev/pluto/5f32d2db0af67400077f29c4.m3u8
-#EXTINF:-1 tvg-id="PlutoTVFiccaoCientifica.us@BR" tvg-logo="https://images.pluto.tv/channels/5fa15ad6367e170007cdd098/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Ficcao Cientifica
-https://iptv.jvleite7.workers.dev/pluto/5fa15ad6367e170007cdd098.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFilmesAcao.us@BR" tvg-logo="https://images.pluto.tv/channels/5f120f41b7d403000783a6d6/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Filmes Acao
 https://iptv.jvleite7.workers.dev/pluto/5f120f41b7d403000783a6d6.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFilmesAventura.us@BR" tvg-logo="https://images.pluto.tv/channels/66c79a4262e5510008ff68a5/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Filmes Aventura
@@ -308,8 +306,6 @@ https://iptv.jvleite7.workers.dev/pluto/5f1212ad1728050007a523b8.m3u8
 https://iptv.jvleite7.workers.dev/pluto/6474ab1da51cb80008bfb5f4.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSeriesComedia.us@BR" tvg-logo="https://images.pluto.tv/channels/655e5bc94261ca000810cb17/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Series Comedia
 https://iptv.jvleite7.workers.dev/pluto/655e5bc94261ca000810cb17.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSeriesCriminais.us@BR" tvg-logo="https://images.pluto.tv/channels/6474ab5cdc7a760008745008/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Series Criminais
-https://iptv.jvleite7.workers.dev/pluto/6474ab5cdc7a760008745008.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSeriesDrama.us@BR" tvg-logo="https://images.pluto.tv/channels/65f060d84e01740008d7421f/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Series Drama
 https://iptv.jvleite7.workers.dev/pluto/65f060d84e01740008d7421f.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSeriesNovelescas.us@BR" tvg-logo="https://images.pluto.tv/channels/691627e4a29a6123e400b3e0/colorLogoPNG_1764878235665.png" group-title="Filmes e Series",Pluto TV Series Novelescas
@@ -339,7 +335,7 @@ http://200.77.176.130:8000/udp/224.0.0.4:49152
 #EXTINF:-1 tvg-id="RedBullTV.at@BR" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="Esportes",Red Bull TV BR (1080p)
 https://iptv.jvleite7.workers.dev/live/9231f1f843a47d3a.m3u8
 #EXTINF:-1 tvg-id="RedeBrasil.br@SD" tvg-logo="https://i.imgur.com/TXJKwzZ.png" group-title="Canais Abertos",Rede Brasil (1080p)
-https://iptv.jvleite7.workers.dev/live/363d695d61725e35.m3u8
+https://redebrasil.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RedeCNTRiodeJaneiro.br@SD" tvg-logo="https://i.imgur.com/jcasAmw.png" group-title="Documentarios e Outros",Rede CNT Rio de Janeiro (720p)
 http://45.162.64.114/CNT/index.m3u8
 #EXTINF:-1 tvg-id="RedeFamilia.br@SD" tvg-logo="https://i.imgur.com/7KVFCrQ.png" group-title="Documentarios e Outros",Rede Familia (720p)
@@ -605,8 +601,6 @@ https://iptv.jvleite7.workers.dev/pluto/69162648d03565d6c8c8df97.m3u8
 https://iptv.jvleite7.workers.dev/pluto/66b26681d2d50d00083abe8b.m3u8
 #EXTINF:-1 channel-id="681111be5e0764e297fb200e" tvg-id="681111be5e0764e297fb200e" tvg-chno="352" tvg-name="Mais MasterChef Brasil" tvg-logo="https://images.pluto.tv/channels/681111be5e0764e297fb200e/colorLogoPNG_1749582970597.png" group-title="Documentarios e Outros",Mais MasterChef Brasil
 https://iptv.jvleite7.workers.dev/pluto/681111be5e0764e297fb200e.m3u8
-#EXTINF:-1 channel-id="681110afc188aa63faa147e0" tvg-id="681110afc188aa63faa147e0" tvg-chno="351" tvg-name="MasterChef Brasil Profissionais" tvg-logo="https://images.pluto.tv/channels/681110afc188aa63faa147e0/colorLogoPNG_1749226372857.png" group-title="Documentarios e Outros",MasterChef Brasil Profissionais
-https://iptv.jvleite7.workers.dev/pluto/681110afc188aa63faa147e0.m3u8
 #EXTINF:-1 channel-id="62b5c5a064163d0007b2efe6" tvg-id="62b5c5a064163d0007b2efe6" tvg-chno="601" tvg-name="Mistérios sem Solução" tvg-logo="https://images.pluto.tv/channels/62b5c5a064163d0007b2efe6/colorLogoPNG.png" group-title="Documentarios e Outros",Mistérios sem Solução
 https://iptv.jvleite7.workers.dev/pluto/62b5c5a064163d0007b2efe6.m3u8
 #EXTINF:-1 channel-id="63eba189c111bc0008ff59c5" tvg-id="63eba189c111bc0008ff59c5" tvg-chno="1445" tvg-name="Moranguinho" tvg-logo="https://images.pluto.tv/channels/63eba189c111bc0008ff59c5/colorLogoPNG.png" group-title="Documentarios e Outros",Moranguinho
