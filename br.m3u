@@ -145,8 +145,6 @@ https://iptv.jvleite7.workers.dev/pluto/69162b1ef189e235142b17ab.m3u8
 http://170.83.49.66:8083/JOVEMPANNEWSHD/index.m3u8
 #EXTINF:-1 tvg-id="KenanKel.us@BR" tvg-logo="https://images.pluto.tv/channels/5ffcc5130fd98c0007f2e216/colorLogoPNG.png" group-title="Filmes e Series",Kenan & Kel BR
 https://iptv.jvleite7.workers.dev/pluto/5ffcc5130fd98c0007f2e216.m3u8
-#EXTINF:-1 tvg-id="KpopTVPlay.br@SD" tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Musica",KpopTV Play (576p)
-https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-id="KuriakosKids.pt@SD" tvg-logo="https://i.imgur.com/SRX6EPY.png" group-title="Desenhos e Animes",Kuriakos Kids (1080p)
 https://iptv.jvleite7.workers.dev/live/c8859720e9b514f2.m3u8
 #EXTINF:-1 tvg-id="Lke.br@SD" tvg-logo="https://i.imgur.com/chHsCzB.png" group-title="Documentarios e Outros",L!ke (1080p)
@@ -445,8 +443,6 @@ https://iptv.jvleite7.workers.dev/live/6f0f2ace1c9e511f.m3u8
 https://iptv.jvleite7.workers.dev/live/5b7d08dd5dd56153.m3u8
 #EXTINF:-1 tvg-id="TVBrasil.br@SD" group-title="Canais Abertos" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvBrasil2023.png/960px-TvBrasil2023.png",TV Brasil (720p)
 https://iptv.jvleite7.workers.dev/live/bb3f1891d8470f1b.m3u8
-#EXTINF:-1 tvg-id="TVBrasilOeste.br@SD" tvg-logo="https://i.imgur.com/noqGfuy.png" group-title="Canais Abertos",TV Brasil Oeste (720p)
-https://iptv.jvleite7.workers.dev/live/f241cbba31706ee7.m3u8
 #EXTINF:-1 tvg-id="TVBRICSPortuguese.br@SD" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="Canais Abertos",TV BRICS Portuguese (1080p)
 https://iptv.jvleite7.workers.dev/live/0c3c71cb6042ca3a.m3u8
 #EXTINF:-1 tvg-id="TVBrusque.br@SD" tvg-logo="https://i.imgur.com/J2EAZPS.png" group-title="Noticias",TV Brusque (720p)
@@ -669,8 +665,6 @@ https://iptv.jvleite7.workers.dev/pluto/69fca7fadf0b6d462c0a0ac3.m3u8
 https://iptv.jvleite7.workers.dev/pluto/6647c0b91050b60008390de4.m3u8
 #EXTINF:-1 channel-id="63988c2750108d00072e2686" tvg-id="63988c2750108d00072e2686" tvg-chno="1267" tvg-name="Super Onze" tvg-logo="https://images.pluto.tv/channels/63988c2750108d00072e2686/colorLogoPNG.png" group-title="Desenhos e Animes",Super Onze
 https://iptv.jvleite7.workers.dev/pluto/63988c2750108d00072e2686.m3u8
-#EXTINF:-1 channel-id="62e010e6cd663f0007e57dc8" tvg-id="62e010e6cd663f0007e57dc8" tvg-chno="785" tvg-name="TV Cultura" tvg-logo="https://images.pluto.tv/channels/62e010e6cd663f0007e57dc8/colorLogoPNG.png" group-title="Canais Abertos",TV Cultura
-https://iptv.jvleite7.workers.dev/pluto/62e010e6cd663f0007e57dc8.m3u8
 #EXTINF:-1 channel-id="68b88821e542386ab0bf5bef" tvg-id="68b88821e542386ab0bf5bef" tvg-chno="1210" tvg-name="Tastemade Casa" tvg-logo="https://images.pluto.tv/channels/68b88821e542386ab0bf5bef/colorLogoPNG_1759795743690.png" group-title="Documentarios e Outros",Tastemade Casa
 https://iptv.jvleite7.workers.dev/pluto/68b88821e542386ab0bf5bef.m3u8
 #EXTINF:-1 channel-id="68b8875777201ec428d9eaa5" tvg-id="68b8875777201ec428d9eaa5" tvg-chno="1211" tvg-name="Tastemade Viagem" tvg-logo="https://images.pluto.tv/channels/68b8875777201ec428d9eaa5/colorLogoPNG_1759784936254.png" group-title="Documentarios e Outros",Tastemade Viagem
