@@ -151,43 +151,79 @@ def _fetch_probe(url, headers, timeout):
     with urlopen(req, timeout=timeout) as r:
         return getattr(r, "status", 200), r.read(4096), (r.headers.get("Content-Type") or "").lower(), r.geturl()
 
+def _looks_like_media(data, ctype):
+    if not data:
+        return False
+    ct = (ctype or "").lower()
+    if "text/html" in ct or data[:64].lstrip().lower().startswith((b"<html", b"<!doctype html")):
+        return False
+    return (
+        "video" in ct or "audio" in ct or "octet-stream" in ct or
+        data.startswith((b"\x47", b"ID3")) or len(data) >= 1024
+    )
+
+def _validate_hls_url(url, headers, timeout, depth=0):
+    if depth > 3:
+        return "OFF", "hls depth"
+    try:
+        code, data, ctype, final_url = _fetch_probe(url, headers, timeout)
+    except HTTPError as e:
+        if e.code in (401, 403, 451):
+            return "INCONCLUSIVO", f"geo/auth {e.code}"
+        return "OFF", f"HTTP {e.code}"
+    except Exception as e:
+        return "OFF", type(e).__name__
+
+    if not (200 <= code < 400):
+        return "OFF", str(code)
+
+    text = data.decode("utf-8", errors="ignore")
+    is_manifest = "#EXTM3U" in text or "mpegurl" in ctype or url.lower().split("?")[0].endswith(".m3u8")
+    if not is_manifest:
+        return ("OK", str(code)) if _looks_like_media(data, ctype) else ("OFF", "non-media response")
+
+    children = [x.strip() for x in text.splitlines() if x.strip() and not x.startswith("#")]
+    if not children:
+        return "OFF", "empty hls"
+
+    # Try more than one child because the first rendition/segment can be temporarily unavailable.
+    last_status, last_detail = "OFF", "no playable child"
+    for child in children[:3]:
+        child_url = urljoin(final_url, child)
+        child_is_playlist = child.lower().split("?")[0].endswith(".m3u8")
+        if child_is_playlist:
+            st, detail = _validate_hls_url(child_url, headers, timeout, depth + 1)
+        else:
+            try:
+                c2, d2, t2, _ = _fetch_probe(child_url, headers, timeout)
+                st = "OK" if 200 <= c2 < 400 and _looks_like_media(d2, t2) else "OFF"
+                detail = f"{code}/{c2}" if st == "OK" else f"segment {c2}"
+            except HTTPError as e:
+                st = "INCONCLUSIVO" if e.code in (401, 403, 451) else "OFF"
+                detail = f"geo/auth {e.code}" if st == "INCONCLUSIVO" else f"HTTP {e.code}"
+            except Exception as e:
+                st, detail = "OFF", type(e).__name__
+        if st == "OK":
+            return st, detail
+        if st == "INCONCLUSIVO":
+            last_status, last_detail = st, detail
+        elif last_status != "INCONCLUSIVO":
+            last_status, last_detail = st, detail
+    return last_status, last_detail
+
 def validate(entry, timeout=7):
     url = entry[-1]
     if not url.startswith(("http://", "https://")):
         return "OFF", "unsupported"
     headers = headers_for(entry)
-    last = ""
+    last = ("OFF", "failed")
     for attempt in range(2):
-        try:
-            code, data, ctype, final_url = _fetch_probe(url, headers, timeout)
-            text = data.decode("utf-8", errors="ignore")
-            if not (200 <= code < 400):
-                return "OFF", str(code)
-            if "#EXTM3U" in text or "mpegurl" in ctype or url.lower().split("?")[0].endswith(".m3u8"):
-                child = next((x.strip() for x in text.splitlines() if x.strip() and not x.startswith("#")), "")
-                if child:
-                    try:
-                        c2, d2, t2, _ = _fetch_probe(urljoin(final_url, child), headers, timeout)
-                        if 200 <= c2 < 400 and (d2 or "mpegurl" in t2 or "video" in t2 or "octet-stream" in t2):
-                            return "OK", f"{code}/{c2}"
-                    except HTTPError as e:
-                        if e.code in (401, 403, 451):
-                            return "INCONCLUSIVO", f"geo/auth {e.code}"
-                    except Exception as e:
-                        last = type(e).__name__
-                elif data:
-                    return "OK", str(code)
-            elif data or "video" in ctype or "octet-stream" in ctype:
-                return "OK", str(code)
-        except HTTPError as e:
-            if e.code in (401, 403, 451):
-                return "INCONCLUSIVO", f"geo/auth {e.code}"
-            last = f"HTTP {e.code}"
-        except Exception as e:
-            last = type(e).__name__
+        last = _validate_hls_url(url, headers, timeout)
+        if last[0] == "OK":
+            return last
         if attempt == 0:
             time.sleep(0.25)
-    return "OFF", last or "failed"
+    return last
 
 def key_for(entry):
     cid = base_id(entry[0])
@@ -288,16 +324,16 @@ def main():
         original_url = chosen_e[-1]
         original_source = chosen_source
 
-        if status == "OFF":
+        if status != "OK":
             for alt_e, alt_source in candidates[1:]:
                 astatus, adetail = validate(alt_e)
-                if astatus in ("OK", "INCONCLUSIVO"):
+                if astatus == "OK":
                     chosen_e, chosen_source = alt_e, alt_source
                     status, detail = astatus, f"fallback {alt_source}: {adetail}"
                     replaced += 1
                     break
 
-        if status == "OFF":
+        if status != "OK":
             off.append(chosen_e)
         else:
             if chosen_e[-1] not in seen_urls:
