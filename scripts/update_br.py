@@ -10,65 +10,59 @@ from urllib.parse import urljoin
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
-PRIMARY_SOURCE = "https://iptv-org.github.io/iptv/countries/br.m3u"
+# Sources are ordered by preference. The updater keeps one healthy stream per
+# channel and uses later sources as automatic backups.
+SOURCES = [
+    ("iptv-org BR", "https://iptv-org.github.io/iptv/countries/br.m3u", None),
+    ("dearbulut BR working", "https://dearbulut.github.io/iptv/playlists/country/br.m3u", None),
+    ("iptv-com BR", "https://raw.githubusercontent.com/iptv-com/iptv/main/lists/brazil.m3u", None),
+    ("Free-TV", "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8", None),
+    ("FreeCastHub", "https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u", None),
 
-# Alternative public/free sources. They are used first as replacement pools for
-# channels whose primary URL is broken. We do not blindly import paid/pirated feeds.
-FALLBACK_SOURCES = [
-    "https://iptv-org.github.io/iptv/sources/br.m3u",
-    "https://iptv-org.github.io/iptv/sources/br_pluto.m3u",
-    "https://iptv-org.github.io/iptv/sources/br_samsung.m3u",
-    "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
-    "https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u",
+    # FAST providers. These repositories regenerate their playlists frequently.
+    ("Pluto BR Buddy", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_br.m3u", None),
+    ("Pluto BR OwnerPlugins", "https://raw.githubusercontent.com/OwnerPlugins/pluto-tv-m3u/main/pluto-live-BR.m3u", None),
+    ("Samsung TV Plus", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_all.m3u", None),
+    ("Plex FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u", None),
+    ("Roku FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u", None),
+    ("Tubi FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u", None),
+
+    # Adult list is kept isolated by category and only entries that pass the
+    # same health check are published.
+    ("IPTVJS Adult", "https://raw.githubusercontent.com/iptvjs/iptv/main/adultiptv_all.m3u", "Adultos"),
 ]
 
 CHANNELS_DB = "https://raw.githubusercontent.com/iptv-org/database/master/data/channels.csv"
 LOGOS_DB = "https://raw.githubusercontent.com/iptv-org/database/master/data/logos.csv"
 
-# Compact categories requested for the player.
 CATEGORY_MAP = {
-    "movies": "Filmes e Series",
-    "series": "Filmes e Series",
-    "classic": "Filmes e Series",
-    "comedy": "Filmes e Series",
-    "animation": "Desenhos e Animes",
-    "kids": "Desenhos e Animes",
-    "sports": "Esportes",
-    "news": "Noticias",
-    "music": "Musica",
-    "documentary": "Documentarios e Outros",
-    "education": "Documentarios e Outros",
-    "science": "Documentarios e Outros",
-    "culture": "Documentarios e Outros",
-    "travel": "Documentarios e Outros",
-    "outdoor": "Documentarios e Outros",
-    "lifestyle": "Documentarios e Outros",
-    "entertainment": "Documentarios e Outros",
-    "family": "Documentarios e Outros",
-    "religious": "Documentarios e Outros",
-    "shop": "Documentarios e Outros",
-    "business": "Documentarios e Outros",
-    "cooking": "Documentarios e Outros",
-    "auto": "Documentarios e Outros",
-    "weather": "Documentarios e Outros",
-    "public": "Canais Abertos",
-    "legislative": "Canais Abertos",
-    "general": "Canais Abertos",
+    "movies": "Filmes e Series", "series": "Filmes e Series",
+    "classic": "Filmes e Series", "comedy": "Filmes e Series",
+    "animation": "Desenhos e Animes", "kids": "Desenhos e Animes",
+    "sports": "Esportes", "news": "Noticias", "music": "Musica",
+    "documentary": "Documentarios e Outros", "education": "Documentarios e Outros",
+    "science": "Documentarios e Outros", "culture": "Documentarios e Outros",
+    "travel": "Documentarios e Outros", "outdoor": "Documentarios e Outros",
+    "lifestyle": "Documentarios e Outros", "entertainment": "Documentarios e Outros",
+    "family": "Documentarios e Outros", "religious": "Documentarios e Outros",
+    "shop": "Documentarios e Outros", "business": "Documentarios e Outros",
+    "cooking": "Documentarios e Outros", "auto": "Documentarios e Outros",
+    "weather": "Documentarios e Outros", "public": "Canais Abertos",
+    "legislative": "Canais Abertos", "general": "Canais Abertos",
 }
 
 NAME_RULES = [
-    ("Esportes", r"\b(sport|sports|esporte|futebol|football|soccer|combate|fight|mma|ufc|racing|corrida|caze|nsports|espn|poker|barca|real madrid)\b"),
+    ("Esportes", r"\b(sport|sports|esporte|futebol|football|soccer|combate|fight|mma|ufc|racing|corrida|caze|nsports|espn|poker|barca|real madrid|wrestling|boxing)\b"),
     ("Noticias", r"\b(news|noticia|jornal|cnn|bandnews|globonews|jovem pan|record news|cnbc|bloomberg|reuters)\b"),
-    ("Desenhos e Animes", r"\b(kids?|junior|baby|infantil|crianca|cartoon|animation|animacao|anime|toon|desenho|pokemon|naruto|one piece|gloob|nick|smurfs|popeye|super onze|yu-gi-oh|teletubbies)\b"),
-    ("Filmes e Series", r"\b(movie|movies|cinema|cine|filme|series?|novela|drama|sitcom|megapix|axn|walking dead|rookie blue|star trek|z nation)\b"),
-    ("Musica", r"\b(music|musica|mtv|kpop|trace|vevo|karaoke|radio)\b"),
-    ("Documentarios e Outros", r"\b(documentary|documentario|history|historia|nature|natureza|discovery|science|ciencia|travel|viagem|turismo|food|culinaria|cozinha|chef|gospel|relig|igreja|church|canal rural|agro|fish tv)\b"),
+    ("Desenhos e Animes", r"\b(kids?|junior|baby|infantil|crianca|cartoon|animation|animacao|anime|toon|desenho|pokemon|naruto|one piece|gloob|nick|smurfs|popeye|super onze|yu gi oh|teletubbies)\b"),
+    ("Filmes e Series", r"\b(movie|movies|cinema|cine|filme|series?|novela|drama|sitcom|megapix|axn|walking dead|rookie blue|star trek|z nation|thriller|horror|romance)\b"),
+    ("Musica", r"\b(music|musica|mtv|kpop|trace|vevo|karaoke|radio|concert)\b"),
+    ("Documentarios e Outros", r"\b(documentary|documentario|history|historia|nature|natureza|discovery|science|ciencia|travel|viagem|turismo|food|culinaria|cozinha|chef|gospel|relig|igreja|church|canal rural|agro|fish tv|lifestyle)\b"),
 ]
+OPEN_TV_RULE = r"\b(globo|sbt|record|recordtv|band|redetv|tv brasil|tv cultura|gazeta|cultura para|cultura para|aratu|amazon sat|tv bahia)\b"
 
-OPEN_TV_RULE = r"\b(globo|sbt|record|recordtv|band|redetv|tv brasil|tv cultura|gazeta|cultura para|cultura par[aá]|aratu|amazon sat|tv bahia)\b"
-
-def download(url, timeout=45):
-    req = Request(url, headers={"User-Agent": "feijaum-iptv-updater/4.0"})
+def download(url, timeout=60):
+    req = Request(url, headers={"User-Agent": "feijaum-iptv-updater/5.0"})
     with urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8-sig", errors="replace")
 
@@ -128,7 +122,9 @@ def load_metadata():
             logos[ch] = (score, url)
     return channels, {k: v[1] for k, v in logos.items()}
 
-def category_for(name, metadata, existing=""):
+def category_for(name, metadata, existing="", override=None):
+    if override:
+        return override
     n = normalize(name)
     if re.search(OPEN_TV_RULE, n, re.I):
         return "Canais Abertos"
@@ -138,7 +134,7 @@ def category_for(name, metadata, existing=""):
     cats = [x.strip() for x in (metadata or {}).get("categories", "").split(";") if x.strip()]
     if cats:
         return CATEGORY_MAP.get(cats[0], "Documentarios e Outros")
-    e = (existing or "").strip().lower()
+    e = normalize(existing).replace(" ", "-")
     return CATEGORY_MAP.get(e, "Documentarios e Outros")
 
 def headers_for(entry):
@@ -153,10 +149,7 @@ def headers_for(entry):
 def _fetch_probe(url, headers, timeout):
     req = Request(url, headers=headers)
     with urlopen(req, timeout=timeout) as r:
-        code = getattr(r, "status", 200)
-        data = r.read(4096)
-        ctype = (r.headers.get("Content-Type") or "").lower()
-        return code, data, ctype, r.geturl()
+        return getattr(r, "status", 200), r.read(4096), (r.headers.get("Content-Type") or "").lower(), r.geturl()
 
 def validate(entry, timeout=7):
     url = entry[-1]
@@ -170,15 +163,11 @@ def validate(entry, timeout=7):
             text = data.decode("utf-8", errors="ignore")
             if not (200 <= code < 400):
                 return "OFF", str(code)
-
-            # HLS: validate one child URI as well, so a dead master playlist does
-            # not count as healthy just because the manifest itself returns 200.
             if "#EXTM3U" in text or "mpegurl" in ctype or url.lower().split("?")[0].endswith(".m3u8"):
                 child = next((x.strip() for x in text.splitlines() if x.strip() and not x.startswith("#")), "")
                 if child:
-                    child_url = urljoin(final_url, child)
                     try:
-                        c2, d2, t2, _ = _fetch_probe(child_url, headers, timeout)
+                        c2, d2, t2, _ = _fetch_probe(urljoin(final_url, child), headers, timeout)
                         if 200 <= c2 < 400 and (d2 or "mpegurl" in t2 or "video" in t2 or "octet-stream" in t2):
                             return "OK", f"{code}/{c2}"
                     except HTTPError as e:
@@ -197,105 +186,90 @@ def validate(entry, timeout=7):
         except Exception as e:
             last = type(e).__name__
         if attempt == 0:
-            time.sleep(0.35)
+            time.sleep(0.25)
     return "OFF", last or "failed"
 
 def key_for(entry):
     cid = base_id(entry[0])
     if cid:
-        return ("id", cid.lower())
-    return ("name", normalize(channel_name(entry[0])))
+        return "id:" + cid.lower()
+    return "name:" + normalize(channel_name(entry[0]))
 
-def build_fallback_pool():
-    by_id, by_name = {}, {}
-    for src in FALLBACK_SOURCES:
-        try:
-            text = download(src)
-        except Exception as e:
-            print(f"WARN fallback source failed: {src}: {type(e).__name__}")
-            continue
-        for e in entries(text):
-            if not e or not e[-1].startswith(("http://", "https://")):
-                continue
-            cid = base_id(e[0]).lower()
-            name = normalize(channel_name(e[0]))
-            if cid:
-                by_id.setdefault(cid, []).append(e)
-            if name:
-                by_name.setdefault(name, []).append(e)
-    return by_id, by_name
-
-def enrich(entry, channels, logos):
+def enrich(entry, channels, logos, override=None):
     cid = base_id(entry[0])
     meta = channels.get(cid, {})
-    old_group = attr(entry[0], "group-title")
-    entry[0] = set_attr(entry[0], "group-title", category_for(channel_name(entry[0]), meta, old_group))
-    if cid in logos:
+    entry = list(entry)
+    entry[0] = set_attr(entry[0], "group-title", category_for(channel_name(entry[0]), meta, attr(entry[0], "group-title"), override))
+    if cid in logos and not attr(entry[0], "tvg-logo"):
         entry[0] = set_attr(entry[0], "tvg-logo", logos[cid])
     return entry
 
-def candidate_replacements(entry, by_id, by_name):
-    cid = base_id(entry[0]).lower()
-    name = normalize(channel_name(entry[0]))
-    seen = {entry[-1]}
-    out = []
-    for e in (by_id.get(cid, []) if cid else []) + by_name.get(name, []):
-        if e[-1] not in seen:
-            seen.add(e[-1])
-            out.append(e)
-    return out
-
 def main():
     channels, logos = load_metadata()
-    primary = [enrich(e, channels, logos) for e in entries(download(PRIMARY_SOURCE))]
-    by_id, by_name = build_fallback_pool()
+    pool = {}
+    source_errors = []
 
-    # Deduplicate only exact stream URLs in the primary list.
-    deduped, seen_urls = [], set()
-    for e in primary:
-        if e[-1] in seen_urls:
-            continue
-        seen_urls.add(e[-1])
-        deduped.append(e)
+    for source_name, url, override in SOURCES:
+        try:
+            txt = download(url)
+            count = 0
+            for e in entries(txt):
+                if not e or not e[-1].startswith(("http://", "https://")):
+                    continue
+                e = enrich(e, channels, logos, override)
+                key = key_for(e)
+                # Avoid exact duplicate URL for same logical channel.
+                bucket = pool.setdefault(key, [])
+                if all(x[0][-1] != e[-1] for x in bucket):
+                    bucket.append((e, source_name))
+                    count += 1
+            print(f"SOURCE {source_name}: {count} candidates")
+        except Exception as exc:
+            source_errors.append((source_name, url, type(exc).__name__))
+            print(f"WARN source failed: {source_name}: {type(exc).__name__}")
 
-    print(f"Primary channels: {len(deduped)}")
-    results = [None] * len(deduped)
-    with ThreadPoolExecutor(max_workers=18) as ex:
-        futs = {ex.submit(validate, e): i for i, e in enumerate(deduped)}
-        for fut in as_completed(futs):
-            i = futs[fut]
+    # Probe the preferred candidate for every channel in parallel.
+    keys = list(pool)
+    initial = {}
+    with ThreadPoolExecutor(max_workers=24) as ex:
+        futures = {ex.submit(validate, pool[k][0][0]): k for k in keys}
+        for fut in as_completed(futures):
+            k = futures[fut]
             try:
-                results[i] = fut.result()
-            except Exception as e:
-                results[i] = ("OFF", type(e).__name__)
+                initial[k] = fut.result()
+            except Exception as exc:
+                initial[k] = ("OFF", type(exc).__name__)
 
     active, off, report = [], [], []
+    seen_urls = set()
     replaced = 0
 
-    for i, e in enumerate(deduped):
-        status, detail = results[i]
-        chosen = e
+    for k in keys:
+        candidates = pool[k]
+        chosen_e, chosen_source = candidates[0]
+        status, detail = initial[k]
+        original_url = chosen_e[-1]
+        original_source = chosen_source
 
         if status == "OFF":
-            for alt in candidate_replacements(e, by_id, by_name):
-                alt = enrich(alt, channels, logos)
-                astatus, adetail = validate(alt)
+            for alt_e, alt_source in candidates[1:]:
+                astatus, adetail = validate(alt_e)
                 if astatus in ("OK", "INCONCLUSIVO"):
-                    # Keep original display metadata but swap option lines/url from
-                    # the healthy alternative where needed.
-                    chosen = [e[0]] + alt[1:]
-                    status, detail = astatus, f"substituido: {adetail}"
+                    chosen_e, chosen_source = alt_e, alt_source
+                    status, detail = astatus, f"fallback {alt_source}: {adetail}"
                     replaced += 1
                     break
 
         if status == "OFF":
-            off.append(e)
+            off.append(chosen_e)
         else:
-            active.append(chosen)
+            if chosen_e[-1] not in seen_urls:
+                seen_urls.add(chosen_e[-1])
+                active.append(chosen_e)
 
         report.append([
-            channel_name(e[0]), base_id(e[0]), attr(e[0], "group-title"),
-            e[-1], status, detail, chosen[-1] if chosen else ""
+            channel_name(chosen_e[0]), base_id(chosen_e[0]), attr(chosen_e[0], "group-title"),
+            original_source, original_url, status, detail, chosen_source, chosen_e[-1]
         ])
 
     Path("br.m3u").write_text(
@@ -308,15 +282,21 @@ def main():
     )
     with Path("stream-status.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["canal","tvg_id","categoria","url_original","status","resultado","url_final"])
+        w.writerow(["canal","tvg_id","categoria","fonte_original","url_original","status","resultado","fonte_final","url_final"])
         w.writerows(report)
+
+    with Path("source-status.csv").open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["fonte","url","resultado"])
+        for n,u,e in source_errors:
+            w.writerow([n,u,e])
 
     groups = {}
     for e in active:
         g = attr(e[0], "group-title") or "Documentarios e Outros"
         groups[g] = groups.get(g, 0) + 1
 
-    print(f"ACTIVE={len(active)} OFF={len(off)} REPLACED={replaced}")
+    print(f"ACTIVE={len(active)} OFF={len(off)} REPLACED={replaced} SOURCES={len(SOURCES)} SOURCE_ERRORS={len(source_errors)}")
     print("GROUPS=" + ", ".join(f"{k}:{v}" for k,v in sorted(groups.items())))
 
 if __name__ == "__main__":
