@@ -632,7 +632,16 @@ export default {
       return proxyHls(parsed.toString(), request, "fast");
     }
 
-    const r = await fetch(PLAYLIST_URL, { cf: { cacheTtl: 30, cacheEverything: true } });
+    const playlistPaths = new Set(["/", "/br.m3u", "/playlist.m3u"]);
+    if (!playlistPaths.has(url.pathname)) {
+      return new Response("Not found", { status: 404, headers: corsHeaders() });
+    }
+
+    const freshUrl = PLAYLIST_URL + "?v=" + Math.floor(Date.now() / 15000);
+    const r = await fetch(freshUrl, {
+      headers: { "Cache-Control": "no-cache" },
+      cf: { cacheTtl: 0, cacheEverything: false }
+    });
     if (!r.ok) {
       return new Response("Playlist unavailable", { status: 502 });
     }
@@ -642,7 +651,9 @@ export default {
       headers: corsHeaders({
         "Content-Type": "application/vnd.apple.mpegurl; charset=utf-8",
         "Content-Disposition": "inline; filename=br.m3u",
-        "Cache-Control": "public, max-age=30, must-revalidate"
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+        "Pragma": "no-cache",
+        "Expires": "0"
       })
     });
   }
