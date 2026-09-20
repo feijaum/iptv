@@ -53,7 +53,8 @@ function relayCdnHost(hostname) {
   const suffixes = [
     ".akamaized.net", ".akamaihd.net", ".cloudfront.net", ".amazonaws.com",
     ".googlevideo.com", ".googleusercontent.com", ".gvt1.com", ".edgekey.net",
-    ".edgesuite.net", ".fastly.net", ".cdn77.org", ".ottera.tv", ".jwplayer.com"
+    ".edgesuite.net", ".fastly.net", ".cdn77.org", ".ottera.tv", ".jwplayer.com",
+    ".maissbt.com", ".redbull.com", ".stingray.com"
   ];
   return suffixes.some(s => h.endsWith(s));
 }
