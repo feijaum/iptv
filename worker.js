@@ -11,12 +11,30 @@ function corsHeaders(extra = {}) {
   };
 }
 
-function isPlutoHost(hostname) {
+function isPrivateHost(hostname) {
   const h = (hostname || "").toLowerCase();
-  return h === "pluto.tv" || h.endsWith(".pluto.tv");
+  if (h === "localhost" || h.endsWith(".local")) return true;
+  if (/^127\./.test(h) || /^10\./.test(h) || /^192\.168\./.test(h)) return true;
+  const m = h.match(/^172\.(\d+)\./);
+  if (m && Number(m[1]) >= 16 && Number(m[1]) <= 31) return true;
+  return h === "::1" || h.startsWith("fc") || h.startsWith("fd");
 }
 
-async function getPlutoBoot() {
+function isPlutoHost(hostname) {
+  const h = (hostname || "").toLowerCase();
+  if (isPrivateHost(h)) return false;
+  return (
+    h === "pluto.tv" ||
+    h.endsWith(".pluto.tv") ||
+    h.endsWith(".paramount.tech") ||
+    h.endsWith(".akamaized.net") ||
+    h.endsWith(".akamaihd.net") ||
+    h.endsWith(".cloudfront.net") ||
+    h.endsWith(".fastly.net")
+  );
+}
+
+async function getPlutoBoot(channelId = "") {
   const now = Math.floor(Date.now() / 1000);
   if (plutoBootCache && plutoBootCache.expiresAt > now + 60) {
     return plutoBootCache.data;
@@ -38,6 +56,7 @@ async function getPlutoBoot() {
     blockingMode: ""
   };
   for (const [k, v] of Object.entries(p)) u.searchParams.set(k, v);
+  if (channelId) u.searchParams.set("channelSlug", channelId);
 
   const r = await fetch(u.toString(), {
     headers: {
@@ -140,12 +159,10 @@ async function handlePluto(channelId, request) {
   }
 
   try {
-    const boot = await getPlutoBoot();
+    const boot = await getPlutoBoot(channelId);
     const stitcher = (boot.servers && boot.servers.stitcher) ||
       "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv";
     const u = new URL("/v2/stitch/hls/channel/" + channelId + "/master.m3u8", stitcher);
-    u.searchParams.set("jwt", boot.sessionToken);
-    u.searchParams.set("masterJWTPassthrough", "true");
 
     if (boot.stitcherParams) {
       const extras = new URLSearchParams(boot.stitcherParams);
@@ -153,6 +170,9 @@ async function handlePluto(channelId, request) {
         if (!u.searchParams.has(k)) u.searchParams.set(k, v);
       }
     }
+    u.searchParams.set("jwt", boot.sessionToken);
+    u.searchParams.set("includeExtendedEvents", "true");
+    u.searchParams.set("masterJWTPassthrough", "true");
 
     return await proxyHls(u.toString(), request, "pluto");
   } catch (e) {
@@ -163,12 +183,68 @@ async function handlePluto(channelId, request) {
   }
 }
 
+
+async function plutoHealth(channelId) {
+  const result = { channelId, boot: false, master: false, variant: false, segment: false, hosts: [] };
+  try {
+    const boot = await getPlutoBoot(channelId);
+    result.boot = !!boot.sessionToken;
+    result.stitcher = new URL((boot.servers && boot.servers.stitcher) ||
+      "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv").hostname;
+
+    const u = new URL("/v2/stitch/hls/channel/" + channelId + "/master.m3u8",
+      (boot.servers && boot.servers.stitcher) ||
+      "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv");
+    if (boot.stitcherParams) {
+      for (const [k, v] of new URLSearchParams(boot.stitcherParams).entries()) u.searchParams.set(k, v);
+    }
+    u.searchParams.set("jwt", boot.sessionToken);
+    u.searchParams.set("includeExtendedEvents", "true");
+    u.searchParams.set("masterJWTPassthrough", "true");
+
+    const h = { "User-Agent": UA, "Accept": "*/*", "Origin": "https://pluto.tv", "Referer": "https://pluto.tv/" };
+    const r1 = await fetch(u.toString(), { headers: h, redirect: "follow" });
+    result.masterStatus = r1.status;
+    if (!r1.ok) return result;
+    result.master = true;
+    const t1 = await r1.text();
+    const child = t1.split(/\r?\n/).find(x => x.trim() && !x.startsWith("#"));
+    if (!child) return result;
+    const childUrl = new URL(child.trim(), r1.url).toString();
+    result.hosts.push(new URL(childUrl).hostname);
+
+    const r2 = await fetch(childUrl, { headers: h, redirect: "follow" });
+    result.variantStatus = r2.status;
+    if (!r2.ok) return result;
+    result.variant = true;
+    const t2 = await r2.text();
+    const seg = t2.split(/\r?\n/).find(x => x.trim() && !x.startsWith("#"));
+    if (!seg) return result;
+    const segUrl = new URL(seg.trim(), r2.url).toString();
+    result.hosts.push(new URL(segUrl).hostname);
+
+    const r3 = await fetch(segUrl, { headers: { ...h, "Range": "bytes=0-1023" }, redirect: "follow" });
+    result.segmentStatus = r3.status;
+    result.segment = r3.ok;
+    return result;
+  } catch (e) {
+    result.error = String(e && e.message ? e.message : e);
+    return result;
+  }
+}
+
 export default {
   async fetch(request) {
     const url = new URL(request.url);
 
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: corsHeaders() });
+    }
+
+    if (url.pathname.startsWith("/health/pluto/")) {
+      const channelId = url.pathname.split("/").pop();
+      const data = await plutoHealth(channelId);
+      return Response.json(data, { headers: corsHeaders({ "Cache-Control": "no-store" }) });
     }
 
     if (url.pathname.startsWith("/pluto/")) {
