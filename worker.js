@@ -26,6 +26,8 @@ function isPlutoHost(hostname) {
   return (
     h === "pluto.tv" ||
     h.endsWith(".pluto.tv") ||
+    h === "plutotv.net" ||
+    h.endsWith(".plutotv.net") ||
     h.endsWith(".paramount.tech") ||
     h.endsWith(".akamaized.net") ||
     h.endsWith(".akamaihd.net") ||
