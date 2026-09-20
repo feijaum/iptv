@@ -13,23 +13,23 @@ from urllib.error import HTTPError
 # Sources are ordered by preference. The updater keeps one healthy stream per
 # channel and uses later sources as automatic backups.
 SOURCES = [
-    ("iptv-org BR", "https://iptv-org.github.io/iptv/countries/br.m3u", None),
-    ("dearbulut BR working", "https://dearbulut.github.io/iptv/playlists/country/br.m3u", None),
-    ("iptv-com BR", "https://raw.githubusercontent.com/iptv-com/iptv/main/lists/brazil.m3u", None),
-    ("Free-TV", "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8", None),
-    ("FreeCastHub", "https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u", None),
+    ("iptv-org BR", "https://iptv-org.github.io/iptv/countries/br.m3u", None, True),
+    ("dearbulut BR working", "https://dearbulut.github.io/iptv/playlists/country/br.m3u", None, True),
+    ("iptv-com BR", "https://raw.githubusercontent.com/iptv-com/iptv/main/lists/brazil.m3u", None, True),
+    ("Free-TV", "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8", None, False),
+    ("FreeCastHub", "https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u", None, False),
 
-    # FAST providers. These repositories regenerate their playlists frequently.
-    ("Pluto BR Buddy", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_br.m3u", None),
-    ("Pluto BR OwnerPlugins", "https://raw.githubusercontent.com/OwnerPlugins/pluto-tv-m3u/main/pluto-live-BR.m3u", None),
-    ("Samsung TV Plus", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_all.m3u", None),
-    ("Plex FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u", None),
-    ("Roku FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u", None),
-    ("Tubi FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u", None),
+    # FAST providers. Brazilian feeds are accepted in full; global feeds are
+    # filtered to Brazil/Portuguese before validation.
+    ("Pluto BR Buddy", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_br.m3u", None, True),
+    ("Pluto BR OwnerPlugins", "https://raw.githubusercontent.com/OwnerPlugins/pluto-tv-m3u/main/pluto-live-BR.m3u", None, True),
+    ("Samsung TV Plus", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_all.m3u", None, False),
+    ("Plex FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u", None, False),
+    ("Roku FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u", None, False),
+    ("Tubi FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u", None, False),
 
-    # Adult list is kept isolated by category and only entries that pass the
-    # same health check are published.
-    ("IPTVJS Adult", "https://raw.githubusercontent.com/iptvjs/iptv/main/adultiptv_all.m3u", "Adultos"),
+    # Adult source is also filtered to Portuguese/Brazil signals.
+    ("IPTVJS Adult", "https://raw.githubusercontent.com/iptvjs/iptv/main/adultiptv_all.m3u", "Adultos", False),
 ]
 
 CHANNELS_DB = "https://raw.githubusercontent.com/iptv-org/database/master/data/channels.csv"
@@ -204,17 +204,53 @@ def enrich(entry, channels, logos, override=None):
         entry[0] = set_attr(entry[0], "tvg-logo", logos[cid])
     return entry
 
+
+def is_ptbr_entry(entry, source_is_br=False):
+    if source_is_br:
+        return True
+    line = entry[0]
+    name = channel_name(line)
+    hay = " ".join([
+        attr(line, "tvg-id"),
+        attr(line, "channel-id"),
+        attr(line, "tvg-language"),
+        attr(line, "group-title"),
+        attr(line, "tvg-country"),
+        name,
+    ])
+    n = normalize(hay)
+
+    # Strong Brazil / Brazilian Portuguese signals used by FAST playlists.
+    if re.search(r"(^| )(br|brazil|brasil|brazilian|portuguese|portugues|pt br|ptbr)( |$)", n):
+        return True
+
+    # Common FAST ids use a regional suffix such as "-br" or "@BR".
+    raw_id = " ".join([attr(line, "tvg-id"), attr(line, "channel-id")]).lower()
+    if re.search(r"(@br|@brazil|[-_.]br)(\b|$)", raw_id):
+        return True
+
+    # Portuguese-language labels occasionally use locale notation.
+    raw_lang = attr(line, "tvg-language").lower()
+    if raw_lang in ("pt", "pt-br", "por", "portuguese", "português"):
+        return True
+
+    return False
+
 def main():
     channels, logos = load_metadata()
     pool = {}
     source_errors = []
 
-    for source_name, url, override in SOURCES:
+    for source_name, url, override, source_is_br in SOURCES:
         try:
             txt = download(url)
             count = 0
+            skipped_language = 0
             for e in entries(txt):
                 if not e or not e[-1].startswith(("http://", "https://")):
+                    continue
+                if not is_ptbr_entry(e, source_is_br):
+                    skipped_language += 1
                     continue
                 e = enrich(e, channels, logos, override)
                 key = key_for(e)
@@ -223,7 +259,7 @@ def main():
                 if all(x[0][-1] != e[-1] for x in bucket):
                     bucket.append((e, source_name))
                     count += 1
-            print(f"SOURCE {source_name}: {count} candidates")
+            print(f"SOURCE {source_name}: {count} candidates; skipped_non_ptbr={skipped_language}")
         except Exception as exc:
             source_errors.append((source_name, url, type(exc).__name__))
             print(f"WARN source failed: {source_name}: {type(exc).__name__}")
