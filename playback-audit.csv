@@ -1,369 +1,368 @@
-canal,url,status,resultado,tipos,codecs
-A&E Latin America Brazil (720p),https://iptv.jvleite7.workers.dev/live/c3aaaf7f5881b9ab.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/c3aaaf7f5881b9ab.m3u8: Server returned 5XX Server Error reply,,
-Adesso TV (720p),https://iptv.jvleite7.workers.dev/live/dd7b48f1fe496ba7.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Adrenalina Pura TV Brazil,https://iptv.jvleite7.workers.dev/pluto/61b790b985706b00072cb797.m3u8,OFF,s://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FAdrenalinaPuraTVBR%2Fts_aes%2F20260910_065051%2Faudio%2Faudio_pt%2F85915614000128.ts' https://iptv.jvleite7.workers.dev/pluto/61b790b985706b00072cb797.m3u8: Invalid data found when processing input,,
-Adult Swim Latin America Brazil (720p),https://iptv.jvleite7.workers.dev/live/26af73704fdc2b6d.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/26af73704fdc2b6d.m3u8: Server returned 5XX Server Error reply,,
-AgroCanal,https://iptv.jvleite7.workers.dev/live/d980d6245a65302d.m3u8,OK,decoded,audio;video,aac;h264
-AgroMais (720p),https://iptv.jvleite7.workers.dev/live/e95eb1b82f69ff99.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/e95eb1b82f69ff99.m3u8: Server returned 5XX Server Error reply,,
-Amazon Sat (1080p),https://iptv.jvleite7.workers.dev/live/3197750150e5d5d5.m3u8,OK,decoded,audio;video,aac;h264
-AMC Latin America Brazil (720p),https://iptv.jvleite7.workers.dev/live/83d4619c3a30230f.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/83d4619c3a30230f.m3u8: Server returned 5XX Server Error reply,,
-Araruna TV,https://iptv.jvleite7.workers.dev/live/af8c3986275b6546.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Arte 1 (720p),https://iptv.jvleite7.workers.dev/live/0a26e526edf39a72.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/0a26e526edf39a72.m3u8: Server returned 5XX Server Error reply,,
-Avatar: A lenda de Aang,https://iptv.jvleite7.workers.dev/pluto/6759eeb1bd523200083b4f29.m3u8,OK,decoded,audio;video,aac;h264
-AWTV (1080p) [Geo-blocked],https://iptv.jvleite7.workers.dev/live/95248759728bb3de.m3u8,OK,decoded,audio;video,aac;h264
-AXN (Brazil) (720p),https://iptv.jvleite7.workers.dev/live/b113c260d83c2b53.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/b113c260d83c2b53.m3u8: Server returned 5XX Server Error reply,,
-BabyFirst Brazil,https://iptv.jvleite7.workers.dev/pluto/5f4fb4cf605ddf000748e16f.m3u8,OK,decoded,audio;video,aac;h264
-Band (576p),https://iptv.jvleite7.workers.dev/live/57b9e9857f989fc1.m3u8,OK,decoded,audio;video,aac;h264
-Band Sports (720p),https://iptv.jvleite7.workers.dev/live/8731b5a8acd5c9ca.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/8731b5a8acd5c9ca.m3u8: Server returned 5XX Server Error reply,,
-BandNews (720p),https://iptv.jvleite7.workers.dev/live/dd1f96d2e0335491.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/dd1f96d2e0335491.m3u8: Server returned 5XX Server Error reply,,
-BET Pluto TV (United States) BR,https://iptv.jvleite7.workers.dev/pluto/5ff768b6a4c8b80008498610.m3u8,OK,decoded,audio;video,aac;h264
-BM&C News (720p),https://iptv.jvleite7.workers.dev/pluto/666c9c60a7efd40008f552f0.m3u8,OFF,timeout,,
-Boas Novas (1080p),https://iptv.jvleite7.workers.dev/live/6caff20210e3446b.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Bob Esponja Calca Quadrada (720p),https://iptv.jvleite7.workers.dev/pluto/62545c0b002f4b0007688b61.m3u8,OFF,://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FSpongebobPortuguese%2Fts_aes%2F20260803_215836%2Faudio%2Faudio_pt%2F85915614480384.ts' https://iptv.jvleite7.workers.dev/pluto/62545c0b002f4b0007688b61.m3u8: Invalid data found when processing input,,
-Box Kids TV (720p),https://iptv.jvleite7.workers.dev/live/d5e42ad4ba110507.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/d5e42ad4ba110507.m3u8: Server returned 5XX Server Error reply,,
-Canal 38 (720p),https://iptv.jvleite7.workers.dev/live/5df48c7721470153.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Canal do Boi (720p),https://iptv.jvleite7.workers.dev/live/e90e5017d845e3d1.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/e90e5017d845e3d1.m3u8: Server returned 5XX Server Error reply,,
-Canal Educação (720p),https://iptv.jvleite7.workers.dev/live/b86764c528f849c6.m3u8,OK,decoded,audio;video,aac;h264
-Canal Futura (720p),https://iptv.jvleite7.workers.dev/live/27229f7864878d7d.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/27229f7864878d7d.m3u8: Server returned 5XX Server Error reply,,
-Canal Gov (720p),https://iptv.jvleite7.workers.dev/live/54d0bfb9f9689c92.m3u8,OK,decoded,audio;video,aac;h264
-Canal Metropolitano de Noticias,https://iptv.jvleite7.workers.dev/live/d2b1bb92360af81b.m3u8,OK,decoded,audio;video,aac;h264
-Canal Rural (720p),https://iptv.jvleite7.workers.dev/live/2c54db835844d28c.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/2c54db835844d28c.m3u8: Server returned 5XX Server Error reply,,
-Canal UOL (1080p),https://iptv.jvleite7.workers.dev/live/692a3c38ec9b184d.m3u8,OK,decoded,audio;video,aac;h264
-Chef TV (720p),https://iptv.jvleite7.workers.dev/live/a4b7fc5fd3966ee8.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/a4b7fc5fd3966ee8.m3u8: Server returned 5XX Server Error reply,,
-Chroma TV (480p),https://iptv.jvleite7.workers.dev/live/6861cb0189f55ac3.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Cine Terror BR,https://iptv.jvleite7.workers.dev/pluto/5f12111c9e6c2c00078ef3bb.m3u8,OK,decoded,audio;video,aac;h264
-Classique TV (360p),https://iptv.jvleite7.workers.dev/live/ed91809c5deb0ece.m3u8,OK,decoded,audio;video,aac;h264
-COM Brasil (720p),https://iptv.jvleite7.workers.dev/live/bda72d2f1f418131.m3u8,OK,decoded,audio;video,aac;hevc
-Comedy Central Pluto TV BR,https://iptv.jvleite7.workers.dev/pluto/5f357e91b18f0b00073583d2.m3u8,OFF,ptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FComedyCentralPortuguese%2Fts_aes%2F20260831_220806%2Faudio%2Faudio_pt%2F85915614240768.ts' https://iptv.jvleite7.workers.dev/pluto/5f357e91b18f0b00073583d2.m3u8: Invalid data found when processing input,,
-Comedy Central South Park (United States),https://iptv.jvleite7.workers.dev/pluto/609ae66b359b270007869ff1.m3u8,OFF,iloh-ns1.plutotv.net%2Fdca290_Viacom_International_Inc%2Fclip%2F60da2d209abbef0013069836_South_Park_BR_Deficientes_loucos_S7E2%2F720p%2F20210629_130237%2Fhls%2F0-570938%2Fhls_600-00098.ts' https://iptv.jvleite7.workers.dev/pluto/609ae66b359b270007869ff1.m3u8: Invalid data found when processing input,,
-Conecta Mais TV (720p),https://iptv.jvleite7.workers.dev/live/26316af23b948204.m3u8,OK,decoded,audio;video,aac;h264
-ConecTV Brasil (720p),https://iptv.jvleite7.workers.dev/live/9500b6553f4fd76d.m3u8,OK,decoded,audio;video,aac;h264
-CSI: Miami BR,https://iptv.jvleite7.workers.dev/pluto/63eb9c5351f5d000085e8d7e.m3u8,OK,decoded,audio;video,aac;h264
-Cultura Fast (720p),https://iptv.jvleite7.workers.dev/live/85a9adc299ad7691.m3u8,OK,decoded,audio;video,aac;h264
-Despertar TV (720p),https://iptv.jvleite7.workers.dev/live/56518eb6eb443f48.m3u8,OK,decoded,audio;video,aac;h264
-Detetives Medicos,https://iptv.jvleite7.workers.dev/pluto/638df93ae2f2a3000737c168.m3u8,OK,decoded,audio;video,aac;h264
-Diff'rent Strokes Arnold,https://iptv.jvleite7.workers.dev/pluto/61f1d27a189ed10007b7393e.m3u8,OK,decoded,audio;video,aac;h264
-DumDum (720p),https://iptv.jvleite7.workers.dev/live/c7b6062fca8fefc9.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/c7b6062fca8fefc9.m3u8: Server returned 5XX Server Error reply,,
-Elemental Channel,https://iptv.jvleite7.workers.dev/live/ad459b6508f2dca3.m3u8,OK,decoded,audio;video,aac;h264
-ElyTV (360p),https://iptv.jvleite7.workers.dev/live/677100353fe7c23a.m3u8,OK,decoded,audio;video,aac;h264
-ESPN 3 (720p),https://iptv.jvleite7.workers.dev/live/a03a68d3aba894f4.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/a03a68d3aba894f4.m3u8: Server returned 5XX Server Error reply,,
-ESPN 4 (1080p),https://iptv.jvleite7.workers.dev/live/42236b10f34bb04c.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/42236b10f34bb04c.m3u8: Server returned 5XX Server Error reply,,
-ESPN (1080p),https://iptv.jvleite7.workers.dev/live/3e4d6d3d81c680a7.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/3e4d6d3d81c680a7.m3u8: Server returned 5XX Server Error reply,,
-EUTV,https://iptv.jvleite7.workers.dev/live/742879da65b0b36f.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-FailArmy Brazil,https://iptv.jvleite7.workers.dev/pluto/5f5141c1605ddf000748eb1b.m3u8,OFF,t 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FFailArmyINT%2Fts_aes%2F20260408_164416%2Faudio%2Faudio_en%2F85915614960640.ts' https://iptv.jvleite7.workers.dev/pluto/5f5141c1605ddf000748eb1b.m3u8: Invalid data found when processing input,,
-Fala Litoral (480p),https://iptv.jvleite7.workers.dev/live/5030735364d54b4f.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-FIFA+ Portuguese (720p),https://iptv.jvleite7.workers.dev/live/ee0ff293a0ade5a9.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3
-Filmes Suspense,https://iptv.jvleite7.workers.dev/pluto/5f171d3442a0500007362f22.m3u8,OK,decoded,audio;video,aac;h264
-Fish TV (720p),https://iptv.jvleite7.workers.dev/live/90be4fe93f4a6cab.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/90be4fe93f4a6cab.m3u8: Server returned 5XX Server Error reply,,
-Fonte TV,https://iptv.jvleite7.workers.dev/live/874c397db284be9f.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Fora Tedio TV (720p),https://iptv.jvleite7.workers.dev/live/4eb02d35045a96dc.m3u8,OK,decoded,audio;video,aac;h264
-Futura (720p),https://iptv.jvleite7.workers.dev/live/bf87dc63a20b520d.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/bf87dc63a20b520d.m3u8: Server returned 5XX Server Error reply,,
-ge Fast (1080p),https://iptv.jvleite7.workers.dev/live/2b10ce115e6d7856.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3
-Gospel Cartoon (360p),https://iptv.jvleite7.workers.dev/live/44206badad025b2c.m3u8,OK,decoded,audio;video,aac;h264
-Gospel Movie TV (360p),https://iptv.jvleite7.workers.dev/live/698015f77c3bc7c5.m3u8,OK,decoded,audio;video,aac;h264
-History 2 Latin America Brazil (720p),https://iptv.jvleite7.workers.dev/live/9e313af22b32b3ef.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/9e313af22b32b3ef.m3u8: Server returned 5XX Server Error reply,,
-History (Brazil) (720p),https://iptv.jvleite7.workers.dev/live/6819d01b984727a4.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/6819d01b984727a4.m3u8: Server returned 5XX Server Error reply,,
-iCarly (United States),https://iptv.jvleite7.workers.dev/pluto/620ff46e0a576e0007dc2f89.m3u8,OK,decoded,audio;video,aac;h264
-ISTV (Brazil) (720p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/ac2024a8e23820d0.m3u8,OK,decoded,audio;video,aac;h264
-J3NEWS TV,https://iptv.jvleite7.workers.dev/live/b71abc5a96d29f69.m3u8,OK,decoded,audio;video,aac;h264
-Jornada nas Estrelas: A Nova Geracao,https://iptv.jvleite7.workers.dev/pluto/69162ad79505d0f3b1ebf07d.m3u8,OK,decoded,audio;video,aac;h264
-Jornada nas Estrelas: Deep Space Nine,https://iptv.jvleite7.workers.dev/pluto/69162af591700f4c4c135c95.m3u8,OK,decoded,audio;video,aac;h264
-Jornada nas Estrelas: Voyager,https://iptv.jvleite7.workers.dev/pluto/69162b1ef189e235142b17ab.m3u8,OK,decoded,audio;video,aac;h264
-Jovem Pan News (720p),https://iptv.jvleite7.workers.dev/live/e1f7337d799fe026.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/e1f7337d799fe026.m3u8: Server returned 5XX Server Error reply,,
-Kenan & Kel BR,https://iptv.jvleite7.workers.dev/pluto/5ffcc5130fd98c0007f2e216.m3u8,OK,decoded,audio;video,aac;h264
-KpopTV Play (576p),https://iptv.jvleite7.workers.dev/live/0e8d44427da9cd0d.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/0e8d44427da9cd0d.m3u8: Server returned 5XX Server Error reply,,
-Kuriakos Kids (1080p),https://iptv.jvleite7.workers.dev/live/c8859720e9b514f2.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-L!ke (1080p),https://iptv.jvleite7.workers.dev/live/42934d449f91da85.m3u8,OK,decoded,audio;data;video,aac;hevc;scte_35;timed_id3
-Lamore Rock Show WebTV (720p),https://iptv.jvleite7.workers.dev/live/b0841e88d789dba8.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Lifetime Latin America Brazil (720p),https://iptv.jvleite7.workers.dev/live/0b17170eb037a6b1.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/0b17170eb037a6b1.m3u8: Server returned 5XX Server Error reply,,
-Loading (720p),https://iptv.jvleite7.workers.dev/live/047bdc92faca3808.m3u8,OK,decoded,audio;video,aac;h264
-MacGyver (United States),https://iptv.jvleite7.workers.dev/pluto/63eb9dc84e83e70008abea92.m3u8,OK,decoded,audio;video,aac;h264
-MasterChef,https://iptv.jvleite7.workers.dev/pluto/6077045b6031bd00078de127.m3u8,OK,decoded,audio;video,aac;h264
-MTV Are you the One?,https://iptv.jvleite7.workers.dev/pluto/5f6108d8cc331900075e98e4.m3u8,OK,decoded,audio;video,aac;h264
-MTV Biggest Pop BR (1080p),https://iptv.jvleite7.workers.dev/pluto/6047fbdbbb776a0007e7f2ff.m3u8,OFF,'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FMTVBiggestPop%2Fts_aes%2F20260722_115629%2Faudio%2Faudio_en%2F85915614960640.ts' https://iptv.jvleite7.workers.dev/pluto/6047fbdbbb776a0007e7f2ff.m3u8: Invalid data found when processing input,,
-MTV Catfish (United States) BR (720p),https://iptv.jvleite7.workers.dev/pluto/626c2a3502d84a0007cec817.m3u8,OK,decoded,audio;video,aac;h264
-MTV Classic BR (720p),https://iptv.jvleite7.workers.dev/pluto/66a01dcb8561260008b0a41d.m3u8,OFF,https://iptv.jvleite7.workers.dev/pluto/66a01dcb8561260008b0a41d.m3u8: Server returned 5XX Server Error reply,,
-MTV Com o Ex,https://iptv.jvleite7.workers.dev/pluto/61a528267e1b8b0007357920.m3u8,OK,decoded,audio;video,aac;h264
-MTV Dating (United States),https://iptv.jvleite7.workers.dev/pluto/6851bb3426beced4f2f67ee6.m3u8,OFF,//iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FInkMastersPortuguese%2Fts_aes%2F20260723_060011%2Faudio%2Faudio_pt%2F85915614960640.ts' https://iptv.jvleite7.workers.dev/pluto/6851bb3426beced4f2f67ee6.m3u8: Invalid data found when processing input,,
-MTV Drag,https://iptv.jvleite7.workers.dev/pluto/645111f1d8436e00081bb2bd.m3u8,OK,decoded,audio;video,aac;h264
-MTV Jovens e Maes (720p),https://iptv.jvleite7.workers.dev/pluto/620fdc7d8a36fc000710e3ba.m3u8,OFF,timeout,,
-MTV Pluto TV (United States) BR,https://iptv.jvleite7.workers.dev/pluto/5f1212fb81e85c00077ae9ef.m3u8,OK,decoded,audio;video,aac;h264
-MTV Reality (United States) (720p),https://iptv.jvleite7.workers.dev/pluto/6851bdfc9ac48fde5e07f5ae.m3u8,OFF, 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FMTVRealityBR%2Fts_aes%2F20260720_231116%2Faudio%2Faudio_pt%2F85915614960640.ts' https://iptv.jvleite7.workers.dev/pluto/6851bdfc9ac48fde5e07f5ae.m3u8: Invalid data found when processing input,,
-MTV Shore,https://iptv.jvleite7.workers.dev/pluto/625463563b8ddc0007134aeb.m3u8,OK,decoded,audio;video,aac;h264
-Music Box Brazil (720p),https://iptv.jvleite7.workers.dev/live/683456528b2d9926.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/683456528b2d9926.m3u8: Server returned 5XX Server Error reply,,
-MyTime Movie Network (Brazil) (720p),https://iptv.jvleite7.workers.dev/live/36d5024701674a1b.m3u8,OK,decoded,audio;video,aac;h264
-N Sports (1080p),https://iptv.jvleite7.workers.dev/live/90ce25e31811af4e.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3
-NCIS (United States),https://iptv.jvleite7.workers.dev/pluto/63eb9fdda995710008991c54.m3u8,OK,decoded,audio;video,aac;h264
-Nick Jr. Club (United States) BR (720p),https://iptv.jvleite7.workers.dev/pluto/6824ce95f09106f4b18f4114.m3u8,OFF,timeout,,
-Nickelodeon (Brazil) (480p),https://iptv.jvleite7.workers.dev/live/6ff301a22120b873.m3u8,OK,decoded,audio;video,aac;h264
-Nickelodeon Classico (720p),https://iptv.jvleite7.workers.dev/pluto/6824ce10c5d53e1351ceb8d1.m3u8,OFF,timeout,,
-Nickelodeon Teen (United States) (720p),https://iptv.jvleite7.workers.dev/pluto/60f5fabf0721880007cd50e3.m3u8,OFF,s://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FNickTeenPortuguese%2Fts_aes%2F20260802_134807%2Faudio%2Faudio_pt%2F85915614960640.ts' https://iptv.jvleite7.workers.dev/pluto/60f5fabf0721880007cd50e3.m3u8: Invalid data found when processing input,,
-Nickelodeon Toons (United States) (720p),https://iptv.jvleite7.workers.dev/pluto/645951c0e94c38000802d2cb.m3u8,OFF,://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FNickToonsPortuguese%2Fts_aes%2F20260803_235626%2Faudio%2Faudio_pt%2F85915615440896.ts' https://iptv.jvleite7.workers.dev/pluto/645951c0e94c38000802d2cb.m3u8: Invalid data found when processing input,,
-"like Gecko) Chrome/149.0.0.0 Safari/537.36"" group-title=""Desenhos e Animes"",NickToons Brasil (480p)",https://iptv.jvleite7.workers.dev/live/618974292fd374da.m3u8,OK,decoded,audio;video,aac;h264
-Nova Era TV (1080p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/2bd2539ff42d2068.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Novo Tempo (720p),https://iptv.jvleite7.workers.dev/live/8fadf171c91cec94.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/8fadf171c91cec94.m3u8: Server returned 5XX Server Error reply,,
-NTV (Brazil) (720p),https://iptv.jvleite7.workers.dev/live/3a91c7f6e851a52a.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/3a91c7f6e851a52a.m3u8: Server returned 5XX Server Error reply,,
-Numbers (United States),https://iptv.jvleite7.workers.dev/pluto/67f960c5441853fe50e7afc1.m3u8,OK,decoded,audio;video,aac;h264
-O Dia TV,https://iptv.jvleite7.workers.dev/live/7e55d457d1a95080.m3u8,OK,decoded,audio;data;video,h264;mp3;timed_id3
-O Encantador de Caes,https://iptv.jvleite7.workers.dev/pluto/61099df8cee03b00074b2ecf.m3u8,OFF,oh-ns1.plutotv.net%2F37ca59_Rive_Gauche_Television%2Fclip%2F614c9fd0f3d10f0016f4e1de_Dog_Whisperer_BR_Sasha_and_Shep_S1E113%2F720p%2F20210923_112458%2Fhls%2F1457325-end%2Fhls_600-00000.ts' https://iptv.jvleite7.workers.dev/pluto/61099df8cee03b00074b2ecf.m3u8: Invalid data found when processing input,,
-O Reino Infantil,https://iptv.jvleite7.workers.dev/pluto/5f5c216df68f920007888315.m3u8,OK,decoded,audio;video,aac;h264
-Oggy e as Baratas Tontas,https://iptv.jvleite7.workers.dev/pluto/63221bafdc6e110007b50270.m3u8,OFF,lam%2Fclip%2F610d384adf179f00131748b6_Oggy_and_the_Cockroaches_Metalman_or_Oggy_the_King_s_Coachman_or_Oggy_the_Fakir_S5E03%2F720p%2F20210820_072916%2Fhls%2F1050561-end%2Fhls_600-00031.ts' https://iptv.jvleite7.workers.dev/pluto/63221bafdc6e110007b50270.m3u8: Invalid data found when processing input,,
-One Piece BR,https://iptv.jvleite7.workers.dev/pluto/624b1c8d4321e200073ee421.m3u8,OK,decoded,audio;video,aac;h264
-Petlovers TV,https://iptv.jvleite7.workers.dev/live/6ac3052e567b8527.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Play TV (720p),https://iptv.jvleite7.workers.dev/live/638e35320a753d86.m3u8,OK,decoded,audio;video,aac;h264
-Plena TV (720p),https://iptv.jvleite7.workers.dev/live/092be05e4fc450a1.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Plenitude TV,https://iptv.jvleite7.workers.dev/live/910483c3c4a8be2a.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Pluto TV Aliens,https://iptv.jvleite7.workers.dev/pluto/6806d65e84f24b70109485fa.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Animais,https://iptv.jvleite7.workers.dev/pluto/6474aa984cfc2c0008883a92.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Anime (United States) BR,https://iptv.jvleite7.workers.dev/pluto/5f12136385bccc00070142ed.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Anime Acao,https://iptv.jvleite7.workers.dev/pluto/604b79c558393100078faeef.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Bang Bang,https://iptv.jvleite7.workers.dev/pluto/663b9dc7cb3ea10008f1a0ce.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Canal UOL (720p),https://iptv.jvleite7.workers.dev/pluto/64b9370b409629000802d32b.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Cine Classicos,https://iptv.jvleite7.workers.dev/pluto/5fa1612a669ba0000702017b.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Cine Comedia (United States) BR,https://iptv.jvleite7.workers.dev/pluto/5f12101f0b12f00007844c7c.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Cine Comedia Romantica,https://iptv.jvleite7.workers.dev/pluto/62545ed3dab4380007582f7c.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Cine Crime,https://iptv.jvleite7.workers.dev/pluto/6479ff764f5ba5000878dfe2.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Cine Drama (United States),https://iptv.jvleite7.workers.dev/pluto/5f1210d14ae1f80007bafb1d.m3u8,OFF,uto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Fc6009f_pluto%2Fclip%2F60de2cfd3988a50013b725c3_BLACK_SNAKE_MOAN_BR%2F720p%2F20210701_140045%2Fhls%2F1876294-2487738%2Fhls_600-00100.ts' https://iptv.jvleite7.workers.dev/pluto/5f1210d14ae1f80007bafb1d.m3u8: Invalid data found when processing input,,
-Pluto TV Cine Familia,https://iptv.jvleite7.workers.dev/pluto/5f171f032cd22e0007f17f3d.m3u8,OFF,no audio/video stream,,
-Pluto TV Cine Inspiracao,https://iptv.jvleite7.workers.dev/pluto/5fa991b1f09e020007e78626.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Cine Romance,https://iptv.jvleite7.workers.dev/pluto/5f171f988ab9780007fa95ea.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Cine Sucessos,https://iptv.jvleite7.workers.dev/pluto/5f120e94a5714d00074576a1.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Cozinha,https://iptv.jvleite7.workers.dev/pluto/5f1ef23020a5ac0007e5e8ea.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Desenhos Classicos,https://iptv.jvleite7.workers.dev/pluto/655e5c4d2c46f3000877a54b.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Esportes,https://iptv.jvleite7.workers.dev/pluto/5f32d2db0af67400077f29c4.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Filmes Acao,https://iptv.jvleite7.workers.dev/pluto/5f120f41b7d403000783a6d6.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Filmes Aventura,https://iptv.jvleite7.workers.dev/pluto/66c79a4262e5510008ff68a5.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Filmes de Luta,https://iptv.jvleite7.workers.dev/pluto/6806d62369aec5b19cd628c0.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Filmes Nacionais,https://iptv.jvleite7.workers.dev/pluto/5f5a545d0dbf7f0007c09408.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Historia (United States),https://iptv.jvleite7.workers.dev/pluto/5f1ef1a8cec6be00072a7ac9.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Investigacao,https://iptv.jvleite7.workers.dev/pluto/5f32cf37c9ff2b00082adbc8.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Junior (United States),https://iptv.jvleite7.workers.dev/pluto/5f12141b146d760007934ea7.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Karaoke por Stingray (720p),https://iptv.jvleite7.workers.dev/pluto/604b99d633a72b00078e05ad.m3u8,OFF,timeout,,
-Pluto TV KFOOD,https://iptv.jvleite7.workers.dev/pluto/633ee9ba83c08f00076b60a6.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Kids (United States),https://iptv.jvleite7.workers.dev/pluto/5f1214a637c6fd00079c652f.m3u8,OFF,no audio/video stream,,
-Pluto TV Kids Club (United States),https://iptv.jvleite7.workers.dev/pluto/66c8cae7fed35b0008580ec0.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Natureza,https://iptv.jvleite7.workers.dev/pluto/5f1213ba0ecebc00070e170f.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Negocio Fechado,https://iptv.jvleite7.workers.dev/pluto/64ad7394798def00087b2bfe.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Novelas BR,https://iptv.jvleite7.workers.dev/pluto/5f512365abe1f50007d3ff56.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Paisagens por Stingray (720p),https://iptv.jvleite7.workers.dev/pluto/604a8dedbca75b0007b1c753.m3u8,OFF,timeout,,
-Pluto TV Policial,https://iptv.jvleite7.workers.dev/pluto/678fdf9e3de7c8cf948e8824.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Record News (720p),https://iptv.jvleite7.workers.dev/pluto/6102e04e9ab1db0007a980a1.m3u8,OFF,ps://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FPlutoTVRecordNews%2Fts_aes%2F20260715_014711%2Faudio%2Faudio_pt%2F85915616400384.ts' https://iptv.jvleite7.workers.dev/pluto/6102e04e9ab1db0007a980a1.m3u8: Invalid data found when processing input,,
-Pluto TV Retro,https://iptv.jvleite7.workers.dev/pluto/5f1212ad1728050007a523b8.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Series Acao,https://iptv.jvleite7.workers.dev/pluto/6474ab1da51cb80008bfb5f4.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Series Comedia,https://iptv.jvleite7.workers.dev/pluto/655e5bc94261ca000810cb17.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Series Criminais,https://iptv.jvleite7.workers.dev/pluto/6474ab5cdc7a760008745008.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Series Drama,https://iptv.jvleite7.workers.dev/pluto/65f060d84e01740008d7421f.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Series Novelescas,https://iptv.jvleite7.workers.dev/pluto/691627e4a29a6123e400b3e0.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Series Sci-Fi (United States),https://iptv.jvleite7.workers.dev/pluto/63d2ba2f60bc8f0008981a0e.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Shows por Stingray (720p),https://iptv.jvleite7.workers.dev/pluto/604b91e0692f770007d9f33f.m3u8,OFF,ptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FPlutoTVShowsporStingray%2Fts_aes%2F20260804_132401%2Faudio%2Faudio_en%2F85915616400384.ts' https://iptv.jvleite7.workers.dev/pluto/604b91e0692f770007d9f33f.m3u8: Invalid data found when processing input,,
-Pluto TV Terror Trash,https://iptv.jvleite7.workers.dev/pluto/66aa67493a4ad2000806d91b.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Turbo,https://iptv.jvleite7.workers.dev/pluto/6014761dfb91870008ea6463.m3u8,OFF,.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Fc6009f_pluto%2Fclip%2F60ba35cb1f07220014c06fc2_Lowrider_Brasil_BR_Episodio_04_S1E4%2F720p%2F20210604_072204%2Fhls%2F0-544645%2Fhls_600-00045.ts' https://iptv.jvleite7.workers.dev/pluto/6014761dfb91870008ea6463.m3u8: Invalid data found when processing input,,
-Pluto TV Viagens,https://iptv.jvleite7.workers.dev/pluto/5f32d432d612e50007e56133.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Vida Real,https://iptv.jvleite7.workers.dev/pluto/5f32d4d9ec194100070c7449.m3u8,OK,decoded,audio;video,aac;h264
-Primer TV (1080p),https://iptv.jvleite7.workers.dev/live/06b50f84ee6760cd.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/06b50f84ee6760cd.m3u8: Server returned 5XX Server Error reply,,
-Pronto-socorro: Historias De Emergencia,https://iptv.jvleite7.workers.dev/pluto/61bb72a7bf8c520007a8fd27.m3u8,OK,decoded,audio;video,aac;h264
-Record (576p),https://iptv.jvleite7.workers.dev/live/89113f46a24461a8.m3u8,OK,decoded,audio;video,aac;h264
-Record News (720p),https://iptv.jvleite7.workers.dev/live/aa4612adeb65f8c2.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3
-RecordTV Interior SP,http://200.77.176.130:8000/udp/224.0.0.4:49152,OK,decoded,audio;subtitle;video,aac_latm;arib_caption;h264
-Red Bull TV BR (1080p),https://iptv.jvleite7.workers.dev/live/9231f1f843a47d3a.m3u8,OFF,0] Error when loading first segment 'https://iptv.jvleite7.workers.dev/relay/9231f1f843a47d3a.ts?u=https%3A%2F%2Ffreqsyndlin.redbull.com%2F1026%2Fhls%2Fmaster%2Fplaylist_1920x1080_125055__13147.ts' https://iptv.jvleite7.workers.dev/live/9231f1f843a47d3a.m3u8: Invalid data found when processing input,,
-Rede Brasil (1080p),https://iptv.jvleite7.workers.dev/live/363d695d61725e35.m3u8,OK,decoded,audio;video,aac;h264
-Rede CNT Rio de Janeiro (720p),https://iptv.jvleite7.workers.dev/live/f33b461633fe475d.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/f33b461633fe475d.m3u8: Server returned 5XX Server Error reply,,
-Rede Familia (720p),https://iptv.jvleite7.workers.dev/live/a968242a6f8ae42f.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/a968242a6f8ae42f.m3u8: Server returned 5XX Server Error reply,,
-Rede Globo (720p),https://iptv.jvleite7.workers.dev/live/ce7b26eeb488e17f.m3u8,OK,decoded,audio;video,aac;h264
-Rede Gospel (1080p),https://iptv.jvleite7.workers.dev/live/1c3891aa3c18f02f.m3u8,OK,decoded,audio;video,aac;h264
-Rede Meio Norte (720p),https://iptv.jvleite7.workers.dev/live/87f00cd958bc82d6.m3u8,OK,decoded,audio;video,aac;h264
-Rede Minas (720p),https://iptv.jvleite7.workers.dev/live/efb1a71d4b4400a7.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Rede Seculo 21 (720p),https://iptv.jvleite7.workers.dev/live/6e08f956b0b94686.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/6e08f956b0b94686.m3u8: Server returned 5XX Server Error reply,,
-Rede SPTV (360p),https://iptv.jvleite7.workers.dev/live/b9cc6fd6d0c88035.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Rede TV! (720p),https://iptv.jvleite7.workers.dev/live/e39955f160e916b6.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/e39955f160e916b6.m3u8: Server returned 5XX Server Error reply,,
-Rede TV! Mais,https://iptv.jvleite7.workers.dev/live/75b6cdec091173c6.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Rede Vida (720p),https://iptv.jvleite7.workers.dev/live/e06ad7a09d7a7295.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/e06ad7a09d7a7295.m3u8: Server returned 5XX Server Error reply,,
-RedeTV! Parana,https://iptv.jvleite7.workers.dev/live/594d4e444606ab33.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-RIT TV (1080p),https://iptv.jvleite7.workers.dev/live/5e78282efee03e20.m3u8,OK,decoded,audio;video,aac;h264
-SBT Nacional (720p),https://iptv.jvleite7.workers.dev/live/ed977ca6b0c95341.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-SBT News (720p),https://iptv.jvleite7.workers.dev/live/b471fa58f4caddba.m3u8,OFF,[hls @ 0x557b869e7840] Error when loading first segment 'https://iptv.jvleite7.workers.dev/relay/b471fa58f4caddba.ts?u=https%3A%2F%2Fsbtnews.maissbt.com%2F1-220606.ts' https://iptv.jvleite7.workers.dev/live/b471fa58f4caddba.m3u8: Invalid data found when processing input,,
-SESC TV (720p),https://iptv.jvleite7.workers.dev/live/a6e70ae6b85f7444.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/a6e70ae6b85f7444.m3u8: Server returned 5XX Server Error reply,,
-SIC TV (720p),https://iptv.jvleite7.workers.dev/live/778ad432de74c782.m3u8,OK,decoded,audio;video,aac;h264
-Smithsonian Channel Pluto TV,https://iptv.jvleite7.workers.dev/pluto/6298bd10d88ef000073f16b7.m3u8,OK,decoded,audio;video,aac;h264
-Sony Channel (Brazil) (720p),https://iptv.jvleite7.workers.dev/live/25eb5c582b5b548d.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/25eb5c582b5b548d.m3u8: Server returned 5XX Server Error reply,,
-Sony Movies (720p),https://iptv.jvleite7.workers.dev/live/d1b2b657f682d882.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/d1b2b657f682d882.m3u8: Server returned 5XX Server Error reply,,
-SOU TV,https://iptv.jvleite7.workers.dev/live/271e87ec8d128d7d.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-South Park: Colecao Cartman,https://iptv.jvleite7.workers.dev/pluto/65df71008b24c80008f04281.m3u8,OK,decoded,audio;video,aac;h264
-South Park: Colecao Kenny,https://iptv.jvleite7.workers.dev/pluto/65df704366eec8000898e32f.m3u8,OFF,ps%3A%2F%2Fsiloh-ns1.plutotv.net%2Fc6009f_pluto%2Fclip%2F60ca3828adcfc00013d4dbd3_South_Park_BR_Combustao_Espontanea_S3E2%2F720p%2F20210616_104305%2Fhls%2F522891-906107%2Fhls_600-00066.ts' https://iptv.jvleite7.workers.dev/pluto/65df704366eec8000898e32f.m3u8: Invalid data found when processing input,,
-South Park: Colecao Kyle,https://iptv.jvleite7.workers.dev/pluto/65df713dec9fda0008b7a81d.m3u8,OK,decoded,audio;video,aac;h264
-South Park: Colecao Stan,https://iptv.jvleite7.workers.dev/pluto/65df70b0f7f0af0008c3b316.m3u8,OK,decoded,audio;video,aac;h264
-SporTV 3 (720p),https://iptv.jvleite7.workers.dev/live/e98642d7db529732.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/e98642d7db529732.m3u8: Server returned 5XX Server Error reply,,
-Star Trek,https://iptv.jvleite7.workers.dev/pluto/5f99ac4fded33000078f29ab.m3u8,OK,decoded,audio;video,aac;h264
-Studio Universal Latin America Brazil (720p),https://iptv.jvleite7.workers.dev/live/b6c20db897e58a47.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/b6c20db897e58a47.m3u8: Server returned 5XX Server Error reply,,
-STZ TV (1080p),https://iptv.jvleite7.workers.dev/live/d618beb55be725b3.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-Tastemade Brasil (720p),https://iptv.jvleite7.workers.dev/pluto/5fd1419a3b4f4b000773ba85.m3u8,OFF,t 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FTastemadeBR%2Fts_aes%2F20260428_201531%2Faudio%2Faudio_pt%2F85915616880640.ts' https://iptv.jvleite7.workers.dev/pluto/5fd1419a3b4f4b000773ba85.m3u8: Invalid data found when processing input,,
-TCM 10 HD (1080p),https://iptv.jvleite7.workers.dev/live/c34c88e024c12f8a.m3u8,OK,decoded,audio;video,aac;h264
-TELE 6 (720p),https://iptv.jvleite7.workers.dev/live/85fd22961465fe02.m3u8,OK,decoded,audio;video,aac;h264
-Terra Viva (720p),https://iptv.jvleite7.workers.dev/live/627ed8cf4c4dd351.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3
-The Pet Collective Brazil (720p),https://iptv.jvleite7.workers.dev/pluto/5f515ebac01c0f00080e8439.m3u8,OFF,timeout,,
-TikTok Radio Brasil (1080p),https://iptv.jvleite7.workers.dev/live/446115db91580403.m3u8,OFF,=https%3A%2F%2Flotus.stingray.com%2Fmanifest%2Ftiktok-385ads_tt000-montreal%2Flgchannels%2F8479a16b-18ff-3b4b-afce-8b51932f0603%2F211200%2F17d80a96-d47f-4827-9219-89d12ab58dab%2Fcache%2Fsegment.ts' https://iptv.jvleite7.workers.dev/live/446115db91580403.m3u8: Invalid data found when processing input,,
-TNT Novelas Brazil (720p),https://iptv.jvleite7.workers.dev/live/a339143abd7ba776.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/a339143abd7ba776.m3u8: Server returned 5XX Server Error reply,,
-Tokusato,https://iptv.jvleite7.workers.dev/pluto/5ff609de50ab210008025c1b.m3u8,OK,decoded,audio;video,aac;h264
-Trace Brazuca HD (1080p),https://iptv.jvleite7.workers.dev/live/bbddb7e1e5d3462e.m3u8,OK,decoded,audio;video,aac;h264
-Travel Box Brazil (720p),https://iptv.jvleite7.workers.dev/live/b1e748ad630c4d3f.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/b1e748ad630c4d3f.m3u8: Server returned 5XX Server Error reply,,
-Turma da Monica (720p),https://iptv.jvleite7.workers.dev/pluto/5f997e44949bc70007a6941e.m3u8,OFF,timeout,,
-TV A Folha (720p),https://iptv.jvleite7.workers.dev/live/a5a390e13001d5b5.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Aldeia (720p),https://iptv.jvleite7.workers.dev/live/9108f46c9b75101f.m3u8,OK,decoded,audio;video,aac;h264
-TV Alianca Catarinense (720p),https://iptv.jvleite7.workers.dev/live/008a2e06dcfcad5b.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Alternativa (410p),https://iptv.jvleite7.workers.dev/live/6d25a5d9588942ee.m3u8,OK,decoded,audio;video,aac;h264
-TV Aparecida (720p),https://iptv.jvleite7.workers.dev/live/6f391e457d6dd89a.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/6f391e457d6dd89a.m3u8: Server returned 5XX Server Error reply,,
-TV Arapuan (720p),https://iptv.jvleite7.workers.dev/live/2a5c78a1b8293881.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Assembleia Piaui,https://iptv.jvleite7.workers.dev/live/6f0f2ace1c9e511f.m3u8,OK,decoded,audio;video,aac;h264
-"like Gecko) Chrome/129.0.0.0 Safari/537.36"" group-title=""Canais Abertos"",TV Bahia (1080i)",https://iptv.jvleite7.workers.dev/live/5b7d08dd5dd56153.m3u8,OK,decoded,audio;video,aac;h264
-TV Brasil (720p),https://iptv.jvleite7.workers.dev/live/bb3f1891d8470f1b.m3u8,OK,decoded,audio;video,aac;h264
-TV BRICS Portuguese (1080p),https://iptv.jvleite7.workers.dev/live/0c3c71cb6042ca3a.m3u8,OK,decoded,audio;video,aac;h264
-TV Brusque (720p),https://iptv.jvleite7.workers.dev/live/c71cfc86e138c9b0.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Camara (Brazil) (1080p),https://iptv.jvleite7.workers.dev/live/92f27a69312b2eec.m3u8,OK,decoded,audio;video,aac;h264
-TV Cancao Nova (720p),https://iptv.jvleite7.workers.dev/live/50c2be244719c05a.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/50c2be244719c05a.m3u8: Server returned 5XX Server Error reply,,
-TV Cidade Verde Cuiaba,https://iptv.jvleite7.workers.dev/live/738d6bdd0302c3ab.m3u8,OK,decoded,audio;video,aac;h264
-TV Clube (720p),https://iptv.jvleite7.workers.dev/live/97586fa31368b8fe.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Comunitaria (360p),https://iptv.jvleite7.workers.dev/live/e37c21d321259295.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Cultura,https://iptv.jvleite7.workers.dev/live/11ce442e9e2b3f87.m3u8,OK,decoded,audio;video,aac;h264
-TV Curuca (360p),https://iptv.jvleite7.workers.dev/live/ae1df8387349eb7c.m3u8,OK,decoded,audio;video,aac;h264
-TV Difusao (720p),https://iptv.jvleite7.workers.dev/live/02a5a4605e92b10e.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Evangelizar (720p),https://iptv.jvleite7.workers.dev/live/409a2d98f513a2c6.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/409a2d98f513a2c6.m3u8: Server returned 5XX Server Error reply,,
-TV Fronteira (480i),https://iptv.jvleite7.workers.dev/live/0a0f0f6890ae2484.m3u8,OK,decoded,audio;video,aac;h264
-TV Gazeta (720p),https://iptv.jvleite7.workers.dev/live/73c29234bb1586e4.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/73c29234bb1586e4.m3u8: Server returned 5XX Server Error reply,,
-TV GRANDE NATAL HDTV BRASIL (1080p),https://iptv.jvleite7.workers.dev/live/ec5a51aaedf08e07.m3u8,OK,decoded,audio;video,aac;h264
-TV Justica (720p),https://iptv.jvleite7.workers.dev/live/6fe79f7b3e54d37d.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/6fe79f7b3e54d37d.m3u8: Server returned 5XX Server Error reply,,
-TV Life America (720p),https://iptv.jvleite7.workers.dev/live/27e4ea2c75d52ec1.m3u8,OK,decoded,audio;video,aac;h264
-TV Mais Marica (1080p),https://iptv.jvleite7.workers.dev/live/3866eb2239ae1f24.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Mana Brasil (1080p),https://iptv.jvleite7.workers.dev/live/dad63638fd97f362.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Metropole (720p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/f41fdc8e05eaf5cd.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Natal (1080p),https://iptv.jvleite7.workers.dev/live/4d8354468fb37e0a.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/4d8354468fb37e0a.m3u8: Server returned 5XX Server Error reply,,
-TV Padre Cicero (720p),https://iptv.jvleite7.workers.dev/live/1364a2d92d9ffaac.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Pai Eterno (720p),https://iptv.jvleite7.workers.dev/live/3df7a82a27dee132.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Pantanal MS (360p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/1cd1fb56a8d541f1.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Parana Turismo (720p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/4e8ff2ebcfc702e4.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/4e8ff2ebcfc702e4.m3u8: Server returned 5XX Server Error reply,,
-TV Passo Fundo (720p),https://iptv.jvleite7.workers.dev/live/e25a5a2a2f60fa04.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Ra Tim Bum (720p),https://iptv.jvleite7.workers.dev/live/33372d19ac04e6c6.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/33372d19ac04e6c6.m3u8: Server returned 5XX Server Error reply,,
-TV Sao Raimundo (268p),https://iptv.jvleite7.workers.dev/live/547d337028d02eaf.m3u8,OK,decoded,audio;video,aac;h264
-TV Senado (Brazil) (720p),https://iptv.jvleite7.workers.dev/live/7e856870f7aa1467.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/7e856870f7aa1467.m3u8: Server returned 5XX Server Error reply,,
-TV Series (480p),https://iptv.jvleite7.workers.dev/live/0c5072ee43ad66a4.m3u8,OK,decoded,audio;video,aac;h264
-TV Sim Cachoeiro (720p),https://iptv.jvleite7.workers.dev/live/6f7ff0ae2eb27a7a.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Sim Sao Mateus (720p),https://iptv.jvleite7.workers.dev/live/1ce39b6db430d3e0.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Sul Bahia (320p),https://iptv.jvleite7.workers.dev/live/62aa2380ff9bc77a.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Terceiro Anjo (360p),https://iptv.jvleite7.workers.dev/live/5829133f7452bbf2.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV UFOP (1080p),https://iptv.jvleite7.workers.dev/live/1ff4900fc770189c.m3u8,OK,decoded,audio;video,aac;h264
-TV Universal (480p),https://iptv.jvleite7.workers.dev/live/95361b24f38687a4.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Vicosa (480p),https://iptv.jvleite7.workers.dev/live/ebeaa6d76ea40080.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Vila Real (720p),https://iptv.jvleite7.workers.dev/live/1dc292470dc1f7f2.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Zoom (720p),https://iptv.jvleite7.workers.dev/live/8e556470fdfaf572.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV+Pet,https://iptv.jvleite7.workers.dev/live/1964f804fad9affa.m3u8,OK,decoded,audio;video,aac;h264
-TVC-Rio,https://iptv.jvleite7.workers.dev/live/acfe06127fb60035.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TVCOM Maceio (480p),https://iptv.jvleite7.workers.dev/live/430a1d72b711e30e.m3u8,OK,decoded,audio;video,aac;h264
-TVE Bahia (1080p),https://iptv.jvleite7.workers.dev/live/cf2fcf23585ace7c.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TVE RS (1080p),https://iptv.jvleite7.workers.dev/live/cdc3153c6a07c6d0.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TVideoNews (720p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/3e98a4039dddf0f2.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TVitape (720p),https://iptv.jvleite7.workers.dev/live/d91996fb2304bb7d.m3u8,OK,decoded,audio;video,aac;h264
-TVLatinaSat (720p),https://iptv.jvleite7.workers.dev/live/b8cfea35371a21ca.m3u8,OK,decoded,audio;video,aac;h264
-UMA TV,https://iptv.jvleite7.workers.dev/live/e6fe1ca91f4a6304.m3u8,OK,decoded,audio;video,aac;h264
-Unisul TV (720p),https://iptv.jvleite7.workers.dev/live/7caf6ed8e837a1f2.m3u8,OK,decoded,audio;video,aac;h264
-VEJA+ TV (1080p),https://iptv.jvleite7.workers.dev/live/0d1eb1c206bc11f9.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3
-WooHoo (720p),https://iptv.jvleite7.workers.dev/live/7f21dd01c12ee20a.m3u8,OFF,https://iptv.jvleite7.workers.dev/live/7f21dd01c12ee20a.m3u8: Server returned 5XX Server Error reply,,
-CINDIE TV (1080p),https://iptv.jvleite7.workers.dev/live/2d97dcdba851efe4.m3u8,OK,decoded,audio;video,aac;h264
-IMPD TV Worldwide (1080p),https://iptv.jvleite7.workers.dev/live/e5dd29d86eb236a2.m3u8,OK,decoded,audio;video,aac;h264
-Kuriakos Cine (1080p),https://iptv.jvleite7.workers.dev/live/af8eac6978ca25e7.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3
-TV Show Fortaleza (720p),https://iptv.jvleite7.workers.dev/live/fb3d573a076613b2.m3u8,OK,decoded,audio;video,aac;h264
-BR Nord Ⓖ,https://iptv.jvleite7.workers.dev/live/41aef0cccdb4637f.m3u8,OK,decoded,audio;video,aac;h264
-BR Süd Ⓖ,https://iptv.jvleite7.workers.dev/live/61eec820735f325f.m3u8,OK,decoded,audio;video,aac;h264
-A Caçadora de Relíquias,https://iptv.jvleite7.workers.dev/pluto/67e59a6557487a8b7fe73e23.m3u8,OFF,media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Fc6009f_pluto%2Fclip%2F612e3e4974c96b0013161464_Relic_Hunter_BR_Sufocado_S3E11%2F720p%2F20210831_073554%2Fhls%2F0-691859%2Fhls_600-00101.ts' https://iptv.jvleite7.workers.dev/pluto/67e59a6557487a8b7fe73e23.m3u8: Invalid data found when processing input,,
-A Feiticeira,https://iptv.jvleite7.workers.dev/pluto/631fa8dd7f25240007099a40.m3u8,OK,decoded,audio;video,aac;h264
-AdoroCinema,https://iptv.jvleite7.workers.dev/pluto/698392af0cca0cc3458666ab.m3u8,OFF,timeout,,
-As Tartarugas Ninja,https://iptv.jvleite7.workers.dev/pluto/63dd5c904e83e700088fb68a.m3u8,OK,decoded,audio;video,aac;h264
-Assombrações,https://iptv.jvleite7.workers.dev/pluto/620d1512c7986a0007220213.m3u8,OK,decoded,audio;video,aac;h264
-Baby Shark TV,https://iptv.jvleite7.workers.dev/pluto/63da6bcd60bc8f0008a5d364.m3u8,OK,decoded,audio;video,aac;h264
-Beyblade,https://iptv.jvleite7.workers.dev/pluto/633dc392e0282400071b0d39.m3u8,OK,decoded,audio;video,aac;h264
-Blue Bloods,https://iptv.jvleite7.workers.dev/pluto/69fcc8cfb83300b380051794.m3u8,OK,decoded,audio;video,aac;h264
-Boruto: Naruto Next Generations,https://iptv.jvleite7.workers.dev/pluto/656f389c3944b60008e5bdab.m3u8,OK,decoded,audio;video,aac;h264
-CBS News 24/7,https://iptv.jvleite7.workers.dev/pluto/62310f66d5888f0007534342.m3u8,OFF,gment 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FCBSN247%2Fts_aes%2F20260726_133901%2Faudio%2Faudio_en%2F85915618560000.ts' https://iptv.jvleite7.workers.dev/pluto/62310f66d5888f0007534342.m3u8: Invalid data found when processing input,,
-Caçadores de Óvnis,https://iptv.jvleite7.workers.dev/pluto/656e2a10954b020008ed167c.m3u8,OK,decoded,audio;video,aac;h264
-Charmed: Jovens Bruxas,https://iptv.jvleite7.workers.dev/pluto/67f9602ee173fa5664fafae8.m3u8,OK,decoded,audio;video,aac;h264
-Clube do Terror,https://iptv.jvleite7.workers.dev/pluto/64e501eec630a900088ed0f8.m3u8,OK,decoded,audio;video,aac;h264
-Cocoricó,https://iptv.jvleite7.workers.dev/pluto/62d969fd8451a30007f0fd94.m3u8,OK,decoded,audio;video,aac;h264
-Death Note,https://iptv.jvleite7.workers.dev/pluto/625464a945b6a200079257d1.m3u8,OK,decoded,audio;video,aac;h264
-Estado Paranormal,https://iptv.jvleite7.workers.dev/pluto/656e2a81954b020008ed17a4.m3u8,OK,decoded,audio;video,aac;h264
-Euronews Português,https://iptv.jvleite7.workers.dev/pluto/619e6614c9d9650007a2b171.m3u8,OFF,nt 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FEuronewsBR%2Fts_aes%2F20260714_222756%2Faudio%2Faudio_pt%2F85915618320384.ts' https://iptv.jvleite7.workers.dev/pluto/619e6614c9d9650007a2b171.m3u8: Invalid data found when processing input,,
-FIFA+,https://iptv.jvleite7.workers.dev/pluto/66997e8d3a4ad20008e50be9.m3u8,OFF,t 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FFIFAPlusInt%2Fts_aes%2F20260710_203636%2Faudio%2Faudio_en%2F85915618800640.ts' https://iptv.jvleite7.workers.dev/pluto/66997e8d3a4ad20008e50be9.m3u8: Invalid data found when processing input,,
-Filmelier TV,https://iptv.jvleite7.workers.dev/pluto/633dcebd80386500074a2461.m3u8,OK,decoded,audio;video,aac;h264
-Grachi,https://iptv.jvleite7.workers.dev/pluto/69c716efeac9a2720ebcaaff.m3u8,OK,decoded,audio;video,aac;h264
-Homeful,https://iptv.jvleite7.workers.dev/pluto/67603668f433320008760af1.m3u8,OFF,ent 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FHomefulBR%2Fts_aes%2F20260513_183532%2Faudio%2Faudio_pt%2F85915618320384.ts' https://iptv.jvleite7.workers.dev/pluto/67603668f433320008760af1.m3u8: Invalid data found when processing input,,
-Hunter x Hunter,https://iptv.jvleite7.workers.dev/pluto/65d9167818036500080e8780.m3u8,OK,decoded,audio;video,aac;h264
-Inspetor Bugiganga,https://iptv.jvleite7.workers.dev/pluto/69162648d03565d6c8c8df97.m3u8,OK,decoded,audio;video,aac;h264
-JoJo’s Bizarre Adventure,https://iptv.jvleite7.workers.dev/pluto/66c7982f6838ee00085f0d24.m3u8,OK,decoded,audio;video,aac;h264
-MTV Rocks,https://iptv.jvleite7.workers.dev/pluto/66a01e07d2d50d0008100d6a.m3u8,OK,decoded,audio;video,aac;h264
-Mais MasterChef Brasil,https://iptv.jvleite7.workers.dev/pluto/681111be5e0764e297fb200e.m3u8,OK,decoded,audio;video,aac;h264
-MasterChef Brasil Profissionais,https://iptv.jvleite7.workers.dev/pluto/681110afc188aa63faa147e0.m3u8,OK,decoded,audio;video,aac;h264
-Mistérios sem Solução,https://iptv.jvleite7.workers.dev/pluto/62b5c5a064163d0007b2efe6.m3u8,OK,decoded,audio;video,aac;h264
-Moranguinho,https://iptv.jvleite7.workers.dev/pluto/63eba189c111bc0008ff59c5.m3u8,OK,decoded,audio;video,aac;h264
-Mr. Bean,https://iptv.jvleite7.workers.dev/pluto/69fca7dd2387729708faa32c.m3u8,OK,decoded,audio;video,aac;h264
-Naruto,https://iptv.jvleite7.workers.dev/pluto/5f6df5a173d7340007c559f7.m3u8,OK,decoded,audio;video,aac;h264
-Naruto Shippuden,https://iptv.jvleite7.workers.dev/pluto/64c92f965580090008084968.m3u8,OK,decoded,audio;video,aac;h264
-NatureTime,https://iptv.jvleite7.workers.dev/pluto/681ba2ad93d3d19bcab47433.m3u8,OFF, 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FNatureTimeBR%2Fts_aes%2F20260417_164216%2Faudio%2Faudio_pt%2F85915618560000.ts' https://iptv.jvleite7.workers.dev/pluto/681ba2ad93d3d19bcab47433.m3u8: Invalid data found when processing input,,
-Novelíssima,https://iptv.jvleite7.workers.dev/pluto/6a281d2bd1e6d3ba6b553c7c.m3u8,OFF,t 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FNovelissima%2Fts_aes%2F20260714_154707%2Faudio%2Faudio_pt%2F85915618800640.ts' https://iptv.jvleite7.workers.dev/pluto/6a281d2bd1e6d3ba6b553c7c.m3u8: Invalid data found when processing input,,
-O Homem que veio do Céu,https://iptv.jvleite7.workers.dev/pluto/62052d3b4eeb740007fbe125.m3u8,OK,decoded,audio;video,aac;h264
-O Rei do Bairro,https://iptv.jvleite7.workers.dev/pluto/6a5520691a435d3dfcda8340.m3u8,OK,decoded,audio;video,aac;h264
-Os Arquivos do FBI,https://iptv.jvleite7.workers.dev/pluto/620d12a82e8ac50007c269c3.m3u8,OK,decoded,audio;video,aac;h264
-Os Padrinhos Mágicos,https://iptv.jvleite7.workers.dev/pluto/63221e41af69b500076f84e7.m3u8,OK,decoded,audio;video,aac;h264
-Os Smurfs,https://iptv.jvleite7.workers.dev/pluto/68b88ae1943f6fb1fb2ad749.m3u8,OK,decoded,audio;video,aac;h264
-PFL MMA,https://iptv.jvleite7.workers.dev/pluto/64f6180130ab3300083d896b.m3u8,OK,decoded,audio;video,aac;h264
-PORTATV,https://iptv.jvleite7.workers.dev/pluto/69440d0611f6c6384ab78306.m3u8,OFF,gment 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FPortaTV%2Fts_aes%2F20260729_012047%2Faudio%2Faudio_pt%2F85915619280896.ts' https://iptv.jvleite7.workers.dev/pluto/69440d0611f6c6384ab78306.m3u8: Invalid data found when processing input,,
-Pegadinhas - Just for Laughs,https://iptv.jvleite7.workers.dev/pluto/67802a22a5d8215f99dcee30.m3u8,OFF,'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FJustforLaughs%2Fts_aes%2F20260714_224821%2Faudio%2Faudio_en%2F85915619280896.ts' https://iptv.jvleite7.workers.dev/pluto/67802a22a5d8215f99dcee30.m3u8: Invalid data found when processing input,,
-Pluto TV Cine Trapalhões,https://iptv.jvleite7.workers.dev/pluto/6a5520365badf45d3088b8d8.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Ficção Científica,https://iptv.jvleite7.workers.dev/pluto/5fa15ad6367e170007cdd098.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Mistérios,https://iptv.jvleite7.workers.dev/pluto/5fac52f142044f00078e2a51.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Netmovies,https://iptv.jvleite7.workers.dev/pluto/663b9de4f999220008230fa8.m3u8,OK,decoded,audio;video,aac;h264
-Pluto TV Séries Família,https://iptv.jvleite7.workers.dev/pluto/69c71615a8ef5d7f33e7322e.m3u8,OK,decoded,audio;video,aac;h264
-Pokémon,https://iptv.jvleite7.workers.dev/pluto/687007a8ee4155e89a8f6d67.m3u8,OK,decoded,audio;video,aac;h264
-Popeye,https://iptv.jvleite7.workers.dev/pluto/677d93f37bffa600080795e7.m3u8,OK,decoded,audio;video,aac;h264
-RACER Brasil,https://iptv.jvleite7.workers.dev/pluto/65a6818c7bdc8d0008457b21.m3u8,OFF,t 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FRacerBrasil%2Fts_aes%2F20260421_190247%2Faudio%2Faudio_pt%2F85915619040256.ts' https://iptv.jvleite7.workers.dev/pluto/65a6818c7bdc8d0008457b21.m3u8: Invalid data found when processing input,,
-Realmadrid TV,https://iptv.jvleite7.workers.dev/pluto/63dac28760bc8f0008a7654b.m3u8,OFF,timeout,,
-Red Bull TV,https://iptv.jvleite7.workers.dev/pluto/67813f3162bf016db944c9ab.m3u8,OFF,t 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FRedBullTVBR%2Fts_aes%2F20260730_194026%2Faudio%2Faudio_pt%2F85915619040256.ts' https://iptv.jvleite7.workers.dev/pluto/67813f3162bf016db944c9ab.m3u8: Invalid data found when processing input,,
-Runtime,https://iptv.jvleite7.workers.dev/pluto/62c5d32e2c48f9000715b6e9.m3u8,OFF,ent 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FRuntimeBR%2Fts_aes%2F20260422_202836%2Faudio%2Faudio_pt%2F85915619520512.ts' https://iptv.jvleite7.workers.dev/pluto/62c5d32e2c48f9000715b6e9.m3u8: Invalid data found when processing input,,
-SFT Combat,https://iptv.jvleite7.workers.dev/pluto/6660b636cb3ea10008429c6a.m3u8,OFF,ent 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FSFTCombat%2Fts_aes%2F20260809_131401%2Faudio%2Faudio_pt%2F85915619280896.ts' https://iptv.jvleite7.workers.dev/pluto/6660b636cb3ea10008429c6a.m3u8: Invalid data found when processing input,,
-Sobrevivi,https://iptv.jvleite7.workers.dev/pluto/69fca7fadf0b6d462c0a0ac3.m3u8,OK,decoded,audio;video,aac;h264
-Sony One Shark Tank Brasil,https://iptv.jvleite7.workers.dev/pluto/6647c0b91050b60008390de4.m3u8,OFF,timeout,,
-Super Onze,https://iptv.jvleite7.workers.dev/pluto/63988c2750108d00072e2686.m3u8,OK,decoded,audio;video,aac;h264
-TV Cultura,https://iptv.jvleite7.workers.dev/pluto/62e010e6cd663f0007e57dc8.m3u8,OFF,ent 'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FTVCultura%2Fts_aes%2F20260812_101411%2Faudio%2Faudio_pt%2F85915619520512.ts' https://iptv.jvleite7.workers.dev/pluto/62e010e6cd663f0007e57dc8.m3u8: Invalid data found when processing input,,
-Tastemade Casa,https://iptv.jvleite7.workers.dev/pluto/68b88821e542386ab0bf5bef.m3u8,OFF,'https://iptv.jvleite7.workers.dev/pluto-media.ts?u=https%3A%2F%2Fsiloh-ns1.plutotv.net%2Flive%2Fv1%2Fprd%2FTastemadeCasa%2Fts_aes%2F20260828_211521%2Faudio%2Faudio_pt%2F85915619280896.ts' https://iptv.jvleite7.workers.dev/pluto/68b88821e542386ab0bf5bef.m3u8: Invalid data found when processing input,,
-Tastemade Viagem,https://iptv.jvleite7.workers.dev/pluto/68b8875777201ec428d9eaa5.m3u8,OFF,timeout,,
-Teletubbies,https://iptv.jvleite7.workers.dev/pluto/64e50055286f6b000838c067.m3u8,OK,decoded,audio;video,aac;h264
-The Walking Dead by AMC,https://iptv.jvleite7.workers.dev/pluto/678aa104680721c77c506746.m3u8,OFF,timeout,,
-TikTok Radio Brasil,https://iptv.jvleite7.workers.dev/pluto/63dac32bda711800088a2ba3.m3u8,OFF,timeout,,
-Times Brasil | CNBC,https://iptv.jvleite7.workers.dev/pluto/679a973a97782f0008ff4bb6.m3u8,OFF,timeout,,
-Top Barça,https://iptv.jvleite7.workers.dev/pluto/6888ee858f4a4aa11feb9430.m3u8,OFF,timeout,,
-Topa ou Não Topa EUA,https://iptv.jvleite7.workers.dev/pluto/69fca82395df3283d2b60ef9.m3u8,OK,decoded,audio;video,aac;h264
-UFC,https://iptv.jvleite7.workers.dev/pluto/69a20556814d27f4ae630a92.m3u8,OFF,timeout,,
-World Poker Tour,https://iptv.jvleite7.workers.dev/pluto/63eba66da8b2270008436b10.m3u8,OK,decoded,audio;video,aac;h264
-Yu-Gi-Oh,https://iptv.jvleite7.workers.dev/pluto/63988a50be012600070f5db3.m3u8,OK,decoded,audio;video,aac;h264
-Z Nation,https://iptv.jvleite7.workers.dev/pluto/66b3af48d2d50d00083d6936.m3u8,OK,decoded,audio;video,aac;h264
-News State BR JH,https://iptv.jvleite7.workers.dev/fast?u=https%3A%2F%2Fjmp2.uk%2Fstvp-IN300085JT,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Live Cams,https://iptv.jvleite7.workers.dev/live/04f464ddd7fee4b0.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net MILF,https://iptv.jvleite7.workers.dev/live/a6a5f3bf4c8dcc13.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Big Dick,https://iptv.jvleite7.workers.dev/live/92b1c632f177249e.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Big Tits,https://iptv.jvleite7.workers.dev/live/6297a4b06ef2c4d3.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Fetish,https://iptv.jvleite7.workers.dev/live/d017fa69a5b65176.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Pornstar,https://iptv.jvleite7.workers.dev/live/f471227c592d0d6a.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Big Ass,https://iptv.jvleite7.workers.dev/live/0d93e88bfc66e2c1.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Interracial,https://iptv.jvleite7.workers.dev/live/1b3f1b057dff10ba.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Latina,https://iptv.jvleite7.workers.dev/live/7558ecfb5ef5e369.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net POV,https://iptv.jvleite7.workers.dev/live/d81a87d3fab09489.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Blowjob,https://iptv.jvleite7.workers.dev/live/c732d217028c3378.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Hardcore,https://iptv.jvleite7.workers.dev/live/8fc7c2d15b3e4ea7.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Cuckold,https://iptv.jvleite7.workers.dev/live/ae17f5c8e4c63bd8.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Threesome,https://iptv.jvleite7.workers.dev/live/28f8d5aaa7958e8b.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Russian,https://iptv.jvleite7.workers.dev/live/fae98a3f7751ceb7.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Lesbian,https://iptv.jvleite7.workers.dev/live/59861e55cd874197.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Rough,https://iptv.jvleite7.workers.dev/live/5bfdb276db0d8c3c.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Gangbang,https://iptv.jvleite7.workers.dev/live/5298aac38047cf11.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Anal,https://iptv.jvleite7.workers.dev/live/afadda3700889391.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Compilation,https://iptv.jvleite7.workers.dev/live/81a5cad10264bf03.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Brunette,https://iptv.jvleite7.workers.dev/live/12618cb04e147f59.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Blonde,https://iptv.jvleite7.workers.dev/live/654b1b6ff0745db5.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Gay,https://iptv.jvleite7.workers.dev/live/6a80a38303e649cd.m3u8,OK,decoded,audio;video,aac;h264
-AdultIPTV.net Asian,https://iptv.jvleite7.workers.dev/live/d68ce6bb399ccef3.m3u8,OK,decoded,audio;video,aac;h264
+canal,url,status,resultado,tipos,codecs,upstream_url,upstream_status,upstream_resultado,upstream_tipos,upstream_codecs
+A&E Latin America Brazil (720p),http://170.83.16.50/AeE/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Adesso TV (720p),https://iptv.jvleite7.workers.dev/live/dd7b48f1fe496ba7.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Adrenalina Pura TV Brazil,https://iptv.jvleite7.workers.dev/pluto/61b790b985706b00072cb797.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Adult Swim Latin America Brazil (720p),http://168.197.104.22/ADULT_SWIM/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AgroCanal,https://iptv.jvleite7.workers.dev/live/d980d6245a65302d.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AgroMais (720p),http://45.162.64.114/AGROMAIS/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Amazon Sat (1080p),https://iptv.jvleite7.workers.dev/live/3197750150e5d5d5.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AMC Latin America Brazil (720p),http://170.83.49.66:8083/AMCHD/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Araruna TV,https://iptv.jvleite7.workers.dev/live/af8c3986275b6546.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Arte 1 (720p),http://45.162.64.114/ARTE1/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Avatar: A lenda de Aang,https://iptv.jvleite7.workers.dev/pluto/6759eeb1bd523200083b4f29.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AWTV (1080p) [Geo-blocked],https://iptv.jvleite7.workers.dev/live/95248759728bb3de.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AXN (Brazil) (720p),http://170.83.16.50/AXN/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+BabyFirst Brazil,https://iptv.jvleite7.workers.dev/pluto/5f4fb4cf605ddf000748e16f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Band (576p),https://iptv.jvleite7.workers.dev/live/57b9e9857f989fc1.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Band Sports (720p),http://45.162.64.114/BAND_SPORTS/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+BandNews (720p),http://45.162.64.114/BAND_NEWS/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+BET Pluto TV (United States) BR,https://iptv.jvleite7.workers.dev/pluto/5ff768b6a4c8b80008498610.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+BM&C News (720p),https://iptv.jvleite7.workers.dev/pluto/666c9c60a7efd40008f552f0.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Boas Novas (1080p),https://iptv.jvleite7.workers.dev/live/6caff20210e3446b.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Bob Esponja Calca Quadrada (720p),https://iptv.jvleite7.workers.dev/pluto/62545c0b002f4b0007688b61.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Box Kids TV (720p),http://170.83.49.66:8083/BOXKIDSHD/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Canal 38 (720p),https://iptv.jvleite7.workers.dev/live/5df48c7721470153.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Canal do Boi (720p),http://45.162.64.114/CANAL_DO_BOI/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Canal Educação (720p),https://iptv.jvleite7.workers.dev/live/b86764c528f849c6.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Canal Futura (720p),http://45.162.64.114/FUTURA/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Canal Gov (720p),https://iptv.jvleite7.workers.dev/live/54d0bfb9f9689c92.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Canal Metropolitano de Noticias,https://iptv.jvleite7.workers.dev/live/d2b1bb92360af81b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Canal Rural (720p),http://170.83.49.66:8083/CANALRURALHD/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Canal UOL (1080p),https://iptv.jvleite7.workers.dev/live/692a3c38ec9b184d.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Chef TV (720p),http://168.197.104.22/CHEF_TV/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Chroma TV (480p),https://iptv.jvleite7.workers.dev/live/6861cb0189f55ac3.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Cine Terror BR,https://iptv.jvleite7.workers.dev/pluto/5f12111c9e6c2c00078ef3bb.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Classique TV (360p),https://iptv.jvleite7.workers.dev/live/ed91809c5deb0ece.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+COM Brasil (720p),https://iptv.jvleite7.workers.dev/live/bda72d2f1f418131.m3u8,OK,decoded,audio;video,aac;hevc,,,,,
+Comedy Central Pluto TV BR,https://iptv.jvleite7.workers.dev/pluto/5f357e91b18f0b00073583d2.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Comedy Central South Park (United States),https://iptv.jvleite7.workers.dev/pluto/609ae66b359b270007869ff1.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Conecta Mais TV (720p),https://iptv.jvleite7.workers.dev/live/26316af23b948204.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+ConecTV Brasil (720p),https://iptv.jvleite7.workers.dev/live/9500b6553f4fd76d.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+CSI: Miami BR,https://iptv.jvleite7.workers.dev/pluto/63eb9c5351f5d000085e8d7e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Cultura Fast (720p),https://iptv.jvleite7.workers.dev/live/85a9adc299ad7691.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Despertar TV (720p),https://iptv.jvleite7.workers.dev/live/56518eb6eb443f48.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Detetives Medicos,https://iptv.jvleite7.workers.dev/pluto/638df93ae2f2a3000737c168.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Diff'rent Strokes Arnold,https://iptv.jvleite7.workers.dev/pluto/61f1d27a189ed10007b7393e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+DumDum (720p),http://45.162.64.114/ZOOMOO_KIDS/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Elemental Channel,https://iptv.jvleite7.workers.dev/live/ad459b6508f2dca3.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+ElyTV (360p),https://iptv.jvleite7.workers.dev/live/677100353fe7c23a.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+ESPN 3 (720p),http://181.78.197.59:8000/play/a081/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+ESPN 4 (1080p),http://181.78.197.59:8000/play/a07n/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+ESPN (1080p),http://181.78.197.59:8000/play/a07z/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+EUTV (720p),https://iptv.jvleite7.workers.dev/live/df7db50e3c793e07.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+FailArmy Brazil,https://iptv.jvleite7.workers.dev/pluto/5f5141c1605ddf000748eb1b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Fala Litoral (480p),https://iptv.jvleite7.workers.dev/live/5030735364d54b4f.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+FIFA+ Portuguese (720p),https://iptv.jvleite7.workers.dev/live/ee0ff293a0ade5a9.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3,,,,,
+Filmes Suspense,https://iptv.jvleite7.workers.dev/pluto/5f171d3442a0500007362f22.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Fish TV (720p),http://45.162.64.114/FISH_TV/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Fonte TV,https://iptv.jvleite7.workers.dev/live/874c397db284be9f.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Fora Tedio TV (720p),https://iptv.jvleite7.workers.dev/live/4eb02d35045a96dc.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Futura (720p),http://168.197.104.22/FUTURA/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+ge Fast (1080p),https://iptv.jvleite7.workers.dev/live/2b10ce115e6d7856.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3,,,,,
+Gospel Cartoon (360p),https://iptv.jvleite7.workers.dev/live/44206badad025b2c.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Gospel Movie TV (360p),https://iptv.jvleite7.workers.dev/live/698015f77c3bc7c5.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+History 2 Latin America Brazil (720p),http://45.177.114.114/HISTORY_2/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+History (Brazil) (720p),http://45.177.114.114/HISTORY/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+iCarly (United States),https://iptv.jvleite7.workers.dev/pluto/620ff46e0a576e0007dc2f89.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+ISTV (Brazil) (720p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/ac2024a8e23820d0.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+J3NEWS TV,https://iptv.jvleite7.workers.dev/live/b71abc5a96d29f69.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Jornada nas Estrelas: A Nova Geracao,https://iptv.jvleite7.workers.dev/pluto/69162ad79505d0f3b1ebf07d.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Jornada nas Estrelas: Deep Space Nine,https://iptv.jvleite7.workers.dev/pluto/69162af591700f4c4c135c95.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Jornada nas Estrelas: Voyager,https://iptv.jvleite7.workers.dev/pluto/69162b1ef189e235142b17ab.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Jovem Pan News (720p),http://170.83.49.66:8083/JOVEMPANNEWSHD/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Kenan & Kel BR,https://iptv.jvleite7.workers.dev/pluto/5ffcc5130fd98c0007f2e216.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+KpopTV Play (576p),https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Kuriakos Kids (1080p),https://iptv.jvleite7.workers.dev/live/c8859720e9b514f2.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+L!ke (1080p),https://iptv.jvleite7.workers.dev/live/42934d449f91da85.m3u8,OK,decoded,audio;data;video,aac;hevc;scte_35;timed_id3,,,,,
+Lamore Rock Show WebTV (720p),https://iptv.jvleite7.workers.dev/live/b0841e88d789dba8.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Lifetime Latin America Brazil (720p),http://170.83.16.50/LIFETIME/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Loading (720p),https://iptv.jvleite7.workers.dev/live/047bdc92faca3808.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MacGyver (United States),https://iptv.jvleite7.workers.dev/pluto/63eb9dc84e83e70008abea92.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MasterChef,https://iptv.jvleite7.workers.dev/pluto/6077045b6031bd00078de127.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Are you the One?,https://iptv.jvleite7.workers.dev/pluto/5f6108d8cc331900075e98e4.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Biggest Pop BR (1080p),https://iptv.jvleite7.workers.dev/pluto/6047fbdbbb776a0007e7f2ff.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Catfish (United States) BR (720p),https://iptv.jvleite7.workers.dev/pluto/626c2a3502d84a0007cec817.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Classic BR (720p),https://iptv.jvleite7.workers.dev/pluto/66a01dcb8561260008b0a41d.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Com o Ex,https://iptv.jvleite7.workers.dev/pluto/61a528267e1b8b0007357920.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Dating (United States),https://iptv.jvleite7.workers.dev/pluto/6851bb3426beced4f2f67ee6.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Drag,https://iptv.jvleite7.workers.dev/pluto/645111f1d8436e00081bb2bd.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Jovens e Maes (720p),https://iptv.jvleite7.workers.dev/pluto/620fdc7d8a36fc000710e3ba.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Pluto TV (United States) BR,https://iptv.jvleite7.workers.dev/pluto/5f1212fb81e85c00077ae9ef.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Reality (United States) (720p),https://iptv.jvleite7.workers.dev/pluto/6851bdfc9ac48fde5e07f5ae.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Shore,https://iptv.jvleite7.workers.dev/pluto/625463563b8ddc0007134aeb.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Music Box Brazil (720p),http://168.197.104.22/MUSIC/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MyTime Movie Network (Brazil) (720p),https://iptv.jvleite7.workers.dev/live/36d5024701674a1b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+N Sports (1080p),https://iptv.jvleite7.workers.dev/live/90ce25e31811af4e.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3,,,,,
+Naruto Brazil,https://iptv.jvleite7.workers.dev/pluto/5f6df5a173d7340007c559f7.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+NCIS (United States),https://iptv.jvleite7.workers.dev/pluto/63eb9fdda995710008991c54.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Nick Jr. Club (United States) BR (720p),https://iptv.jvleite7.workers.dev/pluto/6824ce95f09106f4b18f4114.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Nickelodeon (Brazil) (480p),https://iptv.jvleite7.workers.dev/live/6ff301a22120b873.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Nickelodeon Classico (720p),https://iptv.jvleite7.workers.dev/pluto/6824ce10c5d53e1351ceb8d1.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Nickelodeon Teen (United States) (720p),https://iptv.jvleite7.workers.dev/pluto/60f5fabf0721880007cd50e3.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Nickelodeon Toons (United States) (720p),https://iptv.jvleite7.workers.dev/pluto/645951c0e94c38000802d2cb.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+"like Gecko) Chrome/149.0.0.0 Safari/537.36"" group-title=""Desenhos e Animes"",NickToons Brasil (480p)",https://iptv.jvleite7.workers.dev/live/618974292fd374da.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Nova Era TV (1080p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/2bd2539ff42d2068.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Novo Tempo (720p),http://45.162.64.114/NOVO_TEMPO/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+NTV (Brazil) (720p),https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Numbers (United States),https://iptv.jvleite7.workers.dev/pluto/67f960c5441853fe50e7afc1.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+O Dia TV,https://iptv.jvleite7.workers.dev/live/7e55d457d1a95080.m3u8,OK,decoded,audio;data;video,h264;mp3;timed_id3,,,,,
+O Encantador de Caes,https://iptv.jvleite7.workers.dev/pluto/61099df8cee03b00074b2ecf.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+O Reino Infantil,https://iptv.jvleite7.workers.dev/pluto/5f5c216df68f920007888315.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Oggy e as Baratas Tontas,https://iptv.jvleite7.workers.dev/pluto/63221bafdc6e110007b50270.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+One Piece BR,https://iptv.jvleite7.workers.dev/pluto/624b1c8d4321e200073ee421.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Petlovers TV,https://iptv.jvleite7.workers.dev/live/6ac3052e567b8527.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Play TV (720p),https://iptv.jvleite7.workers.dev/live/638e35320a753d86.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Plena TV (720p),https://iptv.jvleite7.workers.dev/live/092be05e4fc450a1.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Plenitude TV,https://iptv.jvleite7.workers.dev/live/910483c3c4a8be2a.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Pluto TV Aliens,https://iptv.jvleite7.workers.dev/pluto/6806d65e84f24b70109485fa.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Animais,https://iptv.jvleite7.workers.dev/pluto/6474aa984cfc2c0008883a92.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Anime (United States) BR,https://iptv.jvleite7.workers.dev/pluto/5f12136385bccc00070142ed.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Anime Acao,https://iptv.jvleite7.workers.dev/pluto/604b79c558393100078faeef.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Bang Bang,https://iptv.jvleite7.workers.dev/pluto/663b9dc7cb3ea10008f1a0ce.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Canal UOL (720p),https://iptv.jvleite7.workers.dev/pluto/64b9370b409629000802d32b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cine Classicos,https://iptv.jvleite7.workers.dev/pluto/5fa1612a669ba0000702017b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cine Comedia (United States) BR,https://iptv.jvleite7.workers.dev/pluto/5f12101f0b12f00007844c7c.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cine Crime,https://iptv.jvleite7.workers.dev/pluto/6479ff764f5ba5000878dfe2.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cine Drama (United States),https://iptv.jvleite7.workers.dev/pluto/5f1210d14ae1f80007bafb1d.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cine Familia,https://iptv.jvleite7.workers.dev/pluto/5f171f032cd22e0007f17f3d.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cine Inspiracao,https://iptv.jvleite7.workers.dev/pluto/5fa991b1f09e020007e78626.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cine Romance,https://iptv.jvleite7.workers.dev/pluto/5f171f988ab9780007fa95ea.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cine Sucessos,https://iptv.jvleite7.workers.dev/pluto/5f120e94a5714d00074576a1.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Desenhos Classicos,https://iptv.jvleite7.workers.dev/pluto/655e5c4d2c46f3000877a54b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Esportes,https://iptv.jvleite7.workers.dev/pluto/5f32d2db0af67400077f29c4.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Ficcao Cientifica,https://iptv.jvleite7.workers.dev/pluto/5fa15ad6367e170007cdd098.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Filmes Acao,https://iptv.jvleite7.workers.dev/pluto/5f120f41b7d403000783a6d6.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Filmes Aventura,https://iptv.jvleite7.workers.dev/pluto/66c79a4262e5510008ff68a5.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Filmes Nacionais,https://iptv.jvleite7.workers.dev/pluto/5f5a545d0dbf7f0007c09408.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Historia (United States),https://iptv.jvleite7.workers.dev/pluto/5f1ef1a8cec6be00072a7ac9.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Investigacao,https://iptv.jvleite7.workers.dev/pluto/5f32cf37c9ff2b00082adbc8.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Karaoke por Stingray (720p),https://iptv.jvleite7.workers.dev/pluto/604b99d633a72b00078e05ad.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV KFOOD,https://iptv.jvleite7.workers.dev/pluto/633ee9ba83c08f00076b60a6.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Kids (United States),https://iptv.jvleite7.workers.dev/pluto/5f1214a637c6fd00079c652f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Kids Club (United States),https://iptv.jvleite7.workers.dev/pluto/66c8cae7fed35b0008580ec0.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Misterios,https://iptv.jvleite7.workers.dev/pluto/5fac52f142044f00078e2a51.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Natureza,https://iptv.jvleite7.workers.dev/pluto/5f1213ba0ecebc00070e170f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Netmovies,https://iptv.jvleite7.workers.dev/pluto/663b9de4f999220008230fa8.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Novelas BR,https://iptv.jvleite7.workers.dev/pluto/5f512365abe1f50007d3ff56.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Paisagens por Stingray (720p),https://iptv.jvleite7.workers.dev/pluto/604a8dedbca75b0007b1c753.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Record News (720p),https://iptv.jvleite7.workers.dev/pluto/6102e04e9ab1db0007a980a1.m3u8,OK,decoded,audio,aac,,,,,
+Pluto TV Retro,https://iptv.jvleite7.workers.dev/pluto/5f1212ad1728050007a523b8.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Series Acao,https://iptv.jvleite7.workers.dev/pluto/6474ab1da51cb80008bfb5f4.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Series Comedia,https://iptv.jvleite7.workers.dev/pluto/655e5bc94261ca000810cb17.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Series Criminais,https://iptv.jvleite7.workers.dev/pluto/6474ab5cdc7a760008745008.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Series Novelescas,https://iptv.jvleite7.workers.dev/pluto/691627e4a29a6123e400b3e0.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Series Sci-Fi (United States),https://iptv.jvleite7.workers.dev/pluto/63d2ba2f60bc8f0008981a0e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Shows por Stingray (720p),https://iptv.jvleite7.workers.dev/pluto/604b91e0692f770007d9f33f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Terror Trash,https://iptv.jvleite7.workers.dev/pluto/66aa67493a4ad2000806d91b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Turbo,https://iptv.jvleite7.workers.dev/pluto/6014761dfb91870008ea6463.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Viagens,https://iptv.jvleite7.workers.dev/pluto/5f32d432d612e50007e56133.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Vida Real,https://iptv.jvleite7.workers.dev/pluto/5f32d4d9ec194100070c7449.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Primer TV (1080p),http://200.194.238.229:8383/live/primer/playlist.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pronto-socorro: Historias De Emergencia,https://iptv.jvleite7.workers.dev/pluto/61bb72a7bf8c520007a8fd27.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Record (576p),https://iptv.jvleite7.workers.dev/live/89113f46a24461a8.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Record News (720p),https://iptv.jvleite7.workers.dev/live/aa4612adeb65f8c2.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3,,,,,
+RecordTV Interior SP,http://200.77.176.130:8000/udp/224.0.0.4:49152,OK,decoded,audio;subtitle;video,aac_latm;arib_caption;h264,,,,,
+Red Bull TV BR (1080p),https://iptv.jvleite7.workers.dev/live/9231f1f843a47d3a.m3u8,OK,decoded,audio;data;video,aac;hevc;scte_35;timed_id3,,,,,
+Rede Brasil (1080p),https://iptv.jvleite7.workers.dev/live/363d695d61725e35.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Rede CNT Rio de Janeiro (720p),http://45.162.64.114/CNT/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Rede Familia (720p),http://168.197.104.22/REDE_FAMILIA/index.m3u8,OK,decoded,video,h264,,,,,
+Rede Globo (720p),https://iptv.jvleite7.workers.dev/live/ce7b26eeb488e17f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Rede Gospel (1080p),https://iptv.jvleite7.workers.dev/live/1c3891aa3c18f02f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Rede Meio Norte (720p),https://iptv.jvleite7.workers.dev/live/87f00cd958bc82d6.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Rede Minas (720p),https://iptv.jvleite7.workers.dev/live/efb1a71d4b4400a7.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Rede Seculo 21 (720p),http://45.162.64.114/REDE_SECULO_21/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Rede SPTV (360p),https://iptv.jvleite7.workers.dev/live/b9cc6fd6d0c88035.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Rede TV! (720p),http://45.162.64.114/REDE_TV/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Rede Vida (720p),http://168.197.104.22/REDE_VIDA/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+RedeTV! Parana,https://iptv.jvleite7.workers.dev/live/594d4e444606ab33.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+RIT TV (1080p),https://iptv.jvleite7.workers.dev/live/5e78282efee03e20.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+SBT Nacional (720p),https://iptv.jvleite7.workers.dev/live/ed977ca6b0c95341.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+SBT News (720p),https://iptv.jvleite7.workers.dev/live/b471fa58f4caddba.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+SESC TV (720p),http://45.162.64.114/SESC_TV/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+SIC TV (720p),https://iptv.jvleite7.workers.dev/live/778ad432de74c782.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Smithsonian Channel Pluto TV,https://iptv.jvleite7.workers.dev/pluto/6298bd10d88ef000073f16b7.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Sony Channel (Brazil) (720p),http://170.83.16.50/SONY_CHANNEL/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Sony Movies (720p),http://45.162.64.114/SONY_MOVIES/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+SOU TV,https://iptv.jvleite7.workers.dev/live/271e87ec8d128d7d.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+South Park: Colecao Cartman,https://iptv.jvleite7.workers.dev/pluto/65df71008b24c80008f04281.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+South Park: Colecao Kenny,https://iptv.jvleite7.workers.dev/pluto/65df704366eec8000898e32f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+South Park: Colecao Kyle,https://iptv.jvleite7.workers.dev/pluto/65df713dec9fda0008b7a81d.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+South Park: Colecao Stan,https://iptv.jvleite7.workers.dev/pluto/65df70b0f7f0af0008c3b316.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+SporTV 3 (720p),http://170.83.49.66:8083/SPORTV3HD/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Star Trek,https://iptv.jvleite7.workers.dev/pluto/5f99ac4fded33000078f29ab.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Studio Universal Latin America Brazil (720p),http://187.102.210.46/universo/index.m3u8,OK,decoded,audio;video,ac3;h264;mp2,,,,,
+STZ TV (1080p),https://iptv.jvleite7.workers.dev/live/d618beb55be725b3.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+Tastemade Brasil (720p),https://iptv.jvleite7.workers.dev/pluto/5fd1419a3b4f4b000773ba85.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TCM 10 HD (1080p),https://iptv.jvleite7.workers.dev/live/c34c88e024c12f8a.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TELE 6 (720p),https://iptv.jvleite7.workers.dev/live/85fd22961465fe02.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Terra Viva (720p),https://iptv.jvleite7.workers.dev/live/627ed8cf4c4dd351.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3,,,,,
+The Pet Collective Brazil (720p),https://iptv.jvleite7.workers.dev/pluto/5f515ebac01c0f00080e8439.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TikTok Radio Brasil (1080p),https://iptv.jvleite7.workers.dev/live/446115db91580403.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TNT Novelas Brazil (720p),http://45.162.64.114/TNT_NOVELAS/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Tokusato,https://iptv.jvleite7.workers.dev/pluto/5ff609de50ab210008025c1b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Trace Brazuca HD (1080p),https://iptv.jvleite7.workers.dev/live/bbddb7e1e5d3462e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Travel Box Brazil (720p),http://168.197.104.22/TRAVEL_BOX_BRASIL/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Turma da Monica (720p),https://iptv.jvleite7.workers.dev/pluto/5f997e44949bc70007a6941e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV A Folha (720p),https://iptv.jvleite7.workers.dev/live/a5a390e13001d5b5.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Aldeia (720p),https://iptv.jvleite7.workers.dev/live/9108f46c9b75101f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Alianca Catarinense (720p),https://iptv.jvleite7.workers.dev/live/008a2e06dcfcad5b.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Alternativa (410p),https://iptv.jvleite7.workers.dev/live/6d25a5d9588942ee.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Aparecida (720p),http://45.162.64.114/TV_APARECIDA/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Arapuan (720p),https://iptv.jvleite7.workers.dev/live/2a5c78a1b8293881.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Assembleia Piaui,https://iptv.jvleite7.workers.dev/live/6f0f2ace1c9e511f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+"like Gecko) Chrome/129.0.0.0 Safari/537.36"" group-title=""Canais Abertos"",TV Bahia (1080i)",https://iptv.jvleite7.workers.dev/live/5b7d08dd5dd56153.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Brasil (720p),https://iptv.jvleite7.workers.dev/live/bb3f1891d8470f1b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV BRICS Portuguese (1080p),https://iptv.jvleite7.workers.dev/live/0c3c71cb6042ca3a.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Brusque (720p),https://iptv.jvleite7.workers.dev/live/c71cfc86e138c9b0.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Camara (Brazil) (1080p),https://iptv.jvleite7.workers.dev/live/92f27a69312b2eec.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Cancao Nova (720p),http://45.162.64.114/CANCAO_NOVA/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Cidade Verde Cuiaba,https://iptv.jvleite7.workers.dev/live/738d6bdd0302c3ab.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Clube (720p),https://iptv.jvleite7.workers.dev/live/97586fa31368b8fe.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Comunitaria (360p),https://iptv.jvleite7.workers.dev/live/e37c21d321259295.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Cultura,https://iptv.jvleite7.workers.dev/live/11ce442e9e2b3f87.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Curuca (360p),https://iptv.jvleite7.workers.dev/live/ae1df8387349eb7c.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Difusao (720p),https://iptv.jvleite7.workers.dev/live/02a5a4605e92b10e.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Evangelizar (720p),http://45.162.64.114/EVANGELIZAR/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Fronteira (480i),https://iptv.jvleite7.workers.dev/live/0a0f0f6890ae2484.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Gazeta (720p),http://45.162.64.114/GAZETA/index.m3u8,OK,decoded,video,h264,,,,,
+TV GRANDE NATAL HDTV BRASIL (1080p),https://iptv.jvleite7.workers.dev/live/ec5a51aaedf08e07.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Justica (720p),http://45.162.64.114/TV_JUSTICA/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Life America (720p),https://iptv.jvleite7.workers.dev/live/27e4ea2c75d52ec1.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Mais Marica (1080p),https://iptv.jvleite7.workers.dev/live/3866eb2239ae1f24.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Mana Brasil (1080p),https://iptv.jvleite7.workers.dev/live/dad63638fd97f362.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Metropole (720p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/f41fdc8e05eaf5cd.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Natal (1080p),http://185.228.163.146:8000/play/a01y/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Padre Cicero (720p),https://iptv.jvleite7.workers.dev/live/1364a2d92d9ffaac.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Pai Eterno (720p),https://iptv.jvleite7.workers.dev/live/3df7a82a27dee132.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Pantanal MS (360p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/1cd1fb56a8d541f1.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Parana Turismo (720p) [Not 24/7],http://200.189.113.201/hls/tve.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Passo Fundo (720p),https://iptv.jvleite7.workers.dev/live/e25a5a2a2f60fa04.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Ra Tim Bum (720p),http://45.177.114.115/TV_RA_TIM_BUM/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Sao Raimundo (268p),https://iptv.jvleite7.workers.dev/live/547d337028d02eaf.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Senado (Brazil) (720p),http://45.162.64.114/TV_SENADO/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Series (480p),https://iptv.jvleite7.workers.dev/live/0c5072ee43ad66a4.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Sim Cachoeiro (720p),https://iptv.jvleite7.workers.dev/live/6f7ff0ae2eb27a7a.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Sim Sao Mateus (720p),https://iptv.jvleite7.workers.dev/live/1ce39b6db430d3e0.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Sul Bahia (320p),https://iptv.jvleite7.workers.dev/live/62aa2380ff9bc77a.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Terceiro Anjo (360p),https://iptv.jvleite7.workers.dev/live/5829133f7452bbf2.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV UFOP (1080p),https://iptv.jvleite7.workers.dev/live/1ff4900fc770189c.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Universal (480p),https://iptv.jvleite7.workers.dev/live/95361b24f38687a4.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Vicosa (480p),https://iptv.jvleite7.workers.dev/live/ebeaa6d76ea40080.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Vila Real (720p),https://iptv.jvleite7.workers.dev/live/1dc292470dc1f7f2.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV+Pet,https://iptv.jvleite7.workers.dev/live/1964f804fad9affa.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TVC-Rio,https://iptv.jvleite7.workers.dev/live/acfe06127fb60035.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TVCOM Maceio (480p),https://iptv.jvleite7.workers.dev/live/430a1d72b711e30e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TVE Bahia (1080p),https://iptv.jvleite7.workers.dev/live/cf2fcf23585ace7c.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TVE RS (1080p),https://iptv.jvleite7.workers.dev/live/cdc3153c6a07c6d0.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TVideoNews (720p) [Not 24/7],https://iptv.jvleite7.workers.dev/live/3e98a4039dddf0f2.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TVitape (720p),https://iptv.jvleite7.workers.dev/live/d91996fb2304bb7d.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TVLatinaSat (720p),https://iptv.jvleite7.workers.dev/live/b8cfea35371a21ca.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TVNBN (720p),https://iptv.jvleite7.workers.dev/live/42e5d13969770fe8.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+UMA TV,https://iptv.jvleite7.workers.dev/live/e6fe1ca91f4a6304.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Unisul TV (720p),https://iptv.jvleite7.workers.dev/live/7caf6ed8e837a1f2.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+VEJA+ TV (1080p),https://iptv.jvleite7.workers.dev/live/0d1eb1c206bc11f9.m3u8,OK,decoded,audio;data;video,aac;h264;scte_35;timed_id3,,,,,
+WooHoo (720p),http://45.162.64.114/WOOHOO/index.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+CINDIE TV (1080p),https://iptv.jvleite7.workers.dev/live/2d97dcdba851efe4.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+IMPD TV Worldwide (1080p),https://iptv.jvleite7.workers.dev/live/e5dd29d86eb236a2.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Kuriakos Cine (1080p),https://iptv.jvleite7.workers.dev/live/af8eac6978ca25e7.m3u8,OK,decoded,audio;data;video,aac;h264;timed_id3,,,,,
+TV Show Fortaleza (720p),https://iptv.jvleite7.workers.dev/live/fb3d573a076613b2.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+BR Nord Ⓖ,https://iptv.jvleite7.workers.dev/live/41aef0cccdb4637f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+BR Süd Ⓖ,https://iptv.jvleite7.workers.dev/live/61eec820735f325f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+A Caçadora de Relíquias,https://iptv.jvleite7.workers.dev/pluto/67e59a6557487a8b7fe73e23.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+A Feiticeira,https://iptv.jvleite7.workers.dev/pluto/631fa8dd7f25240007099a40.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Acumuladores Obsessivos,https://iptv.jvleite7.workers.dev/pluto/656e2a4b4261ca00083aa99e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdoroCinema,https://iptv.jvleite7.workers.dev/pluto/698392af0cca0cc3458666ab.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+As Tartarugas Ninja,https://iptv.jvleite7.workers.dev/pluto/63dd5c904e83e700088fb68a.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Assombrações,https://iptv.jvleite7.workers.dev/pluto/620d1512c7986a0007220213.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Baby Shark TV,https://iptv.jvleite7.workers.dev/pluto/63da6bcd60bc8f0008a5d364.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Beyblade,https://iptv.jvleite7.workers.dev/pluto/633dc392e0282400071b0d39.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Blue Bloods,https://iptv.jvleite7.workers.dev/pluto/69fcc8cfb83300b380051794.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Boruto: Naruto Next Generations,https://iptv.jvleite7.workers.dev/pluto/656f389c3944b60008e5bdab.m3u8,OFF,no audio/video stream,,,,,,,
+CBS News 24/7,https://iptv.jvleite7.workers.dev/pluto/62310f66d5888f0007534342.m3u8,OK,decoded,audio,aac,,,,,
+Caçadores de Óvnis,https://iptv.jvleite7.workers.dev/pluto/656e2a10954b020008ed167c.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Charmed: Jovens Bruxas,https://iptv.jvleite7.workers.dev/pluto/67f9602ee173fa5664fafae8.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Clube do Terror,https://iptv.jvleite7.workers.dev/pluto/64e501eec630a900088ed0f8.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Cocoricó,https://iptv.jvleite7.workers.dev/pluto/62d969fd8451a30007f0fd94.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Death Note,https://iptv.jvleite7.workers.dev/pluto/625464a945b6a200079257d1.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Estado Paranormal,https://iptv.jvleite7.workers.dev/pluto/656e2a81954b020008ed17a4.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Euronews Português,https://iptv.jvleite7.workers.dev/pluto/619e6614c9d9650007a2b171.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+FIFA+,https://iptv.jvleite7.workers.dev/pluto/66997e8d3a4ad20008e50be9.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Filmelier TV,https://iptv.jvleite7.workers.dev/pluto/633dcebd80386500074a2461.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Grachi,https://iptv.jvleite7.workers.dev/pluto/69c716efeac9a2720ebcaaff.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Homeful,https://iptv.jvleite7.workers.dev/pluto/67603668f433320008760af1.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Hunter x Hunter,https://iptv.jvleite7.workers.dev/pluto/65d9167818036500080e8780.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Inspetor Bugiganga,https://iptv.jvleite7.workers.dev/pluto/69162648d03565d6c8c8df97.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Inuyasha,https://iptv.jvleite7.workers.dev/pluto/66b26681d2d50d00083abe8b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+JoJo’s Bizarre Adventure,https://iptv.jvleite7.workers.dev/pluto/66c7982f6838ee00085f0d24.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Jovem Pan NEWS,https://iptv.jvleite7.workers.dev/pluto/6317ba014d4d040007227f72.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MTV Rocks,https://iptv.jvleite7.workers.dev/pluto/66a01e07d2d50d0008100d6a.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Mais MasterChef Brasil,https://iptv.jvleite7.workers.dev/pluto/681111be5e0764e297fb200e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+MasterChef Brasil Profissionais,https://iptv.jvleite7.workers.dev/pluto/681110afc188aa63faa147e0.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Mistérios sem Solução,https://iptv.jvleite7.workers.dev/pluto/62b5c5a064163d0007b2efe6.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Moranguinho,https://iptv.jvleite7.workers.dev/pluto/63eba189c111bc0008ff59c5.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Mr. Bean,https://iptv.jvleite7.workers.dev/pluto/69fca7dd2387729708faa32c.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+NFL Channel,https://iptv.jvleite7.workers.dev/pluto/6a68dc0a75fd5e3828f10b10.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+NatureTime,https://iptv.jvleite7.workers.dev/pluto/681ba2ad93d3d19bcab47433.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Novelíssima,https://iptv.jvleite7.workers.dev/pluto/6a281d2bd1e6d3ba6b553c7c.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+O Rei do Bairro,https://iptv.jvleite7.workers.dev/pluto/6a5520691a435d3dfcda8340.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Os Arquivos do FBI,https://iptv.jvleite7.workers.dev/pluto/620d12a82e8ac50007c269c3.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Os Padrinhos Mágicos,https://iptv.jvleite7.workers.dev/pluto/63221e41af69b500076f84e7.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Os Smurfs,https://iptv.jvleite7.workers.dev/pluto/68b88ae1943f6fb1fb2ad749.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+PFL MMA,https://iptv.jvleite7.workers.dev/pluto/64f6180130ab3300083d896b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+PORTATV,https://iptv.jvleite7.workers.dev/pluto/69440d0611f6c6384ab78306.m3u8,OK,decoded,audio,aac,,,,,
+Pegadinhas - Just for Laughs,https://iptv.jvleite7.workers.dev/pluto/67802a22a5d8215f99dcee30.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cine Trapalhões,https://iptv.jvleite7.workers.dev/pluto/6a5520365badf45d3088b8d8.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Cozinha,https://iptv.jvleite7.workers.dev/pluto/5f1ef23020a5ac0007e5e8ea.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Junior,https://iptv.jvleite7.workers.dev/pluto/5f12141b146d760007934ea7.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Negócio Fechado,https://iptv.jvleite7.workers.dev/pluto/64ad7394798def00087b2bfe.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Policial,https://iptv.jvleite7.workers.dev/pluto/678fdf9e3de7c8cf948e8824.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Séries Drama,https://iptv.jvleite7.workers.dev/pluto/65f060d84e01740008d7421f.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pluto TV Séries Família,https://iptv.jvleite7.workers.dev/pluto/69c71615a8ef5d7f33e7322e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Pokémon,https://iptv.jvleite7.workers.dev/pluto/687007a8ee4155e89a8f6d67.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Popeye,https://iptv.jvleite7.workers.dev/pluto/677d93f37bffa600080795e7.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+RACER Brasil,https://iptv.jvleite7.workers.dev/pluto/65a6818c7bdc8d0008457b21.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Red Bull TV,https://iptv.jvleite7.workers.dev/pluto/67813f3162bf016db944c9ab.m3u8,OK,decoded,audio,aac,,,,,
+Rookie Blue,https://iptv.jvleite7.workers.dev/pluto/64ff2d8c6625510008c5a512.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Runtime,https://iptv.jvleite7.workers.dev/pluto/62c5d32e2c48f9000715b6e9.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Salon Line,https://iptv.jvleite7.workers.dev/pluto/66a7d0e0cd0d310008448610.m3u8,OK,decoded,audio,aac,,,,,
+Sobrevivi,https://iptv.jvleite7.workers.dev/pluto/69fca7fadf0b6d462c0a0ac3.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Sony One Shark Tank Brasil,https://iptv.jvleite7.workers.dev/pluto/6647c0b91050b60008390de4.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Super Onze,https://iptv.jvleite7.workers.dev/pluto/63988c2750108d00072e2686.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TV Cultura,https://iptv.jvleite7.workers.dev/pluto/62e010e6cd663f0007e57dc8.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Tastemade Casa,https://iptv.jvleite7.workers.dev/pluto/68b88821e542386ab0bf5bef.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Tastemade Viagem,https://iptv.jvleite7.workers.dev/pluto/68b8875777201ec428d9eaa5.m3u8,OK,decoded,audio,aac,,,,,
+Teletubbies,https://iptv.jvleite7.workers.dev/pluto/64e50055286f6b000838c067.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+The Walking Dead by AMC,https://iptv.jvleite7.workers.dev/pluto/678aa104680721c77c506746.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+TikTok Radio Brasil,https://iptv.jvleite7.workers.dev/pluto/63dac32bda711800088a2ba3.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Times Brasil | CNBC,https://iptv.jvleite7.workers.dev/pluto/679a973a97782f0008ff4bb6.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Top Barça,https://iptv.jvleite7.workers.dev/pluto/6888ee858f4a4aa11feb9430.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Topa ou Não Topa EUA,https://iptv.jvleite7.workers.dev/pluto/69fca82395df3283d2b60ef9.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+UFC,https://iptv.jvleite7.workers.dev/pluto/69a20556814d27f4ae630a92.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+World Poker Tour,https://iptv.jvleite7.workers.dev/pluto/63eba66da8b2270008436b10.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Yu-Gi-Oh,https://iptv.jvleite7.workers.dev/pluto/63988a50be012600070f5db3.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+Z Nation,https://iptv.jvleite7.workers.dev/pluto/66b3af48d2d50d00083d6936.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+News State BR JH,https://iptv.jvleite7.workers.dev/fast?u=https%3A%2F%2Fjmp2.uk%2Fstvp-IN300085JT,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Live Cams,https://iptv.jvleite7.workers.dev/live/04f464ddd7fee4b0.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net MILF,https://iptv.jvleite7.workers.dev/live/a6a5f3bf4c8dcc13.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Big Dick,https://iptv.jvleite7.workers.dev/live/92b1c632f177249e.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Big Tits,https://iptv.jvleite7.workers.dev/live/6297a4b06ef2c4d3.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Fetish,https://iptv.jvleite7.workers.dev/live/d017fa69a5b65176.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Pornstar,https://iptv.jvleite7.workers.dev/live/f471227c592d0d6a.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Big Ass,https://iptv.jvleite7.workers.dev/live/0d93e88bfc66e2c1.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Interracial,https://iptv.jvleite7.workers.dev/live/1b3f1b057dff10ba.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Latina,https://iptv.jvleite7.workers.dev/live/7558ecfb5ef5e369.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net POV,https://iptv.jvleite7.workers.dev/live/d81a87d3fab09489.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Blowjob,https://iptv.jvleite7.workers.dev/live/c732d217028c3378.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Hardcore,https://iptv.jvleite7.workers.dev/live/8fc7c2d15b3e4ea7.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Cuckold,https://iptv.jvleite7.workers.dev/live/ae17f5c8e4c63bd8.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Threesome,https://iptv.jvleite7.workers.dev/live/28f8d5aaa7958e8b.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Russian,https://iptv.jvleite7.workers.dev/live/fae98a3f7751ceb7.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Lesbian,https://iptv.jvleite7.workers.dev/live/59861e55cd874197.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Rough,https://iptv.jvleite7.workers.dev/live/5bfdb276db0d8c3c.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Gangbang,https://iptv.jvleite7.workers.dev/live/5298aac38047cf11.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Anal,https://iptv.jvleite7.workers.dev/live/afadda3700889391.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Compilation,https://iptv.jvleite7.workers.dev/live/81a5cad10264bf03.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Brunette,https://iptv.jvleite7.workers.dev/live/12618cb04e147f59.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Blonde,https://iptv.jvleite7.workers.dev/live/654b1b6ff0745db5.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Gay,https://iptv.jvleite7.workers.dev/live/6a80a38303e649cd.m3u8,OK,decoded,audio;video,aac;h264,,,,,
+AdultIPTV.net Asian,https://iptv.jvleite7.workers.dev/live/d68ce6bb399ccef3.m3u8,OK,decoded,audio;video,aac;h264,,,,,
