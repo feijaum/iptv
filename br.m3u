@@ -745,3 +745,7 @@ https://media.cdntvms.com.br/band_sat/index.m3u8
 https://media2.cdntvms.com.br/tv_morena_dorados/index.m3u8
 #EXTINF:-1 group-title="Teste Switch",SBT - teste direto
 https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
+#EXTINF:-1 group-title="Teste Switch",BandNews - HTTP HLS
+http://45.162.64.114/BAND_NEWS/index.m3u8
+#EXTINF:-1 group-title="Teste Switch",RedeTV - HTTP HLS
+http://45.162.64.114/REDE_TV/index.m3u8
