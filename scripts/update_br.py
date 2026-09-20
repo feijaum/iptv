@@ -15,6 +15,7 @@ from urllib.error import HTTPError
 # Sources are ordered by preference. The updater keeps one healthy stream per
 # channel and uses later sources as automatic backups.
 SOURCES = [
+    ("Curated Open HD", "https://raw.githubusercontent.com/feijaum/iptv/main/sources/open-hd-curated.m3u", "Canais Abertos", True, False),
     ("iptv-org BR", "https://iptv-org.github.io/iptv/countries/br.m3u", None, True, False),
     ("iptv-org BR raw", "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/br.m3u", None, True, False),
     ("dearbulut BR working", "https://dearbulut.github.io/iptv/playlists/country/br.m3u", None, True, False),
@@ -105,8 +106,19 @@ def set_attr(line, key, value):
 def base_id(line):
     return attr(line, "tvg-id").split("@", 1)[0]
 
+def split_extinf_name(line):
+    # Find the separator comma outside quoted attribute values. User-Agent and
+    # other EXTINF attributes can themselves contain commas.
+    quoted = False
+    for i, ch in enumerate(line):
+        if ch == '"':
+            quoted = not quoted
+        elif ch == "," and not quoted:
+            return line[i + 1:].strip()
+    return ""
+
 def channel_name(line):
-    return line.split(",", 1)[1].strip() if "," in line else base_id(line)
+    return split_extinf_name(line) or base_id(line)
 
 def normalize(s):
     s = unicodedata.normalize("NFKD", s or "")
