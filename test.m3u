@@ -1,45 +1,47 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Telecine Premium" group-title="Prioritários",Telecine Premium FHD
-http://str01.ddns.net/005/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Telecine Action" group-title="Prioritários",Telecine Action FHD
-http://str01.ddns.net/004/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Telecine Pipoca" group-title="Prioritários",Telecine Pipoca FHD
-http://str01.ddns.net/001/myStream/playlist.m3u8
+http://unidaque.me:80/live/44vkj/Ym99P/13304.m3u8
+#EXTINF:-1 tvg-name="Telecine Action" group-title="Prioritários",Telecine Action HD
+http://177.52.24.163/TELECINE-ACTION-HD/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Pipoca" group-title="Prioritários",Telecine Pipoca HD
+http://unidaque.me:80/live/44vkj/Ym99P/22805.m3u8
+#EXTINF:-1 tvg-name="Telecine Premium [ALT]" group-title="Prioritários",Telecine Premium HD [ALT]
+http://177.52.24.163/TELECINE-PREMIUM-HD/index.m3u8
 #EXTINF:-1 tvg-name="HBO" group-title="Prioritários",HBO FHD
-http://str02.ddns.net/053/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="HBO 2" group-title="Prioritários",HBO 2 FHD
-http://str02.ddns.net/047/myStream/playlist.m3u8
+http://unidaque.me:80/live/44vkj/Ym99P/22681.m3u8
+#EXTINF:-1 tvg-name="HBO 2" group-title="Prioritários",HBO 2 HD
+http://unidaque.me:80/live/44vkj/Ym99P/1412.m3u8
 #EXTINF:-1 tvg-name="HBO Family" group-title="Prioritários",HBO Family HD
-http://str03.ddns.net/088/myStream/playlist.m3u8
+https://fl1.moveonjoy.com/HBO_FAMILY/index.m3u8
 #EXTINF:-1 tvg-name="HBO Signature" group-title="Prioritários",HBO Signature HD
-http://str03.ddns.net/065/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="HBO Pop" group-title="Prioritários",HBO Pop FHD
-http://64.31.23.207:80/96795792/50165825/514122.m3u8
+http://190.83.85.68/hbo_family/index.m3u8
+#EXTINF:-1 tvg-name="HBO Pop" group-title="Prioritários",HBO Pop HD
+http://unidaque.me:80/live/44vkj/Ym99P/1412.m3u8
 #EXTINF:-1 tvg-name="HBO Xtreme" group-title="Prioritários",HBO Xtreme HD
-http://str03.ddns.net/092/myStream/playlist.m3u8
+https://cdn-sp2.satlabscloud.com.br/HBO_FAMILY_HD/720p.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
 #EXTINF:-1 tvg-name="Warner Channel" group-title="Prioritários",Warner Channel FHD
-http://str03.ddns.net/080/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="TNT" group-title="Prioritários",TNT FHD
-http://str01.ddns.net/023/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="TNT Séries" group-title="Prioritários",TNT Séries FHD
-http://str01.ddns.net/019/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Space" group-title="Prioritários",Space FHD
-http://str01.ddns.net/029/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Megapix" group-title="Prioritários",Megapix FHD
-http://str02.ddns.net/033/myStream/playlist.m3u8
+http://unidaque.me:80/live/44vkj/Ym99P/22666.m3u8
+#EXTINF:-1 tvg-name="TNT" group-title="Prioritários",TNT HD
+http://190.83.85.68/warner/index.m3u8
+#EXTINF:-1 tvg-name="TNT Séries" group-title="Prioritários",TNT Séries HD
+http://unidaque.me:80/live/44vkj/Ym99P/22666.m3u8
+#EXTINF:-1 tvg-name="Space" group-title="Prioritários",Space HD
+http://unidaque.me:80/live/44vkj/Ym99P/13313.m3u8
+#EXTINF:-1 tvg-name="Megapix" group-title="Prioritários",Megapix HD
+http://unidaque.me:80/live/44vkj/Ym99P/13314.m3u8
 #EXTINF:-1 tvg-name="Cinemax" group-title="Prioritários",Cinemax HD
-http://str03.ddns.net/096/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Discovery Channel" group-title="Prioritários",Discovery Channel FHD
-http://str03.ddns.net/066/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Discovery Home & Health" group-title="Prioritários",Discovery Home & Health HD
-http://str03.ddns.net/078/myStream/playlist.m3u8
+http://190.83.85.68/warner/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Channel" group-title="Prioritários",Discovery Channel HD
+http://190.83.85.68/discovery/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Home & Health" group-title="Prioritários",Discovery H&H HD
+http://45.176.240.128:8889/play/a019/index.m3u8
 #EXTINF:-1 tvg-name="Animal Planet" group-title="Prioritários",Animal Planet HD
-http://str04.ddns.net/100/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="TLC" group-title="Prioritários",TLC FHD
-http://str02.ddns.net/034/myStream/playlist.m3u8
+http://unidaque.me:80/live/44vkj/Ym99P/1412.m3u8
+#EXTINF:-1 tvg-name="TLC" group-title="Prioritários",TLC HD
+http://190.83.85.68/discovery/index.m3u8
 #EXTINF:-1 tvg-name="HGTV" group-title="Prioritários",HGTV HD
 https://cdn-3.nxplay.com.br/HGTV_BR_NX/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Kids" group-title="Prioritários",Discovery Kids FHD
-http://str02.ddns.net/061/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Discovery Kids" group-title="Prioritários",Discovery Kids HD
+https://cdn-3.nxplay.com.br/DISCOVERY_KIDS_NX/index.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network" group-title="Prioritários",Cartoon Network HD
-http://str01.ddns.net/027/myStream/playlist.m3u8
+https://playout.cdn.cartoonnetwork.com.br/playout_02/playlist.m3u8
