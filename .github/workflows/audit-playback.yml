@@ -40,13 +40,13 @@ jobs:
 
       - name: Commit playback audit
         run: |
-          if git diff --quiet -- playback-audit.csv; then
+          git add playback-audit.csv
+          if git diff --cached --quiet; then
             echo "No audit changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playback-audit.csv
           git commit -m "chore: audit published IPTV playback"
           git pull --rebase origin main
           git push
