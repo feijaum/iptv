@@ -3,6 +3,7 @@ let relayMapCache = null;
 
 const PLAYLIST_URL = "https://raw.githubusercontent.com/feijaum/iptv/main/br.m3u";
 const RELAY_MAP_URL = "https://raw.githubusercontent.com/feijaum/iptv/main/relay-map.json";
+const EPG_URL = "https://raw.githubusercontent.com/feijaum/iptv/main/guide.xml.gz";
 const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
 const ADULT_PIN_SHA256 = "79737ac46dad121166483e084a0727e5d6769fb47fa9b0b627eba4107e696078";
 
@@ -684,6 +685,25 @@ export default {
         return new Response("Blocked upstream", { status: 403 });
       }
       return proxyHls(parsed.toString(), request, "fast");
+    }
+
+    if (url.pathname === "/epg.xml.gz") {
+      const freshEpgUrl = EPG_URL + "?v=" + Math.floor(Date.now() / 300000);
+      const r = await fetch(freshEpgUrl, {
+        headers: { "Cache-Control": "no-cache" },
+        cf: { cacheTtl: 0, cacheEverything: false }
+      });
+      if (!r.ok) {
+        return new Response("EPG unavailable", { status: 502, headers: corsHeaders() });
+      }
+      return new Response(r.body, {
+        status: 200,
+        headers: corsHeaders({
+          "Content-Type": "application/gzip",
+          "Content-Disposition": "inline; filename=guide.xml.gz",
+          "Cache-Control": "public, max-age=300"
+        })
+      });
     }
 
     const playlistPaths = new Set(["/", "/br.m3u", "/playlist.m3u", "/adult.m3u"]);
