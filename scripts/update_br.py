@@ -34,6 +34,7 @@ SOURCES = [
 
 CHANNELS_DB = "https://raw.githubusercontent.com/iptv-org/database/master/data/channels.csv"
 LOGOS_DB = "https://raw.githubusercontent.com/iptv-org/database/master/data/logos.csv"
+WORKER_BASE = "https://iptv.jvleite7.workers.dev"
 
 CATEGORY_MAP = {
     "movies": "Filmes e Series", "series": "Filmes e Series",
@@ -225,6 +226,31 @@ def validate(entry, timeout=7):
             time.sleep(0.25)
     return last
 
+def provider_route(entry, source_name):
+    """Replace provider URLs that need runtime session handling with stable Worker URLs."""
+    url = entry[-1]
+    line = entry[0]
+
+    # Pluto: channel id appears in jmp2 URLs and native stitcher URLs.
+    if "Pluto" in source_name or "jmp2.uk/plu-" in url or "pluto.tv" in url:
+        m = re.search(r"(?:plu-|/channel/)([0-9a-f]{24})(?:[./?]|$)", url, re.I)
+        if not m:
+            cid = attr(line, "channel-id") or attr(line, "tvg-id")
+            m2 = re.search(r"([0-9a-f]{24})", cid, re.I)
+            if m2:
+                return entry[:-1] + [f"{WORKER_BASE}/pluto/{m2.group(1)}"]
+        else:
+            return entry[:-1] + [f"{WORKER_BASE}/pluto/{m.group(1)}"]
+
+    # Samsung's jmp2 endpoint already handles Samsung's session logic, but route
+    # it through our HLS proxy so redirects, headers and child manifests remain
+    # consistent for IPTV players.
+    if "Samsung" in source_name and "jmp2.uk/stvp-" in url:
+        from urllib.parse import quote
+        return entry[:-1] + [f"{WORKER_BASE}/fast?u={quote(url, safe='')}"]
+
+    return entry
+
 def key_for(entry):
     cid = base_id(entry[0])
     if cid:
@@ -289,6 +315,7 @@ def main():
                     skipped_language += 1
                     continue
                 e = enrich(e, channels, logos, override)
+                e = provider_route(e, source_name)
                 key = key_for(e)
                 # Avoid exact duplicate URL for same logical channel.
                 bucket = pool.setdefault(key, [])
