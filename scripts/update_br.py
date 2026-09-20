@@ -55,10 +55,10 @@ CATEGORY_MAP = {
 }
 
 NAME_RULES = [
-    ("Esportes", r"\b(sport|sports|esporte|futebol|football|soccer|combate|fight|mma|ufc|racing|corrida|caze|nsports|espn|poker|barca|real madrid|wrestling|boxing)\b"),
+    ("Esportes", r"\b(sport|sports|esportes?|futebol|football|soccer|combate|fight|mma|ufc|nfl|racing|corrida|caze|nsports|espn|poker|barca|real madrid|wrestling|boxing)\b"),
     ("Noticias", r"\b(news|noticia|jornal|cnn|bandnews|globonews|jovem pan|record news|cnbc|bloomberg|reuters)\b"),
     ("Desenhos e Animes", r"\b(kids?|junior|baby|infantil|crianca|cartoon|animation|animacao|anime|toon|desenho|pokemon|naruto|one piece|gloob|nick|smurfs|popeye|super onze|yu gi oh|teletubbies)\b"),
-    ("Filmes e Series", r"\b(movie|movies|cinema|cine|filme|series?|novela|drama|sitcom|megapix|axn|walking dead|rookie blue|star trek|z nation|thriller|horror|romance)\b"),
+    ("Filmes e Series", r"\b(movie|movies|cinema|cine|filmes?|series?|novela|drama|sitcom|megapix|axn|walking dead|rookie blue|star trek|z nation|thriller|horror|terror|romance|comedia|acao|aventura|suspense|policial|ficcao cientifica|bang bang|classicos?|netmovies|filmelier|runtime)\b"),
     ("Musica", r"\b(music|musica|mtv|kpop|trace|vevo|karaoke|radio|concert)\b"),
     ("Documentarios e Outros", r"\b(documentary|documentario|history|historia|nature|natureza|discovery|science|ciencia|travel|viagem|turismo|food|culinaria|cozinha|chef|gospel|relig|igreja|church|canal rural|agro|fish tv|lifestyle)\b"),
 ]
