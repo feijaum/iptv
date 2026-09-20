@@ -43,11 +43,21 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add br.m3u linksoff.m3u stream-status.csv source-status.csv candidate-status.csv relay-map.json
           git commit -m "chore: update Brazilian IPTV playlist"
-          # Another commit (for example a Worker deploy) may land while the
-          # validation job is running. Rebase our generated commit onto the
-          # latest main before pushing so the update is not rejected.
-          git pull --rebase origin main
-          git push
+          git fetch origin main
+          if ! git merge-base --is-ancestor origin/main HEAD; then
+            echo "Main advanced while generating; replaying generated files onto latest main."
+            git reset --soft HEAD~1
+            git reset
+            git checkout -B main origin/main
+            python scripts/update_br.py
+            git add br.m3u linksoff.m3u stream-status.csv source-status.csv candidate-status.csv relay-map.json
+            if git diff --cached --quiet; then
+              echo "No playlist changes after resync."
+            else
+              git commit -m "chore: update Brazilian IPTV playlist"
+            fi
+          fi
+          git push origin HEAD:main
 
       - name: Ensure ffprobe is available
         run: |
@@ -88,6 +98,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: publish playback-verified IPTV playlist"
-          git pull --rebase origin main
-          git push
+          git fetch origin main
+          if ! git merge-base --is-ancestor origin/main HEAD; then
+            echo "Main advanced before final publish; preserving verified artifacts on latest main."
+            mkdir -p /tmp/iptv-final
+            cp br.m3u linksoff.m3u playback-audit.csv guide.xml.gz epg-status.csv /tmp/iptv-final/
+            git checkout -B main origin/main
+            cp /tmp/iptv-final/br.m3u /tmp/iptv-final/linksoff.m3u /tmp/iptv-final/playback-audit.csv /tmp/iptv-final/guide.xml.gz /tmp/iptv-final/epg-status.csv .
+            git add br.m3u linksoff.m3u playback-audit.csv guide.xml.gz epg-status.csv
+            if git diff --cached --quiet; then
+              echo "No final changes after resync."
+            else
+              git commit -m "chore: publish playback-verified IPTV playlist"
+            fi
+          fi
+          git push origin HEAD:main
 
