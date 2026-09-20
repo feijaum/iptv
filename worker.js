@@ -89,7 +89,18 @@ function rewriteManifest(text, finalUrl, requestUrl, provider) {
   const proxyBase = new URL(requestUrl);
   const makeProxy = (raw) => {
     const abs = new URL(raw, base).toString();
-    const p = new URL(provider === "pluto" ? "/pluto-proxy" : "/fast-child", proxyBase.origin);
+    let route;
+    if (provider === "pluto") {
+      const pathname = new URL(abs).pathname.toLowerCase();
+      if (pathname.endsWith(".m3u8")) route = "/pluto-proxy.m3u8";
+      else if (pathname.endsWith(".m4s")) route = "/pluto-media.m4s";
+      else if (pathname.endsWith(".mp4")) route = "/pluto-media.mp4";
+      else if (pathname.endsWith(".aac")) route = "/pluto-media.aac";
+      else route = "/pluto-media.ts";
+    } else {
+      route = "/fast-child";
+    }
+    const p = new URL(route, proxyBase.origin);
     p.searchParams.set("u", abs);
     return p.toString();
   };
@@ -162,6 +173,7 @@ async function proxyHls(upstream, request, provider) {
 }
 
 async function handlePluto(channelId, request) {
+  channelId = String(channelId || "").replace(/\.m3u8$/i, "");
   if (!/^[0-9a-f]{24}$/i.test(channelId)) {
     return new Response("Invalid Pluto channel id", { status: 400 });
   }
@@ -218,7 +230,7 @@ async function plutoProxyHealth(channelId, request) {
       result.error = "no variant URL in rewritten master";
       return result;
     }
-    result.rewrittenVariant = variantLine.includes("/pluto-proxy?");
+    result.rewrittenVariant = variantLine.includes("/pluto-");
     const variantURL = new URL(variantLine.trim());
     result.variantProxyHost = variantURL.hostname;
     const variantUpstream = variantURL.searchParams.get("u");
@@ -241,7 +253,7 @@ async function plutoProxyHealth(channelId, request) {
       result.error = "no media URL in rewritten variant";
       return result;
     }
-    result.rewrittenSegment = segmentLine.includes("/pluto-proxy?");
+    result.rewrittenSegment = segmentLine.includes("/pluto-");
     const segmentURL = new URL(segmentLine.trim());
     result.segmentProxyHost = segmentURL.hostname;
     const segmentUpstream = segmentURL.searchParams.get("u");
@@ -344,7 +356,14 @@ export default {
       return handlePluto(url.pathname.split("/").pop(), request);
     }
 
-    if (url.pathname === "/pluto-proxy") {
+    if (
+      url.pathname === "/pluto-proxy" ||
+      url.pathname === "/pluto-proxy.m3u8" ||
+      url.pathname === "/pluto-media.ts" ||
+      url.pathname === "/pluto-media.m4s" ||
+      url.pathname === "/pluto-media.mp4" ||
+      url.pathname === "/pluto-media.aac"
+    ) {
       const upstream = url.searchParams.get("u");
       if (!upstream) return new Response("Missing upstream", { status: 400 });
       let parsed;
