@@ -271,6 +271,19 @@ def provider_route(entry, source_name):
     return entry
 
 
+def normalize_pluto_metadata(entry):
+    """Use native Pluto channel metadata for reliable grouping and XMLTV matching."""
+    e = list(entry)
+    m = re.search(r"/pluto/([0-9a-f]{24})\.m3u8(?:[?]|$)", e[-1], re.I)
+    if not m:
+        return e
+    pid = m.group(1)
+    e[0] = set_attr(e[0], "channel-id", pid)
+    e[0] = set_attr(e[0], "tvg-id", pid)
+    e[0] = set_attr(e[0], "group-title", "Pluto TV")
+    return e
+
+
 def publish_entry(entry, relay_streams):
     """Expose compatible HLS through the Worker; bypass origins Cloudflare cannot reliably fetch."""
     url = entry[-1]
@@ -364,6 +377,7 @@ def main():
                     continue
                 e = enrich(e, channels, logos, override)
                 e = provider_route(e, source_name)
+                e = normalize_pluto_metadata(e)
                 key = key_for(e)
                 # Avoid exact duplicate URL for same logical channel.
                 bucket = pool.setdefault(key, [])
