@@ -47,3 +47,43 @@ jobs:
           # latest main before pushing so the update is not rejected.
           git pull --rebase origin main
           git push
+
+      - name: Ensure ffprobe is available
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y ffmpeg
+          fi
+          ffprobe -version | head -1
+
+      - name: Wait for Worker and relay map propagation
+        run: sleep 20
+
+      - name: Audit generated playlist playback
+        run: python scripts/audit_published.py
+
+      - name: Repair failed playback paths
+        run: python scripts/apply_playback_audit.py
+
+      - name: Re-test repaired playlist
+        run: python scripts/audit_published.py
+
+      - name: Remove any remaining playback failures
+        run: python scripts/apply_playback_audit.py
+
+      - name: Final playback verification
+        run: python scripts/audit_published.py
+
+      - name: Commit playback-verified playlist
+        run: |
+          git add br.m3u linksoff.m3u playback-audit.csv
+          if git diff --cached --quiet; then
+            echo "No playback-audit changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: publish playback-verified IPTV playlist"
+          git pull --rebase origin main
+          git push
+
