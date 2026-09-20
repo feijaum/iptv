@@ -262,13 +262,22 @@ def provider_route(entry, source_name):
 
 
 def publish_entry(entry, relay_streams):
-    """Expose ordinary HLS through the Worker so players only need HTTPS/CORS-safe URLs."""
+    """Expose compatible HLS through the Worker; bypass origins Cloudflare cannot reliably fetch."""
     url = entry[-1]
     if url.startswith(WORKER_BASE + "/"):
         return list(entry)
 
-    path = urlparse(url).path.lower()
+    parsed = urlparse(url)
+    path = parsed.path.lower()
     if not path.endswith(".m3u8"):
+        return list(entry)
+
+    # Cloudflare egress is often rejected by IPTV origins exposed as raw IPv4
+    # HTTP servers. Publishing those directly is more reliable than turning an
+    # otherwise healthy stream into a Worker 5xx.
+    is_ipv4 = bool(re.fullmatch(r"(?:\d{1,3}\.){3}\d{1,3}", parsed.hostname or ""))
+    relay_bypass_hosts = {"giatv.bozztv.com", "cdn.livespanel.com"}
+    if (parsed.scheme == "http" and is_ipv4) or (parsed.hostname or "").lower() in relay_bypass_hosts:
         return list(entry)
 
     h = headers_for(entry)
