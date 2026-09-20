@@ -47,11 +47,6 @@ def main():
     direct_fallbacks = 0
 
     for block in active:
-        # Diagnostic entries must remain visible even if a transient audit
-        # failure occurs; their purpose is to compare Switch player behavior.
-        if block and 'group-title="Teste Switch"' in block[0]:
-            kept.append(block)
-            continue
 
         url = block[-1]
         row = audit.get(url)
