@@ -292,6 +292,45 @@ function rewriteManifest(text, finalUrl, requestUrl, provider) {
   }).join("\n");
 }
 
+
+function absolutizeManifest(text, finalUrl) {
+  const base = new URL(finalUrl);
+  const absolute = raw => new URL(raw, base).toString();
+  return text.split(/\r?\n/).map(line => {
+    const trimmed = line.trim();
+    if (!trimmed) return line;
+    if (!trimmed.startsWith("#")) return absolute(trimmed);
+    return line.replace(/URI="([^"]+)"/g, (_, uri) => 'URI="' + absolute(uri) + '"');
+  }).join("\n");
+}
+
+async function proxyPlutoMaster(upstream) {
+  const r = await fetch(upstream, {
+    headers: {
+      "User-Agent": UA,
+      "Accept": "*/*",
+      "Origin": "https://pluto.tv",
+      "Referer": "https://pluto.tv/"
+    },
+    redirect: "follow"
+  });
+  if (!r.ok) {
+    return new Response("Pluto master upstream error " + r.status, {
+      status: 502,
+      headers: corsHeaders({ "Cache-Control": "no-store" })
+    });
+  }
+  const text = await r.text();
+  const manifest = absolutizeManifest(text, r.url || upstream);
+  return new Response(manifest, {
+    status: 200,
+    headers: corsHeaders({
+      "Content-Type": "application/vnd.apple.mpegurl; charset=utf-8",
+      "Cache-Control": "no-store"
+    })
+  });
+}
+
 async function proxyHls(upstream, request, provider) {
   const headers = {
     "User-Agent": UA,
@@ -371,7 +410,11 @@ async function handlePluto(channelId, request) {
     u.searchParams.set("includeExtendedEvents", "true");
     u.searchParams.set("masterJWTPassthrough", "true");
 
-    return await proxyHls(u.toString(), request, "pluto");
+    // Only the dynamic master is served by our Worker. Child playlists,
+    // audio renditions, encryption keys and media segments remain on Pluto's
+    // own CDN. Native IPTV players handle those HLS relationships more
+    // reliably than when every child request is re-proxied through Workers.
+    return await proxyPlutoMaster(u.toString());
   } catch (e) {
     return new Response("Pluto session failed", {
       status: 502,
