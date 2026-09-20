@@ -39,18 +39,6 @@ CHANNELS_DB = "https://raw.githubusercontent.com/iptv-org/database/master/data/c
 LOGOS_DB = "https://raw.githubusercontent.com/iptv-org/database/master/data/logos.csv"
 WORKER_BASE = "https://iptv.jvleite7.workers.dev"
 
-SWITCH_TEST_ENTRIES = [
-    ['#EXTINF:-1 group-title="Teste Switch",Band - teste direto',
-     'https://media.cdntvms.com.br/band_sat/index.m3u8'],
-    ['#EXTINF:-1 group-title="Teste Switch",Globo - teste direto',
-     'https://media2.cdntvms.com.br/tv_morena_dorados/index.m3u8'],
-    ['#EXTINF:-1 group-title="Teste Switch",SBT - teste direto',
-     'https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8'],
-    ['#EXTINF:-1 group-title="Teste Switch",BandNews - HTTP HLS',
-     'http://45.162.64.114/BAND_NEWS/index.m3u8'],
-    ['#EXTINF:-1 group-title="Teste Switch",RedeTV - HTTP HLS',
-     'http://45.162.64.114/REDE_TV/index.m3u8'],
-]
 
 CATEGORY_MAP = {
     "movies": "Filmes e Series", "series": "Filmes e Series",
@@ -481,13 +469,6 @@ def main():
         w.writerow(["canal","tvg_id","categoria","fonte","url","status","resultado"])
         w.writerows(candidate_rows)
 
-    # Keep a small diagnostic category in the main playlist for testing the
-    # Nintendo Switch player without Worker/Pluto indirection.
-    existing_test_urls = {e[-1] for e in active}
-    for e in SWITCH_TEST_ENTRIES:
-        if e[-1] not in existing_test_urls:
-            active.append(e)
-            existing_test_urls.add(e[-1])
 
     Path("br.m3u").write_text(
         "#EXTM3U\n" + "\n".join("\n".join(e) for e in active) + "\n",
