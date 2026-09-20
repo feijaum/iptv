@@ -16,6 +16,7 @@ from urllib.error import HTTPError
 # channel and uses later sources as automatic backups.
 SOURCES = [
     ("Curated Open HD", "https://raw.githubusercontent.com/feijaum/iptv/main/sources/open-hd-curated.m3u", "Canais Abertos", True, False),
+    ("Curated Free Docs FAST", "https://raw.githubusercontent.com/feijaum/iptv/main/sources/fast-docs-curated.m3u", "Documentarios e Outros", True, False),
     ("iptv-org BR", "https://iptv-org.github.io/iptv/countries/br.m3u", None, True, False),
     ("iptv-org BR raw", "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/br.m3u", None, True, False),
     ("dearbulut BR working", "https://dearbulut.github.io/iptv/playlists/country/br.m3u", None, True, False),
