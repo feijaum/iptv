@@ -3,10 +3,11 @@ import csv, io, re, socket
 from pathlib import Path
 from urllib.request import Request, urlopen
 
+# Use IPTV-org's generated public playlists instead of internal source files.
+# Public playlists are rebuilt daily, enriched with metadata and keep the best
+# available stream for each channel.
 SOURCES = [
- "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/br.m3u",
- "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/br_pluto.m3u",
- "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/br_samsung.m3u",
+ "https://iptv-org.github.io/iptv/countries/br.m3u",
 ]
 CHANNELS_DB="https://raw.githubusercontent.com/iptv-org/database/master/data/channels.csv"
 LOGOS_DB="https://raw.githubusercontent.com/iptv-org/database/master/data/logos.csv"
