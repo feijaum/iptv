@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"
+#EXTM3U
 #EXTINF:-1 tvg-id="Band.br@SD" group-title="Canais Abertos" tvg-logo="https://i.imgur.com/1r5T6Pw.png",Band (576p)
 https://iptv.jvleite7.workers.dev/live/57b9e9857f989fc1.m3u8
 #EXTINF:-1 tvg-id="Record.br@SD" group-title="Canais Abertos" tvg-logo="https://i.imgur.com/sz9gTTr.png",Record (576p)
@@ -362,7 +362,7 @@ http://168.197.104.22/REDE_FAMILIA/index.m3u8
 #EXTINF:-1 tvg-id="RedeGlobo.br@SD" tvg-logo="https://i.imgur.com/O02TF2r.png" group-title="Canais Abertos",Rede Globo (720p)
 https://iptv.jvleite7.workers.dev/live/ce7b26eeb488e17f.m3u8
 #EXTINF:-1 tvg-id="RedeGospel.br@SD" group-title="Documentarios e Outros" tvg-logo="https://i.imgur.com/mttSwgO.png",Rede Gospel (1080p)
-https://iptv.jvleite7.workers.dev/live/1c3891aa3c18f02f.m3u8
+https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RedeMeioNorte.br@SD" tvg-logo="https://i.imgur.com/KVdTi0M.png" group-title="Documentarios e Outros",Rede Meio Norte (720p)
 https://iptv.jvleite7.workers.dev/live/87f00cd958bc82d6.m3u8
 #EXTINF:-1 tvg-id="RedeMinas.br@SD" tvg-logo="https://i.imgur.com/MtQWAHv.png" group-title="Documentarios e Outros",Rede Minas (720p)
@@ -449,8 +449,6 @@ https://iptv.jvleite7.workers.dev/live/2a5c78a1b8293881.m3u8
 https://iptv.jvleite7.workers.dev/live/6f0f2ace1c9e511f.m3u8
 #EXTINF:-1 tvg-id="TVBrasil.br@SD" group-title="Canais Abertos" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvBrasil2023.png/960px-TvBrasil2023.png",TV Brasil (720p)
 https://iptv.jvleite7.workers.dev/live/bb3f1891d8470f1b.m3u8
-#EXTINF:-1 tvg-id="TVBrasilOeste.br@SD" tvg-logo="https://i.imgur.com/noqGfuy.png" group-title="Canais Abertos",TV Brasil Oeste (720p)
-https://iptv.jvleite7.workers.dev/live/f241cbba31706ee7.m3u8
 #EXTINF:-1 tvg-id="TVBRICSPortuguese.br@SD" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="Canais Abertos",TV BRICS Portuguese (1080p)
 https://iptv.jvleite7.workers.dev/live/0c3c71cb6042ca3a.m3u8
 #EXTINF:-1 tvg-id="TVBrusque.br@SD" tvg-logo="https://i.imgur.com/J2EAZPS.png" group-title="Noticias",TV Brusque (720p)
