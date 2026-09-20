@@ -1,0 +1,52 @@
+name: Audit published IPTV playback
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "br.m3u"
+      - "relay-map.json"
+      - "worker.js"
+      - "scripts/audit_published.py"
+      - ".github/workflows/audit-playback.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-published-playback
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Ensure ffprobe is available
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y ffmpeg
+          fi
+          ffprobe -version | head -1
+
+      - name: Wait for Worker and raw GitHub propagation
+        run: sleep 20
+
+      - name: Test every published channel with ffprobe
+        run: python scripts/audit_published.py
+
+      - name: Commit playback audit
+        run: |
+          if git diff --quiet -- playback-audit.csv; then
+            echo "No audit changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playback-audit.csv
+          git commit -m "chore: audit published IPTV playback"
+          git pull --rebase origin main
+          git push
