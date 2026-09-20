@@ -73,7 +73,7 @@ def entries(text):
     cur = []
     for raw in text.replace("\r", "").split("\n"):
         line = raw.strip()
-        if not line or line == "#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"":
+        if not line or line == "#EXTM3U":
             continue
         if line.startswith("#EXTINF:"):
             if cur:
@@ -192,14 +192,14 @@ def _validate_hls_url(url, headers, timeout, depth=0):
         return "OFF", str(code)
 
     text = data.decode("utf-8", errors="ignore")
-    is_manifest = "#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"" in text or "mpegurl" in ctype or url.lower().split("?")[0].endswith(".m3u8")
+    is_manifest = "#EXTM3U" in text or "mpegurl" in ctype or url.lower().split("?")[0].endswith(".m3u8")
     if not is_manifest:
         return ("OK", str(code)) if _looks_like_media(data, ctype) else ("OFF", "non-media response")
 
     # Generic channel-list M3U files are not HLS manifests. This prevents a
     # stale Worker that ignores /pluto/... from being falsely accepted because
     # it returned the root br.m3u playlist.
-    if "#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"" in text and "#EXT-X-" not in text:
+    if "#EXTM3U" in text and "#EXT-X-" not in text:
         return "OFF", "generic m3u returned instead of hls"
 
     children = [x.strip() for x in text.splitlines() if x.strip() and not x.startswith("#")]
@@ -480,7 +480,8 @@ def main():
 
 
     Path("br.m3u").write_text(
-        "#EXTM3U\n" + "\n".join("\n".join(e) for e in active) + "\n",
+        '#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"\n'
+        + "\n".join("\n".join(e) for e in active) + "\n",
         encoding="utf-8"
     )
     Path("linksoff.m3u").write_text(
