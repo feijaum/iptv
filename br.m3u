@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Documentarios e Outros",A&E Latin America Brazil (720p)
 http://170.83.16.50/AeE/index.m3u8
 #EXTINF:-1 tvg-id="AdrenalinaPuraTV.us@Brazil" tvg-logo="https://i.imgur.com/Pvid2iH.png" group-title="Filmes e Series",Adrenalina Pura TV Brazil
-https://jmp2.uk/plu-61b790b985706b00072cb797.m3u8
+https://iptv.jvleite7.workers.dev/pluto/61b790b985706b00072cb797
 #EXTINF:-1 tvg-id="AdultSwimLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/960px-Adult_Swim_2003_logo.svg.png" group-title="Documentarios e Outros",Adult Swim Latin America Brazil (720p)
 http://168.197.104.22/ADULT_SWIM/index.m3u8
 #EXTINF:-1 tvg-id="AgroCanal.br@SD" tvg-logo="https://i.imgur.com/5XyopHf.png" group-title="Documentarios e Outros",AgroCanal (720p)
@@ -18,24 +18,24 @@ https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Arte1.br@SD" tvg-logo="https://i.imgur.com/Ivnk7A6.png" group-title="Documentarios e Outros",Arte 1 (720p)
 http://45.162.64.114/ARTE1/index.m3u8
 #EXTINF:-1 tvg-id="AvatarAlendadeAang.us@BR" tvg-logo="https://images.pluto.tv/channels/6759eeb1bd523200083b4f29/colorLogoPNG.png" group-title="Desenhos e Animes",Avatar: A lenda de Aang
-https://jmp2.uk/plu-6759eeb1bd523200083b4f29.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6759eeb1bd523200083b4f29
 #EXTINF:-1 tvg-id="AWTV.br@HD" tvg-logo="https://i.imgur.com/2tdMyef.png" http-referrer="https://awtv.com.br" group-title="Filmes e Series",AWTV (1080p) [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://awtv.com.br
 https://awtv.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AXN.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Filmes e Series",AXN (Brazil) (720p)
 http://170.83.16.50/AXN/index.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us@Brazil" tvg-logo="https://i.imgur.com/WxLHBwu.png" group-title="Desenhos e Animes",BabyFirst Brazil
-https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f4fb4cf605ddf000748e16f
 #EXTINF:-1 tvg-id="BandSports.br" tvg-name="Band Sports" tvg-logo="https://i.imgur.com/EuPvzJe.png" tvg-country="BR" tvg-language="por" group-title="Canais Abertos" nexus-score="100",Band Sports (1080p)
 http://170.83.49.66:8083/BANDSPORTSHD/index.m3u8
 #EXTINF:-1 tvg-id="BandNews.br" tvg-name="BandNews" tvg-logo="https://i.ibb.co/0jVZBFp/u8ya-iw-R-400x400.jpg" tvg-country="BR" tvg-language="por" group-title="Noticias" nexus-score="100",BandNews (1080p)
 http://170.83.49.66:8083/BANDNEWSHD/index.m3u8
 #EXTINF:-1 tvg-id="BETPlutoTV.us@BR" tvg-logo="https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png" group-title="Documentarios e Outros",BET Pluto TV (United States) BR
-https://jmp2.uk/plu-5ff768b6a4c8b80008498610.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5ff768b6a4c8b80008498610
 #EXTINF:-1 tvg-id="BMCNews.br@SD" tvg-logo="https://i.imgur.com/pOUY2Uz.png" group-title="Noticias",BM&C News (720p)
-https://jmp2.uk/plu-666c9c60a7efd40008f552f0.m3u8
+https://iptv.jvleite7.workers.dev/pluto/666c9c60a7efd40008f552f0
 #EXTINF:-1 tvg-id="BobEsponjaCalcaQuadrada.us@BR" tvg-logo="https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png" group-title="Desenhos e Animes",Bob Esponja Calca Quadrada (720p)
-https://jmp2.uk/plu-62545c0b002f4b0007688b61.m3u8
+https://iptv.jvleite7.workers.dev/pluto/62545c0b002f4b0007688b61
 #EXTINF:-1 tvg-id="BoxKidsTV.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Boxkidstv.png" group-title="Desenhos e Animes",Box Kids TV (720p)
 http://170.83.49.66:8083/BOXKIDSHD/index.m3u8
 #EXTINF:-1 tvg-id="Canal38.br@SD" tvg-logo="https://i.imgur.com/co7TCWC.png" group-title="Noticias",Canal 38 (720p)
@@ -44,6 +44,8 @@ https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
 http://45.162.64.114/CANAL_DO_BOI/index.m3u8
 #EXTINF:-1 tvg-id="CanalEducacao.br@SD" tvg-logo="https://i.imgur.com/OOB7nrS.png" group-title="Documentarios e Outros",Canal Educacao (720p)
 http://45.162.64.114/CANAL_EDUCACAO/index.m3u8
+#EXTINF:-1 tvg-id="CanalFDR.br@SD" tvg-logo="https://i.imgur.com/7SE4CkE.png" group-title="Canais Abertos",Canal FDR
+https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
 #EXTINF:-1 tvg-id="CanalFutura.br@SD" tvg-logo="https://i.imgur.com/LgynEBC.png" group-title="Documentarios e Outros",Canal Futura (720p)
 http://45.162.64.114/FUTURA/index.m3u8
 #EXTINF:-1 tvg-id="CanalGov.br@SD" tvg-logo="https://i.imgur.com/rHPY0Yv.png" group-title="Canais Abertos",Canal Gov (720p)
@@ -59,29 +61,29 @@ http://168.197.104.22/CHEF_TV/index.m3u8
 #EXTINF:-1 tvg-id="ChromaTV.br@SD" tvg-logo="https://i.imgur.com/SnaIMgj.png" group-title="Documentarios e Outros",Chroma TV (480p)
 https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
 #EXTINF:-1 tvg-id="CineTerror.us@BR" tvg-logo="https://images.pluto.tv/channels/5f12111c9e6c2c00078ef3bb/colorLogoPNG.png" group-title="Filmes e Series",Cine Terror BR
-https://jmp2.uk/plu-5f12111c9e6c2c00078ef3bb.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f12111c9e6c2c00078ef3bb
 #EXTINF:-1 tvg-id="ClassiqueTV.br@SD" tvg-logo="https://i.imgur.com/rHxcraT.png" group-title="Filmes e Series",Classique TV (360p)
 https://stmv1.srvif.com/classique/classique/playlist.m3u8
 #EXTINF:-1 tvg-id="COMBrasil.br@SD" tvg-logo="https://i.imgur.com/GrjGwKM.png" group-title="Canais Abertos",COM Brasil (720p)
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/NewCo/New_Brasil_BR/New_Brasil.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralPlutoTV.us@BR" tvg-logo="https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png" group-title="Filmes e Series",Comedy Central Pluto TV BR
-https://jmp2.uk/plu-5f357e91b18f0b00073583d2.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f357e91b18f0b00073583d2
 #EXTINF:-1 tvg-id="ComedyCentralSouthPark.us@BR" tvg-logo="https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png" group-title="Desenhos e Animes",Comedy Central South Park (United States)
-https://jmp2.uk/plu-609ae66b359b270007869ff1.m3u8
+https://iptv.jvleite7.workers.dev/pluto/609ae66b359b270007869ff1
 #EXTINF:-1 tvg-id="ConectaMaisTV.br@SD" tvg-logo="https://i.imgur.com/qHwTWlz.png" group-title="Documentarios e Outros",Conecta Mais TV (720p)
 https://adylnet.streampool.net/10324/live/hls/Conecta/index.m3u8
 #EXTINF:-1 tvg-id="ConecTVBrasil.br@SD" tvg-logo="https://i.imgur.com/XN6jjMR.png" group-title="Canais Abertos",ConecTV Brasil (720p)
 https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
 #EXTINF:-1 tvg-id="CSIMiami.us@BR" tvg-logo="https://images.pluto.tv/channels/63eb9c5351f5d000085e8d7e/colorLogoPNG.png" group-title="Filmes e Series",CSI: Miami BR
-https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63eb9c5351f5d000085e8d7e
 #EXTINF:-1 tvg-id="CulturaFast.br@SD" tvg-logo="https://eitv6.cdn.broadpeak.io/account351-i1438/channel/53/quadrada_-3-_pequeno-1723832301.png" group-title="Canais Abertos",Cultura Fast (720p)
 https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
 #EXTINF:-1 tvg-id="DespertarTV.br@HD" tvg-logo="https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png" group-title="Documentarios e Outros",Despertar TV (720p)
 https://br.conectmy.com.br/DespertarTV/index.m3u8
 #EXTINF:-1 tvg-id="DetetivesMedicos.us@BR" tvg-logo="https://images.pluto.tv/channels/638df93ae2f2a3000737c168/colorLogoPNG.png" group-title="Documentarios e Outros",Detetives Medicos
-https://jmp2.uk/plu-638df93ae2f2a3000737c168.m3u8
+https://iptv.jvleite7.workers.dev/pluto/638df93ae2f2a3000737c168
 #EXTINF:-1 tvg-id="DiffrentStrokesArnold.us@Brazil" tvg-logo="https://i.imgur.com/jkmouY3.png" group-title="Filmes e Series",Diff'rent Strokes Arnold
-https://jmp2.uk/plu-61f1d27a189ed10007b7393e.m3u8
+https://iptv.jvleite7.workers.dev/pluto/61f1d27a189ed10007b7393e
 #EXTINF:-1 tvg-id="DumDum.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg" group-title="Desenhos e Animes",DumDum (720p)
 http://45.162.64.114/ZOOMOO_KIDS/index.m3u8
 #EXTINF:-1 tvg-id="ElementalChannel.br" tvg-name="Elemental Channel" tvg-logo="https://i.imgur.com/8upyApg.png" tvg-country="BR" tvg-language="por" group-title="Documentarios e Outros" nexus-score="79",Elemental Channel
@@ -97,13 +99,13 @@ http://181.78.197.59:8000/play/a07z/index.m3u8
 #EXTINF:-1 tvg-id="EUTV.br" tvg-name="EUTV" tvg-logo="https://i.imgur.com/8PxpamC.png" tvg-country="BR" tvg-language="por" group-title="Canais Abertos" nexus-score="100",EUTV (1080p)
 https://video01.logicahost.com.br/ypetv/ypetv/playlist.m3u8
 #EXTINF:-1 tvg-id="FailArmy.us@Brazil" tvg-logo="https://i.imgur.com/VIpQJxL.png" group-title="Filmes e Series",FailArmy Brazil
-https://jmp2.uk/plu-5f5141c1605ddf000748eb1b.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f5141c1605ddf000748eb1b
 #EXTINF:-1 tvg-id="FalaLitoral.br@SD" tvg-logo="https://i.imgur.com/NF6PL8O.png" group-title="Canais Abertos",Fala Litoral (480p)
 https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="Esportes",FIFA+ Portuguese (720p)
 https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="FilmesSuspense.us@BR" tvg-logo="https://images.pluto.tv/channels/5f171d3442a0500007362f22/colorLogoPNG.png" group-title="Filmes e Series",Filmes Suspense
-https://jmp2.uk/plu-5f171d3442a0500007362f22.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f171d3442a0500007362f22
 #EXTINF:-1 tvg-id="FishTV.br@SD" tvg-logo="https://www.fishtv.com/public/site/images/logos/fishtv.svg" group-title="Documentarios e Outros",Fish TV (720p)
 http://45.162.64.114/FISH_TV/index.m3u8
 #EXTINF:-1 tvg-id="FonteTV.br@SD" tvg-logo="https://i.imgur.com/7q2BmNc.png" group-title="Documentarios e Outros",Fonte TV
@@ -124,21 +126,21 @@ http://45.177.114.114/HISTORY_2/index.m3u8
 #EXTINF:-1 tvg-id="History.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentarios e Outros",History (Brazil) (720p)
 http://45.177.114.114/HISTORY/index.m3u8
 #EXTINF:-1 tvg-id="iCarly.us@BR" tvg-logo="https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png" group-title="Filmes e Series",iCarly (United States)
-https://jmp2.uk/plu-620ff46e0a576e0007dc2f89.m3u8
+https://iptv.jvleite7.workers.dev/pluto/620ff46e0a576e0007dc2f89
 #EXTINF:-1 tvg-id="ISTV.br@SD" tvg-logo="https://i.imgur.com/RUKVrOH.png" group-title="Documentarios e Outros",ISTV (Brazil) (720p) [Not 24/7]
 https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
 #EXTINF:-1 tvg-id="J3NEWSTV.br@SD" tvg-logo="https://i.imgur.com/lezIQyL.png" group-title="Noticias",J3NEWS TV
 https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
 #EXTINF:-1 tvg-id="JornadanasEstrelasANovaGeracao.us@BR" tvg-logo="https://images.pluto.tv/channels/69162ad79505d0f3b1ebf07d/colorLogoPNG_1766066212478.png" group-title="Filmes e Series",Jornada nas Estrelas: A Nova Geracao
-https://jmp2.uk/plu-69162ad79505d0f3b1ebf07d.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69162ad79505d0f3b1ebf07d
 #EXTINF:-1 tvg-id="JornadanasEstrelasDeepSpaceNine.us@BR" tvg-logo="https://images.pluto.tv/channels/69162af591700f4c4c135c95/colorLogoPNG_1766066526851.png" group-title="Filmes e Series",Jornada nas Estrelas: Deep Space Nine
-https://jmp2.uk/plu-69162af591700f4c4c135c95.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69162af591700f4c4c135c95
 #EXTINF:-1 tvg-id="JornadanasEstrelasVoyager.us@BR" tvg-logo="https://images.pluto.tv/channels/69162b1ef189e235142b17ab/colorLogoPNG_1766150123044.png" group-title="Filmes e Series",Jornada nas Estrelas: Voyager
-https://jmp2.uk/plu-69162b1ef189e235142b17ab.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69162b1ef189e235142b17ab
 #EXTINF:-1 tvg-id="JovemPanNews.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jovem_Pan_logo_2018.svg/960px-Jovem_Pan_logo_2018.svg.png" group-title="Noticias",Jovem Pan News (720p)
 http://170.83.49.66:8083/JOVEMPANNEWSHD/index.m3u8
 #EXTINF:-1 tvg-id="KenanKel.us@BR" tvg-logo="https://images.pluto.tv/channels/5ffcc5130fd98c0007f2e216/colorLogoPNG.png" group-title="Filmes e Series",Kenan & Kel BR
-https://jmp2.uk/plu-5ffcc5130fd98c0007f2e216.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5ffcc5130fd98c0007f2e216
 #EXTINF:-1 tvg-id="KpopTVPlay.br@SD" tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Musica",KpopTV Play (576p)
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-id="KuriakosKids.pt@SD" tvg-logo="https://i.imgur.com/SRX6EPY.png" group-title="Desenhos e Animes",Kuriakos Kids (1080p)
@@ -152,33 +154,33 @@ http://170.83.16.50/LIFETIME/index.m3u8
 #EXTINF:-1 tvg-id="Loading.br@SD" tvg-logo="https://i.imgur.com/R0aflu1.png" group-title="Documentarios e Outros",Loading (720p)
 https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MacGyver.us@BR" tvg-logo="https://images.pluto.tv/channels/63eb9dc84e83e70008abea92/colorLogoPNG.png" group-title="Filmes e Series",MacGyver (United States)
-https://jmp2.uk/plu-63eb9dc84e83e70008abea92.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63eb9dc84e83e70008abea92
 #EXTINF:-1 tvg-id="MasterChef.us@Brazil" tvg-logo="https://i.imgur.com/lOuySbz.png" group-title="Filmes e Series",MasterChef
-https://jmp2.uk/plu-6077045b6031bd00078de127.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6077045b6031bd00078de127
 #EXTINF:-1 tvg-id="MTVAreyoutheOne.us@BR" tvg-logo="https://images.pluto.tv/channels/5f6108d8cc331900075e98e4/colorLogoPNG.png" group-title="Musica",MTV Are you the One?
-https://jmp2.uk/plu-5f6108d8cc331900075e98e4.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f6108d8cc331900075e98e4
 #EXTINF:-1 tvg-id="MTVBiggestPop.us@BR" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="Musica",MTV Biggest Pop BR (1080p)
-https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6047fbdbbb776a0007e7f2ff
 #EXTINF:-1 tvg-id="MTVCatfish.us@BR" tvg-logo="https://images.pluto.tv/channels/626c2a3502d84a0007cec817/colorLogoPNG.png" group-title="Musica",MTV Catfish (United States) BR (720p)
-https://jmp2.uk/plu-626c2a3502d84a0007cec817.m3u8
+https://iptv.jvleite7.workers.dev/pluto/626c2a3502d84a0007cec817
 #EXTINF:-1 tvg-id="MTVClassic.us@BR" tvg-logo="https://images.pluto.tv/channels/66a01dcb8561260008b0a41d/colorLogoPNG.png" group-title="Musica",MTV Classic BR (720p)
-https://jmp2.uk/plu-66a01dcb8561260008b0a41d.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66a01dcb8561260008b0a41d
 #EXTINF:-1 tvg-id="MTVComoEx.us@BR" tvg-logo="https://images.pluto.tv/channels/61a528267e1b8b0007357920/colorLogoPNG.png" group-title="Musica",MTV Com o Ex
-https://jmp2.uk/plu-61a528267e1b8b0007357920.m3u8
+https://iptv.jvleite7.workers.dev/pluto/61a528267e1b8b0007357920
 #EXTINF:-1 tvg-id="MTVDating.us@BR" tvg-logo="https://images.pluto.tv/channels/6851bb3426beced4f2f67ee6/colorLogoPNG_1750686926779.png" group-title="Musica",MTV Dating (United States)
-https://jmp2.uk/plu-6851bb3426beced4f2f67ee6.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6851bb3426beced4f2f67ee6
 #EXTINF:-1 tvg-id="MTVDrag.us@BR" tvg-logo="https://images.pluto.tv/channels/645111f1d8436e00081bb2bd/colorLogoPNG.png" group-title="Musica",MTV Drag
-https://jmp2.uk/plu-645111f1d8436e00081bb2bd.m3u8
+https://iptv.jvleite7.workers.dev/pluto/645111f1d8436e00081bb2bd
 #EXTINF:-1 tvg-id="MTVJovenseMaes.us@BR" tvg-logo="https://images.pluto.tv/channels/620fdc7d8a36fc000710e3ba/colorLogoPNG.png" group-title="Musica",MTV Jovens e Maes (720p)
-https://jmp2.uk/plu-620fdc7d8a36fc000710e3ba.m3u8
+https://iptv.jvleite7.workers.dev/pluto/620fdc7d8a36fc000710e3ba
 #EXTINF:-1 tvg-id="MTVPlutoTV.us@BR" tvg-logo="https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png" group-title="Musica",MTV Pluto TV (United States) BR
-https://jmp2.uk/plu-5f1212fb81e85c00077ae9ef.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f1212fb81e85c00077ae9ef
 #EXTINF:-1 tvg-id="MTVReality.us@BR" tvg-logo="https://images.pluto.tv/channels/6851bdfc9ac48fde5e07f5ae/colorLogoPNG_1780319925470.png" group-title="Musica",MTV Reality (United States) (720p)
-https://jmp2.uk/plu-6851bdfc9ac48fde5e07f5ae.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6851bdfc9ac48fde5e07f5ae
 #EXTINF:-1 tvg-id="MTVRocks.us@BR" tvg-logo="https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png" group-title="Musica",MTV Rocks
-https://jmp2.uk/plu-66a01e07d2d50d0008100d6a.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66a01e07d2d50d0008100d6a
 #EXTINF:-1 tvg-id="MTVShore.us@BR" tvg-logo="https://images.pluto.tv/channels/625463563b8ddc0007134aeb/colorLogoPNG.png" group-title="Musica",MTV Shore
-https://jmp2.uk/plu-625463563b8ddc0007134aeb.m3u8
+https://iptv.jvleite7.workers.dev/pluto/625463563b8ddc0007134aeb
 #EXTINF:-1 tvg-id="MusicBoxBrazil.br@SD" tvg-logo="https://i.imgur.com/CDPCF2X.png" group-title="Musica",Music Box Brazil (720p)
 http://168.197.104.22/MUSIC/index.m3u8
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.br@SD" tvg-logo="https://i.imgur.com/aiGQtzI.png" group-title="Filmes e Series",MyTime Movie Network (Brazil) (720p)
@@ -186,19 +188,19 @@ https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NSports.br@SD" tvg-logo="https://i.imgur.com/7QnJojr.png" group-title="Esportes",N Sports (1080p)
 https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
 #EXTINF:-1 tvg-id="Naruto.us@Brazil" tvg-logo="https://i.imgur.com/M8X3Kvc.png" group-title="Desenhos e Animes",Naruto Brazil
-https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f6df5a173d7340007c559f7
 #EXTINF:-1 tvg-id="NCIS.us@BR" tvg-logo="https://images.pluto.tv/channels/63eb9fdda995710008991c54/colorLogoPNG.png" group-title="Filmes e Series",NCIS (United States)
-https://jmp2.uk/plu-63eb9fdda995710008991c54.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63eb9fdda995710008991c54
 #EXTINF:-1 tvg-id="NickJrClub.us@BR" tvg-logo="https://images.pluto.tv/channels/5f121460b73ac6000719fbaf/colorLogoPNG_1748348856602.png" group-title="Desenhos e Animes",Nick Jr. Club (United States) BR (720p)
-https://jmp2.uk/plu-6824ce95f09106f4b18f4114.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6824ce95f09106f4b18f4114
 #EXTINF:-1 tvg-id="Nickelodeon.br@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Desenhos e Animes",Nickelodeon (Brazil) (480p)
 https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8
 #EXTINF:-1 tvg-id="NickelodeonClassico.us@BR" tvg-logo="https://images.pluto.tv/channels/5f12151794c1800007a8ae63/colorLogoPNG_1750157164414.png" group-title="Desenhos e Animes",Nickelodeon Classico (720p)
-https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6824ce10c5d53e1351ceb8d1
 #EXTINF:-1 tvg-id="NickelodeonTeen.us@BR" tvg-logo="https://images.pluto.tv/channels/60f5fabf0721880007cd50e3/colorLogoPNG_1767888207915.png" group-title="Desenhos e Animes",Nickelodeon Teen (United States) (720p)
-https://jmp2.uk/plu-60f5fabf0721880007cd50e3.m3u8
+https://iptv.jvleite7.workers.dev/pluto/60f5fabf0721880007cd50e3
 #EXTINF:-1 tvg-id="NickelodeonToons.us@BR" tvg-logo="https://images.pluto.tv/channels/645951c0e94c38000802d2cb/colorLogoPNG_1767888119852.png" group-title="Desenhos e Animes",Nickelodeon Toons (United States) (720p)
-https://jmp2.uk/plu-645951c0e94c38000802d2cb.m3u8
+https://iptv.jvleite7.workers.dev/pluto/645951c0e94c38000802d2cb
 #EXTINF:-1 tvg-id="NickToonsBrasil.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Desenhos e Animes",NickToons Brasil (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
@@ -209,17 +211,17 @@ http://45.162.64.114/NOVO_TEMPO/index.m3u8
 #EXTINF:-1 tvg-id="NTV.br@SD" tvg-logo="https://i.imgur.com/n79nkVC.png" group-title="Canais Abertos",NTV (Brazil) (720p)
 https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Numbers.us@BR" tvg-logo="https://images.pluto.tv/channels/67f960c5441853fe50e7afc1/colorLogoPNG_1747430170532.png" group-title="Filmes e Series",Numbers (United States)
-https://jmp2.uk/plu-67f960c5441853fe50e7afc1.m3u8
+https://iptv.jvleite7.workers.dev/pluto/67f960c5441853fe50e7afc1
 #EXTINF:-1 tvg-id="ODiaTV.br@SD" tvg-logo="https://i.imgur.com/1LUbAVP.png" group-title="Canais Abertos",O Dia TV
 https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8
 #EXTINF:-1 tvg-id="OEncantadordeCaes.us@Brazil" tvg-logo="https://i.imgur.com/sQn6vvh.png" group-title="Documentarios e Outros",O Encantador de Caes
-https://jmp2.uk/plu-61099df8cee03b00074b2ecf.m3u8
+https://iptv.jvleite7.workers.dev/pluto/61099df8cee03b00074b2ecf
 #EXTINF:-1 tvg-id="OReinoInfantil.us@Brazil" tvg-logo="https://i.imgur.com/qoVxc13.png" group-title="Desenhos e Animes",O Reino Infantil
-https://jmp2.uk/plu-5f5c216df68f920007888315.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f5c216df68f920007888315
 #EXTINF:-1 tvg-id="OggyeasBaratasTontas.us@BR" tvg-logo="https://images.pluto.tv/channels/63221bafdc6e110007b50270/colorLogoPNG.png" group-title="Desenhos e Animes",Oggy e as Baratas Tontas
-https://jmp2.uk/plu-63221bafdc6e110007b50270.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63221bafdc6e110007b50270
 #EXTINF:-1 tvg-id="OnePiece.us@BR" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Desenhos e Animes",One Piece BR
-https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8
+https://iptv.jvleite7.workers.dev/pluto/624b1c8d4321e200073ee421
 #EXTINF:-1 tvg-id="PetloversTV.br@SD" tvg-logo="https://petloverstv.com.br/storage/357/config/yqP4nOugWRxRFCmgLqXF4gRKyM9ybsAOfHgUaqPt.png" group-title="Documentarios e Outros",Petlovers TV
 https://video04.logicahost.com.br/petloverstv/petloverstv/playlist.m3u8
 #EXTINF:-1 tvg-id="PlayTV.br@SD" tvg-logo="https://i.imgur.com/Ikrj3lk.png" group-title="Documentarios e Outros",Play TV (Brazil) (720p)
@@ -229,109 +231,111 @@ https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8
 #EXTINF:-1 tvg-id="PlenitudeTV.br@SD" tvg-logo="" group-title="Documentarios e Outros",Plenitude TV
 https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAliens.us@BR" tvg-logo="https://images.pluto.tv/channels/6806d65e84f24b70109485fa/colorLogoPNG_1746817107468.png" group-title="Filmes e Series",Pluto TV Aliens
-https://jmp2.uk/plu-6806d65e84f24b70109485fa.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6806d65e84f24b70109485fa
 #EXTINF:-1 tvg-id="PlutoTVAnimais.us@BR" tvg-logo="https://images.pluto.tv/channels/6474aa984cfc2c0008883a92/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Animais
-https://jmp2.uk/plu-6474aa984cfc2c0008883a92.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6474aa984cfc2c0008883a92
 #EXTINF:-1 tvg-id="PlutoTVAnime.us@BR" tvg-logo="https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1777595293242.png" group-title="Desenhos e Animes",Pluto TV Anime (United States) BR
-https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f12136385bccc00070142ed
 #EXTINF:-1 tvg-id="PlutoTVAnimeAcao.us@BR" tvg-logo="https://images.pluto.tv/channels/604b79c558393100078faeef/colorLogoPNG.png" group-title="Desenhos e Animes",Pluto TV Anime Acao
-https://jmp2.uk/plu-604b79c558393100078faeef.m3u8
+https://iptv.jvleite7.workers.dev/pluto/604b79c558393100078faeef
 #EXTINF:-1 tvg-id="PlutoTVBangBang.us@BR" tvg-logo="https://images.pluto.tv/channels/663b9dc7cb3ea10008f1a0ce/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Bang Bang
-https://jmp2.uk/plu-663b9dc7cb3ea10008f1a0ce.m3u8
+https://iptv.jvleite7.workers.dev/pluto/663b9dc7cb3ea10008f1a0ce
 #EXTINF:-1 tvg-id="PlutoTVCanalUOL.us@BR" tvg-logo="https://images.pluto.tv/channels/64b9370b409629000802d32b/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Canal UOL (720p)
-https://jmp2.uk/plu-64b9370b409629000802d32b.m3u8
+https://iptv.jvleite7.workers.dev/pluto/64b9370b409629000802d32b
 #EXTINF:-1 tvg-id="PlutoTVCineClassicos.us@BR" tvg-logo="https://images.pluto.tv/channels/5fa1612a669ba0000702017b/colorLogoPNG_1733440556804.png" group-title="Filmes e Series",Pluto TV Cine Classicos
-https://jmp2.uk/plu-5fa1612a669ba0000702017b.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5fa1612a669ba0000702017b
 #EXTINF:-1 tvg-id="PlutoTVCineComedia.us@BR" tvg-logo="https://images.pluto.tv/channels/5f12101f0b12f00007844c7c/colorLogoPNG_1732662798298.png" group-title="Filmes e Series",Pluto TV Cine Comedia (United States) BR
-https://jmp2.uk/plu-5f12101f0b12f00007844c7c.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f12101f0b12f00007844c7c
 #EXTINF:-1 tvg-id="PlutoTVCineComediaRomantica.us@BR" tvg-logo="https://images.pluto.tv/channels/62545ed3dab4380007582f7c/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Cine Comedia Romantica
-https://jmp2.uk/plu-62545ed3dab4380007582f7c.m3u8
+https://iptv.jvleite7.workers.dev/pluto/62545ed3dab4380007582f7c
 #EXTINF:-1 tvg-id="PlutoTVCineCrime.us@BR" tvg-logo="https://images.pluto.tv/channels/6479ff764f5ba5000878dfe2/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Cine Crime
-https://jmp2.uk/plu-6479ff764f5ba5000878dfe2.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6479ff764f5ba5000878dfe2
 #EXTINF:-1 tvg-id="PlutoTVCineDrama.us@BR" tvg-logo="https://images.pluto.tv/channels/5f1210d14ae1f80007bafb1d/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Cine Drama (United States)
-https://jmp2.uk/plu-5f1210d14ae1f80007bafb1d.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f1210d14ae1f80007bafb1d
 #EXTINF:-1 tvg-id="PlutoTVCineFamilia.us@BR" tvg-logo="https://images.pluto.tv/channels/5f171f032cd22e0007f17f3d/colorLogoPNG_1732045254120.png" group-title="Filmes e Series",Pluto TV Cine Familia
-https://jmp2.uk/plu-5f171f032cd22e0007f17f3d.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f171f032cd22e0007f17f3d
 #EXTINF:-1 tvg-id="PlutoTVCineInspiracao.us@BR" tvg-logo="https://images.pluto.tv/channels/5fa991b1f09e020007e78626/colorLogoPNG_1748874366972.png" group-title="Filmes e Series",Pluto TV Cine Inspiracao
-https://jmp2.uk/plu-5fa991b1f09e020007e78626.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5fa991b1f09e020007e78626
 #EXTINF:-1 tvg-id="PlutoTVCineRomance.us@BR" tvg-logo="https://images.pluto.tv/channels/5f171f988ab9780007fa95ea/colorLogoPNG_1771344977802.png" group-title="Filmes e Series",Pluto TV Cine Romance
-https://jmp2.uk/plu-5f171f988ab9780007fa95ea.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f171f988ab9780007fa95ea
 #EXTINF:-1 tvg-id="PlutoTVCineSucessos.us@BR" tvg-logo="https://images.pluto.tv/channels/5f120e94a5714d00074576a1/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Cine Sucessos
-https://jmp2.uk/plu-5f120e94a5714d00074576a1.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f120e94a5714d00074576a1
 #EXTINF:-1 tvg-id="PlutoTVCozinha.us@BR" tvg-logo="https://images.pluto.tv/channels/5f1ef23020a5ac0007e5e8ea/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Cozinha
-https://jmp2.uk/plu-5f1ef23020a5ac0007e5e8ea.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f1ef23020a5ac0007e5e8ea
 #EXTINF:-1 tvg-id="PlutoTVDesenhosClassicos.us@BR" tvg-logo="https://images.pluto.tv/channels/655e5c4d2c46f3000877a54b/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Desenhos Classicos
-https://jmp2.uk/plu-655e5c4d2c46f3000877a54b.m3u8
+https://iptv.jvleite7.workers.dev/pluto/655e5c4d2c46f3000877a54b
 #EXTINF:-1 tvg-id="PlutoTVEsportes.us@BR" tvg-logo="https://images.pluto.tv/channels/5f32d2db0af67400077f29c4/colorLogoSVG_1780355759776.svg" group-title="Esportes",Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f32d2db0af67400077f29c4
 #EXTINF:-1 tvg-id="PlutoTVFiccaoCientifica.us@BR" tvg-logo="https://images.pluto.tv/channels/5fa15ad6367e170007cdd098/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Ficcao Cientifica
-https://jmp2.uk/plu-5fa15ad6367e170007cdd098.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5fa15ad6367e170007cdd098
 #EXTINF:-1 tvg-id="PlutoTVFilmesAcao.us@BR" tvg-logo="https://images.pluto.tv/channels/5f120f41b7d403000783a6d6/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Filmes Acao
-https://jmp2.uk/plu-5f120f41b7d403000783a6d6.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f120f41b7d403000783a6d6
 #EXTINF:-1 tvg-id="PlutoTVFilmesAventura.us@BR" tvg-logo="https://images.pluto.tv/channels/66c79a4262e5510008ff68a5/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Filmes Aventura
-https://jmp2.uk/plu-66c79a4262e5510008ff68a5.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66c79a4262e5510008ff68a5
 #EXTINF:-1 tvg-id="PlutoTVFilmesdeLuta.us@BR" tvg-logo="https://images.pluto.tv/channels/6806d62369aec5b19cd628c0/colorLogoPNG_1746817781806.png" group-title="Filmes e Series",Pluto TV Filmes de Luta
-https://jmp2.uk/plu-6806d62369aec5b19cd628c0.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6806d62369aec5b19cd628c0
 #EXTINF:-1 tvg-id="PlutoTVFilmesNacionais.us@BR" tvg-logo="https://images.pluto.tv/channels/5f5a545d0dbf7f0007c09408/colorLogoPNG_1732044719987.png" group-title="Filmes e Series",Pluto TV Filmes Nacionais
-https://jmp2.uk/plu-5f5a545d0dbf7f0007c09408.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f5a545d0dbf7f0007c09408
 #EXTINF:-1 tvg-id="PlutoTVHistoria.us@BR" tvg-logo="https://images.pluto.tv/channels/5f1ef1a8cec6be00072a7ac9/colorLogoPNG_1754405659295.png" group-title="Documentarios e Outros",Pluto TV Historia (United States)
-https://jmp2.uk/plu-5f1ef1a8cec6be00072a7ac9.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f1ef1a8cec6be00072a7ac9
 #EXTINF:-1 tvg-id="PlutoTVInvestigacao.us@BR" tvg-logo="https://i.imgur.com/JlQq0YJ.png" group-title="Documentarios e Outros",Pluto TV Investigacao
-https://jmp2.uk/plu-5f32cf37c9ff2b00082adbc8.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f32cf37c9ff2b00082adbc8
 #EXTINF:-1 tvg-id="PlutoTVJunior.us@BR" tvg-logo="https://images.pluto.tv/channels/5f12141b146d760007934ea7/colorLogoPNG.png" group-title="Desenhos e Animes",Pluto TV Junior (United States)
-https://jmp2.uk/plu-5f12141b146d760007934ea7.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f12141b146d760007934ea7
 #EXTINF:-1 tvg-id="PlutoTVKaraokeporStingray.us@BR" tvg-logo="https://images.pluto.tv/channels/5f85cf621d6d2200079f1de0/colorLogoPNG.png" group-title="Musica",Pluto TV Karaoke por Stingray (720p)
-https://jmp2.uk/plu-604b99d633a72b00078e05ad.m3u8
+https://iptv.jvleite7.workers.dev/pluto/604b99d633a72b00078e05ad
 #EXTINF:-1 tvg-id="PlutoTVKFOOD.us@BR" tvg-logo="https://images.pluto.tv/channels/633ee9ba83c08f00076b60a6/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV KFOOD
-https://jmp2.uk/plu-633ee9ba83c08f00076b60a6.m3u8
+https://iptv.jvleite7.workers.dev/pluto/633ee9ba83c08f00076b60a6
 #EXTINF:-1 tvg-id="PlutoTVKids.us@BR" tvg-logo="https://images.pluto.tv/channels/5f1214a637c6fd00079c652f/colorLogoPNG.png" group-title="Desenhos e Animes",Pluto TV Kids (United States)
-https://jmp2.uk/plu-5f1214a637c6fd00079c652f.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f1214a637c6fd00079c652f
 #EXTINF:-1 tvg-id="PlutoTVKidsClub.us@BR" tvg-logo="https://images.pluto.tv/channels/66c8cae7fed35b0008580ec0/colorLogoPNG.png" group-title="Desenhos e Animes",Pluto TV Kids Club (United States)
-https://jmp2.uk/plu-66c8cae7fed35b0008580ec0.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66c8cae7fed35b0008580ec0
+#EXTINF:-1 tvg-id="PlutoTVMinhaObsessaoFavorita.us@BR" tvg-logo="https://images.pluto.tv/channels/61843f5e491af10007f7eefa/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Minha Obsessao Favorita
+https://iptv.jvleite7.workers.dev/pluto/61843f5e491af10007f7eefa
 #EXTINF:-1 tvg-id="PlutoTVMisterios.us@BR" tvg-logo="https://images.pluto.tv/channels/5fac52f142044f00078e2a51/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Misterios
-https://jmp2.uk/plu-5fac52f142044f00078e2a51.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5fac52f142044f00078e2a51
 #EXTINF:-1 tvg-id="PlutoTVNatureza.us@BR" tvg-logo="https://images.pluto.tv/channels/5f1213ba0ecebc00070e170f/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Natureza
-https://jmp2.uk/plu-5f1213ba0ecebc00070e170f.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f1213ba0ecebc00070e170f
 #EXTINF:-1 tvg-id="PlutoTVNegocioFechado.us@BR" tvg-logo="https://images.pluto.tv/channels/64ad7394798def00087b2bfe/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Negocio Fechado
-https://jmp2.uk/plu-64ad7394798def00087b2bfe.m3u8
+https://iptv.jvleite7.workers.dev/pluto/64ad7394798def00087b2bfe
 #EXTINF:-1 tvg-id="PlutoTVNetmovies.us@BR" tvg-logo="https://images.pluto.tv/channels/663b9de4f999220008230fa8/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Netmovies
-https://jmp2.uk/plu-663b9de4f999220008230fa8.m3u8
+https://iptv.jvleite7.workers.dev/pluto/663b9de4f999220008230fa8
 #EXTINF:-1 tvg-id="PlutoTVNovelas.us@BR" tvg-logo="https://images.pluto.tv/channels/5f512365abe1f50007d3ff56/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Novelas BR
-https://jmp2.uk/plu-5f512365abe1f50007d3ff56.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f512365abe1f50007d3ff56
 #EXTINF:-1 tvg-id="PlutoTVPaisagensporStingray.us@BR" tvg-logo="https://images.pluto.tv/channels/604a8dedbca75b0007b1c753/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Paisagens por Stingray (720p)
-https://jmp2.uk/plu-604a8dedbca75b0007b1c753.m3u8
+https://iptv.jvleite7.workers.dev/pluto/604a8dedbca75b0007b1c753
 #EXTINF:-1 tvg-id="PlutoTVPolicial.us@BR" tvg-logo="https://images.pluto.tv/channels/678fdf9e3de7c8cf948e8824/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Policial
-https://jmp2.uk/plu-678fdf9e3de7c8cf948e8824.m3u8
+https://iptv.jvleite7.workers.dev/pluto/678fdf9e3de7c8cf948e8824
 #EXTINF:-1 tvg-id="PlutoTVRecordNews.us@BR" tvg-logo="https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/colorLogoPNG.png" group-title="Canais Abertos",Pluto TV Record News (720p)
-https://jmp2.uk/plu-6102e04e9ab1db0007a980a1.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6102e04e9ab1db0007a980a1
 #EXTINF:-1 tvg-id="PlutoTVRetro.us@BR" tvg-logo="https://i.imgur.com/wztO3GM.png" group-title="Documentarios e Outros",Pluto TV Retro
-https://jmp2.uk/plu-5f1212ad1728050007a523b8.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f1212ad1728050007a523b8
 #EXTINF:-1 tvg-id="PlutoTVSeriesAcao.us@BR" tvg-logo="https://images.pluto.tv/channels/6474ab1da51cb80008bfb5f4/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Series Acao
-https://jmp2.uk/plu-6474ab1da51cb80008bfb5f4.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6474ab1da51cb80008bfb5f4
 #EXTINF:-1 tvg-id="PlutoTVSeriesComedia.us@BR" tvg-logo="https://images.pluto.tv/channels/655e5bc94261ca000810cb17/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Series Comedia
-https://jmp2.uk/plu-655e5bc94261ca000810cb17.m3u8
+https://iptv.jvleite7.workers.dev/pluto/655e5bc94261ca000810cb17
 #EXTINF:-1 tvg-id="PlutoTVSeriesCriminais.us@BR" tvg-logo="https://images.pluto.tv/channels/6474ab5cdc7a760008745008/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Series Criminais
-https://jmp2.uk/plu-6474ab5cdc7a760008745008.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6474ab5cdc7a760008745008
 #EXTINF:-1 tvg-id="PlutoTVSeriesDrama.us@BR" tvg-logo="https://images.pluto.tv/channels/65f060d84e01740008d7421f/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Series Drama
-https://jmp2.uk/plu-65f060d84e01740008d7421f.m3u8
+https://iptv.jvleite7.workers.dev/pluto/65f060d84e01740008d7421f
 #EXTINF:-1 tvg-id="PlutoTVSeriesNovelescas.us@BR" tvg-logo="https://images.pluto.tv/channels/691627e4a29a6123e400b3e0/colorLogoPNG_1764878235665.png" group-title="Filmes e Series",Pluto TV Series Novelescas
-https://jmp2.uk/plu-691627e4a29a6123e400b3e0.m3u8
+https://iptv.jvleite7.workers.dev/pluto/691627e4a29a6123e400b3e0
 #EXTINF:-1 tvg-id="PlutoTVSeriesSciFi.us@BR" tvg-logo="https://images.pluto.tv/channels/63d2ba2f60bc8f0008981a0e/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Series Sci-Fi (United States)
-https://jmp2.uk/plu-63d2ba2f60bc8f0008981a0e.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63d2ba2f60bc8f0008981a0e
 #EXTINF:-1 tvg-id="PlutoTVShowsporStingray.us@BR" tvg-logo="https://images.pluto.tv/channels/604b91e0692f770007d9f33f/colorLogoPNG.png" group-title="Musica",Pluto TV Shows por Stingray (720p)
-https://jmp2.uk/plu-604b91e0692f770007d9f33f.m3u8
+https://iptv.jvleite7.workers.dev/pluto/604b91e0692f770007d9f33f
 #EXTINF:-1 tvg-id="PlutoTVTerrorTrash.us@BR" tvg-logo="https://images.pluto.tv/channels/66aa67493a4ad2000806d91b/colorLogoPNG.png" group-title="Filmes e Series",Pluto TV Terror Trash
-https://jmp2.uk/plu-66aa67493a4ad2000806d91b.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66aa67493a4ad2000806d91b
 #EXTINF:-1 tvg-id="PlutoTVTurbo.us@BR" tvg-logo="https://images.pluto.tv/channels/6014761dfb91870008ea6463/colorLogoPNG.png" group-title="Documentarios e Outros",Pluto TV Turbo
-https://jmp2.uk/plu-6014761dfb91870008ea6463.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6014761dfb91870008ea6463
 #EXTINF:-1 tvg-id="PlutoTVViagens.us@BR" tvg-logo="https://images.pluto.tv/channels/5f32d432d612e50007e56133/colorLogoPNG_1769016717502.png" group-title="Documentarios e Outros",Pluto TV Viagens
-https://jmp2.uk/plu-5f32d432d612e50007e56133.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f32d432d612e50007e56133
 #EXTINF:-1 tvg-id="PlutoTVVidaReal.us@BR" tvg-logo="https://images.pluto.tv/channels/5f32d4d9ec194100070c7449/colorLogoPNG_1732044921019.png" group-title="Documentarios e Outros",Pluto TV Vida Real
-https://jmp2.uk/plu-5f32d4d9ec194100070c7449.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f32d4d9ec194100070c7449
 #EXTINF:-1 tvg-id="PrimerTV.br@SD" tvg-logo="https://i.imgur.com/PMptSP3.png" group-title="Canais Abertos",Primer TV (1080p)
 http://200.194.238.229:8383/live/primer/playlist.m3u8
 #EXTINF:-1 tvg-id="ProntosocorroHistoriasDeEmergencia.us@Brazil" tvg-logo="https://i.imgur.com/0PkyJ3U.png" group-title="Documentarios e Outros",Pronto-socorro: Historias De Emergencia
-https://jmp2.uk/plu-61bb72a7bf8c520007a8fd27.m3u8
+https://iptv.jvleite7.workers.dev/pluto/61bb72a7bf8c520007a8fd27
 #EXTINF:-1 tvg-id="RecordNews.br@SD" tvg-logo="https://i.imgur.com/HZDRG0K.png" group-title="Canais Abertos",Record News (720p)
 http://45.162.64.114/RECORD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="RecordTVInteriorSP.br@SD" tvg-logo="https://i.imgur.com/VcHy0fu.png" group-title="Canais Abertos",RecordTV Interior SP
@@ -358,8 +362,6 @@ http://45.162.64.114/REDE_SECULO_21/index.m3u8
 https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeTV.br@SD" tvg-logo="https://i.imgur.com/ZJgD38F.png" group-title="Canais Abertos",Rede TV! (720p)
 http://45.162.64.114/REDE_TV/index.m3u8
-#EXTINF:-1 tvg-id="RedeTVMais.br@SD" tvg-logo="https://i.ibb.co/F0Tm2WP/2103f4c07b851d64b4c96955765a9a95.png" group-title="Canais Abertos",Rede TV! Mais
-https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeVida.br@SD" tvg-logo="https://i.imgur.com/mP1qfp2.png" group-title="Documentarios e Outros",Rede Vida (720p)
 http://168.197.104.22/REDE_VIDA/index.m3u8
 #EXTINF:-1 tvg-id="RedeTVParana.br@SD" tvg-logo="https://i.imgur.com/D8R0Af4.png" group-title="Canais Abertos",RedeTV! Parana
@@ -375,7 +377,7 @@ http://45.162.64.114/SESC_TV/index.m3u8
 #EXTINF:-1 tvg-id="SICTV.br@SD" tvg-logo="https://i.imgur.com/mHxQyB2.png" group-title="Documentarios e Outros",SIC TV (720p)
 https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
 #EXTINF:-1 tvg-id="SmithsonianChannelPlutoTV.us@BR" tvg-logo="https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png" group-title="Documentarios e Outros",Smithsonian Channel Pluto TV
-https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6298bd10d88ef000073f16b7
 #EXTINF:-1 tvg-id="SonyChannel.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Documentarios e Outros",Sony Channel (Brazil) (720p)
 http://170.83.16.50/SONY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="SonyMovies.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png" group-title="Filmes e Series",Sony Movies (720p)
@@ -383,23 +385,23 @@ http://45.162.64.114/SONY_MOVIES/index.m3u8
 #EXTINF:-1 tvg-id="SOUTV.br@SD" tvg-logo="https://i.ibb.co/8cKmCNm/ezgif-com-gif-maker.png" group-title="Canais Abertos",SOU TV
 https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8
 #EXTINF:-1 tvg-id="SouthParkColecaoCartman.us@BR" tvg-logo="https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png" group-title="Desenhos e Animes",South Park: Colecao Cartman
-https://jmp2.uk/plu-65df71008b24c80008f04281.m3u8
+https://iptv.jvleite7.workers.dev/pluto/65df71008b24c80008f04281
 #EXTINF:-1 tvg-id="SouthParkColecaoKenny.us@BR" tvg-logo="https://images.pluto.tv/channels/65df704366eec8000898e32f/colorLogoPNG.png" group-title="Desenhos e Animes",South Park: Colecao Kenny
-https://jmp2.uk/plu-65df704366eec8000898e32f.m3u8
+https://iptv.jvleite7.workers.dev/pluto/65df704366eec8000898e32f
 #EXTINF:-1 tvg-id="SouthParkColecaoKyle.us@BR" tvg-logo="https://images.pluto.tv/channels/65df713dec9fda0008b7a81d/colorLogoPNG.png" group-title="Desenhos e Animes",South Park: Colecao Kyle
-https://jmp2.uk/plu-65df713dec9fda0008b7a81d.m3u8
+https://iptv.jvleite7.workers.dev/pluto/65df713dec9fda0008b7a81d
 #EXTINF:-1 tvg-id="SouthParkColecaoStan.us@BR" tvg-logo="https://images.pluto.tv/channels/65df70b0f7f0af0008c3b316/colorLogoPNG.png" group-title="Desenhos e Animes",South Park: Colecao Stan
-https://jmp2.uk/plu-65df70b0f7f0af0008c3b316.m3u8
+https://iptv.jvleite7.workers.dev/pluto/65df70b0f7f0af0008c3b316
 #EXTINF:-1 tvg-id="SporTV3.br@SD" tvg-logo="https://i.imgur.com/mWOR8pi.png" group-title="Esportes",SporTV 3 (720p)
 http://170.83.49.66:8083/SPORTV3HD/index.m3u8
 #EXTINF:-1 tvg-id="StarTrek.us@BR" tvg-logo="https://images.pluto.tv/channels/5efbd39f8c4ce900075d7698/colorLogoPNG.png" group-title="Filmes e Series",Star Trek
-https://jmp2.uk/plu-5f99ac4fded33000078f29ab.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f99ac4fded33000078f29ab
 #EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" group-title="Documentarios e Outros",Studio Universal Latin America Brazil (720p)
 http://187.102.210.46/universo/index.m3u8
 #EXTINF:-1 tvg-id="STZTV.br@SD" tvg-logo="https://i.imgur.com/SeF2I7q.png" group-title="Noticias",STZ TV (1080p)
 https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="TastemadeBrasil.us@Brazil" tvg-logo="https://i.imgur.com/FPy4zF4.png" group-title="Documentarios e Outros",Tastemade Brasil (720p)
-https://jmp2.uk/plu-5fd1419a3b4f4b000773ba85.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5fd1419a3b4f4b000773ba85
 #EXTINF:-1 tvg-id="TCM10HD.br@SD" tvg-logo="https://i.imgur.com/aMuMVvB.png" group-title="Noticias",TCM 10 HD (1080p)
 https://live.tcm10.com.br/tcm10hd/stream.m3u8
 #EXTINF:-1 tvg-id="TELE6.bo@SD" tvg-logo="https://i.imgur.com/p7tt72X.png" group-title="Canais Abertos",TELE 6 (720p)
@@ -407,19 +409,19 @@ https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8
 #EXTINF:-1 tvg-id="TerraViva.br@SD" tvg-logo="https://i.imgur.com/wnYsE3O.png" group-title="Documentarios e Outros",Terra Viva (720p)
 http://45.162.64.114/TERRAVIVA/index.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us@Brazil" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="Documentarios e Outros",The Pet Collective Brazil (720p)
-https://jmp2.uk/plu-5f515ebac01c0f00080e8439.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f515ebac01c0f00080e8439
 #EXTINF:-1 tvg-id="TikTokRadioBrasil.br@HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f4/TikTok_Radio.svg" group-title="Musica",TikTok Radio Brasil (1080p)
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529
 #EXTINF:-1 tvg-id="TNTNovelas.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png" group-title="Filmes e Series",TNT Novelas Brazil (720p)
 http://45.162.64.114/TNT_NOVELAS/index.m3u8
 #EXTINF:-1 tvg-id="Tokusato.us@Brazil" tvg-logo="https://i.imgur.com/tWpjXtl.png" group-title="Desenhos e Animes",Tokusato
-https://jmp2.uk/plu-5ff609de50ab210008025c1b.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5ff609de50ab210008025c1b
 #EXTINF:-1 tvg-id="TraceBrazuca.fr@HD" tvg-logo="https://i.imgur.com/DFBocPu.png" group-title="Musica",Trace Brazuca HD (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8
 #EXTINF:-1 tvg-id="TravelBoxBrazil.br@SD" tvg-logo="https://i.imgur.com/3tBJERH.png" group-title="Documentarios e Outros",Travel Box Brazil (720p)
 http://168.197.104.22/TRAVEL_BOX_BRASIL/index.m3u8
 #EXTINF:-1 tvg-id="TurmadaMonica.us@Brazil" tvg-logo="https://i.imgur.com/nrvPPrW.png" group-title="Desenhos e Animes",Turma da Monica (720p)
-https://jmp2.uk/plu-5f997e44949bc70007a6941e.m3u8
+https://iptv.jvleite7.workers.dev/pluto/5f997e44949bc70007a6941e
 #EXTINF:-1 tvg-id="TVAFolha.br@SD" tvg-logo="https://i.imgur.com/I7XGMhj.png" group-title="Noticias",TV A Folha (720p)
 https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
 #EXTINF:-1 tvg-id="TVAldeia.br@SD" tvg-logo="https://i.imgur.com/rsfnv4Z.png" group-title="Canais Abertos",TV Aldeia (720p)
@@ -443,8 +445,8 @@ http://45.162.64.114/TV_BRASIL/index.m3u8
 https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBrusque.br@SD" tvg-logo="https://i.imgur.com/J2EAZPS.png" group-title="Noticias",TV Brusque (720p)
 https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCamara.br" tvg-name="TV Camara" tvg-logo="https://i.imgur.com/Sdou1Ab.png" tvg-country="BR" tvg-language="por" group-title="Canais Abertos" nexus-score="100",TV Camara (720p)
-http://170.83.49.66:8083/TVCAMARAHD/index.m3u8
+#EXTINF:-1 tvg-id="TVCamara.br@SD" tvg-logo="https://i.imgur.com/Sdou1Ab.png" group-title="Canais Abertos",TV Camara (Brazil) (1080p)
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="TVCancaoNova.br@SD" tvg-logo="https://i.imgur.com/OaM9hkH.png" group-title="Documentarios e Outros",TV Cancao Nova (720p)
 http://45.162.64.114/CANCAO_NOVA/index.m3u8
 #EXTINF:-1 tvg-id="TVCidadeVerdeCuiaba.br@SD" tvg-logo="https://i.imgur.com/e67h04h.png" http-referrer="https://www.tvcidadeverde.com.br" group-title="Documentarios e Outros",TV Cidade Verde Cuiaba
@@ -516,12 +518,20 @@ https://app.tvufop.com.br/hls/tvufop.m3u8
 https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVVicosa.br@SD" tvg-logo="https://i.imgur.com/TZF55f9.png" group-title="Documentarios e Outros",TV Vicosa (480p)
 http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="TVVilaReal.br@SD" tvg-logo="https://i.imgur.com/Z1uWe7g.png" group-title="Documentarios e Outros",TV Vila Real (720p)
+https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8
+#EXTINF:-1 tvg-id="TVZoom.br@SD" tvg-logo="https://i.imgur.com/jCGrjf5.png" group-title="Documentarios e Outros",TV Zoom (720p)
+https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPlusPet.br@SD" tvg-logo="https://www.tvmaispet.com.br/images/tvpet-logo.png" group-title="Documentarios e Outros",TV+Pet
 https://stmv5.samcast.com.br/tvmaispet6354/tvmaispet6354/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCRio.br@SD" tvg-logo="https://i.imgur.com/WDiikWv.png" group-title="Canais Abertos",TVC-Rio
 https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCOMMaceio.br@SD" tvg-logo="https://i.imgur.com/IE7IZzi.png" group-title="Canais Abertos",TVCOM Maceio (480p)
 https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEBahia.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/960px-TVE_Bahia_logo.svg.png" group-title="Documentarios e Outros",TVE Bahia (1080p)
+http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
+#EXTINF:-1 tvg-id="TVERS.br@SD" tvg-logo="https://i.imgur.com/MQ6lJpS.png" group-title="Documentarios e Outros",TVE RS (1080p)
+https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 #EXTINF:-1 tvg-id="TVideoNews.br@SD" tvg-logo="https://i.imgur.com/vstHOYx.png" group-title="Noticias",TVideoNews (720p) [Not 24/7]
 https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8
 #EXTINF:-1 tvg-id="TVitape.br@SD" tvg-logo="https://i.imgur.com/XeqcwKe.png" group-title="Canais Abertos",TVitape (720p)
@@ -550,151 +560,151 @@ https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 #EXTINF:-1 tvg-name="BR Süd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenSud.de" tvg-chno="2" tvg-country="DE" group-title="Documentarios e Outros",BR Süd Ⓖ
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 #EXTINF:-1 channel-id="67e59a6557487a8b7fe73e23" tvg-id="67e59a6557487a8b7fe73e23" tvg-chno="136" tvg-name="A Caçadora de Relíquias" tvg-logo="https://images.pluto.tv/channels/67e59a6557487a8b7fe73e23/colorLogoPNG_1745618050777.png" group-title="Filmes e Series",A Caçadora de Relíquias
-https://jmp2.uk/plu-67e59a6557487a8b7fe73e23.m3u8
+https://iptv.jvleite7.workers.dev/pluto/67e59a6557487a8b7fe73e23
 #EXTINF:-1 channel-id="631fa8dd7f25240007099a40" tvg-id="631fa8dd7f25240007099a40" tvg-chno="211" tvg-name="A Feiticeira" tvg-logo="https://images.pluto.tv/channels/631fa8dd7f25240007099a40/colorLogoPNG.png" group-title="Documentarios e Outros",A Feiticeira
-https://jmp2.uk/plu-631fa8dd7f25240007099a40.m3u8
+https://iptv.jvleite7.workers.dev/pluto/631fa8dd7f25240007099a40
 #EXTINF:-1 channel-id="656e2a4b4261ca00083aa99e" tvg-id="656e2a4b4261ca00083aa99e" tvg-chno="518" tvg-name="Acumuladores Obsessivos" tvg-logo="https://images.pluto.tv/channels/656e2a4b4261ca00083aa99e/colorLogoPNG.png" group-title="Documentarios e Outros",Acumuladores Obsessivos
-https://jmp2.uk/plu-656e2a4b4261ca00083aa99e.m3u8
+https://iptv.jvleite7.workers.dev/pluto/656e2a4b4261ca00083aa99e
 #EXTINF:-1 channel-id="698392af0cca0cc3458666ab" tvg-id="698392af0cca0cc3458666ab" tvg-chno="810" tvg-name="AdoroCinema" tvg-logo="https://images.pluto.tv/channels/698392af0cca0cc3458666ab/colorLogoPNG_1772734593144.png" group-title="Documentarios e Outros",AdoroCinema
-https://jmp2.uk/plu-698392af0cca0cc3458666ab.m3u8
+https://iptv.jvleite7.workers.dev/pluto/698392af0cca0cc3458666ab
 #EXTINF:-1 channel-id="6a565d9022790c74de2e98f6" tvg-id="6a565d9022790c74de2e98f6" tvg-chno="290" tvg-name="Amor de Aluguel by Noverama TV" tvg-logo="https://images.pluto.tv/channels/6a565d9022790c74de2e98f6/colorLogoPNG_1784045368402.png" group-title="Documentarios e Outros",Amor de Aluguel by Noverama TV
-https://jmp2.uk/plu-6a565d9022790c74de2e98f6.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6a565d9022790c74de2e98f6
 #EXTINF:-1 channel-id="63dd5c904e83e700088fb68a" tvg-id="63dd5c904e83e700088fb68a" tvg-chno="1513" tvg-name="As Tartarugas Ninja" tvg-logo="https://images.pluto.tv/channels/63dd5c904e83e700088fb68a/colorLogoPNG_1768926936698.png" group-title="Documentarios e Outros",As Tartarugas Ninja
-https://jmp2.uk/plu-63dd5c904e83e700088fb68a.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63dd5c904e83e700088fb68a
 #EXTINF:-1 channel-id="620d1512c7986a0007220213" tvg-id="620d1512c7986a0007220213" tvg-chno="550" tvg-name="Assombrações" tvg-logo="https://images.pluto.tv/channels/620d1512c7986a0007220213/colorLogoPNG.png" group-title="Documentarios e Outros",Assombrações
-https://jmp2.uk/plu-620d1512c7986a0007220213.m3u8
+https://iptv.jvleite7.workers.dev/pluto/620d1512c7986a0007220213
 #EXTINF:-1 channel-id="63da6bcd60bc8f0008a5d364" tvg-id="63da6bcd60bc8f0008a5d364" tvg-chno="1455" tvg-name="Baby Shark TV" tvg-logo="https://images.pluto.tv/channels/63da6bcd60bc8f0008a5d364/colorLogoPNG.png" group-title="Desenhos e Animes",Baby Shark TV
-https://jmp2.uk/plu-63da6bcd60bc8f0008a5d364.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63da6bcd60bc8f0008a5d364
 #EXTINF:-1 channel-id="633dc392e0282400071b0d39" tvg-id="633dc392e0282400071b0d39" tvg-chno="1274" tvg-name="Beyblade" tvg-logo="https://images.pluto.tv/channels/633dc392e0282400071b0d39/colorLogoPNG.png" group-title="Documentarios e Outros",Beyblade
-https://jmp2.uk/plu-633dc392e0282400071b0d39.m3u8
+https://iptv.jvleite7.workers.dev/pluto/633dc392e0282400071b0d39
 #EXTINF:-1 channel-id="69fcc8cfb83300b380051794" tvg-id="69fcc8cfb83300b380051794" tvg-chno="107" tvg-name="Blue Bloods" tvg-logo="https://images.pluto.tv/channels/69fcc8cfb83300b380051794/colorLogoPNG_1783364234495.png" group-title="Filmes e Series",Blue Bloods
-https://jmp2.uk/plu-69fcc8cfb83300b380051794.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69fcc8cfb83300b380051794
 #EXTINF:-1 channel-id="656f389c3944b60008e5bdab" tvg-id="656f389c3944b60008e5bdab" tvg-chno="1261" tvg-name="Boruto: Naruto Next Generations" tvg-logo="https://images.pluto.tv/channels/656f389c3944b60008e5bdab/colorLogoPNG.png" group-title="Desenhos e Animes",Boruto: Naruto Next Generations
-https://jmp2.uk/plu-656f389c3944b60008e5bdab.m3u8
+https://iptv.jvleite7.workers.dev/pluto/656f389c3944b60008e5bdab
 #EXTINF:-1 channel-id="62310f66d5888f0007534342" tvg-id="62310f66d5888f0007534342" tvg-chno="677" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/62310f66d5888f0007534342/colorLogoPNG_1778002391431.png" group-title="Noticias",CBS News 24/7
-https://jmp2.uk/plu-62310f66d5888f0007534342.m3u8
+https://iptv.jvleite7.workers.dev/pluto/62310f66d5888f0007534342
 #EXTINF:-1 channel-id="656e2a10954b020008ed167c" tvg-id="656e2a10954b020008ed167c" tvg-chno="552" tvg-name="Caçadores de Óvnis" tvg-logo="https://images.pluto.tv/channels/656e2a10954b020008ed167c/colorLogoPNG_1732041732595.png" group-title="Documentarios e Outros",Caçadores de Óvnis
-https://jmp2.uk/plu-656e2a10954b020008ed167c.m3u8
+https://iptv.jvleite7.workers.dev/pluto/656e2a10954b020008ed167c
 #EXTINF:-1 channel-id="67f9602ee173fa5664fafae8" tvg-id="67f9602ee173fa5664fafae8" tvg-chno="148" tvg-name="Charmed: Jovens Bruxas" tvg-logo="https://images.pluto.tv/channels/67f9602ee173fa5664fafae8/colorLogoPNG_1747333127716.png" group-title="Filmes e Series",Charmed: Jovens Bruxas
-https://jmp2.uk/plu-67f9602ee173fa5664fafae8.m3u8
+https://iptv.jvleite7.workers.dev/pluto/67f9602ee173fa5664fafae8
 #EXTINF:-1 channel-id="64e501eec630a900088ed0f8" tvg-id="64e501eec630a900088ed0f8" tvg-chno="190" tvg-name="Clube do Terror" tvg-logo="https://images.pluto.tv/channels/64e501eec630a900088ed0f8/colorLogoPNG.png" group-title="Filmes e Series",Clube do Terror
-https://jmp2.uk/plu-64e501eec630a900088ed0f8.m3u8
+https://iptv.jvleite7.workers.dev/pluto/64e501eec630a900088ed0f8
 #EXTINF:-1 channel-id="62d969fd8451a30007f0fd94" tvg-id="62d969fd8451a30007f0fd94" tvg-chno="1450" tvg-name="Cocoricó" tvg-logo="https://images.pluto.tv/channels/62d969fd8451a30007f0fd94/colorLogoPNG.png" group-title="Documentarios e Outros",Cocoricó
-https://jmp2.uk/plu-62d969fd8451a30007f0fd94.m3u8
+https://iptv.jvleite7.workers.dev/pluto/62d969fd8451a30007f0fd94
 #EXTINF:-1 channel-id="625464a945b6a200079257d1" tvg-id="625464a945b6a200079257d1" tvg-chno="1264" tvg-name="Death Note" tvg-logo="https://images.pluto.tv/channels/625464a945b6a200079257d1/colorLogoPNG.png" group-title="Documentarios e Outros",Death Note
-https://jmp2.uk/plu-625464a945b6a200079257d1.m3u8
+https://iptv.jvleite7.workers.dev/pluto/625464a945b6a200079257d1
 #EXTINF:-1 channel-id="656e2a81954b020008ed17a4" tvg-id="656e2a81954b020008ed17a4" tvg-chno="551" tvg-name="Estado Paranormal" tvg-logo="https://images.pluto.tv/channels/656e2a81954b020008ed17a4/colorLogoPNG_1732041604478.png" group-title="Documentarios e Outros",Estado Paranormal
-https://jmp2.uk/plu-656e2a81954b020008ed17a4.m3u8
+https://iptv.jvleite7.workers.dev/pluto/656e2a81954b020008ed17a4
 #EXTINF:-1 channel-id="619e6614c9d9650007a2b171" tvg-id="619e6614c9d9650007a2b171" tvg-chno="685" tvg-name="Euronews Português" tvg-logo="https://images.pluto.tv/channels/619e6614c9d9650007a2b171/colorLogoPNG.png" group-title="Documentarios e Outros",Euronews Português
-https://jmp2.uk/plu-619e6614c9d9650007a2b171.m3u8
+https://iptv.jvleite7.workers.dev/pluto/619e6614c9d9650007a2b171
 #EXTINF:-1 channel-id="66997e8d3a4ad20008e50be9" tvg-id="66997e8d3a4ad20008e50be9" tvg-chno="830" tvg-name="FIFA+" tvg-logo="https://images.pluto.tv/channels/66997e8d3a4ad20008e50be9/colorLogoPNG_1749841306387.png" group-title="Documentarios e Outros",FIFA+
-https://jmp2.uk/plu-66997e8d3a4ad20008e50be9.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66997e8d3a4ad20008e50be9
 #EXTINF:-1 channel-id="633dcebd80386500074a2461" tvg-id="633dcebd80386500074a2461" tvg-chno="84" tvg-name="Filmelier TV" tvg-logo="https://images.pluto.tv/channels/633dcebd80386500074a2461/colorLogoPNG.png" group-title="Documentarios e Outros",Filmelier TV
-https://jmp2.uk/plu-633dcebd80386500074a2461.m3u8
+https://iptv.jvleite7.workers.dev/pluto/633dcebd80386500074a2461
 #EXTINF:-1 channel-id="69c716efeac9a2720ebcaaff" tvg-id="69c716efeac9a2720ebcaaff" tvg-chno="301" tvg-name="Grachi" tvg-logo="https://images.pluto.tv/channels/69c716efeac9a2720ebcaaff/colorLogoPNG_1781797595430.png" group-title="Documentarios e Outros",Grachi
-https://jmp2.uk/plu-69c716efeac9a2720ebcaaff.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69c716efeac9a2720ebcaaff
 #EXTINF:-1 channel-id="67603668f433320008760af1" tvg-id="67603668f433320008760af1" tvg-chno="1181" tvg-name="Homeful" tvg-logo="https://images.pluto.tv/channels/67603668f433320008760af1/colorLogoPNG.png" group-title="Documentarios e Outros",Homeful
-https://jmp2.uk/plu-67603668f433320008760af1.m3u8
+https://iptv.jvleite7.workers.dev/pluto/67603668f433320008760af1
 #EXTINF:-1 channel-id="65d9167818036500080e8780" tvg-id="65d9167818036500080e8780" tvg-chno="1263" tvg-name="Hunter x Hunter" tvg-logo="https://images.pluto.tv/channels/65d9167818036500080e8780/colorLogoPNG.png" group-title="Documentarios e Outros",Hunter x Hunter
-https://jmp2.uk/plu-65d9167818036500080e8780.m3u8
+https://iptv.jvleite7.workers.dev/pluto/65d9167818036500080e8780
 #EXTINF:-1 channel-id="69162648d03565d6c8c8df97" tvg-id="69162648d03565d6c8c8df97" tvg-chno="267" tvg-name="Inspetor Bugiganga" tvg-logo="https://images.pluto.tv/channels/69162648d03565d6c8c8df97/colorLogoPNG_1769479138027.png" group-title="Documentarios e Outros",Inspetor Bugiganga
-https://jmp2.uk/plu-69162648d03565d6c8c8df97.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69162648d03565d6c8c8df97
 #EXTINF:-1 channel-id="66b26681d2d50d00083abe8b" tvg-id="66b26681d2d50d00083abe8b" tvg-chno="1279" tvg-name="Inuyasha" tvg-logo="https://images.pluto.tv/channels/66b26681d2d50d00083abe8b/colorLogoPNG.png" group-title="Documentarios e Outros",Inuyasha
-https://jmp2.uk/plu-66b26681d2d50d00083abe8b.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66b26681d2d50d00083abe8b
 #EXTINF:-1 channel-id="66c7982f6838ee00085f0d24" tvg-id="66c7982f6838ee00085f0d24" tvg-chno="1265" tvg-name="JoJo’s Bizarre Adventure" tvg-logo="https://images.pluto.tv/channels/66c7982f6838ee00085f0d24/colorLogoPNG.png" group-title="Documentarios e Outros",JoJo’s Bizarre Adventure
-https://jmp2.uk/plu-66c7982f6838ee00085f0d24.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66c7982f6838ee00085f0d24
 #EXTINF:-1 channel-id="6317ba014d4d040007227f72" tvg-id="6317ba014d4d040007227f72" tvg-chno="699" tvg-name="Jovem Pan NEWS" tvg-logo="https://images.pluto.tv/channels/6317ba014d4d040007227f72/colorLogoPNG.png" group-title="Noticias",Jovem Pan NEWS
-https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6317ba014d4d040007227f72
 #EXTINF:-1 channel-id="681111be5e0764e297fb200e" tvg-id="681111be5e0764e297fb200e" tvg-chno="352" tvg-name="Mais MasterChef Brasil" tvg-logo="https://images.pluto.tv/channels/681111be5e0764e297fb200e/colorLogoPNG_1749582970597.png" group-title="Documentarios e Outros",Mais MasterChef Brasil
-https://jmp2.uk/plu-681111be5e0764e297fb200e.m3u8
+https://iptv.jvleite7.workers.dev/pluto/681111be5e0764e297fb200e
 #EXTINF:-1 channel-id="681110afc188aa63faa147e0" tvg-id="681110afc188aa63faa147e0" tvg-chno="351" tvg-name="MasterChef Brasil Profissionais" tvg-logo="https://images.pluto.tv/channels/681110afc188aa63faa147e0/colorLogoPNG_1749226372857.png" group-title="Documentarios e Outros",MasterChef Brasil Profissionais
-https://jmp2.uk/plu-681110afc188aa63faa147e0.m3u8
+https://iptv.jvleite7.workers.dev/pluto/681110afc188aa63faa147e0
 #EXTINF:-1 channel-id="62b5c5a064163d0007b2efe6" tvg-id="62b5c5a064163d0007b2efe6" tvg-chno="601" tvg-name="Mistérios sem Solução" tvg-logo="https://images.pluto.tv/channels/62b5c5a064163d0007b2efe6/colorLogoPNG.png" group-title="Documentarios e Outros",Mistérios sem Solução
-https://jmp2.uk/plu-62b5c5a064163d0007b2efe6.m3u8
+https://iptv.jvleite7.workers.dev/pluto/62b5c5a064163d0007b2efe6
 #EXTINF:-1 channel-id="63eba189c111bc0008ff59c5" tvg-id="63eba189c111bc0008ff59c5" tvg-chno="1445" tvg-name="Moranguinho" tvg-logo="https://images.pluto.tv/channels/63eba189c111bc0008ff59c5/colorLogoPNG.png" group-title="Documentarios e Outros",Moranguinho
-https://jmp2.uk/plu-63eba189c111bc0008ff59c5.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63eba189c111bc0008ff59c5
 #EXTINF:-1 channel-id="69fca7dd2387729708faa32c" tvg-id="69fca7dd2387729708faa32c" tvg-chno="980" tvg-name="Mr. Bean" tvg-logo="https://images.pluto.tv/channels/69fca7dd2387729708faa32c/colorLogoPNG_1778514873328.png" group-title="Documentarios e Outros",Mr. Bean
-https://jmp2.uk/plu-69fca7dd2387729708faa32c.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69fca7dd2387729708faa32c
 #EXTINF:-1 channel-id="6a68dc0a75fd5e3828f10b10" tvg-id="6a68dc0a75fd5e3828f10b10" tvg-chno="880" tvg-name="NFL Channel" tvg-logo="https://images.pluto.tv/channels/6a68dc0a75fd5e3828f10b10/colorLogoPNG_1785257068328.png" group-title="Documentarios e Outros",NFL Channel
-https://jmp2.uk/plu-6a68dc0a75fd5e3828f10b10.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6a68dc0a75fd5e3828f10b10
 #EXTINF:-1 channel-id="64c92f965580090008084968" tvg-id="64c92f965580090008084968" tvg-chno="1260" tvg-name="Naruto Shippuden" tvg-logo="https://images.pluto.tv/channels/64c92f965580090008084968/colorLogoPNG_1785430970647.png" group-title="Desenhos e Animes",Naruto Shippuden
-https://jmp2.uk/plu-64c92f965580090008084968.m3u8
+https://iptv.jvleite7.workers.dev/pluto/64c92f965580090008084968
 #EXTINF:-1 channel-id="681ba2ad93d3d19bcab47433" tvg-id="681ba2ad93d3d19bcab47433" tvg-chno="479" tvg-name="NatureTime" tvg-logo="https://images.pluto.tv/channels/681ba2ad93d3d19bcab47433/colorLogoPNG_1785430696843.png" group-title="Documentarios e Outros",NatureTime
-https://jmp2.uk/plu-681ba2ad93d3d19bcab47433.m3u8
+https://iptv.jvleite7.workers.dev/pluto/681ba2ad93d3d19bcab47433
 #EXTINF:-1 channel-id="6a281d2bd1e6d3ba6b553c7c" tvg-id="6a281d2bd1e6d3ba6b553c7c" tvg-chno="279" tvg-name="Novelíssima" tvg-logo="https://images.pluto.tv/channels/6a281d2bd1e6d3ba6b553c7c/colorLogoPNG_1782245265151.png" group-title="Documentarios e Outros",Novelíssima
-https://jmp2.uk/plu-6a281d2bd1e6d3ba6b553c7c.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6a281d2bd1e6d3ba6b553c7c
 #EXTINF:-1 channel-id="62052d3b4eeb740007fbe125" tvg-id="62052d3b4eeb740007fbe125" tvg-chno="238" tvg-name="O Homem que veio do Céu" tvg-logo="https://images.pluto.tv/channels/62052d3b4eeb740007fbe125/colorLogoPNG_1732044609381.png" group-title="Documentarios e Outros",O Homem que veio do Céu
-https://jmp2.uk/plu-62052d3b4eeb740007fbe125.m3u8
+https://iptv.jvleite7.workers.dev/pluto/62052d3b4eeb740007fbe125
 #EXTINF:-1 channel-id="6a5520691a435d3dfcda8340" tvg-id="6a5520691a435d3dfcda8340" tvg-chno="152" tvg-name="O Rei do Bairro" tvg-logo="https://images.pluto.tv/channels/6a5520691a435d3dfcda8340/colorLogoPNG_1785340570646.png" group-title="Filmes e Series",O Rei do Bairro
-https://jmp2.uk/plu-6a5520691a435d3dfcda8340.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6a5520691a435d3dfcda8340
 #EXTINF:-1 channel-id="620d12a82e8ac50007c269c3" tvg-id="620d12a82e8ac50007c269c3" tvg-chno="588" tvg-name="Os Arquivos do FBI" tvg-logo="https://images.pluto.tv/channels/620d12a82e8ac50007c269c3/colorLogoPNG.png" group-title="Documentarios e Outros",Os Arquivos do FBI
-https://jmp2.uk/plu-620d12a82e8ac50007c269c3.m3u8
+https://iptv.jvleite7.workers.dev/pluto/620d12a82e8ac50007c269c3
 #EXTINF:-1 channel-id="63221e41af69b500076f84e7" tvg-id="63221e41af69b500076f84e7" tvg-chno="1512" tvg-name="Os Padrinhos Mágicos" tvg-logo="https://images.pluto.tv/channels/63221e41af69b500076f84e7/colorLogoPNG.png" group-title="Documentarios e Outros",Os Padrinhos Mágicos
-https://jmp2.uk/plu-63221e41af69b500076f84e7.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63221e41af69b500076f84e7
 #EXTINF:-1 channel-id="68b88ae1943f6fb1fb2ad749" tvg-id="68b88ae1943f6fb1fb2ad749" tvg-chno="266" tvg-name="Os Smurfs" tvg-logo="https://images.pluto.tv/channels/68b88ae1943f6fb1fb2ad749/colorLogoPNG_1762273919644.png" group-title="Desenhos e Animes",Os Smurfs
-https://jmp2.uk/plu-68b88ae1943f6fb1fb2ad749.m3u8
+https://iptv.jvleite7.workers.dev/pluto/68b88ae1943f6fb1fb2ad749
 #EXTINF:-1 channel-id="64f6180130ab3300083d896b" tvg-id="64f6180130ab3300083d896b" tvg-chno="862" tvg-name="PFL MMA" tvg-logo="https://images.pluto.tv/channels/64f6180130ab3300083d896b/colorLogoPNG.png" group-title="Esportes",PFL MMA
-https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8
+https://iptv.jvleite7.workers.dev/pluto/64f6180130ab3300083d896b
 #EXTINF:-1 channel-id="69440d0611f6c6384ab78306" tvg-id="69440d0611f6c6384ab78306" tvg-chno="1003" tvg-name="PORTATV" tvg-logo="https://images.pluto.tv/channels/69440d0611f6c6384ab78306/colorLogoPNG_1769608175167.png" group-title="Documentarios e Outros",PORTATV
-https://jmp2.uk/plu-69440d0611f6c6384ab78306.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69440d0611f6c6384ab78306
 #EXTINF:-1 channel-id="67802a22a5d8215f99dcee30" tvg-id="67802a22a5d8215f99dcee30" tvg-chno="1007" tvg-name="Pegadinhas - Just for Laughs" tvg-logo="https://images.pluto.tv/channels/67802a22a5d8215f99dcee30/colorLogoPNG.png" group-title="Documentarios e Outros",Pegadinhas - Just for Laughs
-https://jmp2.uk/plu-67802a22a5d8215f99dcee30.m3u8
+https://iptv.jvleite7.workers.dev/pluto/67802a22a5d8215f99dcee30
 #EXTINF:-1 channel-id="6a5520365badf45d3088b8d8" tvg-id="6a5520365badf45d3088b8d8" tvg-chno="57" tvg-name="Pluto TV Cine Trapalhões" tvg-logo="https://images.pluto.tv/channels/6a5520365badf45d3088b8d8/colorLogoPNG_1786111209357.png" group-title="Filmes e Series",Pluto TV Cine Trapalhões
-https://jmp2.uk/plu-6a5520365badf45d3088b8d8.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6a5520365badf45d3088b8d8
 #EXTINF:-1 channel-id="69c71615a8ef5d7f33e7322e" tvg-id="69c71615a8ef5d7f33e7322e" tvg-chno="160" tvg-name="Pluto TV Séries Família" tvg-logo="https://images.pluto.tv/channels/69c71615a8ef5d7f33e7322e/colorLogoPNG_1781636161115.png" group-title="Filmes e Series",Pluto TV Séries Família
-https://jmp2.uk/plu-69c71615a8ef5d7f33e7322e.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69c71615a8ef5d7f33e7322e
 #EXTINF:-1 channel-id="687007a8ee4155e89a8f6d67" tvg-id="687007a8ee4155e89a8f6d67" tvg-chno="1255" tvg-name="Pokémon" tvg-logo="https://images.pluto.tv/channels/687007a8ee4155e89a8f6d67/colorLogoPNG_1752174174089.png" group-title="Desenhos e Animes",Pokémon
-https://jmp2.uk/plu-687007a8ee4155e89a8f6d67.m3u8
+https://iptv.jvleite7.workers.dev/pluto/687007a8ee4155e89a8f6d67
 #EXTINF:-1 channel-id="677d93f37bffa600080795e7" tvg-id="677d93f37bffa600080795e7" tvg-chno="270" tvg-name="Popeye" tvg-logo="https://images.pluto.tv/channels/677d93f37bffa600080795e7/colorLogoPNG.png" group-title="Desenhos e Animes",Popeye
-https://jmp2.uk/plu-677d93f37bffa600080795e7.m3u8
+https://iptv.jvleite7.workers.dev/pluto/677d93f37bffa600080795e7
 #EXTINF:-1 channel-id="65a6818c7bdc8d0008457b21" tvg-id="65a6818c7bdc8d0008457b21" tvg-chno="843" tvg-name="RACER Brasil" tvg-logo="https://images.pluto.tv/channels/65a6818c7bdc8d0008457b21/colorLogoPNG_1746817068891.png" group-title="Documentarios e Outros",RACER Brasil
-https://jmp2.uk/plu-65a6818c7bdc8d0008457b21.m3u8
+https://iptv.jvleite7.workers.dev/pluto/65a6818c7bdc8d0008457b21
 #EXTINF:-1 channel-id="63dac28760bc8f0008a7654b" tvg-id="63dac28760bc8f0008a7654b" tvg-chno="834" tvg-name="Realmadrid TV" tvg-logo="https://images.pluto.tv/channels/63dac28760bc8f0008a7654b/colorLogoPNG.png" group-title="Documentarios e Outros",Realmadrid TV
-https://jmp2.uk/plu-63dac28760bc8f0008a7654b.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63dac28760bc8f0008a7654b
 #EXTINF:-1 channel-id="67813f3162bf016db944c9ab" tvg-id="67813f3162bf016db944c9ab" tvg-chno="829" tvg-name="Red Bull TV" tvg-logo="https://images.pluto.tv/channels/67813f3162bf016db944c9ab/colorLogoPNG.png" group-title="Documentarios e Outros",Red Bull TV
-https://jmp2.uk/plu-67813f3162bf016db944c9ab.m3u8
+https://iptv.jvleite7.workers.dev/pluto/67813f3162bf016db944c9ab
 #EXTINF:-1 channel-id="64ff2d8c6625510008c5a512" tvg-id="64ff2d8c6625510008c5a512" tvg-chno="127" tvg-name="Rookie Blue" tvg-logo="https://images.pluto.tv/channels/64ff2d8c6625510008c5a512/colorLogoPNG.png" group-title="Filmes e Series",Rookie Blue
-https://jmp2.uk/plu-64ff2d8c6625510008c5a512.m3u8
+https://iptv.jvleite7.workers.dev/pluto/64ff2d8c6625510008c5a512
 #EXTINF:-1 channel-id="62c5d32e2c48f9000715b6e9" tvg-id="62c5d32e2c48f9000715b6e9" tvg-chno="83" tvg-name="Runtime" tvg-logo="https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png" group-title="Documentarios e Outros",Runtime
-https://jmp2.uk/plu-62c5d32e2c48f9000715b6e9.m3u8
+https://iptv.jvleite7.workers.dev/pluto/62c5d32e2c48f9000715b6e9
 #EXTINF:-1 channel-id="6660b636cb3ea10008429c6a" tvg-id="6660b636cb3ea10008429c6a" tvg-chno="855" tvg-name="SFT Combat" tvg-logo="https://images.pluto.tv/channels/6660b636cb3ea10008429c6a/colorLogoPNG.png" group-title="Documentarios e Outros",SFT Combat
-https://jmp2.uk/plu-6660b636cb3ea10008429c6a.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6660b636cb3ea10008429c6a
 #EXTINF:-1 channel-id="66a7d0e0cd0d310008448610" tvg-id="66a7d0e0cd0d310008448610" tvg-chno="1150" tvg-name="Salon Line" tvg-logo="https://images.pluto.tv/channels/66a7d0e0cd0d310008448610/colorLogoPNG_1785430815236.png" group-title="Documentarios e Outros",Salon Line
-https://jmp2.uk/plu-66a7d0e0cd0d310008448610.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66a7d0e0cd0d310008448610
 #EXTINF:-1 channel-id="69fca7fadf0b6d462c0a0ac3" tvg-id="69fca7fadf0b6d462c0a0ac3" tvg-chno="520" tvg-name="Sobrevivi" tvg-logo="https://images.pluto.tv/channels/69fca7fadf0b6d462c0a0ac3/colorLogoPNG_1778593398701.png" group-title="Documentarios e Outros",Sobrevivi
-https://jmp2.uk/plu-69fca7fadf0b6d462c0a0ac3.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69fca7fadf0b6d462c0a0ac3
 #EXTINF:-1 channel-id="6647c0b91050b60008390de4" tvg-id="6647c0b91050b60008390de4" tvg-chno="360" tvg-name="Sony One Shark Tank Brasil" tvg-logo="https://images.pluto.tv/channels/6647c0b91050b60008390de4/colorLogoPNG_1772461335237.png" group-title="Documentarios e Outros",Sony One Shark Tank Brasil
-https://jmp2.uk/plu-6647c0b91050b60008390de4.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6647c0b91050b60008390de4
 #EXTINF:-1 channel-id="63988c2750108d00072e2686" tvg-id="63988c2750108d00072e2686" tvg-chno="1267" tvg-name="Super Onze" tvg-logo="https://images.pluto.tv/channels/63988c2750108d00072e2686/colorLogoPNG.png" group-title="Desenhos e Animes",Super Onze
-https://jmp2.uk/plu-63988c2750108d00072e2686.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63988c2750108d00072e2686
 #EXTINF:-1 channel-id="62e010e6cd663f0007e57dc8" tvg-id="62e010e6cd663f0007e57dc8" tvg-chno="785" tvg-name="TV Cultura" tvg-logo="https://images.pluto.tv/channels/62e010e6cd663f0007e57dc8/colorLogoPNG.png" group-title="Canais Abertos",TV Cultura
-https://jmp2.uk/plu-62e010e6cd663f0007e57dc8.m3u8
+https://iptv.jvleite7.workers.dev/pluto/62e010e6cd663f0007e57dc8
 #EXTINF:-1 channel-id="68b88821e542386ab0bf5bef" tvg-id="68b88821e542386ab0bf5bef" tvg-chno="1210" tvg-name="Tastemade Casa" tvg-logo="https://images.pluto.tv/channels/68b88821e542386ab0bf5bef/colorLogoPNG_1759795743690.png" group-title="Documentarios e Outros",Tastemade Casa
-https://jmp2.uk/plu-68b88821e542386ab0bf5bef.m3u8
+https://iptv.jvleite7.workers.dev/pluto/68b88821e542386ab0bf5bef
 #EXTINF:-1 channel-id="68b8875777201ec428d9eaa5" tvg-id="68b8875777201ec428d9eaa5" tvg-chno="1211" tvg-name="Tastemade Viagem" tvg-logo="https://images.pluto.tv/channels/68b8875777201ec428d9eaa5/colorLogoPNG_1759784936254.png" group-title="Documentarios e Outros",Tastemade Viagem
-https://jmp2.uk/plu-68b8875777201ec428d9eaa5.m3u8
+https://iptv.jvleite7.workers.dev/pluto/68b8875777201ec428d9eaa5
 #EXTINF:-1 channel-id="64e50055286f6b000838c067" tvg-id="64e50055286f6b000838c067" tvg-chno="1465" tvg-name="Teletubbies" tvg-logo="https://images.pluto.tv/channels/64e50055286f6b000838c067/colorLogoPNG.png" group-title="Desenhos e Animes",Teletubbies
-https://jmp2.uk/plu-64e50055286f6b000838c067.m3u8
+https://iptv.jvleite7.workers.dev/pluto/64e50055286f6b000838c067
 #EXTINF:-1 channel-id="678aa104680721c77c506746" tvg-id="678aa104680721c77c506746" tvg-chno="130" tvg-name="The Walking Dead by AMC" tvg-logo="https://images.pluto.tv/channels/678aa104680721c77c506746/colorLogoPNG.png" group-title="Filmes e Series",The Walking Dead by AMC
-https://jmp2.uk/plu-678aa104680721c77c506746.m3u8
+https://iptv.jvleite7.workers.dev/pluto/678aa104680721c77c506746
 #EXTINF:-1 channel-id="63dac32bda711800088a2ba3" tvg-id="63dac32bda711800088a2ba3" tvg-chno="455" tvg-name="TikTok Radio Brasil" tvg-logo="https://images.pluto.tv/channels/63dac32bda711800088a2ba3/colorLogoPNG_1758347017431.png" group-title="Musica",TikTok Radio Brasil
-https://jmp2.uk/plu-63dac32bda711800088a2ba3.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63dac32bda711800088a2ba3
 #EXTINF:-1 channel-id="679a973a97782f0008ff4bb6" tvg-id="679a973a97782f0008ff4bb6" tvg-chno="676" tvg-name="Times Brasil | CNBC" tvg-logo="https://images.pluto.tv/channels/679a973a97782f0008ff4bb6/colorLogoPNG.png" group-title="Noticias",Times Brasil | CNBC
-https://jmp2.uk/plu-679a973a97782f0008ff4bb6.m3u8
+https://iptv.jvleite7.workers.dev/pluto/679a973a97782f0008ff4bb6
 #EXTINF:-1 channel-id="6888ee858f4a4aa11feb9430" tvg-id="6888ee858f4a4aa11feb9430" tvg-chno="835" tvg-name="Top Barça" tvg-logo="https://images.pluto.tv/channels/6888ee858f4a4aa11feb9430/colorLogoPNG_1753987309681.png" group-title="Esportes",Top Barça
-https://jmp2.uk/plu-6888ee858f4a4aa11feb9430.m3u8
+https://iptv.jvleite7.workers.dev/pluto/6888ee858f4a4aa11feb9430
 #EXTINF:-1 channel-id="69fca82395df3283d2b60ef9" tvg-id="69fca82395df3283d2b60ef9" tvg-chno="365" tvg-name="Topa ou Não Topa EUA" tvg-logo="https://images.pluto.tv/channels/69fca82395df3283d2b60ef9/colorLogoPNG_1785430626504.png" group-title="Documentarios e Outros",Topa ou Não Topa EUA
-https://jmp2.uk/plu-69fca82395df3283d2b60ef9.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69fca82395df3283d2b60ef9
 #EXTINF:-1 channel-id="69a20556814d27f4ae630a92" tvg-id="69a20556814d27f4ae630a92" tvg-chno="850" tvg-name="UFC" tvg-logo="https://images.pluto.tv/channels/69a20556814d27f4ae630a92/colorLogoPNG_1772226745279.png" group-title="Esportes",UFC
-https://jmp2.uk/plu-69a20556814d27f4ae630a92.m3u8
+https://iptv.jvleite7.workers.dev/pluto/69a20556814d27f4ae630a92
 #EXTINF:-1 channel-id="63eba66da8b2270008436b10" tvg-id="63eba66da8b2270008436b10" tvg-chno="910" tvg-name="World Poker Tour" tvg-logo="https://images.pluto.tv/channels/63eba66da8b2270008436b10/colorLogoPNG.png" group-title="Esportes",World Poker Tour
-https://jmp2.uk/plu-63eba66da8b2270008436b10.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63eba66da8b2270008436b10
 #EXTINF:-1 channel-id="63988a50be012600070f5db3" tvg-id="63988a50be012600070f5db3" tvg-chno="1269" tvg-name="Yu-Gi-Oh" tvg-logo="https://images.pluto.tv/channels/63988a50be012600070f5db3/colorLogoPNG.png" group-title="Desenhos e Animes",Yu-Gi-Oh
-https://jmp2.uk/plu-63988a50be012600070f5db3.m3u8
+https://iptv.jvleite7.workers.dev/pluto/63988a50be012600070f5db3
 #EXTINF:-1 channel-id="66b3af48d2d50d00083d6936" tvg-id="66b3af48d2d50d00083d6936" tvg-chno="134" tvg-name="Z Nation" tvg-logo="https://images.pluto.tv/channels/66b3af48d2d50d00083d6936/colorLogoPNG_1785430432127.png" group-title="Filmes e Series",Z Nation
-https://jmp2.uk/plu-66b3af48d2d50d00083d6936.m3u8
+https://iptv.jvleite7.workers.dev/pluto/66b3af48d2d50d00083d6936
 #EXTINF:-1 channel-id="IN300085JT-in" tvg-id="IN300085JT" tvg-chno="1440" tvg-name="News State BR JH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN300085JT_20260623T015403SQUARE.png" group-title="Noticias",News State BR JH
-https://jmp2.uk/stvp-IN300085JT
+https://iptv.jvleite7.workers.dev/fast?u=https%3A%2F%2Fjmp2.uk%2Fstvp-IN300085JT
 #EXTINF:-1 tvg-id="" tvg-name="AdultIPTV.net Live Cams" tvg-language="English" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Adultos",AdultIPTV.net Live Cams
 http://cdn.adultiptv.net/livecams.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AdultIPTV.net MILF" tvg-language="English" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Adultos",AdultIPTV.net MILF
