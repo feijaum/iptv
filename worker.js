@@ -4,6 +4,60 @@ let relayMapCache = null;
 const PLAYLIST_URL = "https://raw.githubusercontent.com/feijaum/iptv/main/br.m3u";
 const RELAY_MAP_URL = "https://raw.githubusercontent.com/feijaum/iptv/main/relay-map.json";
 const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
+const ADULT_PIN_SHA256 = "79737ac46dad121166483e084a0727e5d6769fb47fa9b0b627eba4107e696078";
+
+
+async function sha256Hex(text) {
+  const data = new TextEncoder().encode(String(text || ""));
+  const digest = await crypto.subtle.digest("SHA-256", data);
+  return [...new Uint8Array(digest)].map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+async function validAdultPin(pin) {
+  if (!pin) return false;
+  return (await sha256Hex(pin)) === ADULT_PIN_SHA256;
+}
+
+function splitM3uEntries(text) {
+  const lines = String(text || "").replace(/\r/g, "").split("\n");
+  const entries = [];
+  let header = "#EXTM3U";
+  let current = [];
+
+  for (const line of lines) {
+    if (!line) continue;
+    if (line === "#EXTM3U") {
+      header = line;
+      continue;
+    }
+    if (line.startsWith("#EXTINF:")) {
+      if (current.length) entries.push(current);
+      current = [line];
+      continue;
+    }
+    if (current.length) {
+      current.push(line);
+      if (!line.startsWith("#")) {
+        entries.push(current);
+        current = [];
+      }
+    }
+  }
+  if (current.length) entries.push(current);
+  return { header, entries };
+}
+
+function isAdultEntry(entry) {
+  return !!(entry && entry[0] && /group-title="Adultos"/i.test(entry[0]));
+}
+
+function buildFilteredPlaylist(text, mode) {
+  const parsed = splitM3uEntries(text);
+  let entries = parsed.entries;
+  if (mode === "safe") entries = entries.filter(e => !isAdultEntry(e));
+  if (mode === "adult-only") entries = entries.filter(isAdultEntry);
+  return parsed.header + "\n" + entries.map(e => e.join("\n")).join("\n") + (entries.length ? "\n" : "");
+}
 
 function corsHeaders(extra = {}) {
   return {
@@ -632,9 +686,32 @@ export default {
       return proxyHls(parsed.toString(), request, "fast");
     }
 
-    const playlistPaths = new Set(["/", "/br.m3u", "/playlist.m3u"]);
+    const playlistPaths = new Set(["/", "/br.m3u", "/playlist.m3u", "/adult.m3u"]);
     if (!playlistPaths.has(url.pathname)) {
       return new Response("Not found", { status: 404, headers: corsHeaders() });
+    }
+
+    const suppliedPin = url.searchParams.get("pin") || "";
+    const pinOk = await validAdultPin(suppliedPin);
+
+    if (url.pathname === "/adult.m3u" && !pinOk) {
+      return new Response("PIN required", {
+        status: 401,
+        headers: corsHeaders({
+          "Content-Type": "text/plain; charset=utf-8",
+          "Cache-Control": "no-store"
+        })
+      });
+    }
+
+    if (suppliedPin && !pinOk) {
+      return new Response("Invalid PIN", {
+        status: 401,
+        headers: corsHeaders({
+          "Content-Type": "text/plain; charset=utf-8",
+          "Cache-Control": "no-store"
+        })
+      });
     }
 
     const freshUrl = PLAYLIST_URL + "?v=" + Math.floor(Date.now() / 15000);
@@ -646,11 +723,19 @@ export default {
       return new Response("Playlist unavailable", { status: 502 });
     }
 
-    return new Response(r.body, {
+    const rawPlaylist = await r.text();
+    const mode =
+      url.pathname === "/adult.m3u" ? "adult-only" :
+      pinOk ? "full" :
+      "safe";
+    const playlist = buildFilteredPlaylist(rawPlaylist, mode);
+    const filename = url.pathname === "/adult.m3u" ? "adult.m3u" : "br.m3u";
+
+    return new Response(playlist, {
       status: 200,
       headers: corsHeaders({
         "Content-Type": "application/vnd.apple.mpegurl; charset=utf-8",
-        "Content-Disposition": "inline; filename=br.m3u",
+        "Content-Disposition": "inline; filename=" + filename,
         "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
         "Pragma": "no-cache",
         "Expires": "0"
