@@ -16,6 +16,7 @@ from urllib.error import HTTPError
 # channel and uses later sources as automatic backups.
 SOURCES = [
     ("iptv-org BR", "https://iptv-org.github.io/iptv/countries/br.m3u", None, True, False),
+    ("iptv-org BR raw", "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/br.m3u", None, True, False),
     ("dearbulut BR working", "https://dearbulut.github.io/iptv/playlists/country/br.m3u", None, True, False),
     ("iptv-com BR", "https://raw.githubusercontent.com/iptv-com/iptv/main/lists/brazil.m3u", None, True, False),
     ("Free-TV", "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8", None, False, False),
@@ -152,7 +153,7 @@ def headers_for(entry):
 def _fetch_probe(url, headers, timeout):
     req = Request(url, headers=headers)
     with urlopen(req, timeout=timeout) as r:
-        return getattr(r, "status", 200), r.read(4096), (r.headers.get("Content-Type") or "").lower(), r.geturl()
+        return getattr(r, "status", 200), r.read(65536), (r.headers.get("Content-Type") or "").lower(), r.geturl()
 
 def _looks_like_media(data, ctype):
     if not data:
@@ -362,7 +363,7 @@ def main():
     candidate_results = {}
     candidate_rows = []
     jobs = {}
-    with ThreadPoolExecutor(max_workers=32) as ex:
+    with ThreadPoolExecutor(max_workers=16) as ex:
         for k in keys:
             for i, (e, source_name) in enumerate(pool[k]):
                 jobs[ex.submit(validate, e)] = (k, i)
