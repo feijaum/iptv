@@ -213,7 +213,7 @@ async function handleRelay(relayId, request, url) {
   }
 }
 
-async function getPlutoBoot(channelId = "") {
+async function getPlutoBoot() {
   const now = Math.floor(Date.now() / 1000);
   if (plutoBootCache && plutoBootCache.expiresAt > now + 60) {
     return plutoBootCache.data;
@@ -235,7 +235,6 @@ async function getPlutoBoot(channelId = "") {
     blockingMode: ""
   };
   for (const [k, v] of Object.entries(p)) u.searchParams.set(k, v);
-  if (channelId) u.searchParams.set("channelSlug", channelId);
 
   const r = await fetch(u.toString(), {
     headers: {
@@ -356,7 +355,7 @@ async function handlePluto(channelId, request) {
   }
 
   try {
-    const boot = await getPlutoBoot(channelId);
+    const boot = await getPlutoBoot();
     const stitcher = (boot.servers && boot.servers.stitcher) ||
       "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv";
     const u = new URL("/v2/stitch/hls/channel/" + channelId + "/master.m3u8", stitcher);
@@ -463,7 +462,7 @@ async function plutoProxyHealth(channelId, request) {
 async function plutoHealth(channelId) {
   const result = { channelId, boot: false, master: false, variant: false, segment: false, hosts: [] };
   try {
-    const boot = await getPlutoBoot(channelId);
+    const boot = await getPlutoBoot();
     result.boot = !!boot.sessionToken;
     result.stitcher = new URL((boot.servers && boot.servers.stitcher) ||
       "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv").hostname;
