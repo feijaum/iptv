@@ -13,23 +13,23 @@ from urllib.error import HTTPError
 # Sources are ordered by preference. The updater keeps one healthy stream per
 # channel and uses later sources as automatic backups.
 SOURCES = [
-    ("iptv-org BR", "https://iptv-org.github.io/iptv/countries/br.m3u", None, True),
-    ("dearbulut BR working", "https://dearbulut.github.io/iptv/playlists/country/br.m3u", None, True),
-    ("iptv-com BR", "https://raw.githubusercontent.com/iptv-com/iptv/main/lists/brazil.m3u", None, True),
-    ("Free-TV", "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8", None, False),
-    ("FreeCastHub", "https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u", None, False),
+    ("iptv-org BR", "https://iptv-org.github.io/iptv/countries/br.m3u", None, True, False),
+    ("dearbulut BR working", "https://dearbulut.github.io/iptv/playlists/country/br.m3u", None, True, False),
+    ("iptv-com BR", "https://raw.githubusercontent.com/iptv-com/iptv/main/lists/brazil.m3u", None, True, False),
+    ("Free-TV", "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8", None, False, False),
+    ("FreeCastHub", "https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u", None, False, False),
 
     # FAST providers. Brazilian feeds are accepted in full; global feeds are
     # filtered to Brazil/Portuguese before validation.
-    ("Pluto BR Buddy", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_br.m3u", None, True),
-    ("Pluto BR OwnerPlugins", "https://raw.githubusercontent.com/OwnerPlugins/pluto-tv-m3u/main/pluto-live-BR.m3u", None, True),
-    ("Samsung TV Plus", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_all.m3u", None, False),
-    ("Plex FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u", None, False),
-    ("Roku FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u", None, False),
-    ("Tubi FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u", None, False),
+    ("Pluto BR Buddy", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_br.m3u", None, True, False),
+    ("Pluto BR OwnerPlugins", "https://raw.githubusercontent.com/OwnerPlugins/pluto-tv-m3u/main/pluto-live-BR.m3u", None, True, False),
+    ("Samsung TV Plus", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_all.m3u", None, False, False),
+    ("Plex FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u", None, False, False),
+    ("Roku FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u", None, False, False),
+    ("Tubi FAST", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u", None, False, False),
 
     # Adult source is also filtered to Portuguese/Brazil signals.
-    ("IPTVJS Adult", "https://raw.githubusercontent.com/iptvjs/iptv/main/adultiptv_all.m3u", "Adultos", False),
+    ("IPTVJS Adult", "https://raw.githubusercontent.com/iptvjs/iptv/main/adultiptv_all.m3u", "Adultos", False, True),
 ]
 
 CHANNELS_DB = "https://raw.githubusercontent.com/iptv-org/database/master/data/channels.csv"
@@ -241,7 +241,7 @@ def main():
     pool = {}
     source_errors = []
 
-    for source_name, url, override, source_is_br in SOURCES:
+    for source_name, url, override, source_is_br, nsfw_unrestricted in SOURCES:
         try:
             txt = download(url)
             count = 0
@@ -249,7 +249,7 @@ def main():
             for e in entries(txt):
                 if not e or not e[-1].startswith(("http://", "https://")):
                     continue
-                if not is_ptbr_entry(e, source_is_br):
+                if not nsfw_unrestricted and not is_ptbr_entry(e, source_is_br):
                     skipped_language += 1
                     continue
                 e = enrich(e, channels, logos, override)
@@ -259,7 +259,8 @@ def main():
                 if all(x[0][-1] != e[-1] for x in bucket):
                     bucket.append((e, source_name))
                     count += 1
-            print(f"SOURCE {source_name}: {count} candidates; skipped_non_ptbr={skipped_language}")
+            mode = "NSFW unrestricted" if nsfw_unrestricted else ("BR source" if source_is_br else "PT-BR filtered")
+            print(f"SOURCE {source_name}: {count} candidates; skipped_non_ptbr={skipped_language}; mode={mode}")
         except Exception as exc:
             source_errors.append((source_name, url, type(exc).__name__))
             print(f"WARN source failed: {source_name}: {type(exc).__name__}")
