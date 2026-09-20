@@ -12,7 +12,7 @@ export default {
       headers: {
         "Content-Type": "application/vnd.apple.mpegurl; charset=utf-8",
         "Content-Disposition": "inline; filename=br.m3u",
-        "Cache-Control": "public, max-age=300",
+        "Cache-Control": "public, max-age=30, must-revalidate",
         "Access-Control-Allow-Origin": "*"
       }
     });
