@@ -1,47 +1,77 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Telecine Premium" group-title="Prioritários",Telecine Premium FHD
-http://unidaque.me:80/live/44vkj/Ym99P/13304.m3u8
+#EXTINF:-1 tvg-name="Telecine Premium" group-title="Prioritários",Telecine Premium HD
+http://31.43.191.125:8080/vip6671769357668/9c933f68998a/4913
+#EXTINF:-1 tvg-name="Telecine Action" group-title="Prioritários",Telecine Action FHD
+http://79.127.243.211:14632
 #EXTINF:-1 tvg-name="Telecine Action" group-title="Prioritários",Telecine Action HD
-http://177.52.24.163/TELECINE-ACTION-HD/index.m3u8
+https://dns.p2.wtf/rogerio55x/24992611250/1258
 #EXTINF:-1 tvg-name="Telecine Pipoca" group-title="Prioritários",Telecine Pipoca HD
-http://unidaque.me:80/live/44vkj/Ym99P/22805.m3u8
-#EXTINF:-1 tvg-name="Telecine Premium [ALT]" group-title="Prioritários",Telecine Premium HD [ALT]
-http://177.52.24.163/TELECINE-PREMIUM-HD/index.m3u8
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/81778.ts
+#EXTINF:-1 tvg-name="Telecine Pipoca" group-title="Prioritários",Telecine Pipoca HD
+http://sinalmycn.com:80/live/632035/GqGcFV4ntu/15010.ts
 #EXTINF:-1 tvg-name="HBO" group-title="Prioritários",HBO FHD
 http://unidaque.me:80/live/44vkj/Ym99P/22681.m3u8
 #EXTINF:-1 tvg-name="HBO 2" group-title="Prioritários",HBO 2 HD
-http://unidaque.me:80/live/44vkj/Ym99P/1412.m3u8
+http://restream-live.realiptv.to:8080/live/33741215/82527298/553461.ts
+#EXTINF:-1 tvg-name="HBO 2" group-title="Prioritários",HBO 2
+http://23.237.104.106:8080/USA_HBO2/mpegts
 #EXTINF:-1 tvg-name="HBO Family" group-title="Prioritários",HBO Family HD
-https://fl1.moveonjoy.com/HBO_FAMILY/index.m3u8
+http://191.205.5.165:9981/stream/channelid/527100866?profile=pass
+#EXTINF:-1 tvg-name="HBO Family" group-title="Prioritários",HBO Family HD
+http://ggrrth.htvsat.info:8880/bandy/123456aa/31462
 #EXTINF:-1 tvg-name="HBO Signature" group-title="Prioritários",HBO Signature HD
-http://190.83.85.68/hbo_family/index.m3u8
+http://2806-2026.gold:8089/live/1826465239420/4192874740371/85691062.ts
+#EXTINF:-1 tvg-name="HBO Signature" group-title="Prioritários",HBO Signature HD
+http://restream-live.realiptv.to:8080/live/52748969/72335180/648981.ts
 #EXTINF:-1 tvg-name="HBO Pop" group-title="Prioritários",HBO Pop HD
-http://unidaque.me:80/live/44vkj/Ym99P/1412.m3u8
+http://169.197.140.199:14744
+#EXTINF:-1 tvg-name="HBO Pop" group-title="Prioritários",HBO Pop HD
+http://181.65.191.173:8069/play/a0a6
 #EXTINF:-1 tvg-name="HBO Xtreme" group-title="Prioritários",HBO Xtreme HD
-https://cdn-sp2.satlabscloud.com.br/HBO_FAMILY_HD/720p.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
-#EXTINF:-1 tvg-name="Warner Channel" group-title="Prioritários",Warner Channel FHD
-http://unidaque.me:80/live/44vkj/Ym99P/22666.m3u8
-#EXTINF:-1 tvg-name="TNT" group-title="Prioritários",TNT HD
-http://190.83.85.68/warner/index.m3u8
+http://116.121.59.72:9981/stream/channelid/543594390
+#EXTINF:-1 tvg-name="Warner Channel" group-title="Prioritários",Warner Channel HD
+http://177.128.113.1:8000/play/a08n
+#EXTINF:-1 tvg-name="Warner Channel" group-title="Prioritários",Warner Channel HD
+http://vipnachoeasna.top:8080/VIP01966172717811899/4fa5796d83d5/4923
+#EXTINF:-1 tvg-name="TNT" group-title="Prioritários",TNT HD (West)
+http://restream-live.realiptv.to:8080/live/nopbot/jbadWjxWV1/2384.ts
 #EXTINF:-1 tvg-name="TNT Séries" group-title="Prioritários",TNT Séries HD
-http://unidaque.me:80/live/44vkj/Ym99P/22666.m3u8
+http://ggrrth.htvsat.info:8880/bandy/123456aa/16761
 #EXTINF:-1 tvg-name="Space" group-title="Prioritários",Space HD
-http://unidaque.me:80/live/44vkj/Ym99P/13313.m3u8
-#EXTINF:-1 tvg-name="Megapix" group-title="Prioritários",Megapix HD
-http://unidaque.me:80/live/44vkj/Ym99P/13314.m3u8
+http://45.162.64.114/SPACE/mpegts
+#EXTINF:-1 tvg-name="Space" group-title="Prioritários",Space HD
+http://ggrrth.htvsat.info:8880/bandy/123456aa/16750
+#EXTINF:-1 tvg-name="Megapix" group-title="Prioritários",Megapix FHD
+http://balance1.QITV.TOP:8088/rj-live/rj-live/600151.ts
+#EXTINF:-1 tvg-name="Megapix" group-title="Prioritários",Megapix FHD
+http://sinalmycn.com:80/live/632035/GqGcFV4ntu/13016.ts
 #EXTINF:-1 tvg-name="Cinemax" group-title="Prioritários",Cinemax HD
-http://190.83.85.68/warner/index.m3u8
+http://restream-live.realiptv.to:8080/live/52748969/72335180/2611.ts
+#EXTINF:-1 tvg-name="Cinemax" group-title="Prioritários",Cinemax HD
+http://23.237.104.106:8080/USA_CINEMAX/mpegts
 #EXTINF:-1 tvg-name="Discovery Channel" group-title="Prioritários",Discovery Channel HD
-http://190.83.85.68/discovery/index.m3u8
+http://restream-live.realiptv.to:8080/live/nopbot/jbadWjxWV1/3826.ts
+#EXTINF:-1 tvg-name="Discovery Channel" group-title="Prioritários",Discovery Channel HD
+http://23.237.104.106:8080/USA_DISCOVERY/mpegts
 #EXTINF:-1 tvg-name="Discovery Home & Health" group-title="Prioritários",Discovery H&H HD
-http://45.176.240.128:8889/play/a019/index.m3u8
+http://200.229.190.189:8002/play/a019
 #EXTINF:-1 tvg-name="Animal Planet" group-title="Prioritários",Animal Planet HD
-http://unidaque.me:80/live/44vkj/Ym99P/1412.m3u8
+http://restream-live.realiptv.to:8080/live/52748969/72335180/2661.ts
+#EXTINF:-1 tvg-name="Animal Planet" group-title="Prioritários",Animal Planet HD
+http://23.237.104.106:8080/USA_ANIMAL_PLANET/mpegts
 #EXTINF:-1 tvg-name="TLC" group-title="Prioritários",TLC HD
-http://190.83.85.68/discovery/index.m3u8
+http://restream-live.realiptv.to:8080/live/33741215/82527298/48974.ts
+#EXTINF:-1 tvg-name="TLC" group-title="Prioritários",TLC HD
+http://89.105.221.127/tlc/mpegts?token=test
 #EXTINF:-1 tvg-name="HGTV" group-title="Prioritários",HGTV HD
-https://cdn-3.nxplay.com.br/HGTV_BR_NX/index.m3u8
+http://2806-2026.gold:8089/live/1826465239420/4192874740371/85690864.ts
+#EXTINF:-1 tvg-name="HGTV" group-title="Prioritários",HGTV HD (West)
+http://restream-live.realiptv.to:8080/live/nopbot/jbadWjxWV1/3836.ts
 #EXTINF:-1 tvg-name="Discovery Kids" group-title="Prioritários",Discovery Kids HD
-https://cdn-3.nxplay.com.br/DISCOVERY_KIDS_NX/index.m3u8
+http://200.229.190.189:8002/play/a011
+#EXTINF:-1 tvg-name="Discovery Kids" group-title="Prioritários",Discovery Kids HD
+http://181.78.16.156:18000/play/a0em
 #EXTINF:-1 tvg-name="Cartoon Network" group-title="Prioritários",Cartoon Network HD
-https://playout.cdn.cartoonnetwork.com.br/playout_02/playlist.m3u8
+https://iptv.domains/live/Henry/123456/13423.ts
+#EXTINF:-1 tvg-name="Cartoon Network" group-title="Prioritários",Cartoon Network HD (West)
+http://restream-live.realiptv.to:8080/live/52748969/72335180/2653.ts
