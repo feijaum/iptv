@@ -32,7 +32,8 @@ def load_audit():
 
 def write_m3u(path, blocks):
     body = "\n".join("\n".join(b) for b in blocks)
-    path.write_text("#EXTM3U\n" + (body + "\n" if body else ""), encoding="utf-8")
+    header = '#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"'
+    path.write_text(header + "\n" + (body + "\n" if body else ""), encoding="utf-8")
 
 def main():
     if not PLAYLIST.exists() or not AUDIT.exists():
