@@ -183,6 +183,12 @@ def _validate_hls_url(url, headers, timeout, depth=0):
     if not is_manifest:
         return ("OK", str(code)) if _looks_like_media(data, ctype) else ("OFF", "non-media response")
 
+    # Generic channel-list M3U files are not HLS manifests. This prevents a
+    # stale Worker that ignores /pluto/... from being falsely accepted because
+    # it returned the root br.m3u playlist.
+    if "#EXTM3U" in text and "#EXT-X-" not in text:
+        return "OFF", "generic m3u returned instead of hls"
+
     children = [x.strip() for x in text.splitlines() if x.strip() and not x.startswith("#")]
     if not children:
         return "OFF", "empty hls"
