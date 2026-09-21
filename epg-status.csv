@@ -4,14 +4,13 @@ Record.br@SD,Record (576p),OK,EPG.pw Brasil,523282
 RedeTV.br@SD,Rede TV! (720p),OK,EPG.pw Brasil,523301
 SBTNacional.br@SD,SBT Nacional (720p),OK,EPG.pw Brasil,523298
 TVBahia.br@HD,TV Bahia (1080i),SEM_EPG,,
-TVEBahia.br@HD,TVE Bahia (1080p),SEM_EPG,,
 MarkRoberTV.br,Mark Rober TV,SEM_EPG,,
 LoveNature.br,Love Nature,SEM_EPG,,
 AELatinAmerica.us@Brazil,A&E Latin America Brazil (720p),SEM_EPG,,
 AdessoTV.br@SD,Adesso TV (720p),SEM_EPG,,
 61b790b985706b00072cb797,Adrenalina Pura TV Brazil,OK,Pluto TV Brasil,61b790b985706b00072cb797
 AdultSwimLatinAmerica.us@Brazil,Adult Swim Latin America Brazil (720p),SEM_EPG,,
-AgroCanal.br@SD,AgroCanal,SEM_EPG,,
+AgroCanal.br@SD,AgroCanal (720p),SEM_EPG,,
 AgroMais.br@SD,AgroMais (720p),SEM_EPG,,
 AmazonSat.br@SD,Amazon Sat (1080p),SEM_EPG,,
 AMCLatinAmerica.us@Brazil,AMC Latin America Brazil (720p),SEM_EPG,,
@@ -25,13 +24,11 @@ BandSports.br@SD,Band Sports (720p),OK,EPG.pw Brasil,523330
 BandNews.br@SD,BandNews (720p),OK,EPG.pw Brasil,523314
 5ff768b6a4c8b80008498610,BET Pluto TV (United States) BR,OK,Pluto TV Brasil,5ff768b6a4c8b80008498610
 666c9c60a7efd40008f552f0,BM&C News (720p),OK,Pluto TV Brasil,666c9c60a7efd40008f552f0
-BoasNovas.br@SD,Boas Novas (1080p),SEM_EPG,,
 62545c0b002f4b0007688b61,Bob Esponja Calca Quadrada (720p),OK,Pluto TV Brasil,62545c0b002f4b0007688b61
 BoxKidsTV.br@SD,Box Kids TV (720p),SEM_EPG,,
-Canal38.br@SD,Canal 38 (720p),SEM_EPG,,
+Canal25Jundiai.br@SD,Canal 25 Jundiaí (404p) [Not 24/7],SEM_EPG,,
 CanaldoBoi.br@SD,Canal do Boi (720p),OK,EPG.pw Brasil,523289
 CanalEducacao.br@SD,Canal Educação (720p),SEM_EPG,,
-CanalFDR.br@SD,Canal FDR,SEM_EPG,,
 CanalFutura.br@SD,Canal Futura (720p),SEM_EPG,,
 CanalGov.br@SD,Canal Gov (720p),SEM_EPG,,
 CanalMetropolitanodeNoticias.br@SD,Canal Metropolitano de Noticias,SEM_EPG,,
@@ -58,7 +55,7 @@ ElyTV.br@SD,ElyTV (360p),SEM_EPG,,
 ESPN3.br@SD,ESPN 3 (720p),OK,EPG.pw Brasil,523329
 ESPN4.br@SD,ESPN 4 (1080p),OK,EPG.pw Brasil,523357
 ESPN.br@SD,ESPN (1080p),OK,EPG.pw Brasil,418725
-EUTV.br@SD,EUTV,SEM_EPG,,
+EUTV.br@SD,EUTV (720p),SEM_EPG,,
 5f5141c1605ddf000748eb1b,FailArmy Brazil,OK,Pluto TV Brasil,5f5141c1605ddf000748eb1b
 FalaLitoral.br@SD,Fala Litoral (480p),SEM_EPG,,
 FIFAPlus.uk@Portuguese,FIFA+ Portuguese (720p),SEM_EPG,,
@@ -80,7 +77,6 @@ J3NEWSTV.br@SD,J3NEWS TV,SEM_EPG,,
 69162b1ef189e235142b17ab,Jornada nas Estrelas: Voyager,OK,Pluto TV Brasil,69162b1ef189e235142b17ab
 JovemPanNews.br@SD,Jovem Pan News (720p),OK,EPG.pw Brasil,417187
 5ffcc5130fd98c0007f2e216,Kenan & Kel BR,OK,Pluto TV Brasil,5ffcc5130fd98c0007f2e216
-KpopTVPlay.br@SD,KpopTV Play (576p),SEM_EPG,,
 KuriakosKids.pt@SD,Kuriakos Kids (1080p),SEM_EPG,,
 Lke.br@SD,L!ke (1080p),SEM_EPG,,
 LamoreRockShowWebTV.br@SD,Lamore Rock Show WebTV (720p),SEM_EPG,,
@@ -178,7 +174,6 @@ PrimerTV.br@SD,Primer TV (1080p),SEM_EPG,,
 RecordNews.br@SD,Record News (720p),OK,EPG.pw Brasil,523352
 RecordTVInteriorSP.br@SD,RecordTV Interior SP,SEM_EPG,,
 RedBullTV.at@BR,Red Bull TV BR (1080p),SEM_EPG,,
-RedeBrasil.br@SD,Rede Brasil (1080p),OK,EPG.pw Brasil,417589
 RedeCNTRiodeJaneiro.br@SD,Rede CNT Rio de Janeiro (720p),SEM_EPG,,
 RedeFamilia.br@SD,Rede Familia (720p),SEM_EPG,,
 RedeGlobo.br@SD,Rede Globo (720p),SEM_EPG,,
@@ -217,7 +212,6 @@ TNTNovelas.us@Brazil,TNT Novelas Brazil (720p),SEM_EPG,,
 TraceBrazuca.fr@HD,Trace Brazuca HD (1080p),SEM_EPG,,
 TravelBoxBrazil.br@SD,Travel Box Brazil (720p),OK,EPG.pw Brasil,523331
 5f997e44949bc70007a6941e,Turma da Monica (720p),OK,Pluto TV Brasil,5f997e44949bc70007a6941e
-TVACritica.br@SD,TV A Critica,SEM_EPG,,
 TVAFolha.br@SD,TV A Folha (720p),SEM_EPG,,
 TVAldeia.br@SD,TV Aldeia (720p),SEM_EPG,,
 TVAliancaCatarinense.br@SD,TV Alianca Catarinense (720p),SEM_EPG,,
@@ -233,17 +227,19 @@ TVCancaoNova.br@SD,TV Cancao Nova (720p),SEM_EPG,,
 TVCidadeVerdeCuiaba.br@SD,TV Cidade Verde Cuiaba,SEM_EPG,,
 TVClube.br@SD,TV Clube (720p),SEM_EPG,,
 TVComunitaria.br@SD,TV Comunitaria (360p),SEM_EPG,,
-TVCultura.br@SD,TV Cultura (720p),OK,EPG.pw Brasil,523305
+TVCultura.br@SD,TV Cultura,OK,EPG.pw Brasil,523305
 TVCuruca.br@SD,TV Curuca (360p),SEM_EPG,,
 TVDifusao.br@SD,TV Difusao (720p),SEM_EPG,,
 TVEvangelizar.br@SD,TV Evangelizar (720p),SEM_EPG,,
 TVFronteira.br@SD,TV Fronteira (480i),SEM_EPG,,
+TVFuturo.br@SD,TV Futuro (1080p),SEM_EPG,,
 TVGazeta.br@SD,TV Gazeta (720p),OK,EPG.pw Brasil,523302
 TVGRANDENATALHDTVBRASIL.br@SD,TV GRANDE NATAL HDTV BRASIL (1080p),SEM_EPG,,
 TVJustica.br@SD,TV Justica (720p),OK,EPG.pw Brasil,523355
 TVLifeAmerica.br@HD,TV Life America (720p),SEM_EPG,,
 TVMaisMarica.br@SD,TV Mais Marica (1080p),SEM_EPG,,
 TVManaBrasil.pt@SD,TV Mana Brasil (1080p),SEM_EPG,,
+TVMarajoara.br@SD,TV Marajoara (720p),SEM_EPG,,
 TVMetropole.br@SD,TV Metropole (720p) [Not 24/7],SEM_EPG,,
 TVNatal.br@SD,TV Natal (1080p),SEM_EPG,,
 TVPadreCicero.br@SD,TV Padre Cicero (720p),SEM_EPG,,
@@ -252,28 +248,26 @@ TVPantanalMS.br@SD,TV Pantanal MS (360p) [Not 24/7],SEM_EPG,,
 TVParaense.br@HD,TV Paraense (720p),SEM_EPG,,
 TVParanaTurismo.br@SD,TV Parana Turismo (720p) [Not 24/7],SEM_EPG,,
 TVPassoFundo.br@SD,TV Passo Fundo (720p),SEM_EPG,,
+TVPetropolis.br@SD,TV Petropolis (720p),SEM_EPG,,
 TVRaTimBum.br@SD,TV Ra Tim Bum (720p),SEM_EPG,,
 TVSaoRaimundo.br@SD,TV Sao Raimundo (268p),SEM_EPG,,
 TVSenado.br@SD,TV Senado (Brazil) (720p),OK,EPG.pw Brasil,523335
 TVSeries.br@SD,TV Series (480p),SEM_EPG,,
 TVSimCachoeiro.br@SD,TV Sim Cachoeiro (720p),SEM_EPG,,
-TVSimSaoMateus.br@SD,TV Sim Sao Mateus (720p),SEM_EPG,,
 TVSulBahia.br@SD,TV Sul Bahia (320p),SEM_EPG,,
 TVTerceiroAnjo.br@SD,TV Terceiro Anjo (360p),SEM_EPG,,
 TVUFOP.br@HD,TV UFOP (1080p),SEM_EPG,,
 TVUniversal.br@SD,TV Universal (480p),SEM_EPG,,
 TVVicosa.br@SD,TV Vicosa (480p),SEM_EPG,,
-TVVilaReal.br@SD,TV Vila Real (720p),SEM_EPG,,
 TVZoom.br@SD,TV Zoom (720p),SEM_EPG,,
 TVPlusPet.br@SD,TV+Pet,SEM_EPG,,
 TVCRio.br@SD,TVC-Rio,SEM_EPG,,
 TVCOMMaceio.br@SD,TVCOM Maceio (480p),SEM_EPG,,
-TVERS.br@SD,TVE RS (1080p),SEM_EPG,,
 TVideoNews.br@SD,TVideoNews (720p) [Not 24/7],SEM_EPG,,
 TVitape.br@SD,TVitape (720p),SEM_EPG,,
 TVLatinaSat.br@HD,TVLatinaSat (720p),SEM_EPG,,
+TVNBN.br@SD,TVNBN (720p),SEM_EPG,,
 UMATV.br@HD,UMA TV,SEM_EPG,,
-UnisulTV.br@SD,Unisul TV (720p),SEM_EPG,,
 VEJAPlusTV.br@HD,VEJA+ TV (1080p),SEM_EPG,,
 WooHoo.br@SD,WooHoo (720p),OK,EPG.pw Brasil,523273
 CINDIETV.br@HD,CINDIE TV (1080p),SEM_EPG,,
