@@ -13,7 +13,7 @@ https://iptv.jvleite7.workers.dev/live/c101a34c66a2f227.m3u8
 #EXTINF:-1 tvg-id="MarkRoberTV.br" tvg-name="Mark Rober TV" group-title="Documentarios e Outros",Mark Rober TV
 https://iptv.jvleite7.workers.dev/live/8dc917f90459fac4.m3u8
 #EXTINF:-1 tvg-id="LoveNature.br" tvg-name="Love Nature" group-title="Documentarios e Outros",Love Nature
-https://iptv.jvleite7.workers.dev/live/75ff9e73dac8ef74.m3u8
+https://d1si3n1st4nkgb.cloudfront.net/10000/88876007/hls/master.m3u8?ads.xumo_channelId=88876007
 #EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Documentarios e Outros",A&E Latin America Brazil (720p)
 http://170.83.16.50/AeE/index.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" tvg-logo="https://i.imgur.com/KgetM8j.png" group-title="Canais Abertos",Adesso TV (720p)
@@ -181,8 +181,6 @@ http://170.83.16.50/LIFETIME/index.m3u8
 https://iptv.jvleite7.workers.dev/live/047bdc92faca3808.m3u8
 #EXTINF:-1 tvg-id="63eb9dc84e83e70008abea92" tvg-logo="https://images.pluto.tv/channels/63eb9dc84e83e70008abea92/colorLogoPNG.png" group-title="Pluto TV" channel-id="63eb9dc84e83e70008abea92",MacGyver (United States)
 https://iptv.jvleite7.workers.dev/pluto/63eb9dc84e83e70008abea92.m3u8
-#EXTINF:-1 tvg-id="6077045b6031bd00078de127" tvg-logo="https://i.imgur.com/lOuySbz.png" group-title="Pluto TV" channel-id="6077045b6031bd00078de127",MasterChef
-https://iptv.jvleite7.workers.dev/pluto/6077045b6031bd00078de127.m3u8
 #EXTINF:-1 tvg-id="5f6108d8cc331900075e98e4" tvg-logo="https://images.pluto.tv/channels/5f6108d8cc331900075e98e4/colorLogoPNG.png" group-title="Pluto TV" channel-id="5f6108d8cc331900075e98e4",MTV Are you the One?
 https://iptv.jvleite7.workers.dev/pluto/5f6108d8cc331900075e98e4.m3u8
 #EXTINF:-1 tvg-id="6047fbdbbb776a0007e7f2ff" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="Pluto TV" channel-id="6047fbdbbb776a0007e7f2ff",MTV Biggest Pop BR (1080p)
@@ -416,8 +414,6 @@ https://iptv.jvleite7.workers.dev/pluto/65df70b0f7f0af0008c3b316.m3u8
 http://170.83.49.66:8083/SPORTV3HD/index.m3u8
 #EXTINF:-1 tvg-id="5f99ac4fded33000078f29ab" tvg-logo="https://images.pluto.tv/channels/5efbd39f8c4ce900075d7698/colorLogoPNG.png" group-title="Pluto TV" channel-id="5f99ac4fded33000078f29ab",Star Trek
 https://iptv.jvleite7.workers.dev/pluto/5f99ac4fded33000078f29ab.m3u8
-#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" group-title="Documentarios e Outros",Studio Universal Latin America Brazil (720p)
-http://187.102.210.46/universo/index.m3u8
 #EXTINF:-1 tvg-id="STZTV.br@SD" tvg-logo="https://i.imgur.com/SeF2I7q.png" group-title="Noticias",STZ TV (1080p)
 https://iptv.jvleite7.workers.dev/live/d618beb55be725b3.m3u8
 #EXTINF:-1 tvg-id="5fd1419a3b4f4b000773ba85" tvg-logo="https://i.imgur.com/FPy4zF4.png" group-title="Pluto TV" channel-id="5fd1419a3b4f4b000773ba85",Tastemade Brasil (720p)
@@ -505,8 +501,6 @@ https://iptv.jvleite7.workers.dev/live/dad63638fd97f362.m3u8
 https://iptv.jvleite7.workers.dev/live/19c372a62136dc41.m3u8
 #EXTINF:-1 tvg-id="TVMetropole.br@SD" tvg-logo="https://i.imgur.com/bJyjLpg.png" group-title="Canais Abertos",TV Metropole (720p) [Not 24/7]
 https://iptv.jvleite7.workers.dev/live/f41fdc8e05eaf5cd.m3u8
-#EXTINF:-1 tvg-id="TVNatal.br@SD" tvg-logo="https://i.imgur.com/wqQmQml.png" group-title="Canais Abertos",TV Natal (1080p)
-http://185.228.163.146:8000/play/a01y/index.m3u8
 #EXTINF:-1 tvg-id="TVPadreCicero.br@SD" tvg-logo="https://i.imgur.com/Y7b29VG.png" group-title="Documentarios e Outros",TV Padre Cicero (720p)
 https://iptv.jvleite7.workers.dev/live/1364a2d92d9ffaac.m3u8
 #EXTINF:-1 tvg-id="TVPaiEterno.br@SD" group-title="Documentarios e Outros" tvg-logo="https://i.imgur.com/iuoXchN.png",TV Pai Eterno (720p)
