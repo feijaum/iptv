@@ -15,7 +15,7 @@ https://iptv.jvleite7.workers.dev/live/cf2fcf23585ace7c.m3u8
 #EXTINF:-1 tvg-id="MarkRoberTV.br" tvg-name="Mark Rober TV" group-title="Documentarios e Outros",Mark Rober TV
 https://iptv.jvleite7.workers.dev/live/8dc917f90459fac4.m3u8
 #EXTINF:-1 tvg-id="LoveNature.br" tvg-name="Love Nature" group-title="Documentarios e Outros",Love Nature
-https://iptv.jvleite7.workers.dev/live/75ff9e73dac8ef74.m3u8
+https://d1si3n1st4nkgb.cloudfront.net/10000/88876007/hls/master.m3u8?ads.xumo_channelId=88876007
 #EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Documentarios e Outros",A&E Latin America Brazil (720p)
 http://170.83.16.50/AeE/index.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" tvg-logo="https://i.imgur.com/KgetM8j.png" group-title="Canais Abertos",Adesso TV (720p)
@@ -179,8 +179,6 @@ https://iptv.jvleite7.workers.dev/live/b0841e88d789dba8.m3u8
 http://170.83.16.50/LIFETIME/index.m3u8
 #EXTINF:-1 tvg-id="Loading.br@SD" tvg-logo="https://i.imgur.com/R0aflu1.png" group-title="Documentarios e Outros",Loading (720p)
 https://iptv.jvleite7.workers.dev/live/047bdc92faca3808.m3u8
-#EXTINF:-1 tvg-id="63eb9dc84e83e70008abea92" tvg-logo="https://images.pluto.tv/channels/63eb9dc84e83e70008abea92/colorLogoPNG.png" group-title="Pluto TV" channel-id="63eb9dc84e83e70008abea92",MacGyver (United States)
-https://iptv.jvleite7.workers.dev/pluto/63eb9dc84e83e70008abea92.m3u8
 #EXTINF:-1 tvg-id="6077045b6031bd00078de127" tvg-logo="https://i.imgur.com/lOuySbz.png" group-title="Pluto TV" channel-id="6077045b6031bd00078de127",MasterChef
 https://iptv.jvleite7.workers.dev/pluto/6077045b6031bd00078de127.m3u8
 #EXTINF:-1 tvg-id="5f6108d8cc331900075e98e4" tvg-logo="https://images.pluto.tv/channels/5f6108d8cc331900075e98e4/colorLogoPNG.png" group-title="Pluto TV" channel-id="5f6108d8cc331900075e98e4",MTV Are you the One?
@@ -203,8 +201,6 @@ https://iptv.jvleite7.workers.dev/pluto/620fdc7d8a36fc000710e3ba.m3u8
 https://iptv.jvleite7.workers.dev/pluto/5f1212fb81e85c00077ae9ef.m3u8
 #EXTINF:-1 tvg-id="6851bdfc9ac48fde5e07f5ae" tvg-logo="https://images.pluto.tv/channels/6493f4f566e485000853d640/colorLogoPNG.png" group-title="Pluto TV" channel-id="6851bdfc9ac48fde5e07f5ae",MTV Reality (United States) (720p)
 https://iptv.jvleite7.workers.dev/pluto/6851bdfc9ac48fde5e07f5ae.m3u8
-#EXTINF:-1 tvg-id="66a01e07d2d50d0008100d6a" tvg-logo="https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png" group-title="Pluto TV" channel-id="66a01e07d2d50d0008100d6a",MTV Rocks
-https://iptv.jvleite7.workers.dev/pluto/66a01e07d2d50d0008100d6a.m3u8
 #EXTINF:-1 tvg-id="625463563b8ddc0007134aeb" tvg-logo="https://images.pluto.tv/channels/625463563b8ddc0007134aeb/colorLogoPNG.png" group-title="Pluto TV" channel-id="625463563b8ddc0007134aeb",MTV Shore
 https://iptv.jvleite7.workers.dev/pluto/625463563b8ddc0007134aeb.m3u8
 #EXTINF:-1 tvg-id="MusicBoxBrazil.br@SD" tvg-logo="https://i.imgur.com/CDPCF2X.png" group-title="Musica",Music Box Brazil (720p)
@@ -338,8 +334,6 @@ https://iptv.jvleite7.workers.dev/pluto/691627e4a29a6123e400b3e0.m3u8
 https://iptv.jvleite7.workers.dev/pluto/63d2ba2f60bc8f0008981a0e.m3u8
 #EXTINF:-1 tvg-id="604b91e0692f770007d9f33f" tvg-logo="https://images.pluto.tv/channels/604b91e0692f770007d9f33f/colorLogoPNG.png" group-title="Pluto TV" channel-id="604b91e0692f770007d9f33f",Pluto TV Shows por Stingray (720p)
 https://iptv.jvleite7.workers.dev/pluto/604b91e0692f770007d9f33f.m3u8
-#EXTINF:-1 tvg-id="66aa67493a4ad2000806d91b" tvg-logo="https://images.pluto.tv/channels/66aa67493a4ad2000806d91b/colorLogoPNG.png" group-title="Pluto TV" channel-id="66aa67493a4ad2000806d91b",Pluto TV Terror Trash
-https://iptv.jvleite7.workers.dev/pluto/66aa67493a4ad2000806d91b.m3u8
 #EXTINF:-1 tvg-id="6014761dfb91870008ea6463" tvg-logo="https://images.pluto.tv/channels/6014761dfb91870008ea6463/colorLogoPNG.png" group-title="Pluto TV" channel-id="6014761dfb91870008ea6463",Pluto TV Turbo
 https://iptv.jvleite7.workers.dev/pluto/6014761dfb91870008ea6463.m3u8
 #EXTINF:-1 tvg-id="5f32d432d612e50007e56133" tvg-logo="https://images.pluto.tv/channels/5f32d432d612e50007e56133/colorLogoPNG_1769016717502.png" group-title="Pluto TV" channel-id="5f32d432d612e50007e56133",Pluto TV Viagens
@@ -402,8 +396,6 @@ http://45.162.64.114/SONY_MOVIES/index.m3u8
 https://iptv.jvleite7.workers.dev/live/271e87ec8d128d7d.m3u8
 #EXTINF:-1 tvg-id="65df71008b24c80008f04281" tvg-logo="https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png" group-title="Pluto TV" channel-id="65df71008b24c80008f04281",South Park: Colecao Cartman
 https://iptv.jvleite7.workers.dev/pluto/65df71008b24c80008f04281.m3u8
-#EXTINF:-1 tvg-id="65df704366eec8000898e32f" tvg-logo="https://images.pluto.tv/channels/65df704366eec8000898e32f/colorLogoPNG.png" group-title="Pluto TV" channel-id="65df704366eec8000898e32f",South Park: Colecao Kenny
-https://iptv.jvleite7.workers.dev/pluto/65df704366eec8000898e32f.m3u8
 #EXTINF:-1 tvg-id="65df713dec9fda0008b7a81d" tvg-logo="https://images.pluto.tv/channels/65df713dec9fda0008b7a81d/colorLogoPNG.png" group-title="Pluto TV" channel-id="65df713dec9fda0008b7a81d",South Park: Colecao Kyle
 https://iptv.jvleite7.workers.dev/pluto/65df713dec9fda0008b7a81d.m3u8
 #EXTINF:-1 tvg-id="65df70b0f7f0af0008c3b316" tvg-logo="https://images.pluto.tv/channels/65df70b0f7f0af0008c3b316/colorLogoPNG.png" group-title="Pluto TV" channel-id="65df70b0f7f0af0008c3b316",South Park: Colecao Stan
