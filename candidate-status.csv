@@ -5,7 +5,7 @@ Band (576p),Band.br,Canais Abertos,iptv-org BR raw,https://media.cdntvms.com.br/
 Record (720p),Record.br,Canais Abertos,Curated Open HD,http://45.190.28.50/RECORD/index.m3u8,INCONCLUSIVO,geo/auth 403
 Record (720p),Record.br,Canais Abertos,iptv-org BR,http://170.84.165.204/Record_HD/index.m3u8,INCONCLUSIVO,geo/auth 403
 Record (576p),Record.br,Canais Abertos,iptv-org BR raw,https://media.cdntvms.com.br/record_nacional_sat/index.m3u8,OK,206/206
-RecordTV,Record.br,Canais Abertos,iptv-org BR raw,https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8,OK,200/206
+RecordTV,Record.br,Canais Abertos,iptv-org BR raw,https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8,OFF,InvalidURL
 RedeTV! (1080p),RedeTV.br,Canais Abertos,Curated Open HD,http://45.190.28.50/REDE_TV_HD/index.m3u8,INCONCLUSIVO,geo/auth 403
 Rede TV! (720p),RedeTV.br,Canais Abertos,iptv-org BR,http://45.162.64.114/REDE_TV/index.m3u8,OK,206/206
 Rede TV! (720p),RedeTV.br,Canais Abertos,iptv-org BR raw,http://168.197.104.22/REDE_TV/index.m3u8,OK,206/206
@@ -44,11 +44,11 @@ AgroMais (720p),AgroMais.br,Noticias,iptv-org BR raw,http://45.177.114.115/AGROM
 AgroMais (720p),AgroMais.br,Noticias,iptv-org BR raw,http://168.197.104.22/AGROMAIS/index.m3u8,OK,206/206
 AgroMais (720p),AgroMais.br,Noticias,iptv-org BR raw,http://170.83.16.50/AGRO_MAIS/index.m3u8,OK,206/206
 Alpha Channel (720p),AlphaChannel.br,Canais Abertos,iptv-org BR,https://5b01a3d32b65c.streamlock.net:1936/tvalpha/tvalpha/playlist.m3u8,OFF,URLError
-Amazon Sat (1080p),AmazonSat.br,Canais Abertos,iptv-org BR,https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8,OFF,HTTP 404
+Amazon Sat (1080p),AmazonSat.br,Canais Abertos,iptv-org BR,https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8,OK,206/206
 AMC Latin America Brazil (720p),AMCLatinAmerica.us,Filmes e Series,iptv-org BR,http://170.83.49.66:8083/AMCHD/index.m3u8,OK,206/206
 Angel TV Portuguese (720p),AngelTV.in,Documentarios e Outros,iptv-org BR,https://janya-digimix.akamaized.net/vglive-sk-382409/portuese/ngrp:angelportuguese_all/playlist.m3u8,OFF,InvalidURL
 Araruna TV,ArarunaTV.br,Canais Abertos,iptv-org BR,https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8,OK,206/206
-Aratu On,AratuOn.br,Canais Abertos,iptv-org BR,https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8,OFF,HTTP 404
+Aratu On,AratuOn.br,Canais Abertos,iptv-org BR,https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8,OFF,InvalidURL
 Arte 1 (720p),Arte1.br,Documentarios e Outros,iptv-org BR,http://45.162.64.114/ARTE1/index.m3u8,OK,206/206
 Arte 1 (720p),Arte1.br,Documentarios e Outros,iptv-org BR raw,http://45.177.114.115/ARTE1/index.m3u8,OK,206/206
 Arte 1 (720p),Arte1.br,Documentarios e Outros,iptv-org BR raw,http://168.197.104.22/ARTE1/index.m3u8,OK,206/206
@@ -94,7 +94,7 @@ Canal Educacao (720p),CanalEducacao.br,Documentarios e Outros,iptv-org BR,http:/
 Canal Educacao (720p),CanalEducacao.br,Documentarios e Outros,iptv-org BR raw,http://45.177.114.115/CANAL_EDUCACAO/index.m3u8,OK,206/206
 Canal Educacao (720p),CanalEducacao.br,Documentarios e Outros,iptv-org BR raw,http://168.197.104.22/CANAL_EDUCACAO/index.m3u8,OK,206/206
 Canal Educação (720p),CanalEducacao.br,Documentarios e Outros,iptv-org BR raw,https://canaleducacao-stream.ebc.com.br/index.m3u8,OK,200/206
-Canal FDR,CanalFDR.br,Canais Abertos,iptv-org BR,https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8,OFF,HTTP 404
+Canal FDR,CanalFDR.br,Canais Abertos,iptv-org BR,https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8,OK,200/200
 Canal Futura (720p),CanalFutura.br,Documentarios e Outros,iptv-org BR,http://45.162.64.114/FUTURA/index.m3u8,OK,206/206
 Canal Futura (720p),CanalFutura.br,Documentarios e Outros,iptv-org BR raw,http://170.83.16.50/FUTURA/index.m3u8,OK,206/206
 Canal Futura (720p),CanalFutura.br,Documentarios e Outros,iptv-org BR raw,http://186.219.52.187/futura/index.m3u8,OK,206/206
@@ -146,13 +146,13 @@ DumDum (720p),DumDum.br,Desenhos e Animes,iptv-org BR raw,http://168.197.104.22/
 DumDum (720p),DumDum.br,Desenhos e Animes,iptv-org BR raw,http://186.219.52.187/zoomoo/index.m3u8,OK,206/206
 Elemental Channel (1080p),ElementalChannel.br,Documentarios e Outros,iptv-org BR,https://5d82644094cc0.streamlock.net/8116/8116/playlist.m3u8,OFF,URLError
 Elemental Channel,ElementalChannel.br,Documentarios e Outros,iptv-org BR raw,https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8,OK,206/206
-ElyTV (360p),ElyTV.br,Documentarios e Outros,iptv-org BR,https://stmv1.srvsite.com/ely/ely/playlist.m3u8,OK,200/200
+ElyTV (360p),ElyTV.br,Documentarios e Outros,iptv-org BR,https://stmv1.srvsite.com/ely/ely/playlist.m3u8,OFF,TimeoutError
 ESPN 3 (1080p),ESPN3.br,Esportes,iptv-org BR,http://190.83.2.182:8090/ESPN3/index.m3u8,OFF,URLError
 ESPN 3 (720p),ESPN3.br,Esportes,iptv-org BR raw,http://181.78.197.59:8000/play/a081/index.m3u8,OK,200/200
 ESPN 4 (1080p),ESPN4.br,Esportes,iptv-org BR,http://181.78.197.59:8000/play/a07n/index.m3u8,OK,200/200
 ESPN (1080p),ESPN.br,Esportes,iptv-org BR,http://181.78.197.59:8000/play/a07z/index.m3u8,OK,200/200
 ESPN (720p),ESPN.br,Esportes,iptv-org BR raw,http://190.83.2.182:8090/ESPN/index.m3u8,OFF,URLError
-EUTV (720p),EUTV.br,Canais Abertos,iptv-org BR,https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8,OK,200/206
+EUTV (720p),EUTV.br,Canais Abertos,iptv-org BR,https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8,OFF,InvalidURL
 EUTV,EUTV.br,Canais Abertos,iptv-org BR raw,https://video01.logicahost.com.br/ypetv/ypetv/playlist.m3u8,OK,206/206
 FailArmy Brazil,5f5141c1605ddf000748eb1b,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f5141c1605ddf000748eb1b.m3u8,OK,200/206
 Fala Litoral (480p),FalaLitoral.br,Canais Abertos,iptv-org BR,https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8,OK,206/206
@@ -161,8 +161,8 @@ Filmes Suspense,5f171d3442a0500007362f22,Pluto TV,iptv-org BR,https://iptv.jvlei
 Fish TV (720p),FishTV.br,Documentarios e Outros,iptv-org BR,http://45.162.64.114/FISH_TV/index.m3u8,OK,206/206
 Fish TV (720p),FishTV.br,Documentarios e Outros,iptv-org BR raw,http://168.197.104.22/FISH_TV/index.m3u8,OK,206/206
 Fish TV (720p),FishTV.br,Documentarios e Outros,iptv-org BR raw,http://170.83.16.50/FISH_TV/index.m3u8,OK,206/206
-Fonte TV,FonteTV.br,Documentarios e Outros,iptv-org BR,https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8,OFF,HTTP 404
-Fonte TV (1080p) [Not 24/7],FonteTV.br,Documentarios e Outros,iptv-org BR raw,http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8,OFF,HTTP 404
+Fonte TV,FonteTV.br,Documentarios e Outros,iptv-org BR,https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8,OK,206/206
+Fonte TV (1080p) [Not 24/7],FonteTV.br,Documentarios e Outros,iptv-org BR raw,http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8,OK,206/206
 Fora Tedio TV (720p),ForaTedioTV.br,Filmes e Series,iptv-org BR,https://stmv2.srvif.com/foratedio/foratedio/playlist.m3u8,OK,206/206
 Futura (720p),Futura.br,Documentarios e Outros,iptv-org BR,http://168.197.104.22/FUTURA/index.m3u8,OK,206/206
 Futura (720p),Futura.br,Documentarios e Outros,iptv-org BR raw,http://170.83.49.66:8083/FUTURAHD/index.m3u8,OK,206/206
@@ -229,7 +229,7 @@ Nickelodeon Classico (720p),6824ce10c5d53e1351ceb8d1,Pluto TV,iptv-org BR,https:
 Nickelodeon Teen (720p),60f5fabf0721880007cd50e3,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/60f5fabf0721880007cd50e3.m3u8,OK,200/206
 Nickelodeon Toons (720p),645951c0e94c38000802d2cb,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/645951c0e94c38000802d2cb.m3u8,OK,200/206
 NickOnline HD (720p),NickOnline.br,Desenhos e Animes,iptv-org BR,https://x1colegal.com/hls/stream.m3u8,OFF,InvalidURL
-NickOnline Bob Esponja (720p) [Not 24/7],NickOnlineBobEsponja.br,Desenhos e Animes,iptv-org BR,https://bob.x1colegal.com/hls/stream.m3u8,OFF,InvalidURL
+NickOnline Bob Esponja (720p) [Not 24/7],NickOnlineBobEsponja.br,Desenhos e Animes,iptv-org BR,https://bob.x1colegal.com/hls/stream.m3u8,OFF,HTTP 530
 NickToons Brasil (480p),NickToonsBrasil.br,Desenhos e Animes,iptv-org BR,https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8,OK,206/206
 Nova Era TV (1080p) [Not 24/7],NovaEraTV.br,Documentarios e Outros,iptv-org BR,http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8,OK,206/206
 Novo Tempo (720p),NovoTempo.br,Documentarios e Outros,iptv-org BR,http://45.162.64.114/NOVO_TEMPO/index.m3u8,OK,206/206
@@ -248,13 +248,13 @@ Play TV (720p),PlayTV.br,Documentarios e Outros,iptv-org BR raw,http://45.177.11
 Play TV (720p),PlayTV.br,Documentarios e Outros,iptv-org BR raw,http://168.197.104.22/PLAY_TV/index.m3u8,OK,206/206
 Play TV (720p),PlayTV.br,Documentarios e Outros,iptv-org BR raw,https://isaocorp.cloudecast.com/playtv/index.m3u8,OK,206/206
 Plena TV (720p),PlenaTV.br,Noticias,iptv-org BR,https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8,OK,200/206
-Plenitude TV,PlenitudeTV.br,Documentarios e Outros,iptv-org BR,https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8,OFF,HTTP 404
+Plenitude TV,PlenitudeTV.br,Documentarios e Outros,iptv-org BR,https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8,OK,206/206
 Pluto TV Aliens,6806d65e84f24b70109485fa,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/6806d65e84f24b70109485fa.m3u8,OK,200/206
 Pluto TV Animais,6474aa984cfc2c0008883a92,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/6474aa984cfc2c0008883a92.m3u8,OK,200/206
 Pluto TV Anime BR,5f12136385bccc00070142ed,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f12136385bccc00070142ed.m3u8,OK,200/206
 Pluto TV Anime Acao,604b79c558393100078faeef,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/604b79c558393100078faeef.m3u8,OK,200/206
 Pluto TV Bang Bang,663b9dc7cb3ea10008f1a0ce,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/663b9dc7cb3ea10008f1a0ce.m3u8,OK,200/206
-Pluto TV Canal UOL (720p),64b9370b409629000802d32b,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/64b9370b409629000802d32b.m3u8,OFF,empty hls
+Pluto TV Canal UOL (720p),64b9370b409629000802d32b,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/64b9370b409629000802d32b.m3u8,OK,200/206
 Pluto TV Cine Classicos,5fa1612a669ba0000702017b,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5fa1612a669ba0000702017b.m3u8,OK,200/206
 Pluto TV Cine Comedia (United States) BR,5f12101f0b12f00007844c7c,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f12101f0b12f00007844c7c.m3u8,OK,200/206
 Pluto TV Cine Comedia Romantica,62545ed3dab4380007582f7c,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/62545ed3dab4380007582f7c.m3u8,OK,200/206
@@ -264,7 +264,7 @@ Pluto TV Cine Familia,5f171f032cd22e0007f17f3d,Pluto TV,iptv-org BR,https://iptv
 Pluto TV Cine Inspiracao,5fa991b1f09e020007e78626,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5fa991b1f09e020007e78626.m3u8,OK,200/206
 Pluto TV Cine Romance,5f171f988ab9780007fa95ea,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f171f988ab9780007fa95ea.m3u8,OK,200/206
 Pluto TV Cine Sucessos,5f120e94a5714d00074576a1,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f120e94a5714d00074576a1.m3u8,OK,200/206
-Pluto TV Cozinha,5f1ef23020a5ac0007e5e8ea,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f1ef23020a5ac0007e5e8ea.m3u8,OFF,empty hls
+Pluto TV Cozinha,5f1ef23020a5ac0007e5e8ea,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f1ef23020a5ac0007e5e8ea.m3u8,OK,200/206
 Pluto TV Desenhos Classicos,655e5c4d2c46f3000877a54b,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/655e5c4d2c46f3000877a54b.m3u8,OK,200/206
 Pluto TV Esportes,5f32d2db0af67400077f29c4,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f32d2db0af67400077f29c4.m3u8,OK,200/206
 Pluto TV Ficcao Cientifica,5fa15ad6367e170007cdd098,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5fa15ad6367e170007cdd098.m3u8,OK,200/206
@@ -276,7 +276,7 @@ Pluto TV Historia (United States),5f1ef1a8cec6be00072a7ac9,Pluto TV,iptv-org BR,
 Pluto TV Investigacao,5f32cf37c9ff2b00082adbc8,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f32cf37c9ff2b00082adbc8.m3u8,OK,200/206
 Pluto TV Junior,5f12141b146d760007934ea7,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f12141b146d760007934ea7.m3u8,OK,200/206
 Pluto TV Karaoke por Stingray (720p),604b99d633a72b00078e05ad,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/604b99d633a72b00078e05ad.m3u8,OK,200/206
-Pluto TV KFOOD,633ee9ba83c08f00076b60a6,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/633ee9ba83c08f00076b60a6.m3u8,OFF,empty hls
+Pluto TV KFOOD,633ee9ba83c08f00076b60a6,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/633ee9ba83c08f00076b60a6.m3u8,OK,200/206
 Pluto TV Kids,5f1214a637c6fd00079c652f,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f1214a637c6fd00079c652f.m3u8,OK,200/206
 Pluto TV Kids Club (United States),66c8cae7fed35b0008580ec0,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/66c8cae7fed35b0008580ec0.m3u8,OK,200/206
 Pluto TV Minha Obsessao Favorita,61843f5e491af10007f7eefa,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/61843f5e491af10007f7eefa.m3u8,OFF,HTTP 502
@@ -302,7 +302,7 @@ Pluto TV Viagens,5f32d432d612e50007e56133,Pluto TV,iptv-org BR,https://iptv.jvle
 Pluto TV Vida Real,5f32d4d9ec194100070c7449,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f32d4d9ec194100070c7449.m3u8,OK,200/206
 Primer TV (1080p),PrimerTV.br,Canais Abertos,iptv-org BR,http://200.194.238.229:8383/live/primer/playlist.m3u8,OK,206/206
 Pronto-socorro: Historias De Emergencia,61bb72a7bf8c520007a8fd27,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/61bb72a7bf8c520007a8fd27.m3u8,OK,200/206
-RBATV (720p),RBATV.br,Canais Abertos,iptv-org BR,https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8,OK,200/206
+RBATV (720p),RBATV.br,Canais Abertos,iptv-org BR,https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8,OFF,HTTP 404
 RCTV Brasil,RCTVBrasil.br,Canais Abertos,iptv-org BR,https://stmv.webtvninjas.com.br/rctv/rctv/playlist.m3u8,INCONCLUSIVO,geo/auth 403
 Record News (720p),RecordNews.br,Noticias,iptv-org BR,http://45.162.64.114/RECORD_NEWS/index.m3u8,OK,206/206
 Record News (720p) [Geo-blocked],RecordNews.br,Noticias,iptv-org BR raw,https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8,INCONCLUSIVO,geo/auth 403
@@ -334,8 +334,9 @@ Rede CNT Rio de Janeiro (720p),RedeCNTRiodeJaneiro.br,Documentarios e Outros,ipt
 Rede CNT Salvador (576i),RedeCNTSalvador.br,Canais Abertos,iptv-org BR,http://168.205.87.198:8555/live/1368/123456/150.m3u8,OFF,empty hls
 Rede Familia (720p),RedeFamilia.br,Documentarios e Outros,iptv-org BR,http://168.197.104.22/REDE_FAMILIA/index.m3u8,OK,206/206
 Rede Familia (720p),RedeFamilia.br,Documentarios e Outros,iptv-org BR raw,http://186.219.52.187/rede_familia/index.m3u8,OK,206/206
-Rede Globo (720p),RedeGlobo.br,Canais Abertos,iptv-org BR,https://media2.cdntvms.com.br/tv_morena_dorados/index.m3u8,OK,206/206
-Rede Gospel (1080p),RedeGospel.br,Documentarios e Outros,iptv-org BR,https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8,OFF,InvalidURL
+Rede Globo (1080p),RedeGlobo.br,Canais Abertos,iptv-org BR,https://cdn-sp2.satlabscloud.com.br/RBS_HD/index.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq,OK,206/206
+Rede Globo (720p),RedeGlobo.br,Canais Abertos,iptv-org BR raw,https://media2.cdntvms.com.br/tv_morena_dorados/index.m3u8,OK,206/206
+Rede Gospel (1080p),RedeGospel.br,Documentarios e Outros,iptv-org BR,https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8,OK,200/206
 Rede Gospel (1080p),RedeGospel.br,Documentarios e Outros,iptv-org BR raw,https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8,OK,206/206
 Rede Gospel (720p),RedeGospel.br,Documentarios e Outros,iptv-org BR raw,http://45.177.114.115/REDE_GOSPEL/index.m3u8,OK,206/206
 Rede Gospel (720p),RedeGospel.br,Documentarios e Outros,iptv-org BR raw,http://170.83.49.66:8083/REDEGOSPELHD/index.m3u8,OK,206/206
@@ -350,7 +351,7 @@ Rede RC (720p) [Not 24/7],RedeRC.br,Documentarios e Outros,iptv-org BR,http://tv
 Rede Seculo 21 (720p),RedeSeculo21.br,Documentarios e Outros,iptv-org BR,http://45.162.64.114/REDE_SECULO_21/index.m3u8,OK,206/206
 Rede Seculo 21 (720p),RedeSeculo21.br,Documentarios e Outros,iptv-org BR raw,http://186.219.52.187/seculo21/index.m3u8,OK,206/206
 Rede SPTV (360p),RedeSPTV.br,Canais Abertos,iptv-org BR,https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8,OK,206/206
-Rede TV! Mais,RedeTVMais.br,Canais Abertos,iptv-org BR,https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8,OFF,InvalidURL
+Rede TV! Mais,RedeTVMais.br,Canais Abertos,iptv-org BR,https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8,OK,200/206
 Rede Vida (720p),RedeVida.br,Documentarios e Outros,iptv-org BR,http://168.197.104.22/REDE_VIDA/index.m3u8,OK,206/206
 Rede Vida (720p),RedeVida.br,Documentarios e Outros,iptv-org BR raw,http://170.84.165.204/REDEVIDA_HD/index.m3u8,INCONCLUSIVO,geo/auth 403
 Rede Vida (720p),RedeVida.br,Documentarios e Outros,iptv-org BR raw,http://186.219.52.187/rede_vida/index.m3u8,OK,206/206
@@ -412,18 +413,18 @@ Travel Box Brazil (720p),TravelBoxBrazil.br,Documentarios e Outros,iptv-org BR,h
 Travel Box Brazil (720p),TravelBoxBrazil.br,Documentarios e Outros,iptv-org BR raw,http://170.83.49.66:8083/TRAVELBOXHD/index.m3u8,OK,206/206
 Turma da Monica (720p),5f997e44949bc70007a6941e,Pluto TV,iptv-org BR,https://iptv.jvleite7.workers.dev/pluto/5f997e44949bc70007a6941e.m3u8,OK,200/206
 TV 3 Curitiba,TV3Curitiba.br,Canais Abertos,iptv-org BR,https://stmv.webtvninjas.com.br/tv3/tv3/playlist.m3u8,INCONCLUSIVO,geo/auth 403
-TV A Critica,TVACritica.br,Documentarios e Outros,iptv-org BR,https://cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8,OFF,InvalidURL
+TV A Critica,TVACritica.br,Documentarios e Outros,iptv-org BR,https://cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8,OK,200/206
 TV A Folha (720p),TVAFolha.br,Noticias,iptv-org BR,https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8,OK,206/206
 TV Adorar (720p),TVAdorar.br,Canais Abertos,iptv-org BR,https://cdn-tiva-isaocorp-cloudecast-com.smartbit.co/tvadorar/index.m3u8,OFF,URLError
 TV Aldeia (720p),TVAldeia.br,Canais Abertos,iptv-org BR,https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8,OK,206/206
 TV Alianca Catarinense (720p),TVAliancaCatarinense.br,Canais Abertos,iptv-org BR,https://video01.logicahost.com.br/tvalianca/tvalianca/playlist.m3u8,OK,206/206
 TV Alternativa (410p),TVAlternativa.br,Canais Abertos,iptv-org BR,https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8,OK,206/206
 TV Aparecida (720p),TVAparecida.br,Documentarios e Outros,iptv-org BR,http://45.162.64.114/TV_APARECIDA/index.m3u8,OK,206/206
-TV Aparecida (1080p) [Not 24/7],TVAparecida.br,Documentarios e Outros,iptv-org BR raw,https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8,OK,200/206
+TV Aparecida (1080p) [Not 24/7],TVAparecida.br,Documentarios e Outros,iptv-org BR raw,https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8,OFF,InvalidURL
 TV Aparecida (720p),TVAparecida.br,Documentarios e Outros,iptv-org BR raw,http://45.177.114.115/TV_APARECIDA_HD/index.m3u8,OK,206/206
 TV Aparecida (720p),TVAparecida.br,Documentarios e Outros,iptv-org BR raw,http://168.197.104.22/TV_APARECIDA/index.m3u8,OK,206/206
 TV Aparecida (720p),TVAparecida.br,Documentarios e Outros,iptv-org BR raw,http://170.83.16.50/TV_APARECIDA/index.m3u8,OK,206/206
-TV Aparecida (720p),TVAparecida.br,Documentarios e Outros,iptv-org BR raw,http://170.83.49.66:8083/TVAPARECIDAHD/index.m3u8,OK,206/206
+TV Aparecida (720p),TVAparecida.br,Documentarios e Outros,iptv-org BR raw,http://170.83.49.66:8083/TVAPARECIDAHD/index.m3u8,OFF,HTTP 404
 TV Arapuan (720p),TVArapuan.br,Canais Abertos,iptv-org BR,https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8,OK,206/206
 TV Assembleia Ceara (720p),TVAssembleiaCeara.br,Canais Abertos,iptv-org BR,https://jjn5dkk9bd.zoeweb.tv/z404-live/stream/playlist.m3u8,OFF,HTTP 503
 TV Assembleia Piaui,TVAssembleiaPiaui.br,Canais Abertos,iptv-org BR,https://stmv1.srvstm.com/piaui8071/piaui8071/playlist.m3u8,OK,206/206
@@ -508,7 +509,7 @@ TV Justica (720p),TVJustica.br,Documentarios e Outros,iptv-org BR raw,http://170
 TV Justica (720p),TVJustica.br,Documentarios e Outros,iptv-org BR raw,http://186.219.52.187/tv_justica/index.m3u8,OK,206/206
 TV Liberdade (720p) [Not 24/7],TVLiberdade.br,Documentarios e Outros,iptv-org BR,https://srv1.paineldevideo.com/liberdaderadioetv/liberdaderadioetv/playlist.m3u8,OFF,URLError
 TV Life America (720p),TVLifeAmerica.br,Documentarios e Outros,iptv-org BR,https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8,OK,206/206
-TV Litoral RN (720p),TVLitoralRN.br,Canais Abertos,iptv-org BR,https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/playlist.m3u8,OK,206/206
+TV Litoral RN (720p),TVLitoralRN.br,Canais Abertos,iptv-org BR,https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/playlist.m3u8,OFF,HTTP 404
 TV Mackenzie (480p),TVMackenzie.br,Documentarios e Outros,iptv-org BR,https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8,OFF,URLError
 TV Mais Marica (1080p),TVMaisMarica.br,Canais Abertos,iptv-org BR,https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8,OK,206/206
 TV Mana Brasil (1080p),TVManaBrasil.pt,Documentarios e Outros,iptv-org BR,https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8,OK,206/206
@@ -540,7 +541,7 @@ TV Senado (720p),TVSenado.br,Documentarios e Outros,iptv-org BR raw,http://170.8
 TV Senado (720p),TVSenado.br,Documentarios e Outros,iptv-org BR raw,http://170.83.49.66:8083/TVSENADOHD/index.m3u8,OK,206/206
 TV Senado (720p),TVSenado.br,Documentarios e Outros,iptv-org BR raw,http://186.219.52.187/tv_senado/index.m3u8,OK,206/206
 TV Series (480p),TVSeries.br,Filmes e Series,iptv-org BR,https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8,OK,206/206
-TV Sim Cachoeiro (720p),TVSimCachoeiro.br,Noticias,iptv-org BR,https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8,OFF,HTTP 404
+TV Sim Cachoeiro (720p),TVSimCachoeiro.br,Noticias,iptv-org BR,https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8,OK,206/206
 TV Sim Sao Mateus (720p),TVSimSaoMateus.br,Noticias,iptv-org BR,https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8,OFF,HTTP 404
 TV Sol Comunidade (480p) [Not 24/7],TVSolComunidade.br,Documentarios e Outros,iptv-org BR,http://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8,OFF,HTTP 404
 TV Sul Bahia (320p),TVSulBahia.br,Documentarios e Outros,iptv-org BR,https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8,OFF,HTTP 404
@@ -549,10 +550,10 @@ TV Terceiro Anjo (360p),TVTerceiroAnjo.br,Documentarios e Outros,iptv-org BR,htt
 TV Thathi (720p) [Not 24/7],TVThathi.br,Canais Abertos,iptv-org BR,https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8,OFF,URLError
 TV UFG (720p) [Not 24/7],TVUFG.br,Documentarios e Outros,iptv-org BR,http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8,OFF,HTTP 404
 TV UFOP (1080p),TVUFOP.br,Canais Abertos,iptv-org BR,https://app.tvufop.com.br/hls/tvufop.m3u8,OK,206/206
-TV Universal (480p),TVUniversal.br,Documentarios e Outros,iptv-org BR,https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8,OK,200/206
+TV Universal (480p),TVUniversal.br,Documentarios e Outros,iptv-org BR,https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8,OK,200/200
 TV Vicosa (480p),TVVicosa.br,Documentarios e Outros,iptv-org BR,http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8,OK,206/206
-TV Vila Real (720p),TVVilaReal.br,Documentarios e Outros,iptv-org BR,https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8,OFF,InvalidURL
-TV Zoom (720p),TVZoom.br,Documentarios e Outros,iptv-org BR,https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8,OK,200/206
+TV Vila Real (720p),TVVilaReal.br,Documentarios e Outros,iptv-org BR,https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8,OK,200/206
+TV Zoom (720p),TVZoom.br,Documentarios e Outros,iptv-org BR,https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8,OFF,segment 200
 TV+Pet,TVPlusPet.br,Documentarios e Outros,iptv-org BR,https://stmv5.samcast.com.br/tvmaispet6354/tvmaispet6354/playlist.m3u8,OK,206/206
 TVC-Rio,TVCRio.br,Canais Abertos,iptv-org BR,https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8,OK,206/206
 TVCOM Maceio (480p),TVCOMMaceio.br,Canais Abertos,iptv-org BR,https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8,OK,206/206
@@ -567,12 +568,11 @@ TVMatic Facebook (720p),TVMaticFacebook.br,Documentarios e Outros,iptv-org BR,ht
 TVMatic Fight (720p),TVMaticFight.br,Esportes,iptv-org BR,http://cdn.tvmatic.net/fight.m3u8,OFF,URLError
 TVMatic Funny (720p),TVMaticFunny.br,Documentarios e Outros,iptv-org BR,http://cdn.tvmatic.net/funny.m3u8,OFF,URLError
 TVMatic TikTok (720p),TVMaticTikTok.br,Documentarios e Outros,iptv-org BR,http://cdn.tvmatic.net/tiktok.m3u8,OFF,URLError
-TVNBN (720p),TVNBN.br,Canais Abertos,iptv-org BR,https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8,OK,200/206
+TVNBN (720p),TVNBN.br,Canais Abertos,iptv-org BR,https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8,OFF,InvalidURL
 UMA TV,UMATV.br,Documentarios e Outros,iptv-org BR,https://umatv.nuvemplay.live/hls/stream.m3u8,OK,206/206
-Unisul TV (720p),UnisulTV.br,Documentarios e Outros,iptv-org BR,https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=,OFF,HTTP 404
+Unisul TV (720p),UnisulTV.br,Documentarios e Outros,iptv-org BR,https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=,OK,206/206
 UniTV Porto Alegre (480p),UniTVPortoAlegre.br,Documentarios e Outros,iptv-org BR,http://unitvaovivo.ufrgs.br:8080/live.ogg,OFF,URLError
 VEJA+ TV (1080p),VEJAPlusTV.br,Noticias,iptv-org BR,https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8,OK,206/206
-VEJA+ TV (1080p),VEJAPlusTV.br,Noticias,dearbulut BR working,https://gpa-vja-samsungtvplus-br.otteravision.com/gpa/vja/vja.m3u8,OK,206/206
 VRT Channel (720p),VRTChannel.br,Documentarios e Outros,iptv-org BR,https://sistemavrt.vrtchannel.tv.br:3473/stream/play.m3u8,OFF,URLError
 WooHoo (720p),WooHoo.br,Documentarios e Outros,iptv-org BR,http://45.162.64.114/WOOHOO/index.m3u8,OK,206/206
 WooHoo (720p),WooHoo.br,Documentarios e Outros,iptv-org BR raw,http://168.197.104.22/WOOHOO/index.m3u8,OK,206/206
@@ -602,10 +602,10 @@ Beyblade,633dc392e0282400071b0d39,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.
 Blue Bloods,69fcc8cfb83300b380051794,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/69fcc8cfb83300b380051794.m3u8,OK,200/206
 Boruto: Naruto Next Generations,656f389c3944b60008e5bdab,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/656f389c3944b60008e5bdab.m3u8,OK,200/206
 CBS News 24/7,62310f66d5888f0007534342,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/62310f66d5888f0007534342.m3u8,OK,200/206
-Caçadores de Óvnis,656e2a10954b020008ed167c,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/656e2a10954b020008ed167c.m3u8,OFF,empty hls
+Caçadores de Óvnis,656e2a10954b020008ed167c,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/656e2a10954b020008ed167c.m3u8,OK,200/206
 Charmed: Jovens Bruxas,67f9602ee173fa5664fafae8,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/67f9602ee173fa5664fafae8.m3u8,OK,200/206
 Clube do Terror,64e501eec630a900088ed0f8,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/64e501eec630a900088ed0f8.m3u8,OK,200/206
-Cocoricó,62d969fd8451a30007f0fd94,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/62d969fd8451a30007f0fd94.m3u8,OFF,empty hls
+Cocoricó,62d969fd8451a30007f0fd94,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/62d969fd8451a30007f0fd94.m3u8,OK,200/206
 Death Note,625464a945b6a200079257d1,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/625464a945b6a200079257d1.m3u8,OK,200/206
 Estado Paranormal,656e2a81954b020008ed17a4,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/656e2a81954b020008ed17a4.m3u8,OK,200/206
 Euronews Português,619e6614c9d9650007a2b171,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/619e6614c9d9650007a2b171.m3u8,OK,200/206
@@ -618,8 +618,6 @@ Inspetor Bugiganga,69162648d03565d6c8c8df97,Pluto TV,Pluto BR Buddy,https://iptv
 Inuyasha,66b26681d2d50d00083abe8b,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/66b26681d2d50d00083abe8b.m3u8,OK,200/206
 JoJo’s Bizarre Adventure,66c7982f6838ee00085f0d24,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/66c7982f6838ee00085f0d24.m3u8,OK,200/206
 Jovem Pan NEWS,6317ba014d4d040007227f72,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/6317ba014d4d040007227f72.m3u8,OK,200/206
-MTV VMA 2026 em Inglês,6a6ca5fef8b727c1f2e7bde4,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/6a6ca5fef8b727c1f2e7bde4.m3u8,OK,200/206
-MTV VMA 2026 em Português,6a6ca5ced3e322cab93401d0,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/6a6ca5ced3e322cab93401d0.m3u8,OK,200/206
 Mais MasterChef Brasil,681111be5e0764e297fb200e,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/681111be5e0764e297fb200e.m3u8,OK,200/206
 MasterChef Brasil Profissionais,681110afc188aa63faa147e0,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/681110afc188aa63faa147e0.m3u8,OK,200/206
 Mistérios sem Solução,62b5c5a064163d0007b2efe6,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/62b5c5a064163d0007b2efe6.m3u8,OK,200/206
@@ -640,7 +638,7 @@ Pegadinhas - Just for Laughs,67802a22a5d8215f99dcee30,Pluto TV,Pluto BR Buddy,ht
 Pluto TV Cine Trapalhões,6a5520365badf45d3088b8d8,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/6a5520365badf45d3088b8d8.m3u8,OK,200/206
 Pluto TV Séries Família,69c71615a8ef5d7f33e7322e,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/69c71615a8ef5d7f33e7322e.m3u8,OK,200/206
 Pokémon,687007a8ee4155e89a8f6d67,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/687007a8ee4155e89a8f6d67.m3u8,OK,200/206
-Popeye,677d93f37bffa600080795e7,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/677d93f37bffa600080795e7.m3u8,OFF,empty hls
+Popeye,677d93f37bffa600080795e7,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/677d93f37bffa600080795e7.m3u8,OK,200/206
 RACER Brasil,65a6818c7bdc8d0008457b21,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/65a6818c7bdc8d0008457b21.m3u8,OK,200/206
 Realmadrid TV,63dac28760bc8f0008a7654b,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/63dac28760bc8f0008a7654b.m3u8,OK,200/206
 Red Bull TV,67813f3162bf016db944c9ab,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/67813f3162bf016db944c9ab.m3u8,OK,200/206
@@ -665,10 +663,10 @@ World Poker Tour,63eba66da8b2270008436b10,Pluto TV,Pluto BR Buddy,https://iptv.j
 Yu-Gi-Oh,63988a50be012600070f5db3,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/63988a50be012600070f5db3.m3u8,OK,200/206
 Z Nation,66b3af48d2d50d00083d6936,Pluto TV,Pluto BR Buddy,https://iptv.jvleite7.workers.dev/pluto/66b3af48d2d50d00083d6936.m3u8,OK,200/206
 News State BR JH,IN300085JT,Noticias,Samsung TV Plus,https://iptv.jvleite7.workers.dev/fast?u=https%3A%2F%2Fjmp2.uk%2Fstvp-IN300085JT,OK,200/200
-Euronews Portuguese,647f8d22a2fc3fadb4721685-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-6245cd154f27f4e9c76d67e9/?X-Plex-Token=kgskxxeKxv2NdcvsUgx7,OFF,HTTP 404
-Euronews Portuguese,64305451fc3be5947773c339-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6245cd154f27f4e9c76d67e9/?X-Plex-Token=kgskxxeKxv2NdcvsUgx7,OFF,HTTP 404
-Euronews Portuguese,697140a85d851f5e69414688-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/697140a85d851f5e69414688-6245cd154f27f4e9c76d67e9/?X-Plex-Token=kgskxxeKxv2NdcvsUgx7,OFF,HTTP 404
-Euronews Portuguese,5e20b730f2f8d5003d739db7-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6245cd154f27f4e9c76d67e9/?X-Plex-Token=kgskxxeKxv2NdcvsUgx7,OFF,HTTP 404
-Euronews Portuguese,608049aefa2b8ae93c2c3a63-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-6245cd154f27f4e9c76d67e9/?X-Plex-Token=kgskxxeKxv2NdcvsUgx7,OFF,HTTP 404
-Euronews Portuguese,643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9/?X-Plex-Token=kgskxxeKxv2NdcvsUgx7,OFF,HTTP 404
-Euronews Portuguese,6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9/?X-Plex-Token=kgskxxeKxv2NdcvsUgx7,OFF,HTTP 404
+Euronews Portuguese,647f8d22a2fc3fadb4721685-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-6245cd154f27f4e9c76d67e9/?X-Plex-Token=zLy9PPCt9RbAW3zzaVEj,OFF,HTTP 404
+Euronews Portuguese,64305451fc3be5947773c339-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6245cd154f27f4e9c76d67e9/?X-Plex-Token=zLy9PPCt9RbAW3zzaVEj,OFF,HTTP 404
+Euronews Portuguese,697140a85d851f5e69414688-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/697140a85d851f5e69414688-6245cd154f27f4e9c76d67e9/?X-Plex-Token=zLy9PPCt9RbAW3zzaVEj,OFF,HTTP 404
+Euronews Portuguese,5e20b730f2f8d5003d739db7-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6245cd154f27f4e9c76d67e9/?X-Plex-Token=zLy9PPCt9RbAW3zzaVEj,OFF,HTTP 404
+Euronews Portuguese,608049aefa2b8ae93c2c3a63-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-6245cd154f27f4e9c76d67e9/?X-Plex-Token=zLy9PPCt9RbAW3zzaVEj,OFF,HTTP 404
+Euronews Portuguese,643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9/?X-Plex-Token=zLy9PPCt9RbAW3zzaVEj,OFF,HTTP 404
+Euronews Portuguese,6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9,Documentarios e Outros,Plex FAST,https://epg.provider.plex.tv/library/parts/6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9/?X-Plex-Token=zLy9PPCt9RbAW3zzaVEj,OFF,HTTP 404
