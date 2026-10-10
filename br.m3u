@@ -13,7 +13,7 @@ https://iptv.jvleite7.workers.dev/live/cf2fcf23585ace7c.m3u8
 #EXTINF:-1 tvg-id="MarkRoberTV.br" tvg-name="Mark Rober TV" group-title="Documentarios e Outros",Mark Rober TV
 https://iptv.jvleite7.workers.dev/live/8dc917f90459fac4.m3u8
 #EXTINF:-1 tvg-id="LoveNature.br" tvg-name="Love Nature" group-title="Documentarios e Outros",Love Nature
-https://iptv.jvleite7.workers.dev/live/75ff9e73dac8ef74.m3u8
+https://d1si3n1st4nkgb.cloudfront.net/10000/88876007/hls/master.m3u8?ads.xumo_channelId=88876007
 #EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Documentarios e Outros",A&E Latin America Brazil (720p)
 http://170.83.16.50/AeE/index.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br@SD" tvg-logo="https://i.imgur.com/KgetM8j.png" group-title="Canais Abertos",Adesso TV (720p)
@@ -285,8 +285,6 @@ https://iptv.jvleite7.workers.dev/pluto/5f171f032cd22e0007f17f3d.m3u8
 https://iptv.jvleite7.workers.dev/pluto/5fa991b1f09e020007e78626.m3u8
 #EXTINF:-1 tvg-id="5f171f988ab9780007fa95ea" tvg-logo="https://images.pluto.tv/channels/5f171f988ab9780007fa95ea/colorLogoPNG_1771344977802.png" group-title="Pluto TV" channel-id="5f171f988ab9780007fa95ea",Pluto TV Cine Romance
 https://iptv.jvleite7.workers.dev/pluto/5f171f988ab9780007fa95ea.m3u8
-#EXTINF:-1 tvg-id="5f120e94a5714d00074576a1" tvg-logo="https://images.pluto.tv/channels/5f120e94a5714d00074576a1/colorLogoPNG.png" group-title="Pluto TV" channel-id="5f120e94a5714d00074576a1",Pluto TV Cine Sucessos
-https://iptv.jvleite7.workers.dev/pluto/5f120e94a5714d00074576a1.m3u8
 #EXTINF:-1 tvg-id="5f1ef23020a5ac0007e5e8ea" tvg-logo="https://images.pluto.tv/channels/5f1ef23020a5ac0007e5e8ea/colorLogoPNG.png" group-title="Pluto TV" channel-id="5f1ef23020a5ac0007e5e8ea",Pluto TV Cozinha
 https://iptv.jvleite7.workers.dev/pluto/5f1ef23020a5ac0007e5e8ea.m3u8
 #EXTINF:-1 tvg-id="655e5c4d2c46f3000877a54b" tvg-logo="https://images.pluto.tv/channels/655e5c4d2c46f3000877a54b/colorLogoPNG.png" group-title="Pluto TV" channel-id="655e5c4d2c46f3000877a54b",Pluto TV Desenhos Classicos
@@ -466,13 +464,13 @@ https://iptv.jvleite7.workers.dev/live/2a5c78a1b8293881.m3u8
 #EXTINF:-1 tvg-id="TVBrasil.br@SD" group-title="Canais Abertos" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvBrasil2023.png/960px-TvBrasil2023.png",TV Brasil (720p)
 https://iptv.jvleite7.workers.dev/live/bb3f1891d8470f1b.m3u8
 #EXTINF:-1 tvg-id="TVBrasilOeste.br@SD" tvg-logo="https://i.imgur.com/noqGfuy.png" group-title="Canais Abertos",TV Brasil Oeste (720p)
-https://iptv.jvleite7.workers.dev/live/f241cbba31706ee7.m3u8
+https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBRICSPortuguese.br@SD" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="Canais Abertos",TV BRICS Portuguese (1080p)
 https://iptv.jvleite7.workers.dev/live/0c3c71cb6042ca3a.m3u8
 #EXTINF:-1 tvg-id="TVBrusque.br@SD" tvg-logo="https://i.imgur.com/J2EAZPS.png" group-title="Noticias",TV Brusque (720p)
 https://iptv.jvleite7.workers.dev/live/c71cfc86e138c9b0.m3u8
 #EXTINF:-1 tvg-id="TVCamara.br@SD" tvg-logo="https://i.imgur.com/Sdou1Ab.png" group-title="Canais Abertos",TV Camara (Brazil) (1080p)
-https://iptv.jvleite7.workers.dev/live/92f27a69312b2eec.m3u8
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="TVCancaoNova.br@SD" group-title="Documentarios e Outros" tvg-logo="https://i.imgur.com/OaM9hkH.png",TV Cancao Nova (720p)
 https://iptv.jvleite7.workers.dev/live/5700a067c465b587.m3u8
 #EXTINF:-1 tvg-id="TVCidadeVerdeCuiaba.br@SD" tvg-logo="https://i.imgur.com/e67h04h.png" http-referrer="https://www.tvcidadeverde.com.br" group-title="Documentarios e Outros",TV Cidade Verde Cuiaba

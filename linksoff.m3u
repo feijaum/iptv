@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"
 #EXTINF:-1 tvg-id="Band.br@HD" tvg-logo="https://i.imgur.com/1r5T6Pw.png" group-title="Canais Abertos",Band (720p)
 http://45.190.28.50/BAND_HD/index.m3u8
 #EXTINF:-1 tvg-id="TVAratu.br@HD" tvg-logo="https://i.imgur.com/LCETtuk.png" group-title="Canais Abertos",TV Aratu (720p)
@@ -253,3 +253,5 @@ https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-6245cd154f27
 https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9/?X-Plex-Token=jo76fEDJyVftxMh21djD
 #EXTINF:-1 channel-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-chno="" tvg-name="Euronews Portuguese" tvg-logo="https://provider-static.plex.tv/epg/cms/production/76a8ddca-38be-4d5b-b8db-be69fcaa6231/Plex-WURL_Euronews-Logos_PT_-_astrid_collomb.png" group-title="Documentarios e Outros",Euronews Portuguese
 https://epg.provider.plex.tv/library/parts/6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9/?X-Plex-Token=jo76fEDJyVftxMh21djD
+#EXTINF:-1 tvg-id="5f120e94a5714d00074576a1" tvg-logo="https://images.pluto.tv/channels/5f120e94a5714d00074576a1/colorLogoPNG.png" group-title="Pluto TV" channel-id="5f120e94a5714d00074576a1",Pluto TV Cine Sucessos
+https://iptv.jvleite7.workers.dev/pluto/5f120e94a5714d00074576a1.m3u8
