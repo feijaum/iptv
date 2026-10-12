@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"
 #EXTINF:-1 tvg-id="Band.br@HD" tvg-logo="https://i.imgur.com/1r5T6Pw.png" group-title="Canais Abertos",Band (720p)
 http://45.190.28.50/BAND_HD/index.m3u8
 #EXTINF:-1 tvg-id="Record.br@HD" tvg-logo="https://i.imgur.com/sz9gTTr.png" group-title="Canais Abertos",Record (720p)
@@ -278,3 +278,13 @@ https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-6245cd154f27
 https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9/?X-Plex-Token=XXXeMUm6Mp7TPbS33-az
 #EXTINF:-1 channel-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-chno="" tvg-name="Euronews Portuguese" tvg-logo="https://provider-static.plex.tv/epg/cms/production/76a8ddca-38be-4d5b-b8db-be69fcaa6231/Plex-WURL_Euronews-Logos_PT_-_astrid_collomb.png" group-title="Documentarios e Outros",Euronews Portuguese
 https://epg.provider.plex.tv/library/parts/6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9/?X-Plex-Token=XXXeMUm6Mp7TPbS33-az
+#EXTINF:-1 tvg-id="66a01e07d2d50d0008100d6a" tvg-logo="https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png" group-title="Pluto TV" channel-id="66a01e07d2d50d0008100d6a",MTV Rocks
+https://iptv.jvleite7.workers.dev/pluto/66a01e07d2d50d0008100d6a.m3u8
+#EXTINF:-1 tvg-id="663b9de4f999220008230fa8" tvg-logo="https://images.pluto.tv/channels/663b9de4f999220008230fa8/colorLogoPNG.png" group-title="Pluto TV" channel-id="663b9de4f999220008230fa8",Pluto TV Netmovies
+https://iptv.jvleite7.workers.dev/pluto/663b9de4f999220008230fa8.m3u8
+#EXTINF:-1 channel-id="625464a945b6a200079257d1" tvg-id="625464a945b6a200079257d1" tvg-chno="1264" tvg-name="Death Note" tvg-logo="https://images.pluto.tv/channels/625464a945b6a200079257d1/colorLogoPNG.png" group-title="Pluto TV",Death Note
+https://iptv.jvleite7.workers.dev/pluto/625464a945b6a200079257d1.m3u8
+#EXTINF:-1 tvg-id="ElyTV.br@SD" tvg-logo="https://i.imgur.com/1eHNe91.png" group-title="Documentarios e Outros",ElyTV (360p)
+https://stmv1.srvsite.com/ely/ely/playlist.m3u8
+#EXTINF:-1 tvg-id="5fa991b1f09e020007e78626" tvg-logo="https://images.pluto.tv/channels/5fa991b1f09e020007e78626/colorLogoPNG_1748874366972.png" group-title="Pluto TV" channel-id="5fa991b1f09e020007e78626",Pluto TV Cine Inspiracao
+https://iptv.jvleite7.workers.dev/pluto/5fa991b1f09e020007e78626.m3u8
