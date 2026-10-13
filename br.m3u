@@ -9,7 +9,7 @@ https://iptv.jvleite7.workers.dev/live/c101a34c66a2f227.m3u8
 #EXTINF:-1 tvg-id="MarkRoberTV.br" tvg-name="Mark Rober TV" group-title="Documentarios e Outros",Mark Rober TV
 https://iptv.jvleite7.workers.dev/live/8dc917f90459fac4.m3u8
 #EXTINF:-1 tvg-id="LoveNature.br" tvg-name="Love Nature" group-title="Documentarios e Outros",Love Nature
-https://iptv.jvleite7.workers.dev/live/75ff9e73dac8ef74.m3u8
+https://d1si3n1st4nkgb.cloudfront.net/10000/88876007/hls/master.m3u8?ads.xumo_channelId=88876007
 #EXTINF:-1 tvg-id="PlusMaisUm.br@HD" tvg-logo="https://i.ibb.co/ZRDvqJcf/Logo-Mais-Um-original-sem-fundo.png" group-title="Canais Abertos",+MaisUm (720p)
 https://iptv.jvleite7.workers.dev/live/a61b7cc09525c9b7.m3u8
 #EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Documentarios e Outros",A&E Latin America Brazil (720p)
@@ -176,7 +176,7 @@ https://iptv.jvleite7.workers.dev/pluto/5ffcc5130fd98c0007f2e216.m3u8
 #EXTINF:-1 tvg-id="KpopTVPlay.br@SD" tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Musica",KpopTV Play (576p)
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-id="KuriakosKids.pt@SD" tvg-logo="https://i.imgur.com/SRX6EPY.png" group-title="Desenhos e Animes",Kuriakos Kids (1080p)
-https://iptv.jvleite7.workers.dev/live/c8859720e9b514f2.m3u8
+https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Lke.br@SD" tvg-logo="https://i.imgur.com/chHsCzB.png" group-title="Documentarios e Outros",L!ke (1080p)
 https://iptv.jvleite7.workers.dev/live/42934d449f91da85.m3u8
 #EXTINF:-1 tvg-id="LamoreRockShowWebTV.br@SD" tvg-logo="https://www.lamorerockshowwebtv.com.br/wp-content/uploads/2024/11/logo_rockshow.avif" group-title="Musica",Lamore Rock Show WebTV (720p)
@@ -508,7 +508,7 @@ https://iptv.jvleite7.workers.dev/live/27e4ea2c75d52ec1.m3u8
 #EXTINF:-1 tvg-id="TVMaisMarica.br@SD" tvg-logo="https://i.imgur.com/lgCRX7q.png" group-title="Canais Abertos",TV Mais Marica (1080p)
 https://iptv.jvleite7.workers.dev/live/3866eb2239ae1f24.m3u8
 #EXTINF:-1 tvg-id="TVManaBrasil.pt@SD" tvg-logo="https://i.imgur.com/AFb712e.png" group-title="Documentarios e Outros",TV Mana Brasil (1080p)
-https://iptv.jvleite7.workers.dev/live/dad63638fd97f362.m3u8
+https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMarajoara.br@SD" tvg-logo="https://i.imgur.com/9d9vBN7.png" group-title="Canais Abertos",TV Marajoara (720p)
 https://iptv.jvleite7.workers.dev/live/19c372a62136dc41.m3u8
 #EXTINF:-1 tvg-id="TVMetropole.br@SD" tvg-logo="https://i.imgur.com/bJyjLpg.png" group-title="Canais Abertos",TV Metropole (720p) [Not 24/7]
@@ -579,13 +579,9 @@ https://iptv.jvleite7.workers.dev/live/2d97dcdba851efe4.m3u8
 #EXTVLCOPT:http-referrer=https://igrejamundial.nuvemplay.live
 https://iptv.jvleite7.workers.dev/live/e5dd29d86eb236a2.m3u8
 #EXTINF:-1 tvg-id="KuriakosCine.pt@SD" group-title="Filmes e Series" tvg-logo="https://i.imgur.com/CZViCwB.jpg",Kuriakos Cine (1080p)
-https://iptv.jvleite7.workers.dev/live/af8eac6978ca25e7.m3u8
+https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" tvg-id="ISTVHD.br" tvg-chno="8" tvg-country="BR" group-title="Documentarios e Outros",ISTV
 https://iptv.jvleite7.workers.dev/live/ec9481c023c799e6.m3u8
-#EXTINF:-1 tvg-name="BR Nord" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenNord.de" tvg-chno="1" tvg-country="DE" group-title="Documentarios e Outros",BR Nord Ⓖ
-https://iptv.jvleite7.workers.dev/live/41aef0cccdb4637f.m3u8
-#EXTINF:-1 tvg-name="BR Süd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenSud.de" tvg-chno="2" tvg-country="DE" group-title="Documentarios e Outros",BR Süd Ⓖ
-https://iptv.jvleite7.workers.dev/live/61eec820735f325f.m3u8
 #EXTINF:-1 channel-id="67e59a6557487a8b7fe73e23" tvg-id="67e59a6557487a8b7fe73e23" tvg-chno="136" tvg-name="A Caçadora de Relíquias" tvg-logo="https://images.pluto.tv/channels/67e59a6557487a8b7fe73e23/colorLogoPNG_1745618050777.png" group-title="Pluto TV",A Caçadora de Relíquias
 https://iptv.jvleite7.workers.dev/pluto/67e59a6557487a8b7fe73e23.m3u8
 #EXTINF:-1 channel-id="631fa8dd7f25240007099a40" tvg-id="631fa8dd7f25240007099a40" tvg-chno="211" tvg-name="A Feiticeira" tvg-logo="https://images.pluto.tv/channels/631fa8dd7f25240007099a40/colorLogoPNG.png" group-title="Pluto TV",A Feiticeira
