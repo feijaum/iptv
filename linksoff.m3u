@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"
 #EXTINF:-1 tvg-id="Band.br@HD" tvg-logo="https://i.imgur.com/1r5T6Pw.png" group-title="Canais Abertos",Band (720p)
 http://45.190.28.50/BAND_HD/index.m3u8
 #EXTINF:-1 tvg-id="TVAratu.br@HD" tvg-logo="https://i.imgur.com/LCETtuk.png" group-title="Canais Abertos",TV Aratu (720p)
@@ -304,3 +304,15 @@ https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-6245cd154f27
 https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9/?X-Plex-Token=G-2PMR9xLoNhDTNrwas2
 #EXTINF:-1 channel-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-chno="" tvg-name="Euronews Portuguese" tvg-logo="https://provider-static.plex.tv/epg/cms/production/76a8ddca-38be-4d5b-b8db-be69fcaa6231/Plex-WURL_Euronews-Logos_PT_-_astrid_collomb.png" group-title="Documentarios e Outros",Euronews Portuguese
 https://epg.provider.plex.tv/library/parts/6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9/?X-Plex-Token=G-2PMR9xLoNhDTNrwas2
+#EXTINF:-1 tvg-id="66a01dcb8561260008b0a41d" tvg-logo="https://images.pluto.tv/channels/66a01dcb8561260008b0a41d/colorLogoPNG.png" group-title="Pluto TV" channel-id="66a01dcb8561260008b0a41d",MTV Classic BR (720p)
+https://iptv.jvleite7.workers.dev/pluto/66a01dcb8561260008b0a41d.m3u8
+#EXTINF:-1 tvg-id="5f32cf37c9ff2b00082adbc8" tvg-logo="https://i.imgur.com/JlQq0YJ.png" group-title="Pluto TV" channel-id="5f32cf37c9ff2b00082adbc8",Pluto TV Investigacao
+https://iptv.jvleite7.workers.dev/pluto/5f32cf37c9ff2b00082adbc8.m3u8
+#EXTINF:-1 tvg-id="66c8cae7fed35b0008580ec0" tvg-logo="https://images.pluto.tv/channels/66c8cae7fed35b0008580ec0/colorLogoPNG.png" group-title="Pluto TV" channel-id="66c8cae7fed35b0008580ec0",Pluto TV Kids Club (United States)
+https://iptv.jvleite7.workers.dev/pluto/66c8cae7fed35b0008580ec0.m3u8
+#EXTINF:-1 tvg-id="6102e04e9ab1db0007a980a1" tvg-logo="https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/colorLogoPNG.png" group-title="Pluto TV" channel-id="6102e04e9ab1db0007a980a1",Pluto TV Record News (720p)
+https://iptv.jvleite7.workers.dev/pluto/6102e04e9ab1db0007a980a1.m3u8
+#EXTINF:-1 channel-id="65d9167818036500080e8780" tvg-id="65d9167818036500080e8780" tvg-chno="1263" tvg-name="Hunter x Hunter" tvg-logo="https://images.pluto.tv/channels/65d9167818036500080e8780/colorLogoPNG.png" group-title="Pluto TV",Hunter x Hunter
+https://iptv.jvleite7.workers.dev/pluto/65d9167818036500080e8780.m3u8
+#EXTINF:-1 channel-id="687007a8ee4155e89a8f6d67" tvg-id="687007a8ee4155e89a8f6d67" tvg-chno="1255" tvg-name="Pokémon" tvg-logo="https://images.pluto.tv/channels/687007a8ee4155e89a8f6d67/colorLogoPNG_1752174174089.png" group-title="Pluto TV",Pokémon
+https://iptv.jvleite7.workers.dev/pluto/687007a8ee4155e89a8f6d67.m3u8
