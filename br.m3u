@@ -9,7 +9,7 @@ https://iptv.jvleite7.workers.dev/live/c101a34c66a2f227.m3u8
 #EXTINF:-1 tvg-id="MarkRoberTV.br" tvg-name="Mark Rober TV" group-title="Documentarios e Outros",Mark Rober TV
 https://iptv.jvleite7.workers.dev/live/8dc917f90459fac4.m3u8
 #EXTINF:-1 tvg-id="LoveNature.br" tvg-name="Love Nature" group-title="Documentarios e Outros",Love Nature
-https://iptv.jvleite7.workers.dev/live/75ff9e73dac8ef74.m3u8
+https://d1si3n1st4nkgb.cloudfront.net/10000/88876007/hls/master.m3u8?ads.xumo_channelId=88876007
 #EXTINF:-1 tvg-id="PlusMaisUm.br@HD" tvg-logo="https://i.ibb.co/ZRDvqJcf/Logo-Mais-Um-original-sem-fundo.png" group-title="Canais Abertos",+MaisUm (720p)
 https://iptv.jvleite7.workers.dev/live/a61b7cc09525c9b7.m3u8
 #EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Documentarios e Outros",A&E Latin America Brazil (720p)
@@ -300,8 +300,6 @@ https://iptv.jvleite7.workers.dev/pluto/6806d62369aec5b19cd628c0.m3u8
 https://iptv.jvleite7.workers.dev/pluto/5f5a545d0dbf7f0007c09408.m3u8
 #EXTINF:-1 tvg-id="5f1ef1a8cec6be00072a7ac9" tvg-logo="https://images.pluto.tv/channels/5f1ef1a8cec6be00072a7ac9/colorLogoPNG_1754405659295.png" group-title="Pluto TV" channel-id="5f1ef1a8cec6be00072a7ac9",Pluto TV Historia (United States)
 https://iptv.jvleite7.workers.dev/pluto/5f1ef1a8cec6be00072a7ac9.m3u8
-#EXTINF:-1 tvg-id="5f32cf37c9ff2b00082adbc8" tvg-logo="https://i.imgur.com/JlQq0YJ.png" group-title="Pluto TV" channel-id="5f32cf37c9ff2b00082adbc8",Pluto TV Investigacao
-https://iptv.jvleite7.workers.dev/pluto/5f32cf37c9ff2b00082adbc8.m3u8
 #EXTINF:-1 tvg-id="5f12141b146d760007934ea7" tvg-logo="https://images.pluto.tv/channels/5f12141b146d760007934ea7/colorLogoPNG.png" group-title="Pluto TV" channel-id="5f12141b146d760007934ea7",Pluto TV Junior
 https://iptv.jvleite7.workers.dev/pluto/5f12141b146d760007934ea7.m3u8
 #EXTINF:-1 tvg-id="633ee9ba83c08f00076b60a6" tvg-logo="https://images.pluto.tv/channels/633ee9ba83c08f00076b60a6/colorLogoPNG.png" group-title="Pluto TV" channel-id="633ee9ba83c08f00076b60a6",Pluto TV KFOOD
@@ -433,7 +431,7 @@ https://iptv.jvleite7.workers.dev/pluto/5f515ebac01c0f00080e8439.m3u8
 #EXTINF:-1 tvg-id="TikTokRadioBrasil.br@HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f4/TikTok_Radio.svg" group-title="Musica",TikTok Radio Brasil (1080p)
 https://iptv.jvleite7.workers.dev/live/446115db91580403.m3u8
 #EXTINF:-1 tvg-id="TimesBrasil.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Times_Brasil_CNBC_logo_2025.svg/960px-Times_Brasil_CNBC_logo_2025.svg.png" group-title="Noticias",Times Brasil (720p)
-https://iptv.jvleite7.workers.dev/live/c266fd0429f4cbd0.m3u8
+https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/21fdb6dd7491406bba86497a24390a25/playlist.m3u8
 #EXTINF:-1 tvg-id="TLCLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" group-title="Documentarios e Outros",TLC Latin America Brazil (720p)
 http://79.127.238.228:14433
 #EXTINF:-1 tvg-id="TNTLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" group-title="Documentarios e Outros",TNT Latin America Brazil (720p) [Geo-blocked]
