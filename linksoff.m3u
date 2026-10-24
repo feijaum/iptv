@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"
 #EXTINF:-1 tvg-id="Band.br@HD" tvg-logo="https://i.imgur.com/1r5T6Pw.png" group-title="Canais Abertos",Band (720p)
 http://45.190.28.50/BAND_HD/index.m3u8
 #EXTINF:-1 tvg-id="Record.br@HD" tvg-logo="https://i.imgur.com/sz9gTTr.png" group-title="Canais Abertos",Record (720p)
@@ -280,3 +280,25 @@ https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-6245cd154f27
 https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9/?X-Plex-Token=hhiTV1J4sKxow87a14SA
 #EXTINF:-1 channel-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-chno="" tvg-name="Euronews Portuguese" tvg-logo="https://provider-static.plex.tv/epg/cms/production/76a8ddca-38be-4d5b-b8db-be69fcaa6231/Plex-WURL_Euronews-Logos_PT_-_astrid_collomb.png" group-title="Documentarios e Outros",Euronews Portuguese
 https://epg.provider.plex.tv/library/parts/6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9/?X-Plex-Token=hhiTV1J4sKxow87a14SA
+#EXTINF:-1 tvg-id="66a01e07d2d50d0008100d6a" tvg-logo="https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png" group-title="Pluto TV" channel-id="66a01e07d2d50d0008100d6a",MTV Rocks
+https://iptv.jvleite7.workers.dev/pluto/66a01e07d2d50d0008100d6a.m3u8
+#EXTINF:-1 tvg-id="5f1212ad1728050007a523b8" tvg-logo="https://i.imgur.com/wztO3GM.png" group-title="Pluto TV" channel-id="5f1212ad1728050007a523b8",Pluto TV Retro
+https://iptv.jvleite7.workers.dev/pluto/5f1212ad1728050007a523b8.m3u8
+#EXTINF:-1 tvg-id="655e5bc94261ca000810cb17" tvg-logo="https://images.pluto.tv/channels/655e5bc94261ca000810cb17/colorLogoPNG.png" group-title="Pluto TV" channel-id="655e5bc94261ca000810cb17",Pluto TV Series Comedia
+https://iptv.jvleite7.workers.dev/pluto/655e5bc94261ca000810cb17.m3u8
+#EXTINF:-1 tvg-id="TimesBrasil.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Times_Brasil_CNBC_logo_2025.svg/960px-Times_Brasil_CNBC_logo_2025.svg.png" group-title="Noticias",Times Brasil (720p)
+https://iptv.jvleite7.workers.dev/live/c266fd0429f4cbd0.m3u8
+#EXTINF:-1 tvg-id="TVBrasilOeste.br@SD" tvg-logo="https://i.imgur.com/noqGfuy.png" group-title="Canais Abertos",TV Brasil Oeste (720p)
+https://iptv.jvleite7.workers.dev/live/f241cbba31706ee7.m3u8
+#EXTINF:-1 channel-id="66b26681d2d50d00083abe8b" tvg-id="66b26681d2d50d00083abe8b" tvg-chno="1279" tvg-name="Inuyasha" tvg-logo="https://images.pluto.tv/channels/66b26681d2d50d00083abe8b/colorLogoPNG.png" group-title="Pluto TV",Inuyasha
+https://iptv.jvleite7.workers.dev/pluto/66b26681d2d50d00083abe8b.m3u8
+#EXTINF:-1 tvg-id="SBTCuiaba.br@SD" tvg-logo="https://i.imgur.com/EZJWQ3i.png" group-title="Canais Abertos",SBT Cuiaba
+https://iptv.jvleite7.workers.dev/live/7e3b61d998bac05e.m3u8
+#EXTINF:-1 tvg-id="SBTRondonopolis.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/d5/Logotipo_do_SBT_Rondon%C3%B3polis.png" group-title="Canais Abertos",SBT Rondonopolis
+https://iptv.jvleite7.workers.dev/live/835883b9fd913016.m3u8
+#EXTINF:-1 tvg-id="TVPadreCicero.br@SD" tvg-logo="https://i.imgur.com/Y7b29VG.png" group-title="Documentarios e Outros",TV Padre Cicero (720p)
+https://iptv.jvleite7.workers.dev/live/1364a2d92d9ffaac.m3u8
+#EXTINF:-1 tvg-id="TVParaense.br@HD" tvg-logo="https://duckduckgo.com/i/e408ea02.png" group-title="Canais Abertos",TV Paraense (720p)
+https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u
+#EXTINF:-1 channel-id="681111be5e0764e297fb200e" tvg-id="681111be5e0764e297fb200e" tvg-chno="352" tvg-name="Mais MasterChef Brasil" tvg-logo="https://images.pluto.tv/channels/681111be5e0764e297fb200e/colorLogoPNG_1749582970597.png" group-title="Pluto TV",Mais MasterChef Brasil
+https://iptv.jvleite7.workers.dev/pluto/681111be5e0764e297fb200e.m3u8
