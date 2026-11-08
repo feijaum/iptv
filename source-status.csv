@@ -1,1 +1,4 @@
 fonte,url,resultado
+Pluto BR Buddy,https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_br.m3u,HTTPError
+Samsung TV Plus,https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_all.m3u,HTTPError
+Plex FAST,https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u,HTTPError
