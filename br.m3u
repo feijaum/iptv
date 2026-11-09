@@ -11,7 +11,7 @@ https://iptv.jvleite7.workers.dev/live/cf2fcf23585ace7c.m3u8
 #EXTINF:-1 tvg-id="MarkRoberTV.br" tvg-name="Mark Rober TV" group-title="Documentarios e Outros",Mark Rober TV
 https://iptv.jvleite7.workers.dev/live/8dc917f90459fac4.m3u8
 #EXTINF:-1 tvg-id="LoveNature.br" tvg-name="Love Nature" group-title="Documentarios e Outros",Love Nature
-https://iptv.jvleite7.workers.dev/live/75ff9e73dac8ef74.m3u8
+https://d1si3n1st4nkgb.cloudfront.net/10000/88876007/hls/master.m3u8?ads.xumo_channelId=88876007
 #EXTINF:-1 tvg-id="PlusMaisUm.br@HD" tvg-logo="https://i.ibb.co/ZRDvqJcf/Logo-Mais-Um-original-sem-fundo.png" group-title="Canais Abertos",+MaisUm (720p)
 https://iptv.jvleite7.workers.dev/live/a61b7cc09525c9b7.m3u8
 #EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Documentarios e Outros",A&E Latin America Brazil (720p)
@@ -73,7 +73,7 @@ https://iptv.jvleite7.workers.dev/live/d2b1bb92360af81b.m3u8
 #EXTINF:-1 tvg-id="CanalRural.br@SD" tvg-logo="https://i.imgur.com/w9R9IIX.png" group-title="Documentarios e Outros",Canal Rural (720p)
 http://170.83.49.66:8083/CANALRURALHD/index.m3u8
 #EXTINF:-1 tvg-id="CanalSete.br@SD" tvg-logo="https://i.imgur.com/0cq0BPp.png" group-title="Canais Abertos",Canal Sete
-https://iptv.jvleite7.workers.dev/live/73b2a85beb94ee8c.m3u8
+http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalUOL.br@SD" tvg-logo="https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg" group-title="Canais Abertos",Canal UOL (1080p)
 https://iptv.jvleite7.workers.dev/live/692a3c38ec9b184d.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Desenhos e Animes",Cartoon Network Latin America Brazil (720p)
@@ -743,8 +743,6 @@ https://iptv.jvleite7.workers.dev/pluto/6a74c036a311e7c50e8c1ba6.m3u8
 https://iptv.jvleite7.workers.dev/pluto/63988c2750108d00072e2686.m3u8
 #EXTINF:-1 channel-id="62e010e6cd663f0007e57dc8" tvg-id="62e010e6cd663f0007e57dc8" tvg-chno="785" tvg-name="TV Cultura" tvg-logo="https://images.pluto.tv/channels/62e010e6cd663f0007e57dc8/colorLogoPNG.png" group-title="Pluto TV",TV Cultura
 https://iptv.jvleite7.workers.dev/pluto/62e010e6cd663f0007e57dc8.m3u8
-#EXTINF:-1 channel-id="68b88821e542386ab0bf5bef" tvg-id="68b88821e542386ab0bf5bef" tvg-chno="1210" tvg-name="Tastemade Casa" tvg-logo="https://images.pluto.tv/channels/68b88821e542386ab0bf5bef/colorLogoPNG_1759795743690.png" group-title="Pluto TV",Tastemade Casa
-https://iptv.jvleite7.workers.dev/pluto/68b88821e542386ab0bf5bef.m3u8
 #EXTINF:-1 channel-id="68b8875777201ec428d9eaa5" tvg-id="68b8875777201ec428d9eaa5" tvg-chno="1211" tvg-name="Tastemade Viagem" tvg-logo="https://images.pluto.tv/channels/68b8875777201ec428d9eaa5/colorLogoPNG_1759784936254.png" group-title="Pluto TV",Tastemade Viagem
 https://iptv.jvleite7.workers.dev/pluto/68b8875777201ec428d9eaa5.m3u8
 #EXTINF:-1 channel-id="68d193184251718916945fb7" tvg-id="68d193184251718916945fb7" tvg-chno="99" tvg-name="Tempero de Fim de Ano" tvg-logo="https://images.pluto.tv/channels/68d193184251718916945fb7/colorLogoPNG_1761672326841.png" group-title="Pluto TV",Tempero de Fim de Ano
