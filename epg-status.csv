@@ -13,7 +13,6 @@ AgroMais.br@SD,AgroMais (720p),SEM_EPG,,
 AmazonSat.br@SD,Amazon Sat (1080p),SEM_EPG,,
 AMCLatinAmerica.us@Brazil,AMC Latin America Brazil (720p),SEM_EPG,,
 ArarunaTV.br@SD,Araruna TV,SEM_EPG,,
-AratuOn.br@SD,Aratu On (1080p),SEM_EPG,,
 Arte1.br@SD,Arte 1 (720p),OK,EPG.pw Brasil,523338
 6759eeb1bd523200083b4f29,Avatar: A lenda de Aang,OK,Pluto TV Brasil,6759eeb1bd523200083b4f29
 AWTV.br@HD,AWTV (1080p) [Geo-blocked],SEM_EPG,,
@@ -23,10 +22,9 @@ BandNews.br@SD,BandNews (720p),OK,EPG.pw Brasil,523314
 BemMaisTV.br@HD,Bem Mais TV (1080p),SEM_EPG,,
 5ff768b6a4c8b80008498610,BET Pluto TV BR,OK,Pluto TV Brasil,5ff768b6a4c8b80008498610
 666c9c60a7efd40008f552f0,BM&C News (720p),OK,Pluto TV Brasil,666c9c60a7efd40008f552f0
+BoasNovas.br@SD,Boas Novas (1080p),SEM_EPG,,
 62545c0b002f4b0007688b61,Bob Esponja Calca Quadrada (720p),OK,Pluto TV Brasil,62545c0b002f4b0007688b61
 BoxKidsTV.br@SD,Box Kids TV (720p),SEM_EPG,,
-Canal25Jundiai.br@SD,Canal 25 Jundiaí (404p) [Not 24/7],SEM_EPG,,
-Canal38.br@SD,Canal 38 (720p),SEM_EPG,,
 CanaldoBoi.br@SD,Canal do Boi (720p),OK,EPG.pw Brasil,523289
 CanalEducacao.br@SD,Canal Educação (720p),SEM_EPG,,
 CanalFDR.br@SD,Canal FDR (1080p),SEM_EPG,,
@@ -36,6 +34,7 @@ CanalMetropolitanodeNoticias.br@SD,Canal Metropolitano de Noticias,SEM_EPG,,
 CanalRural.br@SD,Canal Rural (720p),OK,EPG.pw Brasil,523340
 CanalSete.br@SD,Canal Sete,SEM_EPG,,
 CanalUOL.br@SD,Canal UOL (1080p),SEM_EPG,,
+CartoonNetworkLatinAmerica.us@Brazil,Cartoon Network Latin America Brazil (720p) [Geo-blocked],SEM_EPG,,
 Catve2.br@SD,Catve2 (720p),SEM_EPG,,
 CatveFM.br@SD,Catve FM (720p) [Not 24/7],SEM_EPG,,
 CatveMasterTV.br@SD,Catve Master TV (720p) [Not 24/7],SEM_EPG,,
@@ -56,6 +55,8 @@ DemaisTV.br@SD,Demais TV (720p),SEM_EPG,,
 DespertarTV.br@HD,Despertar TV (720p),SEM_EPG,,
 638df93ae2f2a3000737c168,Detetives Medicos,OK,Pluto TV Brasil,638df93ae2f2a3000737c168
 61f1d27a189ed10007b7393e,Diff'rent Strokes Arnold,OK,Pluto TV Brasil,61f1d27a189ed10007b7393e
+DiscoveryKidsLatinAmerica.us@Brazil,Discovery Kids Latin America Brazil (720p) [Geo-blocked],SEM_EPG,,
+DiscoveryWorld.us@Brazil,Discovery World Brazil (720p) [Geo-blocked],OK,EPG.pw Brasil,523272
 DumDum.br@SD,DumDum (720p),SEM_EPG,,
 ElementalChannel.br@SD,Elemental Channel,SEM_EPG,,
 ESPN3.br@SD,ESPN 3 (720p),OK,EPG.pw Brasil,523329
@@ -69,6 +70,7 @@ FishTV.br@SD,Fish TV (720p),SEM_EPG,,
 FonteTV.br@SD,Fonte TV,SEM_EPG,,
 Futura.br@SD,Futura (720p),OK,EPG.pw Brasil,523343
 GloboNews.br@SD,GloboNews (1080p),OK,EPG.pw Brasil,523341
+GloboplayNovelas.br@SD,Globoplay Novelas (1080p),SEM_EPG,,
 GospelCartoon.br@SD,Gospel Cartoon (360p),SEM_EPG,,
 GospelMovieTV.br@SD,Gospel Movie TV (360p),SEM_EPG,,
 History.br@SD,History (720p),SEM_EPG,,
@@ -91,14 +93,12 @@ MCMTop.fr@SD,MCM Top (France),SEM_EPG,,
 5f6108d8cc331900075e98e4,MTV Are you the One?,OK,Pluto TV Brasil,5f6108d8cc331900075e98e4
 6047fbdbbb776a0007e7f2ff,MTV Biggest Pop BR (1080p),OK,Pluto TV Brasil,6047fbdbbb776a0007e7f2ff
 626c2a3502d84a0007cec817,MTV Catfish (United States) BR (720p),OK,Pluto TV Brasil,626c2a3502d84a0007cec817
-66a01dcb8561260008b0a41d,MTV Classic BR (720p),OK,Pluto TV Brasil,66a01dcb8561260008b0a41d
 61a528267e1b8b0007357920,MTV Com o Ex,OK,Pluto TV Brasil,61a528267e1b8b0007357920
 6851bb3426beced4f2f67ee6,MTV Dating (United States),OK,Pluto TV Brasil,6851bb3426beced4f2f67ee6
 645111f1d8436e00081bb2bd,MTV Drag,OK,Pluto TV Brasil,645111f1d8436e00081bb2bd
 620fdc7d8a36fc000710e3ba,MTV Jovens e Maes (720p),OK,Pluto TV Brasil,620fdc7d8a36fc000710e3ba
 5f1212fb81e85c00077ae9ef,MTV Pluto TV BR,OK,Pluto TV Brasil,5f1212fb81e85c00077ae9ef
 6851bdfc9ac48fde5e07f5ae,MTV Reality (United States) (720p),OK,Pluto TV Brasil,6851bdfc9ac48fde5e07f5ae
-66a01e07d2d50d0008100d6a,MTV Rocks,OK,Pluto TV Brasil,66a01e07d2d50d0008100d6a
 625463563b8ddc0007134aeb,MTV Shore,OK,Pluto TV Brasil,625463563b8ddc0007134aeb
 MusicBoxBrazil.br@SD,Music Box Brazil (720p),SEM_EPG,,
 MyTimeMovieNetwork.br@SD,MyTime Movie Network (Brazil) (720p),SEM_EPG,,
@@ -114,7 +114,6 @@ NovoTempo.br@SD,Novo Tempo (720p),SEM_EPG,,
 NTV.br@SD,NTV (Brazil) (720p),SEM_EPG,,
 67f960c5441853fe50e7afc1,Numbers (United States),OK,Pluto TV Brasil,67f960c5441853fe50e7afc1
 ODiaTV.br@SD,O Dia TV (450p),SEM_EPG,,
-61099df8cee03b00074b2ecf,O Encantador de Caes,OK,Pluto TV Brasil,61099df8cee03b00074b2ecf
 5f5c216df68f920007888315,O Reino Infantil,OK,Pluto TV Brasil,5f5c216df68f920007888315
 63221bafdc6e110007b50270,Oggy e as Baratas Tontas,OK,Pluto TV Brasil,63221bafdc6e110007b50270
 624b1c8d4321e200073ee421,One Piece BR,OK,Pluto TV Brasil,624b1c8d4321e200073ee421
@@ -132,9 +131,7 @@ PlenitudeTV.br@SD,Plenitude TV,SEM_EPG,,
 5f12101f0b12f00007844c7c,Pluto TV Cine Comedia (United States) BR,OK,Pluto TV Brasil,5f12101f0b12f00007844c7c
 62545ed3dab4380007582f7c,Pluto TV Cine Comedia Romantica,OK,Pluto TV Brasil,62545ed3dab4380007582f7c
 6479ff764f5ba5000878dfe2,Pluto TV Cine Crime,OK,Pluto TV Brasil,6479ff764f5ba5000878dfe2
-5f1210d14ae1f80007bafb1d,Pluto TV Cine Drama,OK,Pluto TV Brasil,5f1210d14ae1f80007bafb1d
 5f171f032cd22e0007f17f3d,Pluto TV Cine Familia,OK,Pluto TV Brasil,5f171f032cd22e0007f17f3d
-5fa991b1f09e020007e78626,Pluto TV Cine Inspiracao,OK,Pluto TV Brasil,5fa991b1f09e020007e78626
 5f171f988ab9780007fa95ea,Pluto TV Cine Romance,OK,Pluto TV Brasil,5f171f988ab9780007fa95ea
 5f120e94a5714d00074576a1,Pluto TV Cine Sucessos,OK,Pluto TV Brasil,5f120e94a5714d00074576a1
 5f1ef23020a5ac0007e5e8ea,Pluto TV Cozinha,OK,Pluto TV Brasil,5f1ef23020a5ac0007e5e8ea
@@ -147,15 +144,14 @@ PlenitudeTV.br@SD,Plenitude TV,SEM_EPG,,
 5f5a545d0dbf7f0007c09408,Pluto TV Filmes Nacionais,OK,Pluto TV Brasil,5f5a545d0dbf7f0007c09408
 5f1ef1a8cec6be00072a7ac9,Pluto TV Historia (United States),OK,Pluto TV Brasil,5f1ef1a8cec6be00072a7ac9
 5f32cf37c9ff2b00082adbc8,Pluto TV Investigacao,OK,Pluto TV Brasil,5f32cf37c9ff2b00082adbc8
-633ee9ba83c08f00076b60a6,Pluto TV KFOOD,OK,Pluto TV Brasil,633ee9ba83c08f00076b60a6
+5f12141b146d760007934ea7,Pluto TV Junior,OK,Pluto TV Brasil,5f12141b146d760007934ea7
 5f1214a637c6fd00079c652f,Pluto TV Kids,OK,Pluto TV Brasil,5f1214a637c6fd00079c652f
 66c8cae7fed35b0008580ec0,Pluto TV Kids Club,OK,Pluto TV Brasil,66c8cae7fed35b0008580ec0
 5fac52f142044f00078e2a51,Pluto TV Misterios,OK,Pluto TV Brasil,5fac52f142044f00078e2a51
 5f1213ba0ecebc00070e170f,Pluto TV Natureza,OK,Pluto TV Brasil,5f1213ba0ecebc00070e170f
 64ad7394798def00087b2bfe,Pluto TV Negocio Fechado,OK,Pluto TV Brasil,64ad7394798def00087b2bfe
 663b9de4f999220008230fa8,Pluto TV Netmovies,OK,Pluto TV Brasil,663b9de4f999220008230fa8
-604a8dedbca75b0007b1c753,Pluto TV Paisagens por Stingray (720p),OK,Pluto TV Brasil,604a8dedbca75b0007b1c753
-678fdf9e3de7c8cf948e8824,Pluto TV Policial,OK,Pluto TV Brasil,678fdf9e3de7c8cf948e8824
+5f512365abe1f50007d3ff56,Pluto TV Novelas BR,OK,Pluto TV Brasil,5f512365abe1f50007d3ff56
 6102e04e9ab1db0007a980a1,Pluto TV Record News (720p),OK,Pluto TV Brasil,6102e04e9ab1db0007a980a1
 5f1212ad1728050007a523b8,Pluto TV Retro,OK,Pluto TV Brasil,5f1212ad1728050007a523b8
 6474ab1da51cb80008bfb5f4,Pluto TV Series Acao,OK,Pluto TV Brasil,6474ab1da51cb80008bfb5f4
@@ -183,6 +179,7 @@ RedeMinas.br@SD,Rede Minas (720p),SEM_EPG,,
 RedeNGT.br@SD,Rede NGT (1080p),SEM_EPG,,
 RedeSeculo21.br@SD,Rede Seculo 21 (720p),SEM_EPG,,
 RedeSPTV.br@SD,Rede SPTV (360p),SEM_EPG,,
+RedeTVMais.br@SD,Rede TV! Mais (720p),SEM_EPG,,
 RedeVida.br@SD,Rede Vida (720p),OK,EPG.pw Brasil,523337
 RedeTVParana.br@SD,RedeTV! Parana,SEM_EPG,,
 RetroCartoon.br@SD,Retro Cartoon (720p),SEM_EPG,,
@@ -201,6 +198,7 @@ SOUTV.br@SD,SOU TV,SEM_EPG,,
 65df70b0f7f0af0008c3b316,South Park: Colecao Stan,OK,Pluto TV Brasil,65df70b0f7f0af0008c3b316
 5f99ac4fded33000078f29ab,Star Trek,OK,Pluto TV Brasil,5f99ac4fded33000078f29ab
 StudioUniversalLatinAmerica.us@Brazil,Studio Universal Latin America Brazil (720p),SEM_EPG,,
+STZTV.br@SD,STZ TV (1080p),SEM_EPG,,
 5fd1419a3b4f4b000773ba85,Tastemade Brasil (720p),OK,Pluto TV Brasil,5fd1419a3b4f4b000773ba85
 TCM10HD.br@SD,TCM 10 HD (1080p),SEM_EPG,,
 TelecineAction.br@SD,Telecine Action (1080p),OK,EPG.pw Brasil,523346
@@ -208,23 +206,22 @@ TerraViva.br@SD,Terra Viva (720p),SEM_EPG,,
 5f515ebac01c0f00080e8439,The Pet Collective Brazil (720p),OK,Pluto TV Brasil,5f515ebac01c0f00080e8439
 TimesBrasil.br@SD,Times Brasil (720p),SEM_EPG,,
 TLCLatinAmerica.us@Brazil,TLC Latin America Brazil (720p),SEM_EPG,,
+TNTLatinAmerica.us@Brazil,TNT Latin America Brazil (720p) [Geo-blocked],SEM_EPG,,
 5ff609de50ab210008025c1b,Tokusato,OK,Pluto TV Brasil,5ff609de50ab210008025c1b
 TraceBrazuca.fr@HD,Trace Brazuca HD (1080p),SEM_EPG,,
 TravelBoxBrazil.br@SD,Travel Box Brazil (720p),OK,EPG.pw Brasil,523331
 5f997e44949bc70007a6941e,Turma da Monica (720p),OK,Pluto TV Brasil,5f997e44949bc70007a6941e
-TVACritica.br@SD,TV A Critica (1080p),SEM_EPG,,
 TVAldeia.br@SD,TV Aldeia (720p),SEM_EPG,,
 TVAliancaCatarinense.br@SD,TV Alianca Catarinense (720p),SEM_EPG,,
 TVAlternativa.br@SD,TV Alternativa (410p),SEM_EPG,,
 TVAparecida.br@SD,TV Aparecida (720p),OK,EPG.pw Brasil,523345
 TVBrasil.br@SD,TV Brasil (720p),OK,EPG.pw Brasil,523339
 TVBRICSPortuguese.br@SD,TV BRICS Portuguese (1080p),SEM_EPG,,
-TVBrusque.br@SD,TV Brusque (720p),SEM_EPG,,
 TVCamara.br@SD,TV Camara (Brazil) (1080p),SEM_EPG,,
 TVCancaoNova.br@SD,TV Cancao Nova (720p),SEM_EPG,,
 TVCidadeVerdeCuiaba.br@SD,TV Cidade Verde Cuiaba,SEM_EPG,,
 TVClube.br@SD,TV Clube (720p),SEM_EPG,,
-TVCultura.br@SD,TV Cultura,OK,EPG.pw Brasil,523305
+TVCultura.br@SD,TV Cultura (720p),OK,EPG.pw Brasil,523305
 TVCuruca.br@SD,TV Curuca (360p),SEM_EPG,,
 TVDifusao.br@SD,TV Difusao (720p),SEM_EPG,,
 TVEvangelizar.br@SD,TV Evangelizar (720p),SEM_EPG,,
@@ -252,12 +249,10 @@ TVRaTimBum.br@SD,TV Ra Tim Bum (720p),SEM_EPG,,
 TVSaoRaimundo.br@SD,TV Sao Raimundo (268p),SEM_EPG,,
 TVSenado.br@SD,TV Senado (Brazil) (720p),OK,EPG.pw Brasil,523335
 TVSeries.br@SD,TV Series (480p),SEM_EPG,,
-TVSimCachoeiro.br@SD,TV Sim Cachoeiro (720p),SEM_EPG,,
 TVSimSaoMateus.br@SD,TV Sim Sao Mateus (720p),SEM_EPG,,
 TVTerceiroAnjo.br@SD,TV Terceiro Anjo (360p),SEM_EPG,,
 TVUFOP.br@HD,TV UFOP (1080p),SEM_EPG,,
 TVUniversal.br@SD,TV Universal (480p),SEM_EPG,,
-TVVicosa.br@SD,TV Vicosa (480p),SEM_EPG,,
 TVPlusPet.br@SD,TV+Pet,SEM_EPG,,
 TVCOMMaceio.br@SD,TVCOM Maceio (480p),SEM_EPG,,
 TVERS.br@SD,TVE RS (1080p),SEM_EPG,,
@@ -277,7 +272,6 @@ TVShowFortaleza.br@SD,TV Show Fortaleza (720p),SEM_EPG,,
 BRFernsehenNord.de,BR Nord Ⓖ,SEM_EPG,,
 BRFernsehenSud.de,BR Süd Ⓖ,SEM_EPG,,
 67e59a6557487a8b7fe73e23,A Caçadora de Relíquias,OK,Pluto TV Brasil,67e59a6557487a8b7fe73e23
-631fa8dd7f25240007099a40,A Feiticeira,OK,Pluto TV Brasil,631fa8dd7f25240007099a40
 656e2a4b4261ca00083aa99e,Acumuladores Obsessivos,OK,Pluto TV Brasil,656e2a4b4261ca00083aa99e
 698392af0cca0cc3458666ab,AdoroCinema,OK,Pluto TV Brasil,698392af0cca0cc3458666ab
 63dd5c904e83e700088fb68a,As Tartarugas Ninja,OK,Pluto TV Brasil,63dd5c904e83e700088fb68a
@@ -311,7 +305,7 @@ BRFernsehenSud.de,BR Süd Ⓖ,SEM_EPG,,
 62b5c5a064163d0007b2efe6,Mistérios sem Solução,OK,Pluto TV Brasil,62b5c5a064163d0007b2efe6
 63eba189c111bc0008ff59c5,Moranguinho,OK,Pluto TV Brasil,63eba189c111bc0008ff59c5
 6a281c0302b6c1c00a1fe570,MovieSphere by Lionsgate,OK,Pluto TV Brasil,6a281c0302b6c1c00a1fe570
-69fca7dd2387729708faa32c,Mr. Bean,OK,Pluto TV Brasil,69fca7dd2387729708faa32c
+6a68dc0a75fd5e3828f10b10,NFL Channel,OK,Pluto TV Brasil,6a68dc0a75fd5e3828f10b10
 64c92f965580090008084968,Naruto Shippuden,OK,Pluto TV Brasil,64c92f965580090008084968
 681ba2ad93d3d19bcab47433,NatureTime,OK,Pluto TV Brasil,681ba2ad93d3d19bcab47433
 6a281d2bd1e6d3ba6b553c7c,Novelíssima,OK,Pluto TV Brasil,6a281d2bd1e6d3ba6b553c7c
@@ -338,7 +332,6 @@ BRFernsehenSud.de,BR Süd Ⓖ,SEM_EPG,,
 66a7d0e0cd0d310008448610,Salon Line,OK,Pluto TV Brasil,66a7d0e0cd0d310008448610
 69fca7fadf0b6d462c0a0ac3,Sobrevivi,OK,Pluto TV Brasil,69fca7fadf0b6d462c0a0ac3
 6647c0b91050b60008390de4,Sony One Shark Tank Brasil,OK,Pluto TV Brasil,6647c0b91050b60008390de4
-68ee7a1c177d2e7dd453b5fa,SportyNet,OK,Pluto TV Brasil,68ee7a1c177d2e7dd453b5fa
 6a74c028c1842722eafad356,Stingray Cityscapes,OK,Pluto TV Brasil,6a74c028c1842722eafad356
 6a74c036a311e7c50e8c1ba6,Stingray Hits Brasileiros,OK,Pluto TV Brasil,6a74c036a311e7c50e8c1ba6
 63988c2750108d00072e2686,Super Onze,OK,Pluto TV Brasil,63988c2750108d00072e2686
