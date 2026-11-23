@@ -2,18 +2,14 @@
 #EXTINF:-1 tvg-id="RedeTV.br@SD" tvg-logo="https://i.imgur.com/ZJgD38F.png" group-title="Canais Abertos",Rede TV! SD (720p)
 http://170.83.16.50/REDE_TV/index.m3u8
 #EXTINF:-1 tvg-id="SBTNacional.br@SD" group-title="Canais Abertos" tvg-logo="https://i.imgur.com/tc1ALuu.png",SBT Nacional (1080p)
-https://iptv.jvleite7.workers.dev/live/dfd0895dd84eb98c.m3u8
+https://sbt.cdnsimba.com.br/bpk-tv/SBTrj/default/index.m3u8
 #EXTINF:-1 tvg-id="TVBahia.br@HD" tvg-logo="https://i.imgur.com/sJOrvHg.png" group-title="Canais Abertos",TV Bahia (1080i)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://iptv.jvleite7.workers.dev/live/c101a34c66a2f227.m3u8
+http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 #EXTINF:-1 tvg-id="TVEBahia.br@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/960px-TVE_Bahia_logo.svg.png" group-title="Canais Abertos",TVE Bahia (1080p)
 https://iptv.jvleite7.workers.dev/live/cf2fcf23585ace7c.m3u8
 #EXTINF:-1 tvg-id="MarkRoberTV.br" tvg-name="Mark Rober TV" group-title="Documentarios e Outros",Mark Rober TV
 https://iptv.jvleite7.workers.dev/live/8dc917f90459fac4.m3u8
-#EXTINF:-1 tvg-id="LoveNature.br" tvg-name="Love Nature" group-title="Documentarios e Outros",Love Nature
-https://iptv.jvleite7.workers.dev/live/75ff9e73dac8ef74.m3u8
-#EXTINF:-1 tvg-id="1001Noites.br@SD" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Documentarios e Outros",1001 Noites (480p)
-https://iptv.jvleite7.workers.dev/live/88dc7e3af6ceb704.m3u8
 #EXTINF:-1 tvg-id="PlusMaisUm.br@HD" tvg-logo="https://i.ibb.co/ZRDvqJcf/Logo-Mais-Um-original-sem-fundo.png" group-title="Canais Abertos",+MaisUm (720p)
 https://iptv.jvleite7.workers.dev/live/a61b7cc09525c9b7.m3u8
 #EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Documentarios e Outros",A&E Latin America Brazil (720p)
@@ -277,8 +273,6 @@ https://iptv.jvleite7.workers.dev/pluto/6479ff764f5ba5000878dfe2.m3u8
 https://iptv.jvleite7.workers.dev/pluto/5f1210d14ae1f80007bafb1d.m3u8
 #EXTINF:-1 tvg-id="5f171f032cd22e0007f17f3d" tvg-logo="https://images.pluto.tv/channels/5f171f032cd22e0007f17f3d/colorLogoPNG_1732045254120.png" group-title="Pluto TV" channel-id="5f171f032cd22e0007f17f3d",Pluto TV Cine Familia
 https://iptv.jvleite7.workers.dev/pluto/5f171f032cd22e0007f17f3d.m3u8
-#EXTINF:-1 tvg-id="5fa991b1f09e020007e78626" tvg-logo="https://images.pluto.tv/channels/5fa991b1f09e020007e78626/colorLogoPNG_1748874366972.png" group-title="Pluto TV" channel-id="5fa991b1f09e020007e78626",Pluto TV Cine Inspiracao
-https://iptv.jvleite7.workers.dev/pluto/5fa991b1f09e020007e78626.m3u8
 #EXTINF:-1 tvg-id="5f171f988ab9780007fa95ea" tvg-logo="https://images.pluto.tv/channels/5f171f988ab9780007fa95ea/colorLogoPNG_1771344977802.png" group-title="Pluto TV" channel-id="5f171f988ab9780007fa95ea",Pluto TV Cine Romance
 https://iptv.jvleite7.workers.dev/pluto/5f171f988ab9780007fa95ea.m3u8
 #EXTINF:-1 tvg-id="5f120e94a5714d00074576a1" tvg-logo="https://images.pluto.tv/channels/5f120e94a5714d00074576a1/colorLogoPNG.png" group-title="Pluto TV" channel-id="5f120e94a5714d00074576a1",Pluto TV Cine Sucessos
@@ -419,18 +413,6 @@ https://iptv.jvleite7.workers.dev/live/c34c88e024c12f8a.m3u8
 https://iptv.jvleite7.workers.dev/live/3dd94d25b96e35b6.m3u8
 #EXTINF:-1 tvg-id="TelecineAction.br@SD" tvg-logo="https://i.imgur.com/BHYWG0h.png" group-title="Filmes e Series",Telecine Action (1080p)
 http://46.151.196.223:14326
-#EXTINF:-1 tvg-id="TelecineCult.br@SD" tvg-logo="https://i.imgur.com/6GuHXnr.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Filmes e Series",Telecine Cult
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.185.15.154:9080/stream/64/index.m3u8
-#EXTINF:-1 tvg-id="TelecineFun.br@SD" tvg-logo="https://i.imgur.com/MO2Ynki.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Filmes e Series",Telecine Fun
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.185.15.154:9080/stream/63/index.m3u8
-#EXTINF:-1 tvg-id="TelecinePremium.br@SD" tvg-logo="https://i.imgur.com/uVFgIr8.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Filmes e Series",Telecine Premium
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.185.15.154:9080/stream/28/index.m3u8
-#EXTINF:-1 tvg-id="TelecineTouch.br@SD" tvg-logo="https://i.imgur.com/Nky0hRo.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Filmes e Series",Telecine Touch
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.185.15.154:9080/stream/29/index.m3u8
 #EXTINF:-1 tvg-id="TerraViva.br@SD" group-title="Documentarios e Outros" tvg-logo="https://i.imgur.com/wnYsE3O.png",Terra Viva (720p)
 https://iptv.jvleite7.workers.dev/live/627ed8cf4c4dd351.m3u8
 #EXTINF:-1 tvg-id="5f515ebac01c0f00080e8439" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="Pluto TV" channel-id="5f515ebac01c0f00080e8439",The Pet Collective Brazil (720p)
@@ -579,8 +561,6 @@ https://iptv.jvleite7.workers.dev/live/460767b855be22b9.m3u8
 https://iptv.jvleite7.workers.dev/live/fb3d573a076613b2.m3u8
 #EXTINF:-1 tvg-id="63dac32bda711800088a2ba3" tvg-chno="804" tvg-name="TikTok Radio Brasil" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f4/TikTok_Radio.svg" tvg-country="BR" tvg-language="por" group-title="Pluto TV" nexus-score="100" channel-id="63dac32bda711800088a2ba3",TikTok Radio Brasil (720p)
 https://iptv.jvleite7.workers.dev/pluto/63dac32bda711800088a2ba3.m3u8
-#EXTINF:-1 tvg-name="BR Nord" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenNord.de" tvg-chno="1" tvg-country="DE" group-title="Documentarios e Outros",BR Nord Ⓖ
-https://iptv.jvleite7.workers.dev/live/41aef0cccdb4637f.m3u8
 #EXTINF:-1 tvg-name="BR Süd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenSud.de" tvg-chno="2" tvg-country="DE" group-title="Documentarios e Outros",BR Süd Ⓖ
 https://iptv.jvleite7.workers.dev/live/61eec820735f325f.m3u8
 #EXTINF:-1 channel-id="67e59a6557487a8b7fe73e23" tvg-id="67e59a6557487a8b7fe73e23" tvg-chno="136" tvg-name="A Caçadora de Relíquias" tvg-logo="https://images.pluto.tv/channels/67e59a6557487a8b7fe73e23/colorLogoPNG_1745618050777.png" group-title="Pluto TV",A Caçadora de Relíquias
@@ -647,8 +627,6 @@ https://iptv.jvleite7.workers.dev/pluto/6317ba014d4d040007227f72.m3u8
 https://iptv.jvleite7.workers.dev/pluto/681111be5e0764e297fb200e.m3u8
 #EXTINF:-1 channel-id="681110afc188aa63faa147e0" tvg-id="681110afc188aa63faa147e0" tvg-chno="351" tvg-name="MasterChef Brasil Profissionais" tvg-logo="https://images.pluto.tv/channels/681110afc188aa63faa147e0/colorLogoPNG_1749226372857.png" group-title="Pluto TV",MasterChef Brasil Profissionais
 https://iptv.jvleite7.workers.dev/pluto/681110afc188aa63faa147e0.m3u8
-#EXTINF:-1 channel-id="62b5c5a064163d0007b2efe6" tvg-id="62b5c5a064163d0007b2efe6" tvg-chno="601" tvg-name="Mistérios sem Solução" tvg-logo="https://images.pluto.tv/channels/62b5c5a064163d0007b2efe6/colorLogoPNG.png" group-title="Pluto TV",Mistérios sem Solução
-https://iptv.jvleite7.workers.dev/pluto/62b5c5a064163d0007b2efe6.m3u8
 #EXTINF:-1 channel-id="63eba189c111bc0008ff59c5" tvg-id="63eba189c111bc0008ff59c5" tvg-chno="1445" tvg-name="Moranguinho" tvg-logo="https://images.pluto.tv/channels/63eba189c111bc0008ff59c5/colorLogoPNG.png" group-title="Pluto TV",Moranguinho
 https://iptv.jvleite7.workers.dev/pluto/63eba189c111bc0008ff59c5.m3u8
 #EXTINF:-1 channel-id="6a281c0302b6c1c00a1fe570" tvg-id="6a281c0302b6c1c00a1fe570" tvg-chno="85" tvg-name="MovieSphere by Lionsgate" tvg-logo="https://images.pluto.tv/channels/6a281c0302b6c1c00a1fe570/colorLogoPNG_1784227728470.png" group-title="Pluto TV",MovieSphere by Lionsgate
@@ -677,8 +655,6 @@ https://iptv.jvleite7.workers.dev/pluto/68b88ae1943f6fb1fb2ad749.m3u8
 https://iptv.jvleite7.workers.dev/pluto/6495c7ad115d060008bf6df0.m3u8
 #EXTINF:-1 channel-id="64f6180130ab3300083d896b" tvg-id="64f6180130ab3300083d896b" tvg-chno="862" tvg-name="PFL MMA" tvg-logo="https://images.pluto.tv/channels/64f6180130ab3300083d896b/colorLogoPNG.png" group-title="Pluto TV",PFL MMA
 https://iptv.jvleite7.workers.dev/pluto/64f6180130ab3300083d896b.m3u8
-#EXTINF:-1 channel-id="69440d0611f6c6384ab78306" tvg-id="69440d0611f6c6384ab78306" tvg-chno="1003" tvg-name="PORTATV" tvg-logo="https://images.pluto.tv/channels/69440d0611f6c6384ab78306/colorLogoPNG_1769608175167.png" group-title="Pluto TV",PORTATV
-https://iptv.jvleite7.workers.dev/pluto/69440d0611f6c6384ab78306.m3u8
 #EXTINF:-1 channel-id="67802a22a5d8215f99dcee30" tvg-id="67802a22a5d8215f99dcee30" tvg-chno="1007" tvg-name="Pegadinhas - Just for Laughs" tvg-logo="https://images.pluto.tv/channels/67802a22a5d8215f99dcee30/colorLogoPNG.png" group-title="Pluto TV",Pegadinhas - Just for Laughs
 https://iptv.jvleite7.workers.dev/pluto/67802a22a5d8215f99dcee30.m3u8
 #EXTINF:-1 channel-id="6a5520365badf45d3088b8d8" tvg-id="6a5520365badf45d3088b8d8" tvg-chno="57" tvg-name="Pluto TV Cine Trapalhões" tvg-logo="https://images.pluto.tv/channels/6a5520365badf45d3088b8d8/colorLogoPNG_1786111209357.png" group-title="Pluto TV",Pluto TV Cine Trapalhões

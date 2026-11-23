@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv.jvleite7.workers.dev/epg.xml.gz" x-tvg-url="https://iptv.jvleite7.workers.dev/epg.xml.gz"
 #EXTINF:-1 tvg-id="Band.br@HD" tvg-logo="https://i.imgur.com/1r5T6Pw.png" group-title="Canais Abertos",Band (720p)
 http://45.190.28.50/BAND_HD/index.m3u8
 #EXTINF:-1 tvg-id="Record.br@HD" tvg-logo="https://i.imgur.com/sz9gTTr.png" group-title="Canais Abertos",Record (720p)
@@ -281,3 +281,27 @@ https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-6245cd154f27
 https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6245cd154f27f4e9c76d67e9/?X-Plex-Token=14LDdfKaXFF37watHLcs
 #EXTINF:-1 channel-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-id="6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9" tvg-chno="" tvg-name="Euronews Portuguese" tvg-logo="https://provider-static.plex.tv/epg/cms/production/76a8ddca-38be-4d5b-b8db-be69fcaa6231/Plex-WURL_Euronews-Logos_PT_-_astrid_collomb.png" group-title="Documentarios e Outros",Euronews Portuguese
 https://epg.provider.plex.tv/library/parts/6430aa45fc3be5947780904e-6245cd154f27f4e9c76d67e9/?X-Plex-Token=14LDdfKaXFF37watHLcs
+#EXTINF:-1 tvg-id="LoveNature.br" tvg-name="Love Nature" group-title="Documentarios e Outros",Love Nature
+https://iptv.jvleite7.workers.dev/live/75ff9e73dac8ef74.m3u8
+#EXTINF:-1 tvg-id="1001Noites.br@SD" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Documentarios e Outros",1001 Noites (480p)
+https://iptv.jvleite7.workers.dev/live/88dc7e3af6ceb704.m3u8
+#EXTINF:-1 tvg-id="5fa991b1f09e020007e78626" tvg-logo="https://images.pluto.tv/channels/5fa991b1f09e020007e78626/colorLogoPNG_1748874366972.png" group-title="Pluto TV" channel-id="5fa991b1f09e020007e78626",Pluto TV Cine Inspiracao
+https://iptv.jvleite7.workers.dev/pluto/5fa991b1f09e020007e78626.m3u8
+#EXTINF:-1 tvg-id="TelecineCult.br@SD" tvg-logo="https://i.imgur.com/6GuHXnr.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Filmes e Series",Telecine Cult
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.185.15.154:9080/stream/64/index.m3u8
+#EXTINF:-1 tvg-id="TelecineFun.br@SD" tvg-logo="https://i.imgur.com/MO2Ynki.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Filmes e Series",Telecine Fun
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.185.15.154:9080/stream/63/index.m3u8
+#EXTINF:-1 tvg-id="TelecinePremium.br@SD" tvg-logo="https://i.imgur.com/uVFgIr8.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Filmes e Series",Telecine Premium
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.185.15.154:9080/stream/28/index.m3u8
+#EXTINF:-1 tvg-id="TelecineTouch.br@SD" tvg-logo="https://i.imgur.com/Nky0hRo.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Filmes e Series",Telecine Touch
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.185.15.154:9080/stream/29/index.m3u8
+#EXTINF:-1 tvg-name="BR Nord" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenNord.de" tvg-chno="1" tvg-country="DE" group-title="Documentarios e Outros",BR Nord Ⓖ
+https://iptv.jvleite7.workers.dev/live/41aef0cccdb4637f.m3u8
+#EXTINF:-1 channel-id="62b5c5a064163d0007b2efe6" tvg-id="62b5c5a064163d0007b2efe6" tvg-chno="601" tvg-name="Mistérios sem Solução" tvg-logo="https://images.pluto.tv/channels/62b5c5a064163d0007b2efe6/colorLogoPNG.png" group-title="Pluto TV",Mistérios sem Solução
+https://iptv.jvleite7.workers.dev/pluto/62b5c5a064163d0007b2efe6.m3u8
+#EXTINF:-1 channel-id="69440d0611f6c6384ab78306" tvg-id="69440d0611f6c6384ab78306" tvg-chno="1003" tvg-name="PORTATV" tvg-logo="https://images.pluto.tv/channels/69440d0611f6c6384ab78306/colorLogoPNG_1769608175167.png" group-title="Pluto TV",PORTATV
+https://iptv.jvleite7.workers.dev/pluto/69440d0611f6c6384ab78306.m3u8
