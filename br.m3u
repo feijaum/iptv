@@ -10,10 +10,6 @@ https://iptv.jvleite7.workers.dev/live/c101a34c66a2f227.m3u8
 https://iptv.jvleite7.workers.dev/live/cf2fcf23585ace7c.m3u8
 #EXTINF:-1 tvg-id="MarkRoberTV.br" tvg-name="Mark Rober TV" group-title="Documentarios e Outros",Mark Rober TV
 https://iptv.jvleite7.workers.dev/live/8dc917f90459fac4.m3u8
-#EXTINF:-1 tvg-id="LoveNature.br" tvg-name="Love Nature" group-title="Documentarios e Outros",Love Nature
-https://iptv.jvleite7.workers.dev/live/75ff9e73dac8ef74.m3u8
-#EXTINF:-1 tvg-id="1001Noites.br@SD" tvg-logo="https://i.imgur.com/dWA9y2J.png" group-title="Documentarios e Outros",1001 Noites (480p)
-https://iptv.jvleite7.workers.dev/live/88dc7e3af6ceb704.m3u8
 #EXTINF:-1 tvg-id="PlusMaisUm.br@HD" tvg-logo="https://i.ibb.co/ZRDvqJcf/Logo-Mais-Um-original-sem-fundo.png" group-title="Canais Abertos",+MaisUm (720p)
 https://iptv.jvleite7.workers.dev/live/a61b7cc09525c9b7.m3u8
 #EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Documentarios e Outros",A&E Latin America Brazil (720p)
@@ -413,9 +409,6 @@ https://iptv.jvleite7.workers.dev/live/c34c88e024c12f8a.m3u8
 https://iptv.jvleite7.workers.dev/live/3dd94d25b96e35b6.m3u8
 #EXTINF:-1 tvg-id="TelecineAction.br@SD" tvg-logo="https://i.imgur.com/BHYWG0h.png" group-title="Filmes e Series",Telecine Action (1080p)
 http://46.151.196.223:14326
-#EXTINF:-1 tvg-id="TelecineCult.br@SD" tvg-logo="https://i.imgur.com/6GuHXnr.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Filmes e Series",Telecine Cult
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.185.15.154:9080/stream/64/index.m3u8
 #EXTINF:-1 tvg-id="TerraViva.br@SD" group-title="Documentarios e Outros" tvg-logo="https://i.imgur.com/wnYsE3O.png",Terra Viva (720p)
 https://iptv.jvleite7.workers.dev/live/627ed8cf4c4dd351.m3u8
 #EXTINF:-1 tvg-id="5f515ebac01c0f00080e8439" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="Pluto TV" channel-id="5f515ebac01c0f00080e8439",The Pet Collective Brazil (720p)
@@ -614,8 +607,6 @@ https://iptv.jvleite7.workers.dev/pluto/66997e8d3a4ad20008e50be9.m3u8
 https://iptv.jvleite7.workers.dev/pluto/633dcebd80386500074a2461.m3u8
 #EXTINF:-1 channel-id="69c716efeac9a2720ebcaaff" tvg-id="69c716efeac9a2720ebcaaff" tvg-chno="301" tvg-name="Grachi" tvg-logo="https://images.pluto.tv/channels/69c716efeac9a2720ebcaaff/colorLogoPNG_1781797595430.png" group-title="Pluto TV",Grachi
 https://iptv.jvleite7.workers.dev/pluto/69c716efeac9a2720ebcaaff.m3u8
-#EXTINF:-1 channel-id="66b4e477d512590008ca6849" tvg-id="66b4e477d512590008ca6849" tvg-chno="1515" tvg-name="Hey Arnold!" tvg-logo="https://images.pluto.tv/channels/66b4e477d512590008ca6849/colorLogoPNG.png" group-title="Pluto TV",Hey Arnold!
-https://iptv.jvleite7.workers.dev/pluto/66b4e477d512590008ca6849.m3u8
 #EXTINF:-1 channel-id="67603668f433320008760af1" tvg-id="67603668f433320008760af1" tvg-chno="1181" tvg-name="Homeful" tvg-logo="https://images.pluto.tv/channels/67603668f433320008760af1/colorLogoPNG.png" group-title="Pluto TV",Homeful
 https://iptv.jvleite7.workers.dev/pluto/67603668f433320008760af1.m3u8
 #EXTINF:-1 channel-id="65d9167818036500080e8780" tvg-id="65d9167818036500080e8780" tvg-chno="1263" tvg-name="Hunter x Hunter" tvg-logo="https://images.pluto.tv/channels/65d9167818036500080e8780/colorLogoPNG.png" group-title="Pluto TV",Hunter x Hunter
